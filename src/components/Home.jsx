@@ -184,6 +184,40 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
         }
       `}</style>
 
+      {/* Exam Readiness Dashboard */}
+      {(readiness1.hasData || readiness3.hasData) && (
+        <div className="glass-card-solid rounded-2xl p-5 space-y-3">
+          <div className="text-xs text-pink-400 tracking-wider font-semibold uppercase">🎯 考试准备度</div>
+          <ReadinessIndicator label="📗 卷三（长期保险）" score={readiness3.estimatedScore} />
+          <ReadinessIndicator label="📘 卷一（保险原理）" score={readiness1.estimatedScore} />
+
+          {/* Weakest chapters */}
+          {(() => {
+            const allWeak = [...readiness3.weakest.map(w => ({ ...w, paper: '卷三' })), ...readiness1.weakest.map(w => ({ ...w, paper: '卷一' }))]
+            allWeak.sort((a, b) => a.acc - b.acc)
+            const top2 = allWeak.slice(0, 2)
+            if (top2.length === 0) return null
+            return (
+              <div className="text-xs text-charcoal-light/60 mt-1 pt-2 border-t border-cream-100">
+                建议重点复习：{top2.map(w => `${w.name}(${w.acc}%)`).join('、')}
+              </div>
+            )
+          })()}
+
+          {/* Countdown advice */}
+          <div className="text-xs text-pink-400/80 font-medium pt-1">
+            {countdownAdvice}
+          </div>
+        </div>
+      )}
+
+      {/* Countdown advice when no data yet */}
+      {!readiness1.hasData && !readiness3.hasData && (
+        <div className="glass-card-solid rounded-2xl p-4 text-center">
+          <div className="text-xs text-pink-400/80 font-medium">{countdownAdvice}</div>
+        </div>
+      )}
+
       {/* Due Review Alert */}
       {dueCount > 0 && (
         <button
@@ -301,7 +335,7 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
             <button
               key={pid}
               onClick={() => onStartExam(pid)}
-              className={`flex-1 py-4 rounded-xl text-sm font-semibold text-white ${pid === 'paper1' ? 'btn-primary' : 'btn-secondary'}`}
+              className="flex-1 py-4 rounded-xl text-sm font-semibold text-white btn-primary"
             >
               {pid === 'paper1' ? '📘 卷一模拟' : '📗 卷三模拟'}
               <div className="text-xs opacity-80 mt-1 font-normal">{pid === 'paper1' ? '15题' : '10题'}</div>
