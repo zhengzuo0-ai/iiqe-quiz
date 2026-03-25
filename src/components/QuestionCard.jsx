@@ -128,33 +128,10 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
             </p>
           </div>
 
-          {/* Short explanation: offer AI deep-dive (future feature) */}
-          {question.explanation && question.explanation.length < 100 && (
-            <button
-              disabled
-              className="w-full text-xs text-charcoal-light/40 font-medium py-2 border border-dashed border-cream-200 rounded-lg mb-3 cursor-not-allowed"
-            >
-              🤖 展开AI详解（即将上线）
-            </button>
-          )}
-
-          {/* Reference */}
+          {/* Reference - only show if question has specific reference */}
           {question.reference && (
-            <div className="p-3 bg-pink-50 rounded-xl border border-pink-200 mb-3">
-              <div className="text-xs font-semibold text-pink-500 mb-1">📚 参考来源</div>
-              <div className="text-xs text-charcoal-light/70">
-                参考研习手册 {question.reference} 节
-              </div>
-            </div>
-          )}
-
-          {/* Memory tip - only show if explanation contains memory tips */}
-          {question.explanation && (question.explanation.includes('记忆') || question.explanation.includes('💡')) && (
-            <div className="p-3 bg-pink-50 rounded-xl border border-pink-200 mb-3">
-              <div className="text-xs font-semibold text-pink-500 mb-1">💡 记忆技巧</div>
-              <div className="text-xs text-charcoal-light/70">
-                {question.explanation.split('\n').filter(line => line.includes('记忆') || line.includes('💡')).join('\n') || '见上方解析中的记忆提示'}
-              </div>
+            <div className="mt-2 text-xs text-pink-400 font-medium">
+              📚 参考研习手册 {question.reference} 节
             </div>
           )}
 
