@@ -55,39 +55,39 @@ export default function WeaknessAnalysis({ stats, errorBook, onBack }) {
       </div>
 
       {/* Countdown + Goal */}
-      <div className="glass-card-solid rounded-2xl p-5 shadow-sm mb-4">
+      <div className="glass-card-solid rounded-2xl p-5 mb-4">
         <div className="flex justify-between items-center">
           <div className="text-center">
             <div className="flex items-center justify-center w-16 h-16 rounded-full bg-pink-50 border-2 border-pink-200 mx-auto mb-1">
-              <span className="text-xl font-bold text-pink-500">{daysLeft}</span>
+              <span className="font-display text-xl font-bold text-pink-500">{daysLeft}</span>
             </div>
-            <div className="text-xs text-gray-400">天倒计时</div>
+            <div className="text-[11px] text-charcoal-light/50">天倒计时</div>
           </div>
           <div className="text-center">
             <div className="flex items-center justify-center w-16 h-16 rounded-full bg-lavender-50 border-2 border-lavender-200 mx-auto mb-1">
-              <span className="text-xl font-bold text-lavender-500">{dailyGoal}</span>
+              <span className="font-display text-xl font-bold text-lavender-500">{dailyGoal}</span>
             </div>
-            <div className="text-xs text-gray-400">每日建议</div>
+            <div className="text-[11px] text-charcoal-light/50">每日建议</div>
           </div>
           {totalAcc !== null && (
             <div className="text-center">
               <div className="flex items-center justify-center w-16 h-16 rounded-full mx-auto mb-1"
-                style={{ background: totalAcc >= 70 ? '#f0fdf4' : '#fff1f2', border: `2px solid ${totalAcc >= 70 ? '#bbf7d0' : '#ffe4e6'}` }}>
-                <span className={`text-xl font-bold ${totalAcc >= 70 ? 'text-mint-600' : 'text-coral-500'}`}>{totalAcc}%</span>
+                style={{ background: totalAcc >= 70 ? '#f2f5f0' : '#fef2f0', border: `2px solid ${totalAcc >= 70 ? '#c2d6b8' : '#fde0dc'}` }}>
+                <span className={`font-display text-xl font-bold ${totalAcc >= 70 ? 'text-mint-600' : 'text-coral-500'}`}>{totalAcc}%</span>
               </div>
-              <div className="text-xs text-gray-400">总正确率</div>
+              <div className="text-[11px] text-charcoal-light/50">总正确率</div>
             </div>
           )}
         </div>
         {totalAcc !== null && (
-          <div className="mt-4 pt-3 border-t border-pink-50">
-            <div className="h-2 bg-pink-50 rounded-full overflow-hidden">
+          <div className="mt-4 pt-3 border-t border-cream-100">
+            <div className="h-2 bg-cream-100 rounded-full overflow-hidden">
               <div
                 className="h-full rounded-full transition-all gradient-progress"
                 style={{ width: `${totalAcc}%` }}
               />
             </div>
-            <div className="text-xs text-gray-300 mt-1.5">及格线 70%{totalAcc >= 70 ? ' ✓ 已达标' : ` · 还差${70 - totalAcc}%`}</div>
+            <div className="text-xs text-charcoal-light/30 mt-1.5">及格线 70%{totalAcc >= 70 ? ' ✓ 已达标' : ` · 还差${70 - totalAcc}%`}</div>
           </div>
         )}
       </div>
@@ -97,7 +97,7 @@ export default function WeaknessAnalysis({ stats, errorBook, onBack }) {
         p.s.total > 0 && (
           <div key={p.id} className="glass-card-solid rounded-2xl p-4 shadow-sm mb-3">
             <div className="flex justify-between items-center mb-3">
-              <span className="text-sm text-gray-700 font-medium">{p.name}</span>
+              <span className="text-sm text-charcoal font-semibold">{p.name}</span>
               <MiniProgressRing value={p.s.acc} />
             </div>
             <div className="space-y-2.5">
@@ -108,12 +108,12 @@ export default function WeaknessAnalysis({ stats, errorBook, onBack }) {
                 return (
                   <div key={ch.id}>
                     <div className="flex justify-between text-xs mb-1">
-                      <span className="text-gray-500 truncate mr-2">{ch.name}</span>
+                      <span className="text-charcoal-light/60 truncate mr-2">{ch.name}</span>
                       <span className={`flex-shrink-0 font-medium ${
                         acc >= 80 ? 'text-mint-600' : acc >= 60 ? 'text-warm-400' : 'text-coral-500'
                       }`}>{acc}% ({s.total}题)</span>
                     </div>
-                    <div className="h-1.5 bg-pink-50 rounded-full overflow-hidden">
+                    <div className="h-1.5 bg-cream-100 rounded-full overflow-hidden">
                       <div
                         className="h-full rounded-full transition-all"
                         style={{
@@ -135,19 +135,19 @@ export default function WeaknessAnalysis({ stats, errorBook, onBack }) {
       {/* Weakest chapters */}
       {chapterStats.length > 0 && (
         <div className="glass-card-solid rounded-2xl p-4 shadow-sm mb-3">
-          <div className="text-xs text-coral-400 tracking-wider mb-3 font-medium">⚠️ 最需加强的章节</div>
+          <div className="text-xs text-coral-400 tracking-wider mb-3 font-semibold uppercase">最需加强的章节</div>
           <div className="space-y-2">
             {chapterStats.filter(ch => ch.acc < 70).slice(0, 5).map(ch => (
-              <div key={ch.id} className="flex justify-between items-center py-1.5 border-b border-pink-50 last:border-b-0">
+              <div key={ch.id} className="flex justify-between items-center py-1.5 border-b border-cream-100 last:border-b-0">
                 <div>
-                  <div className="text-sm text-gray-700">{ch.name}</div>
-                  <div className="text-xs text-gray-400">{ch.paper === 'paper1' ? '卷一' : '卷三'} · {ch.stat.total}题</div>
+                  <div className="text-sm text-charcoal">{ch.name}</div>
+                  <div className="text-xs text-charcoal-light/45">{ch.paper === 'paper1' ? '卷一' : '卷三'} · {ch.stat.total}题</div>
                 </div>
                 <MiniProgressRing value={ch.acc} size={36} />
               </div>
             ))}
             {chapterStats.filter(ch => ch.acc < 70).length === 0 && (
-              <p className="text-sm text-mint-600 text-center py-2">🎉 所有已做章节正确率都达标了！</p>
+              <p className="text-sm text-mint-600 text-center py-2">所有已做章节正确率都达标了！</p>
             )}
           </div>
         </div>
@@ -159,10 +159,10 @@ export default function WeaknessAnalysis({ stats, errorBook, onBack }) {
         if (unstarted.length === 0) return null
         return (
           <div className="glass-card-solid rounded-2xl p-4 shadow-sm mb-3">
-            <div className="text-xs text-gray-400 tracking-wider mb-3 font-medium">📋 尚未开始的章节</div>
+            <div className="text-xs text-charcoal-light/40 tracking-wider mb-3 font-semibold uppercase">尚未开始的章节</div>
             <div className="flex flex-wrap gap-2">
               {unstarted.map(ch => (
-                <span key={ch.id} className="text-xs px-2.5 py-1.5 gradient-pink-purple-light text-gray-500 rounded-lg">
+                <span key={ch.id} className="text-xs px-2.5 py-1.5 gradient-pink-purple-light text-charcoal-light/50 rounded-lg">
                   {ch.name}
                 </span>
               ))}
@@ -174,11 +174,11 @@ export default function WeaknessAnalysis({ stats, errorBook, onBack }) {
       {/* Error concept frequency */}
       {topConcepts.length > 0 && (
         <div className="glass-card-solid rounded-2xl p-4 shadow-sm mb-3">
-          <div className="text-xs text-lavender-400 tracking-wider mb-3 font-medium">🔍 高频错误考点</div>
+          <div className="text-xs text-lavender-400 tracking-wider mb-3 font-semibold uppercase">高频错误考点</div>
           <div className="space-y-2">
             {topConcepts.map(([concept, count]) => (
               <div key={concept} className="flex justify-between items-center">
-                <span className="text-sm text-gray-600 truncate mr-2">{concept}</span>
+                <span className="text-sm text-charcoal-light truncate mr-2">{concept}</span>
                 <div className="flex items-center gap-2">
                   <div className="w-20 h-1.5 bg-lavender-50 rounded-full overflow-hidden">
                     <div
@@ -186,7 +186,7 @@ export default function WeaknessAnalysis({ stats, errorBook, onBack }) {
                       style={{ width: `${Math.min(100, (count / topConcepts[0][1]) * 100)}%` }}
                     />
                   </div>
-                  <span className="text-xs text-gray-400 w-6 text-right font-medium">{count}</span>
+                  <span className="text-xs text-charcoal-light/40 w-6 text-right font-medium">{count}</span>
                 </div>
               </div>
             ))}
@@ -197,7 +197,7 @@ export default function WeaknessAnalysis({ stats, errorBook, onBack }) {
       {totalQ === 0 && (
         <div className="text-center py-16">
           <div className="text-5xl mb-4 animate-float">📖</div>
-          <p className="text-gray-500 text-sm">开始做题后，这里会显示你的学习分析</p>
+          <p className="text-charcoal-light/50 text-sm">开始做题后，这里会显示你的学习分析</p>
         </div>
       )}
     </div>

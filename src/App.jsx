@@ -137,7 +137,7 @@ export default function App() {
   }
 
   return (
-    <div className="max-w-xl mx-auto px-4 min-h-screen" style={{ paddingBottom: showBottomNav ? 80 : 16 }}>
+    <div className="max-w-xl mx-auto px-4 min-h-screen" style={{ paddingBottom: showBottomNav ? 'calc(80px + env(safe-area-inset-bottom, 0px))' : 16 }}>
       {toastQueue.length > 0 && (
         <AchievementToast achievement={toastQueue[0]} onDone={dismissToast} />
       )}
@@ -158,20 +158,20 @@ export default function App() {
                 <button
                   key={item.id}
                   onClick={() => view !== item.id && navigate(item.id)}
-                  className={`flex flex-col items-center gap-0.5 py-1.5 px-5 rounded-xl transition-all ${
+                  className={`flex flex-col items-center gap-0.5 py-2 px-5 rounded-xl transition-all ${
                     isActive
-                      ? 'text-pink-500'
-                      : 'text-gray-400 hover:text-pink-400'
+                      ? 'text-lavender-500'
+                      : 'text-charcoal-light/35 hover:text-lavender-400'
                   }`}
                 >
                   <span className={`text-xl transition-transform ${isActive ? 'scale-110' : ''}`}>
                     {item.icon}
                   </span>
-                  <span className={`text-[10px] font-medium ${isActive ? 'text-pink-500' : ''}`}>
+                  <span className={`text-[10px] font-semibold ${isActive ? 'text-lavender-500' : ''}`}>
                     {item.label}
                   </span>
                   {isActive && (
-                    <div className="w-1 h-1 rounded-full gradient-pink-purple mt-0.5" />
+                    <div className="w-4 h-1 rounded-full gradient-pink-purple mt-0.5" />
                   )}
                 </button>
               )

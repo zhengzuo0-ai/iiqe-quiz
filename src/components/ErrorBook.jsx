@@ -48,9 +48,9 @@ export default function ErrorBook({ errorBook, onBack, onStartReview }) {
                 </button>
 
                 {expandedChapter === chId && (
-                  <div className="border-t border-pink-50">
+                  <div className="border-t border-cream-100">
                     {errors.map(err => (
-                      <div key={err.id} className="border-b border-pink-50 last:border-b-0">
+                      <div key={err.id} className="border-b border-cream-100 last:border-b-0">
                         <button
                           onClick={() => setExpandedError(expandedError === err.id ? null : err.id)}
                           className="w-full p-3.5 text-left hover:bg-pink-50/30 transition-colors"

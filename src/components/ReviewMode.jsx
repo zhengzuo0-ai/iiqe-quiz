@@ -16,12 +16,12 @@ export default function ReviewMode({ errorBook, onBack, mode = 'review' }) {
   if (questions.length === 0) {
     return (
       <div className="animate-fade-in">
-        <button onClick={onBack} className="text-pink-400 text-sm mb-4 hover:text-pink-500 transition-colors">
+        <button onClick={onBack} className="text-lavender-400 text-sm mb-4 hover:text-lavender-500 transition-colors font-medium">
           ← 返回
         </button>
         <div className="text-center py-16">
           <div className="text-5xl mb-4 animate-float">✨</div>
-          <p className="text-gray-500 text-sm">
+          <p className="text-charcoal-light/50 text-sm">
             {mode === 'review' ? '今日没有需要复习的题目' : '没有错题，继续保持！'}
           </p>
         </div>
@@ -37,17 +37,16 @@ export default function ReviewMode({ errorBook, onBack, mode = 'review' }) {
           <div className="absolute inset-0 gradient-pink-purple-light opacity-40" />
           <div className="relative z-10">
             <div className="text-5xl mb-3 animate-float">🦋</div>
-            <h2 className="text-xl font-normal text-gray-800 mb-2">复习完成！</h2>
-            <div className="text-3xl font-light my-3" style={{ background: 'linear-gradient(135deg, #f472b6, #a78bfa)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+            <h2 className="font-display text-xl font-semibold text-charcoal mb-2">复习完成！</h2>
+            <div className="font-display text-3xl font-bold my-3" style={{ background: 'linear-gradient(135deg, #e88b9e, #8b5cf6)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
               {correct}/{results.length}
             </div>
-            <div className="text-sm text-gray-400">答对的题目会自动推进复习周期</div>
+            <div className="text-sm text-charcoal-light/45">答对的题目会自动推进复习周期</div>
           </div>
         </div>
         <button
           onClick={onBack}
-          className="w-full py-3.5 text-white rounded-xl text-sm font-medium active:scale-[0.98] transition-all shadow-lg"
-          style={{ background: 'linear-gradient(135deg, #f472b6 0%, #c4b5fd 100%)' }}
+          className="w-full py-3.5 text-white rounded-xl text-sm font-semibold btn-primary"
         >
           返回
         </button>
@@ -60,10 +59,10 @@ export default function ReviewMode({ errorBook, onBack, mode = 'review' }) {
   return (
     <div className="animate-fade-in">
       <div className="flex justify-between items-center mb-4">
-        <button onClick={onBack} className="text-pink-400 text-sm hover:text-pink-500 transition-colors">
+        <button onClick={onBack} className="text-lavender-400 text-sm hover:text-lavender-500 transition-colors font-medium">
           ← 返回
         </button>
-        <span className="text-sm text-pink-400 bg-pink-50 px-3 py-1 rounded-full font-medium">
+        <span className="text-sm text-lavender-500 bg-lavender-50 px-3 py-1.5 rounded-full font-semibold">
           {currentIdx + 1} / {questions.length}
         </span>
       </div>

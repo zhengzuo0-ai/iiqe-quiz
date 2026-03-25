@@ -86,7 +86,7 @@ export default function CharacterPopup({ mood, trigger, onDone, duration = 3500 
             className="text-sm leading-relaxed whitespace-pre-line"
             style={{ 
               color: isOhtani ? '#eee' : '#5a4a5a',
-              fontFamily: "'Noto Serif SC', serif",
+              fontFamily: "var(--font-chinese)",
             }}
           >
             {character.line}

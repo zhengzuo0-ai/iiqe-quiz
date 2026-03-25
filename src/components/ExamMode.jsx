@@ -73,18 +73,18 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
           )}
           <div className="relative z-10">
             <div className="text-5xl mb-3">{passed ? '🎉' : '💪'}</div>
-            <h2 className="text-xl font-normal text-gray-800 mb-2">
+            <h2 className="font-display text-xl font-semibold text-charcoal mb-2">
               {passed ? '恭喜通过！太棒了！' : '继续加油！你可以的！'}
             </h2>
-            <div className={`text-5xl font-light my-4 ${passed ? 'text-mint-600' : 'text-coral-500'}`}>{pct}%</div>
-            <div className="text-sm text-gray-400">{correct}/{questions.length} 正确 · 用时 {fmt(timer)}</div>
-            <div className="mt-4 text-xs text-gray-300 border-t border-dashed border-pink-100 pt-3">及格线 70%</div>
+            <div className={`font-display text-5xl font-bold my-4 ${passed ? 'text-mint-600' : 'text-coral-500'}`}>{pct}%</div>
+            <div className="text-sm text-charcoal-light/50">{correct}/{questions.length} 正确 · 用时 {fmt(timer)}</div>
+            <div className="mt-4 text-xs text-charcoal-light/30 border-t border-dashed border-cream-100 pt-3">及格线 70%</div>
           </div>
         </div>
 
         {passed && <CelebrationPopup show={passed} />}
 
-        <div className="text-xs text-pink-400 tracking-wider mb-3 font-medium">📋 题目回顾</div>
+        <div className="text-xs text-lavender-400 tracking-wider mb-3 font-semibold uppercase">题目回顾</div>
         <div className="space-y-2.5">
           {questions.map((q, i) => {
             const ans = answers[i]
@@ -92,12 +92,12 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
             return (
               <div key={i} className={`glass-card-solid rounded-xl p-4 border-l-4 ${ok ? 'border-l-mint-400' : 'border-l-coral-400'}`}>
                 <div className="flex justify-between items-center mb-2">
-                  <span className="text-xs text-gray-400">Q{i + 1} · {q._ch.name}</span>
+                  <span className="text-xs text-charcoal-light/45">Q{i + 1} · {q._ch.name}</span>
                   <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${ok ? 'text-mint-600 bg-mint-50' : 'text-coral-500 bg-coral-50'}`}>
                     {ok ? '✓ 正确' : '✗ 错误'}
                   </span>
                 </div>
-                <p className="text-sm leading-relaxed text-gray-700 mb-2">{q.question}</p>
+                <p className="text-sm leading-relaxed text-charcoal-light mb-2">{q.question}</p>
                 {!ok && (
                   <>
                     <div className="text-xs text-mint-600 bg-mint-50 px-2.5 py-1.5 rounded-lg mb-1">
@@ -110,7 +110,7 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
                     )}
                   </>
                 )}
-                <div className="text-xs leading-relaxed text-gray-400 mt-2 pt-2 border-t border-pink-50">
+                <div className="text-xs leading-relaxed text-charcoal-light/50 mt-2 pt-2 border-t border-cream-100">
                   {q.explanation}
                 </div>
               </div>
@@ -119,8 +119,7 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
         </div>
         <button
           onClick={onBack}
-          className="w-full mt-4 py-3.5 text-white rounded-xl text-sm font-medium active:scale-[0.98] transition-all shadow-lg"
-          style={{ background: 'linear-gradient(135deg, #f472b6 0%, #c4b5fd 100%)' }}
+          className="w-full mt-4 py-3.5 text-white rounded-xl text-sm font-semibold btn-primary"
         >
           返回首页
         </button>
@@ -135,10 +134,10 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
     <div className="animate-fade-in">
       {/* Header */}
       <div className="flex justify-between items-center mb-2">
-        <span className="text-sm text-gray-500 bg-white/60 px-3 py-1 rounded-full">⏱ {fmt(timer)}</span>
-        <span className="text-sm text-pink-400 bg-pink-50 px-3 py-1 rounded-full font-medium">{currentIdx + 1} / {questions.length}</span>
+        <span className="text-sm text-charcoal-light/60 bg-white/60 px-3 py-1.5 rounded-full">⏱ {fmt(timer)}</span>
+        <span className="text-sm text-lavender-500 bg-lavender-50 px-3 py-1.5 rounded-full font-semibold">{currentIdx + 1} / {questions.length}</span>
       </div>
-      <div className="h-1.5 bg-pink-50 rounded-full mb-5 overflow-hidden">
+      <div className="h-1.5 bg-cream-100 rounded-full mb-5 overflow-hidden">
         <div
           className="h-full rounded-full transition-all duration-300 gradient-progress"
           style={{ width: `${((currentIdx + 1) / questions.length) * 100}%` }}
@@ -146,9 +145,9 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
       </div>
 
       {/* Question */}
-      <div className="glass-card-solid rounded-2xl p-5 mb-3 shadow-sm">
-        <span className="inline-block text-xs px-3 py-1 gradient-pink-purple-light text-lavender-500 rounded-full mb-3">{cq._ch.name}</span>
-        <p className="text-[15px] leading-relaxed text-gray-800 m-0">{cq.question}</p>
+      <div className="glass-card-solid rounded-2xl p-5 mb-3">
+        <span className="inline-block text-xs px-3 py-1 gradient-pink-purple-light text-lavender-500 rounded-full mb-3 font-semibold">{cq._ch.name}</span>
+        <p className="text-[15px] leading-relaxed text-charcoal m-0">{cq.question}</p>
       </div>
 
       {/* Options */}
@@ -159,14 +158,14 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
             <button
               key={k}
               onClick={() => setAnswers(p => ({ ...p, [currentIdx]: k }))}
-              className={`option-hover flex items-start gap-3 p-3.5 rounded-xl border-2 text-left w-full ${
-                isSel ? 'bg-pink-50 border-pink-300 shadow-sm' : 'bg-white/80 border-gray-100 hover:border-pink-200'
+              className={`option-hover flex items-start gap-3 p-4 rounded-xl border-2 text-left w-full min-h-[52px] ${
+                isSel ? 'bg-lavender-50 border-lavender-300 shadow-sm' : 'bg-white/80 border-cream-100 hover:border-lavender-200'
               }`}
             >
               <span className={`flex items-center justify-center w-7 h-7 min-w-[28px] rounded-full text-xs font-bold transition-all ${
-                isSel ? 'bg-pink-400 text-white' : 'bg-pink-50 text-pink-400'
+                isSel ? 'bg-lavender-400 text-white' : 'bg-pink-50 text-pink-400'
               }`}>{k}</span>
-              <span className="text-sm leading-relaxed text-gray-700 pt-0.5">{v}</span>
+              <span className="text-sm leading-relaxed text-charcoal-light pt-0.5">{v}</span>
             </button>
           )
         })}
@@ -175,7 +174,7 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
       {/* Nav */}
       <div className="flex gap-2.5">
         {currentIdx > 0 && (
-          <button onClick={() => setCurrentIdx(i => i - 1)} className="px-4 py-3 glass-card-solid rounded-xl text-sm text-gray-500 hover:shadow-sm transition-all">
+          <button onClick={() => setCurrentIdx(i => i - 1)} className="px-4 py-3 glass-card-solid rounded-xl text-sm text-charcoal-light/60 hover:shadow-sm transition-all font-medium">
             ← 上一题
           </button>
         )}
@@ -183,8 +182,7 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
         {currentIdx < questions.length - 1 ? (
           <button
             onClick={() => setCurrentIdx(i => i + 1)}
-            className="px-4 py-3 text-white rounded-xl text-sm transition-all shadow-md active:scale-[0.98]"
-            style={{ background: 'linear-gradient(135deg, #a78bfa 0%, #c4b5fd 100%)' }}
+            className="px-4 py-3 text-white rounded-xl text-sm font-semibold btn-primary"
           >
             下一题 →
           </button>
