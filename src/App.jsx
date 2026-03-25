@@ -11,11 +11,13 @@ import ErrorBook from './components/ErrorBook'
 import ReviewMode from './components/ReviewMode'
 import WeaknessAnalysis from './components/WeaknessAnalysis'
 import AchievementToast from './components/AchievementToast'
+import Settings from './components/Settings'
 
 const NAV_ITEMS = [
   { id: 'home', icon: '🏠', label: '首页' },
   { id: 'errorbook', icon: '📝', label: '错题' },
   { id: 'analysis', icon: '📊', label: '分析' },
+  { id: 'settings', icon: '⚙️', label: '设置' },
 ]
 
 export default function App() {
@@ -56,7 +58,7 @@ export default function App() {
     setToastQueue(q => q.slice(1))
   }, [])
 
-  const showBottomNav = ['home', 'errorbook', 'analysis'].includes(view)
+  const showBottomNav = ['home', 'errorbook', 'analysis', 'settings'].includes(view)
 
   const renderView = () => {
     switch (view) {
@@ -126,6 +128,14 @@ export default function App() {
       case 'analysis':
         return (
           <WeaknessAnalysis
+            stats={stats}
+            errorBook={errorBook}
+            onBack={() => navigate('home')}
+          />
+        )
+      case 'settings':
+        return (
+          <Settings
             stats={stats}
             errorBook={errorBook}
             onBack={() => navigate('home')}

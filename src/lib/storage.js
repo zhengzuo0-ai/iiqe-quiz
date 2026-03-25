@@ -20,3 +20,28 @@ export function remove(key) {
     localStorage.removeItem(PREFIX + key)
   } catch {}
 }
+
+export function removeByPrefix(keyPrefix) {
+  try {
+    const fullPrefix = PREFIX + keyPrefix
+    const keysToRemove = []
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i)
+      if (k && k.startsWith(fullPrefix)) keysToRemove.push(k)
+    }
+    keysToRemove.forEach(k => localStorage.removeItem(k))
+  } catch {}
+}
+
+export function keys() {
+  try {
+    const result = []
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i)
+      if (k && k.startsWith(PREFIX)) result.push(k.slice(PREFIX.length))
+    }
+    return result
+  } catch {
+    return []
+  }
+}

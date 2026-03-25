@@ -2,8 +2,12 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import QuestionCard from './QuestionCard'
 import LoadingSpinner from './LoadingSpinner'
 import { CelebrationEffect } from './CelebrationEffect'
+import { load } from '../lib/storage'
 
-const MODULE_SIZE = 20
+function getModuleSize() {
+  const settings = load('settings', { questionsPerRound: 20 })
+  return settings.questionsPerRound || 20
+}
 
 function ModuleSummary({ results, chapter, timeSpent, onRetry, onBack }) {
   const correct = results.filter(r => r.isCorrect).length
@@ -115,6 +119,7 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
   const [questionKey, setQuestionKey] = useState(0)
 
   // Module state
+  const [moduleSize] = useState(getModuleSize)
   const [moduleIndex, setModuleIndex] = useState(0) // 0-indexed current question in module
   const [moduleResults, setModuleResults] = useState([])
   const [moduleComplete, setModuleComplete] = useState(false)
@@ -129,7 +134,7 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
     setError(null)
     try {
       const batch = await questionBank.getSmartQuestions(
-        paperId, chapter.id, MODULE_SIZE,
+        paperId, chapter.id, moduleSize,
         { statsHook: stats, errorBookHook: errorBook }
       )
       smartBatchRef.current = batch
@@ -184,7 +189,7 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
 
   const handleNext = () => {
     const nextIndex = moduleIndex + 1
-    if (nextIndex >= MODULE_SIZE) {
+    if (nextIndex >= moduleSize) {
       // Module complete
       const elapsed = Math.round((Date.now() - startTimeRef.current) / 1000)
       setTimeSpent(elapsed)
@@ -243,14 +248,14 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
             ) : '开始练习'}
           </div>
           <div className="text-xs font-semibold text-pink-400">
-            {moduleIndex + 1} / {MODULE_SIZE}
+            {moduleIndex + 1} / {moduleSize}
           </div>
         </div>
         {/* Module progress bar */}
         <div className="h-2 bg-cream-100 rounded-full overflow-hidden mt-2">
           <div
             className="h-full rounded-full gradient-progress transition-all duration-500"
-            style={{ width: `${((moduleIndex + 1) / MODULE_SIZE) * 100}%` }}
+            style={{ width: `${((moduleIndex + 1) / moduleSize) * 100}%` }}
           />
         </div>
       </div>
@@ -275,7 +280,7 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
           streak={stats.streak.current}
           showNext
           onNext={handleNext}
-          moduleProgress={{ current: moduleIndex + 1, total: MODULE_SIZE }}
+          moduleProgress={{ current: moduleIndex + 1, total: moduleSize }}
         />
       ) : null}
     </div>

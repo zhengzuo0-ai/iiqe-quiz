@@ -93,10 +93,27 @@ export function useStats() {
     setAchievements([])
   }, [])
 
+  const resetPaper = useCallback((paperId) => {
+    const chapters = PAPERS[paperId].chapters
+    setStats(prev => {
+      const next = { ...prev }
+      chapters.forEach(ch => delete next[ch.id])
+      return next
+    })
+  }, [])
+
+  const resetChapter = useCallback((chapterId) => {
+    setStats(prev => {
+      const next = { ...prev }
+      delete next[chapterId]
+      return next
+    })
+  }, [])
+
   return {
     stats, getStat, getAcc, getPaperStats,
     recordAnswer, streak, daily,
     achievements, unlockAchievement, getAchievementStats,
-    resetAll,
+    resetAll, resetPaper, resetChapter,
   }
 }

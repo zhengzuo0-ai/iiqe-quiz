@@ -81,8 +81,12 @@ export function useErrorBook() {
   const activeErrors = errors.filter(e => !e.mastered)
   const masteredCount = errors.filter(e => e.mastered).length
 
+  const resetErrors = useCallback(() => {
+    setErrors([])
+  }, [])
+
   return {
     errors, activeErrors, addError, markReviewed, markMastered,
-    getErrorsByChapter, dueCount, dueRecords, masteredCount,
+    getErrorsByChapter, dueCount, dueRecords, masteredCount, resetErrors,
   }
 }

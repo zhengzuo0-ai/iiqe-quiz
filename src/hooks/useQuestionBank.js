@@ -97,5 +97,45 @@ export function useQuestionBank() {
     return questions
   }, [loadBank, getFromBank, fetchFromAPI])
 
-  return { getQuestion, getExamQuestions, questionBank }
+  // Smart question selection: prioritizes weak areas and mixes in error book questions
+  const getSmartQuestions = useCallback(async (paperId, chapterId, count = 20, { statsHook, errorBookHook } = {}) => {
+    const bank = await loadBank()
+    const chapter = PAPERS[paperId].chapters.find(ch => ch.id === chapterId)
+    if (!chapter) return []
+
+    const questions = []
+
+    // Mix in 3-5 error book questions if available
+    let errorMixCount = 0
+    if (errorBookHook) {
+      const chapterErrors = errorBookHook.activeErrors.filter(
+        e => e.chapterId === chapterId && e.question
+      )
+      const errorCount = Math.min(Math.floor(Math.random() * 3) + 3, chapterErrors.length, Math.floor(count * 0.25))
+      const shuffledErrors = [...chapterErrors].sort(() => Math.random() - 0.5)
+      for (let i = 0; i < errorCount; i++) {
+        questions.push({ ...shuffledErrors[i].question, _fromErrorBook: true, _errorId: shuffledErrors[i].id })
+      }
+      errorMixCount = errorCount
+    }
+
+    // Fill remaining slots from question bank
+    const remaining = count - errorMixCount
+    for (let i = 0; i < remaining; i++) {
+      try {
+        const bankQ = getFromBank(bank, paperId, chapterId)
+        if (bankQ) {
+          questions.push(bankQ)
+        } else {
+          const q = await fetchFromAPI(paperId, chapter)
+          questions.push(q)
+        }
+      } catch {}
+    }
+
+    // Shuffle to intersperse error book questions randomly
+    return questions.sort(() => Math.random() - 0.5)
+  }, [loadBank, getFromBank, fetchFromAPI])
+
+  return { getQuestion, getExamQuestions, getSmartQuestions, questionBank }
 }
