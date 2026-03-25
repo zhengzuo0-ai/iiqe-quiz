@@ -190,7 +190,7 @@ body::before {
 }
 
 .animate-shimmer {
-  background: linear-gradient(90deg, #f0a6b8 25%, #b09cf7 50%, #f0a6b8 75%);
+  background: linear-gradient(90deg, #f0a6b8 25%, #d4708a 50%, #f0a6b8 75%);
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
 }
@@ -238,21 +238,19 @@ body::before {
 
 /* ===== Gradient helpers ===== */
 .gradient-pink-purple {
-  background: linear-gradient(135deg, #f0a6b8 0%, #b09cf7 100%);
+  background: linear-gradient(135deg, #e88b9e 0%, #d4708a 100%);
 }
 
 .gradient-pink-purple-light {
-  background: linear-gradient(135deg, #fde8e0 0%, #ede5fe 100%);
+  background: linear-gradient(135deg, #fef5f0 0%, #fde8e0 100%);
 }
 
 .gradient-banner {
-  background: linear-gradient(135deg, #e88b9e 0%, #b09cf7 50%, #8b5cf6 100%);
-  background-size: 200% 200%;
-  animation: gradientShift 8s ease infinite;
+  background: linear-gradient(135deg, #d4708a 0%, #c2627a 50%, #b8546e 100%);
 }
 
 .gradient-progress {
-  background: linear-gradient(90deg, #f0a6b8 0%, #8b5cf6 100%);
+  background: linear-gradient(90deg, #f0a6b8 0%, #d4708a 100%);
 }
 
 /* ===== Card hover effects ===== */
@@ -261,7 +259,7 @@ body::before {
 }
 .card-hover:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 28px -8px rgba(139, 92, 246, 0.15), 0 4px 12px -4px rgba(45, 41, 38, 0.06);
+  box-shadow: 0 12px 28px -8px rgba(212, 112, 138, 0.12), 0 4px 12px -4px rgba(45, 41, 38, 0.06);
 }
 .card-hover:active {
   transform: scale(0.97) translateY(0);
@@ -273,7 +271,7 @@ body::before {
 }
 .option-hover:not(:disabled):hover {
   transform: scale(1.01);
-  box-shadow: 0 4px 16px -4px rgba(139, 92, 246, 0.15);
+  box-shadow: 0 4px 16px -4px rgba(212, 112, 138, 0.12);
 }
 .option-hover:not(:disabled):active {
   transform: scale(0.97);
@@ -330,13 +328,13 @@ body::before {
 
 /* ===== Button gradient with press effect ===== */
 .btn-primary {
-  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
-  box-shadow: 0 4px 14px -3px rgba(124, 58, 237, 0.4);
+  background: linear-gradient(135deg, #d4708a 0%, #c2627a 100%);
+  box-shadow: 0 4px 14px -3px rgba(212, 112, 138, 0.35);
   transition: all 0.2s ease;
 }
 .btn-primary:active {
   transform: scale(0.97);
-  box-shadow: 0 2px 8px -2px rgba(124, 58, 237, 0.3);
+  box-shadow: 0 2px 8px -2px rgba(212, 112, 138, 0.25);
 }
 
 .btn-secondary {
