@@ -11,7 +11,7 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
   const [charMood, setCharMood] = useState(null)
   const [charTrigger, setCharTrigger] = useState(0)
   const [animatingOption, setAnimatingOption] = useState(null)
-  const [showFullExplanation, setShowFullExplanation] = useState(false)
+
 
   const handleAnswer = (key) => {
     if (revealed) return
@@ -40,23 +40,10 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
     setSelected(null)
     setRevealed(false)
     setShowCelebration(false)
-    setShowFullExplanation(false)
     onNext()
   }
 
   const isCorrect = selected === question.correct
-
-  // Build per-option explanations
-  const getOptionAnalysis = () => {
-    const options = question.options
-    const correct = question.correct
-    return Object.entries(options).map(([key, text]) => ({
-      key,
-      text,
-      isCorrect: key === correct,
-      isSelected: key === selected,
-    }))
-  }
 
   return (
     <div className="animate-slide-from-right">

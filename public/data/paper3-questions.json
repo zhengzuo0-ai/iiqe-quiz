@@ -2023,9 +2023,1692 @@
       "chapterId": "3-2",
       "chapterName": "保单条款与条件",
       "source": "ai-generated"
+    },
+    {
+      "question": "根据《保险条例》第64B条，如果人寿保险合约中缺乏可保利益，该合约将会怎样？",
+      "options": {
+        "A": "合约仍然有效但赔偿金额减半",
+        "B": "合约无效（void）",
+        "C": "合约可被保险人撤销（voidable）",
+        "D": "合约有效但保费需要调整"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.2.1节：根据《保险条例》第64B条，在投保人对被保人的生命没有可保利益的情况下，人寿保险合约属无效（void）。",
+      "key_concept": "可保利益与合约效力",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "1.2.1",
+      "source": "official-based"
+    },
+    {
+      "question": "根据《保险条例》第64A条，以下哪种关系赋予了对未成年人的可保利益？",
+      "options": {
+        "A": "叔叔对侄子",
+        "B": "祖父母对孙子",
+        "C": "父母或监护人对未满18岁的未成年人",
+        "D": "兄弟姐妹之间"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册1.2.1(f)节：根据《保险条例》第64A条，父母或监护人对未满18岁的未成年人具有可保利益。除配偶外，这是唯一通过血缘/家庭关系产生的法定可保利益。",
+      "key_concept": "法定可保利益的范围",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "1.2.1(f)",
+      "source": "official-based"
+    },
+    {
+      "question": "人寿保险中，可保利益在什么时间点是必需的？",
+      "options": {
+        "A": "仅在索赔时",
+        "B": "仅在合约开始时",
+        "C": "在合约开始时和索赔时都需要",
+        "D": "在保单的整个有效期内"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.2.1(h)节：人寿保险的可保利益仅在合约开始时需要，此后变得无关。因此，即使后来离婚，原配偶仍可保留保单并获得赔偿。",
+      "key_concept": "可保利益的时间要求",
+      "difficulty": "hard",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "1.2.1(h)",
+      "source": "official-based"
+    },
+    {
+      "question": "根据《保险条例》第64C及64D条，以下哪项关于人寿保险的规定是正确的？",
+      "options": {
+        "A": "保单可以不指名被保人",
+        "B": "对被保人生命有利益的人或受益人必须在保单中指名",
+        "C": "赔偿金额没有任何限制",
+        "D": "可保利益无需在投保时存在"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.2.1(g)节：根据《保险条例》第64C及64D条，对被保人生命有利益的人必须在保单中指名，且在弥偿基础的人寿保险（如信贷人寿保险）中，赔偿不得超过可保利益金额。",
+      "key_concept": "保险条例对人寿保单的具体要求",
+      "difficulty": "hard",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "1.2.1(g)",
+      "source": "official-based"
+    },
+    {
+      "question": "自然保费制（Natural Premium System）最终被废弃的主要原因是什么？",
+      "options": {
+        "A": "保费太低无法覆盖成本",
+        "B": "保费随年龄递增导致逆选择，好风险退出、坏风险留下",
+        "C": "政府立法禁止",
+        "D": "保险公司投资回报太低"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.3.2(a)节：自然保费制下保费逐年增加，导致健康的投保人（好风险）退出而留下高风险投保人，这种逆选择（anti-selection）使风险池失衡，违反大数法则的同质性要求。",
+      "key_concept": "自然保费制的缺陷与逆选择",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "1.3.2(a)",
+      "source": "official-based"
+    },
+    {
+      "question": "均衡保费制（Level Premium System）中，保单早期所缴保费的「多余」部分形成了什么？",
+      "options": {
+        "A": "保险公司的利润",
+        "B": "退保手续费",
+        "C": "保单的现金价值（cash value）",
+        "D": "分红（dividends）"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册1.3.2(b)节：均衡保费制下，早期保费超过实际风险成本的部分加上投资收益，会逐渐积累形成保单的现金价值。",
+      "key_concept": "均衡保费制与现金价值的形成",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "1.3.2(b)",
+      "source": "official-based"
+    },
+    {
+      "question": "分红保单（Participating Policy）与非分红保单（Non-Participating Policy）的主要区别是什么？",
+      "options": {
+        "A": "分红保单的保费较低",
+        "B": "非分红保单有现金价值而分红保单没有",
+        "C": "分红保单持有人有权分享保险公司的可分配盈余",
+        "D": "只有分红保单可以转让"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册1.3.1(d)节：分红保单持有人有权参与（participate in）保险公司的可分配盈余（divisible surplus），通常以保单红利（dividends/bonuses）形式发放。分红保单的保费相应较高。",
+      "key_concept": "分红与非分红保单的区别",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "1.3.1(d)",
+      "source": "official-based"
+    },
+    {
+      "question": "定期寿险通常不以分红（participating）方式发行，这是因为什么原因？",
+      "options": {
+        "A": "法律禁止定期寿险分红",
+        "B": "定期寿险没有储蓄成分，不积累可分配盈余",
+        "C": "定期寿险的投保人不需要分红",
+        "D": "保险公司不愿意为定期寿险分红"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.3.1(d)节：定期寿险（term insurance plans）通常不以分红方式发行，因为其保费仅覆盖风险成本，不含储蓄成分。",
+      "key_concept": "定期寿险与分红机制",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "1.3.1(d)",
+      "source": "official-based"
+    },
+    {
+      "question": "HKMC年金计划的保证最低总年金金额等于已缴保费的百分之多少？",
+      "options": {
+        "A": "100%",
+        "B": "102%",
+        "C": "105%",
+        "D": "110%"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.3.1a节：HKMC年金计划在保证期内，如年金受领人身故，指定受益人将继续收取每月身故保障金，直至累计支付金额达到已缴保费的105%。",
+      "key_concept": "HKMC年金计划保证条款",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "2.3.1a",
+      "source": "official-based"
+    },
+    {
+      "question": "HKMC年金计划中，保单持有人可申请特别提款（Special Withdrawal）用于支付医疗或牙科费用，提款上限是多少？",
+      "options": {
+        "A": "港币100,000元",
+        "B": "港币200,000元",
+        "C": "港币300,000元",
+        "D": "港币500,000元"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.3.1a(iv)节：HKMC年金计划特别提款上限为港币300,000元，且只能提取一次，提款后保证每月年金金额会按比例减少。",
+      "key_concept": "HKMC年金计划特别提款规定",
+      "difficulty": "hard",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "2.3.1a(iv)",
+      "source": "official-based"
+    },
+    {
+      "question": "合资格延期年金保单（QDAP）的每人每年最高税务扣减额是多少？",
+      "options": {
+        "A": "港币36,000元",
+        "B": "港币48,000元",
+        "C": "港币60,000元",
+        "D": "港币80,000元"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.3.1b节：QDAP的最高税务扣减额为每人每年港币60,000元，此上限为延期年金保费与强积金TVC供款的合计上限。",
+      "key_concept": "QDAP税务扣减上限",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "一对夫妇每年合共最高可申请多少QDAP税务扣减？",
+      "options": {
+        "A": "港币60,000元",
+        "B": "港币100,000元",
+        "C": "港币120,000元",
+        "D": "港币150,000元"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.3.1b节：夫妇可在两人之间分配延期年金保费的税务扣减，合共每年最高可达港币120,000元，但每人扣减额不得超过其个人上限。",
+      "key_concept": "QDAP夫妇合计税务扣减",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "以现行最高税率17%计算，QDAP的最高税务节省金额为多少？",
+      "options": {
+        "A": "港币6,120元",
+        "B": "港币8,160元",
+        "C": "港币10,200元",
+        "D": "港币12,000元"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.3.1b节：以最高税率17%计算，最高税务节省为$60,000 × 17% = $10,200。",
+      "key_concept": "QDAP最高税务节省计算",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "GL19（合资格延期年金保单指引）于何时生效？",
+      "options": {
+        "A": "2018年1月1日",
+        "B": "2018年7月5日",
+        "C": "2019年4月1日",
+        "D": "2020年1月1日"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.3.1b节：保监局发出的《合资格延期年金保单指引》(GL19)于2019年4月1日生效，列明延期年金保单需满足的认证标准。",
+      "key_concept": "GL19生效日期",
+      "difficulty": "hard",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "年金的核保原则与人寿保险有何不同？",
+      "options": {
+        "A": "两者完全相同",
+        "B": "年金不需要核保",
+        "C": "年金的哲学与人寿保险相反：人寿保险基于死亡概率，年金基于生存概率",
+        "D": "年金只接受女性投保"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.3节：年金的核保哲学与人寿保险完全相反。人寿保险基于死亡风险定价（年轻=便宜），年金基于生存风险定价（年老=每期金额更高）。同龄下男性年金金额高于女性。",
+      "key_concept": "年金与人寿保险核保原则的对比",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "2.3",
+      "source": "official-based"
+    },
+    {
+      "question": "以下关于团体保险供款式（contributory）计划的描述，哪项是正确的？",
+      "options": {
+        "A": "保费完全由雇主支付",
+        "B": "员工须缴付部分保费",
+        "C": "保费完全由政府资助",
+        "D": "员工可选择不参加但不需要提供可保性证明"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.4节：供款式（contributory）团体保险计划中，员工（或其他被保人）须缴付部分保费。非供款式（non-contributory）计划则完全由雇主支付。",
+      "key_concept": "团体保险供款模式",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "2.4",
+      "source": "official-based"
+    },
+    {
+      "question": "团体保险中，「积极工作条款」（actively-at-work provision）的含义是什么？",
+      "options": {
+        "A": "员工必须每周工作至少40小时",
+        "B": "员工在保障生效时必须在职并实际在工作（非病假或休假中）",
+        "C": "员工必须在同一雇主工作满5年",
+        "D": "员工必须通过体检才能获得保障"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.4节：积极工作条款要求个人在保障生效时不仅受雇，而且必须实际在工作（非生病或休假状态）。",
+      "key_concept": "积极工作条款的定义",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "2.4",
+      "source": "official-based"
+    },
+    {
+      "question": "投连险（Unit-Linked Policy）的保单价值取决于什么？",
+      "options": {
+        "A": "保险公司的盈利能力",
+        "B": "银行存款利率",
+        "C": "所挂钩投资基金的单位价值",
+        "D": "保监局设定的固定回报率"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.2节：投连险的保单价值直接与所购买的基金单位价值挂钩，基金价值随底层资产表现波动，因此保单价值可升可跌。",
+      "key_concept": "投连险的价值决定机制",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "2.2",
+      "source": "official-based"
+    },
+    {
+      "question": "储蓄寿险（Endowment）在技术上可视为以下哪两种产品的组合？",
+      "options": {
+        "A": "终身寿险 + 年金",
+        "B": "定期寿险 + 纯储蓄（pure endowment），两者金额相同",
+        "C": "万能寿险 + 投连险",
+        "D": "递减定期寿险 + 投资基金"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.1.2节：储蓄寿险在技术上是等额的定期寿险与纯储蓄（pure endowment，即仅在被保人存活至期满时支付）的组合。",
+      "key_concept": "储蓄寿险的技术结构",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "2.1.2",
+      "source": "official-based"
+    },
+    {
+      "question": "HKMC年金计划的申请资格是什么？",
+      "options": {
+        "A": "任何香港居民不限年龄",
+        "B": "年满60岁的香港永久性居民",
+        "C": "年满65岁或以上的香港永久性居民",
+        "D": "年满55岁的香港公民"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.3.1a节：HKMC年金计划由按揭证券公司全资附属的HKMCA于2018年7月5日正式推出，供年满65岁或以上的香港永久性居民申请。",
+      "key_concept": "HKMC年金计划申请资格",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险简介与产品类型",
+      "reference": "2.3.1a",
+      "source": "official-based"
+    },
+    {
+      "question": "保单附加条款（Rider）的法律地位是什么？",
+      "options": {
+        "A": "仅供参考，不具法律效力",
+        "B": "成为保险合约的一部分，可扩大或限制原有保障",
+        "C": "独立于原保单的另一份合约",
+        "D": "只有在保险公司同意时才生效"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册3.1节：附加条款（Rider/Endorsement）是对保单的修改，成为保险合约的一部分，可以扩大（expand）或限制（limit）合约下应付的保障利益。",
+      "key_concept": "附加条款的法律地位",
+      "difficulty": "easy",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "3.1",
+      "source": "official-based"
+    },
+    {
+      "question": "排除性附加条款（Exclusionary Rider）的作用是什么？",
+      "options": {
+        "A": "增加额外保障范围",
+        "B": "排除某些特定保障",
+        "C": "增加保费",
+        "D": "延长保障期限"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册3.1节：排除性附加条款（exclusionary rider）的作用是排除某些特定保障范围。例如，针对投保人的特定已有疾病排除保障。",
+      "key_concept": "排除性附加条款",
+      "difficulty": "easy",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "3.1",
+      "source": "official-based"
+    },
+    {
+      "question": "保单持有人在保单失效后申请复效时，保险公司通常要求什么？",
+      "options": {
+        "A": "只需补缴欠交保费",
+        "B": "提供可保性证明（evidence of insurability）",
+        "C": "指定新的受益人",
+        "D": "增加保额以补偿保险公司的损失"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册相关保单条款章节：保单复效（reinstatement）通常要求投保人提供可保性证明，因为保险公司需要评估被保人在失效期间的健康状况变化。",
+      "key_concept": "保单复效的条件",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "3.1",
+      "source": "official-based"
+    },
+    {
+      "question": "不可争议条款（Incontestability Provision）对保险公司有什么限制？",
+      "options": {
+        "A": "保险公司永远不能拒绝任何索赔",
+        "B": "保险公司在保单生效指定期限后，不得以非欺诈性不披露为由争议保单",
+        "C": "保险公司不能收取保费",
+        "D": "保险公司不能更改保单条款"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.2(e)节：不可争议条款规定保险公司在保单生效的指定期限（可争议期，contestable period）后，不得以不披露为由争议保单效力，除非存在欺诈（fraud）。",
+      "key_concept": "不可争议条款的效力",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "1.4.2(e)",
+      "source": "official-based"
+    },
+    {
+      "question": "人寿保险的保单转让（Assignment）与一般财产保险转让有何不同？",
+      "options": {
+        "A": "两者完全相同，都需要保险人同意",
+        "B": "人寿保单可以在无需保险人同意的情况下转让",
+        "C": "人寿保单不允许转让",
+        "D": "财产保险可以无需同意转让，人寿保险不可以"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册相关转让章节：与其他类别的保险不同，人寿保单和海上货物保单可以在无需保险人同意的情况下转让。",
+      "key_concept": "人寿保单转让的特殊性",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "3.1",
+      "source": "official-based"
+    },
+    {
+      "question": "当保单持有人选择「缴清保险」（Paid-up Insurance）时，会发生什么？",
+      "options": {
+        "A": "保费增加但保障不变",
+        "B": "停止缴付保费，保单继续有效但保障金额降低为缴清价值",
+        "C": "保单立即终止并退还全部保费",
+        "D": "保障金额不变但需缴付额外手续费"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.3.2(b)节：缴清保险（paid-up insurance）允许保单持有人停止缴费，保单继续有效（包括分红保单继续产生红利），但保障金额降低为较低的缴清价值（paid-up value）。",
+      "key_concept": "缴清保险的机制",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "1.3.2(b)",
+      "source": "official-based"
+    },
+    {
+      "question": "退保价值（Surrender Value）与现金价值（Cash Value）有什么关系？",
+      "options": {
+        "A": "两者完全相同",
+        "B": "退保价值 = 现金价值 - 退保手续费",
+        "C": "退保价值 = 现金价值 + 利息",
+        "D": "退保价值总是高于现金价值"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.3.2(b)节：退保价值（surrender value）等于现金价值（cash value）减去退保手续费（surrender charge）。退保手续费是保单退保或减少身故保障金额时收取的费用。",
+      "key_concept": "退保价值与现金价值的关系",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "1.3.2(b)",
+      "source": "official-based"
+    },
+    {
+      "question": "保单贷款（Policy Loan）是以什么作为抵押品？",
+      "options": {
+        "A": "投保人的个人信用",
+        "B": "保单的现金价值",
+        "C": "保单的面额",
+        "D": "投保人的物业"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.3.2(b)节：保单贷款是以保单的现金价值作为抵押品向保险公司借款，这是现代保单条款下保单持有人的权利。",
+      "key_concept": "保单贷款的抵押基础",
+      "difficulty": "easy",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "1.3.2(b)",
+      "source": "official-based"
+    },
+    {
+      "question": "定期寿险为什么没有现金价值？",
+      "options": {
+        "A": "因为定期寿险的保费太低",
+        "B": "因为定期寿险的保费仅用于覆盖指定期限内的死亡风险",
+        "C": "因为法律禁止定期寿险产生现金价值",
+        "D": "因为定期寿险不允许续保"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.3.2(b)节：定期寿险的保费完全用于覆盖指定期限内的死亡风险成本，不含储蓄成分，因此不会产生现金价值。这与终身寿险等均衡保费制产品不同。",
+      "key_concept": "定期寿险无现金价值的原因",
+      "difficulty": "easy",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "1.3.2(b)",
+      "source": "official-based"
+    },
+    {
+      "question": "非没收条款（Nonforfeiture Provisions）的主要作用是什么？",
+      "options": {
+        "A": "防止保险公司破产",
+        "B": "当保单持有人停止缴费时，利用保单现金价值维持部分保障",
+        "C": "增加保险公司的盈利",
+        "D": "允许保单持有人随时提取全部保费"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.3.2(b)(iii)节：非没收条款规定，当保单因未缴保费而失效时，如果有足够的现金价值，可以由保单持有人自愿或按保单条款自动用于维持保障（如自动垫缴保费或转为缴清保险）。",
+      "key_concept": "非没收条款的功能",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "1.3.2(b)(iii)",
+      "source": "official-based"
+    },
+    {
+      "question": "可续保定期寿险（Renewable Term Insurance）的续保保费是如何确定的？",
+      "options": {
+        "A": "与原保费相同",
+        "B": "根据被保人续保时的增加年龄重新计算",
+        "C": "由保单持有人自行决定",
+        "D": "固定为原保费的两倍"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.1.1节：可续保定期寿险的关键是续保时无需提交可保性证明，但保费会根据被保人增加的年龄重新计算。新保费率通常高于同类非可续保定期寿险。",
+      "key_concept": "可续保定期寿险的保费机制",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "2.1.1",
+      "source": "official-based"
+    },
+    {
+      "question": "可转换定期寿险（Convertible Term Insurance）转换为永久性保单时，保费如何计算？",
+      "options": {
+        "A": "按投保时的年龄计算",
+        "B": "按转换时的实际年龄（attained age）以标准费率计算",
+        "C": "按转换时年龄的一半计算",
+        "D": "保持定期寿险的原保费不变"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.1.1节：可转换定期寿险转换时，永久性保单的保费须按被保人转换时的实际年龄（attained age）以标准费率（standard rate）计算。",
+      "key_concept": "可转换定期寿险的转换保费",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "2.1.1",
+      "source": "official-based"
+    },
+    {
+      "question": "可转换定期寿险的限制措施中，以下哪项是为了防止逆选择？",
+      "options": {
+        "A": "可在任何时间无限制转换",
+        "B": "转换不得超过某一年龄（如55岁），且永久性保单面额不超过原定期寿险面额",
+        "C": "转换后保费降低",
+        "D": "只能转换为投连险"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.1.1节：为防止逆选择，可转换定期寿险通常设有限制：(1)不得超过某一年龄转换；(2)不得在保单生效超过指定比例期限后转换；(3)永久性保单面额限于定期寿险面额。",
+      "key_concept": "可转换定期寿险的逆选择防范",
+      "difficulty": "hard",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "2.1.1",
+      "source": "official-based"
+    },
+    {
+      "question": "家庭收入保险（Family Income Insurance）在5年计划中，如果被保人在第4年末身故，受益人可获得多少个月的赔偿？",
+      "options": {
+        "A": "60个月",
+        "B": "48个月",
+        "C": "12个月",
+        "D": "0个月"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.1.1节的例子：在5年家庭收入保险计划中，被保人在第4年末身故，受益人可获得剩余12个月的每月赔偿金。身故时间越晚，总赔偿越少（递减特性）。",
+      "key_concept": "家庭收入保险的递减特性",
+      "difficulty": "hard",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "2.1.1",
+      "source": "official-based"
+    },
+    {
+      "question": "按揭还款保险（Mortgage Redemption Insurance）与信贷人寿保险（Credit Life Insurance）的区别之一是什么？",
+      "options": {
+        "A": "两者完全相同",
+        "B": "按揭还款保险是利益保单（即使贷款已还清仍会赔付），信贷人寿保险通常是弥偿保单",
+        "C": "信贷人寿保险保费更高",
+        "D": "按揭还款保险只保障银行利益"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.1.1节：按揭还款保险保障抵押人利益，属利益保单（benefit insurance），即使在身故时贷款已还清仍会赔付；而信贷人寿保险保障贷方利益，通常是弥偿保单（indemnity basis）。",
+      "key_concept": "按揭还款保险与信贷人寿保险的区别",
+      "difficulty": "hard",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "2.1.1",
+      "source": "official-based"
+    },
+    {
+      "question": "终身寿险保单中，当被保人达到死亡表末端年龄（通常为99或100岁）时会发生什么？",
+      "options": {
+        "A": "保单自动失效，无任何赔付",
+        "B": "保险公司支付面额，合约终止",
+        "C": "保费自动增加",
+        "D": "保单自动转为定期寿险"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.1.3节：终身寿险的根本特征是在被保人身故时支付面额。当被保人达到死亡表末端年龄（通常99或100岁）时，保险公司将支付面额，合约终止。",
+      "key_concept": "终身寿险的终止条件",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "2.1.3",
+      "source": "official-based"
+    },
+    {
+      "question": "阶梯式保费保单（Graded-Premium Policy）是哪种保单的变体？",
+      "options": {
+        "A": "定期寿险",
+        "B": "终身寿险",
+        "C": "储蓄寿险",
+        "D": "年金"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.1.3节：阶梯式保费保单是终身寿险的一种变体，保费在固定面额下定期（如每三年）递增，直到达到规定的均衡保费水平后保持不变。",
+      "key_concept": "阶梯式保费保单",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "2.1.3",
+      "source": "official-based"
+    },
+    {
+      "question": "万能寿险中，当现金价值不足以支付未来（例如）60天的费用和死亡率收费时，会发生什么？",
+      "options": {
+        "A": "保险公司自动垫付",
+        "B": "保费自动增加",
+        "C": "保单可能失效（lapse）",
+        "D": "保障金额自动增加"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.2.1节：万能寿险具有弹性保费特点，但当现金价值不足以支付接下来约60天的费用和死亡率收费时，保单可能失效。",
+      "key_concept": "万能寿险的失效条件",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "2.2.1",
+      "source": "official-based"
+    },
+    {
+      "question": "万能寿险的「分拆定价」（Unbundled Pricing）意味着保险公司须分别披露哪三项因素？",
+      "options": {
+        "A": "保额、保费、红利",
+        "B": "纯保障成本、费用/收费、现金价值利息",
+        "C": "投保人年龄、性别、职业",
+        "D": "死亡率、退保率、投资回报率"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.2.1(c)节：万能寿险的分拆定价要求保险公司在保单及年度报告中分别披露三项基本定价因素：(1)纯保障成本（死亡风险）；(2)费用及其他收费；(3)现金价值的利息收入。",
+      "key_concept": "万能寿险的分拆定价",
+      "difficulty": "hard",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "reference": "2.2.1(c)",
+      "source": "official-based"
+    },
+    {
+      "question": "人寿保险保费的计算中，「净保费」（Net Premium）由哪两个因素决定？",
+      "options": {
+        "A": "死亡率和费用率",
+        "B": "死亡率和利息",
+        "C": "利息和费用率",
+        "D": "通胀率和投资回报"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.3.1节：净保费（又称纯保费pure premium）由两个核心因素决定：(1)死亡率（mortality）——预期死亡风险；(2)利息（interest）——投资预期收益。净保费是仅用于支付未来死亡索赔的最低保费。",
+      "key_concept": "净保费的两个决定因素",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "1.3.1",
+      "source": "official-based"
+    },
+    {
+      "question": "毛保费（Gross Premium）与净保费的关系是什么？",
+      "options": {
+        "A": "毛保费 = 净保费 - 费用附加",
+        "B": "毛保费 = 净保费 + 费用附加（loading）",
+        "C": "毛保费 = 净保费 × 2",
+        "D": "两者相同"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.3.1(c)节：毛保费等于净保费加上费用附加（loading），loading包括所有预期费用：内部营运成本、佣金、税项、以及应对异常死亡率（如新疾病/灾难）的准备金。",
+      "key_concept": "毛保费的构成",
+      "difficulty": "easy",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "1.3.1(c)",
+      "source": "official-based"
+    },
+    {
+      "question": "保费中的费用附加（Loading）除了营运成本和佣金外，还包括什么特殊准备？",
+      "options": {
+        "A": "投资回报准备金",
+        "B": "应对异常死亡率（如新疾病或灾难）的准备金",
+        "C": "退保手续费准备金",
+        "D": "分红准备金"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.3.1(c)节：由于人寿保险的保费在保单有效期内不能更改，Loading中包含了应对异常死亡率的准备金（如新疾病或其他灾难导致的非预期死亡率上升）。",
+      "key_concept": "费用附加的灾难准备金",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "1.3.1(c)",
+      "source": "official-based"
+    },
+    {
+      "question": "人寿保险保费具有的经典标准包括以下哪些？",
+      "options": {
+        "A": "最低和最灵活",
+        "B": "充足（adequate）和公平（equitable）",
+        "C": "最高和最简单",
+        "D": "固定和可变"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.3.1节：人寿保险保费的经典标准要求：(1)充足（adequate）——确保保险公司有足够资金支付保障和运营费用；(2)公平（equitable）——每位保单持有人的保费应与其带来的风险相称。",
+      "key_concept": "保费的经典标准",
+      "difficulty": "easy",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "1.3.1",
+      "source": "official-based"
+    },
+    {
+      "question": "死亡表（Mortality Tables）在保费计算中的主要作用是什么？",
+      "options": {
+        "A": "确定保单的投资回报率",
+        "B": "显示在不同年龄的预期死亡率，用于预测被保人的预期寿命",
+        "C": "计算保险公司的营运成本",
+        "D": "确定保费的税务优惠"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.3.1(a)节：死亡表是公开发布的统计表格，显示不同年龄的预期死亡率。通过大数法则，这些表格使保险公司能够合理预测被保群体的死亡时间和概率，从而正确计算保费。",
+      "key_concept": "死亡表在保费计算中的作用",
+      "difficulty": "easy",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "1.3.1(a)",
+      "source": "official-based"
+    },
+    {
+      "question": "以下哪项因素不会影响新保单的保费定价？",
+      "options": {
+        "A": "市场竞争",
+        "B": "经济变化和通胀",
+        "C": "保单持有人的投诉数量",
+        "D": "公共健康状况（如AIDS等疫症）"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册1.3.1(d)节：影响新保单保费的因素包括：分红/非分红状态、市场竞争、经济变化、公共健康发展、税务变化及公司营销策略。投诉数量不是保费定价的直接因素。",
+      "key_concept": "影响保费的外部因素",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "1.3.1(d)",
+      "source": "official-based"
+    },
+    {
+      "question": "为什么现有保单的保费不能更改？",
+      "options": {
+        "A": "因为法律禁止",
+        "B": "因为人寿保险属长期业务，合约不能由保险人单方面取消或修改",
+        "C": "因为保费已全额预付",
+        "D": "因为保险代理人不同意"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.3.1(d)节：人寿保险属长期业务，合约不仅很可能持续多年，而且不能由保险人在没有保单持有人同意的情况下取消或修改。因此，保费变化只能影响新保单。",
+      "key_concept": "人寿保险保费不可更改的原因",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "1.3.1(d)",
+      "source": "official-based"
+    },
+    {
+      "question": "团体保险的核保与个人保险相比有什么不同？",
+      "options": {
+        "A": "团体保险的核保更为严格",
+        "B": "团体保险通常不需要详细的个人资料，因为「大量」业务使个别高核保关注度既不可能也无必要",
+        "C": "团体保险不需要任何核保",
+        "D": "团体保险只看团体规模，不考虑其他因素"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.4节：团体保险以「大量」(in bulk)方式经营，对个别被保人的高度核保关注既不可能也无必要。通常不需要详细的个人信息。",
+      "key_concept": "团体保险的核保特点",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "2.4",
+      "source": "official-based"
+    },
+    {
+      "question": "在人寿保险核保中，非体检申请（non-medical application）对保险公司有什么影响？",
+      "options": {
+        "A": "保险公司可以以任何理由拒绝赔偿",
+        "B": "保险公司通常难以指控投保人未披露申请表或私人医生表格中未涵盖的重要事实",
+        "C": "保险公司可以收取更高保费",
+        "D": "保险公司可以要求投保人重新体检"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.2节：在非体检申请中，如果保险公司没有要求体检就接受了申请，通常难以指控投保人未披露申请表或私人医生表格中未涵盖的重要事实。",
+      "key_concept": "非体检申请对不披露指控的影响",
+      "difficulty": "hard",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "1.4.2",
+      "source": "official-based"
+    },
+    {
+      "question": "在体检申请（medical application）中，如果检查医生的疏忽导致未发现某项病况，保险公司能否以此为由拒赔？",
+      "options": {
+        "A": "可以，因为投保人有义务披露所有事实",
+        "B": "不能，保险公司不能将由其指定医生的疏忽或误诊归咎于投保人",
+        "C": "可以，但需要退还保费",
+        "D": "视乎保单条款决定"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.2节：在体检申请中，保险公司不能将其指定医生的疏忽遗漏或误诊归咎于投保人。但投保人仍有义务主动披露其完整的病历。",
+      "key_concept": "体检申请中保险公司指定医生的责任",
+      "difficulty": "hard",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "1.4.2",
+      "source": "official-based"
+    },
+    {
+      "question": "投保人即使接受了保险公司安排的体检，是否就完全履行了披露义务？",
+      "options": {
+        "A": "是，体检即代表完全披露",
+        "B": "否，接受体检并不构成对投保人病历和健康状况的完全披露",
+        "C": "是，如果体检结果正常",
+        "D": "否，但只有在体检发现问题时才需要额外披露"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.2节：即使投保人按保险公司要求接受了体检，这并不构成对其病历和健康状况的完全披露。投保人仍有义务主动披露所有重要的医疗事实。",
+      "key_concept": "体检与披露义务的关系",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "1.4.2",
+      "source": "official-based"
+    },
+    {
+      "question": "在人寿保险中，「重要事实」（material fact）的法律定义是什么？",
+      "options": {
+        "A": "投保人认为重要的事实",
+        "B": "影响审慎保险人决定是否接受风险或厘定保费的每一情况",
+        "C": "保险代理人要求披露的事实",
+        "D": "仅与被保人健康有关的事实"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.1节：重要事实的法律定义为「影响审慎保险人（prudent insurer）决定是否接受风险或厘定保费的每一情况」。注意标准是「审慎保险人」而非某特定保险人。",
+      "key_concept": "重要事实的法律定义",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "1.4.1",
+      "source": "official-based"
+    },
+    {
+      "question": "以下哪类事实在没有询问的情况下，投保人无需披露？",
+      "options": {
+        "A": "已有的严重疾病",
+        "B": "常识性事实及保险人已知或应知的事实",
+        "C": "吸烟习惯",
+        "D": "家族病史"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.1节：在没有询问的情况下，以下事实无需披露：(1)常识性事实（如炸药的爆炸性质）；(2)保险人已知或视为已知的事实（如投保人的物业安装了自动喷淋系统这一对保险人有利的事实）。",
+      "key_concept": "无需披露的事实类别",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "1.4.1",
+      "source": "official-based"
+    },
+    {
+      "question": "违反最高诚信原则后，保险公司可以获得的补救措施是什么？",
+      "options": {
+        "A": "仅可拒绝特定索赔",
+        "B": "可在合理时间内从保单成立时撤销整份合约",
+        "C": "可以提高保费",
+        "D": "可以降低赔偿金额"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.2节：违反最高诚信后，受损方（通常是保险人）可在合理时间内从保单成立时撤销（avoid）整份合约。保险人不能选择仅拒绝某项索赔而保留保单效力。",
+      "key_concept": "违反最高诚信的法律后果",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "1.4.2",
+      "source": "official-based"
+    },
+    {
+      "question": "以下关于可续保定期寿险的限制措施，哪些是为了防止逆选择？\n\nI. 续保面额可能限于原面额\nII. 续保次数可能有限制\nIII. 可续保保费率通常高于同类非可续保产品",
+      "options": {
+        "A": "仅I和II",
+        "B": "仅II和III",
+        "C": "仅I和III",
+        "D": "I、II和III全部"
+      },
+      "correct": "D",
+      "explanation": "参考研习手册2.1.1节：为防止逆选择，可续保定期寿险通常有以下限制：(1)续保面额限于原面额或更低；(2)续保次数有限；(3)保费率高于同类非可续保产品。这三项措施全部是为了防止逆选择。",
+      "key_concept": "可续保定期寿险的逆选择防范",
+      "difficulty": "hard",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "2.1.1",
+      "source": "official-based"
+    },
+    {
+      "question": "QDAP要求在销售时提供什么文件？",
+      "options": {
+        "A": "只需口头说明",
+        "B": "利益说明书（Benefit Illustration）",
+        "C": "只需提供保费收据",
+        "D": "不需要任何文件"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.3.1b节GL19部分：QDAP在销售时须向投保人提供利益说明书（Benefit Illustration），清楚展示保证年金及非保证年金金额（如适用）。",
+      "key_concept": "QDAP的销售文件要求",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "GL19规定，QDAP的年金金额报表须在评税年度结束后多少天内发送给保单持有人？",
+      "options": {
+        "A": "20天",
+        "B": "30天",
+        "C": "40天",
+        "D": "60天"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.3.1b节GL19部分：保险公司须在评税年度结束（即3月31日）后40天内，或在收到保单持有人合理要求后合理时间内，向保单持有人发送每份保单的年金金额报表。",
+      "key_concept": "QDAP报表发送时限",
+      "difficulty": "hard",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "以下哪项是人寿保险理赔时通常需要提交的文件？",
+      "options": {
+        "A": "投保人的学历证明",
+        "B": "死亡证明书、保单正本及索赔申请表",
+        "C": "投保人的工作推荐信",
+        "D": "投保人的旅行记录"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册理赔章节：人寿保险死亡理赔通常需要提交：死亡证明书、保单正本、索赔申请表及受益人身份证明等文件。",
+      "key_concept": "死亡理赔所需文件",
+      "difficulty": "easy",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "4.1",
+      "source": "official-based"
+    },
+    {
+      "question": "保险投诉局（ICB）的前身是什么机构？",
+      "options": {
+        "A": "保险业监管局（IA）",
+        "B": "保险索偿投诉局（ICCB）",
+        "C": "金融管理局（HKMA）",
+        "D": "证券及期货事务监察委员会（SFC）"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册引言部分：保险投诉局（Insurance Complaints Bureau, ICB）的前身是保险索偿投诉局（Insurance Claims Complaints Bureau, ICCB）。",
+      "key_concept": "保险投诉局的沿革",
+      "difficulty": "easy",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "引言",
+      "source": "official-based"
+    },
+    {
+      "question": "保险投诉局的投诉委员会在处理投诉时，有什么特殊权力？",
+      "options": {
+        "A": "只能按合约条款严格裁决",
+        "B": "可以超越合约条款的严格解释进行裁决",
+        "C": "可以修改保单条款",
+        "D": "可以吊销保险公司牌照"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册引言部分：保险投诉局的投诉委员会（Complaints Panel）根据其章程细则，获授权可超越保单条款的严格解释（look beyond the strict interpretation）进行裁决。",
+      "key_concept": "投诉委员会的裁决权力",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "引言",
+      "source": "official-based"
+    },
+    {
+      "question": "近因原则（Proximate Cause）在人寿保险中的应用与一般保险相比有何不同？",
+      "options": {
+        "A": "完全相同",
+        "B": "在人寿保险中较少使用，因为排除条款较少；自杀排除仅限特定期间",
+        "C": "在人寿保险中更为重要",
+        "D": "不适用于人寿保险"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.3节：近因原则适用于所有保险类别，但在人寿保险中的重要性较低，因为人寿保险的排除条款极少。自杀是人寿保单的排除事项，但也仅限于特定期间（suicide exclusion period）。",
+      "key_concept": "近因原则在人寿保险中的有限应用",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.4.3",
+      "source": "official-based"
+    },
+    {
+      "question": "人寿保险为什么不适用弥偿原则（Indemnity）？",
+      "options": {
+        "A": "因为法律禁止",
+        "B": "因为人命的损失无法以金钱精确衡量，所以人寿保险为利益保单",
+        "C": "因为人寿保险保费太高",
+        "D": "因为人寿保险没有可保利益"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.4节：弥偿是指对保险损失的精确财务补偿。人命（及伤残）的损失无法以金钱精确衡量，因此人寿保险不适用弥偿原则，而是以利益保单（benefit policy）的形式运作。",
+      "key_concept": "弥偿原则不适用于人寿保险的原因",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.4.4",
+      "source": "official-based"
+    },
+    {
+      "question": "由于人寿保险不适用弥偿原则，以下哪种情况是完全合法的？",
+      "options": {
+        "A": "同时持有多份人寿保单，每份在受保事件发生时都须全额赔付",
+        "B": "保险公司只赔付其中一份保单",
+        "C": "多份保单之间需要按比例分摊",
+        "D": "第二份以后的保单自动无效"
+      },
+      "correct": "A",
+      "explanation": "参考研习手册1.4.4节：人寿保险不适用弥偿原则，因此不存在分摊问题。一个人可以持有多份人寿保单，每份都必须在受保事件发生时全额赔付，这与财产保险完全不同。",
+      "key_concept": "人寿保险多份保单的赔付",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.4.4",
+      "source": "official-based"
+    },
+    {
+      "question": "代位追偿权（Subrogation）是否适用于人寿保险？",
+      "options": {
+        "A": "适用，与一般保险相同",
+        "B": "不适用，因为人寿保险不适用弥偿原则",
+        "C": "仅适用于团体人寿保险",
+        "D": "仅适用于投连险"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.5节：代位追偿权是弥偿原则的推论，由于人寿保险不适用弥偿原则，代位追偿权同样不适用。即使第三方导致被保人死亡，人寿保险公司赔付后也无权向第三方追偿。",
+      "key_concept": "代位追偿与人寿保险",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.4.5",
+      "source": "official-based"
+    },
+    {
+      "question": "分摊原则（Contribution）为何不适用于人寿保险？",
+      "options": {
+        "A": "因为人寿保险的保费太高",
+        "B": "因为人寿保险不适用弥偿原则，分摊作为弥偿的推论同样不适用",
+        "C": "因为人寿保险不允许重复投保",
+        "D": "因为法律明确禁止"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.4节：分摊原则是弥偿原则的推论（corollary），只有在弥偿适用时才会适用。人寿保险不适用弥偿，因此分摊也不适用。一个人身故时，所有人寿保单都须全额赔付。",
+      "key_concept": "分摊原则与人寿保险",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.4.4",
+      "source": "official-based"
+    },
+    {
+      "question": "以下关于投诉委员会处理的不披露案例，哪项原则是正确的？",
+      "options": {
+        "A": "不披露的事实必须与索赔的损失有直接因果关系",
+        "B": "不披露的事实无需与索赔的损失有因果关系，只要足以影响核保决定即可",
+        "C": "只有故意不披露才构成违反最高诚信",
+        "D": "不披露只有在投保后一年内才有效"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.2节案例备注：在保险公司以不披露为由拒赔时，索赔人经常辩称不披露的事实与索赔损失无关，但这种因果关系并非不披露原则的要求条件。只要不披露的事实足以影响核保决定，保险公司即可依据最高诚信原则行事。",
+      "key_concept": "不披露与损失因果关系的误解",
+      "difficulty": "hard",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.4.2",
+      "source": "official-based"
+    },
+    {
+      "question": "保险公司因投保人不披露重要事实而撤销保单后，已缴保费是否需要退还？",
+      "options": {
+        "A": "所有情况下都不退还",
+        "B": "非欺诈性不披露的保费通常可退还；欺诈性不披露则通常不可退还",
+        "C": "所有情况下都退还",
+        "D": "由保险公司自行决定"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册相关章节：保险公司因不披露撤销合约时，在非欺诈性不披露的情况下，已缴保费通常可退还；但如果是欺诈性不披露，保险公司通常有权扣留保费。",
+      "key_concept": "不披露撤销后的保费退还",
+      "difficulty": "hard",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.4.2",
+      "source": "official-based"
+    },
+    {
+      "question": "某被保人在投保时有习惯性饮酒问题但未披露，后来因舌癌身故。其子辩称饮酒与舌癌无直接关系。投诉委员会会如何裁决？",
+      "options": {
+        "A": "接受索赔，因为饮酒与舌癌无直接关系",
+        "B": "支持保险公司拒赔，因为不披露的事实足以影响核保决定，无需与索赔损失有因果关系",
+        "C": "要求保险公司赔付一半金额",
+        "D": "将案件转交法院处理"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.2节案例：这是研习手册中的真实案例。投诉委员会根据医院报告确认被保人有30年每日数罐啤酒的饮酒习惯。尽管索赔人辩称饮酒与舌癌无关，但不披露与损失的因果关系不是裁决的标准。",
+      "key_concept": "不披露案例——饮酒习惯与舌癌",
+      "difficulty": "hard",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.4.2",
+      "source": "official-based"
+    },
+    {
+      "question": "人寿保险中自杀排除条款的特点是什么？",
+      "options": {
+        "A": "自杀在任何时候都不予赔付",
+        "B": "自杀仅在保单的特定限期内被排除",
+        "C": "自杀从不构成排除条款",
+        "D": "自杀排除仅适用于团体保险"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.3节：自杀是人寿保单的排除事项，但仅限于特定期间（suicide exclusion period）。超过该期间后，即使死因为自杀，保险公司仍须赔付。",
+      "key_concept": "自杀排除条款的限期性",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.4.3",
+      "source": "official-based"
+    },
+    {
+      "question": "受保人在投保时接受了保险公司安排的体检，体检未能发现其心律不齐。后因主动脉瘤破裂身故。保险公司以不披露为由拒赔。投诉委员会的裁决是什么？",
+      "options": {
+        "A": "支持索赔人，因为保险公司有责任进行全面体检",
+        "B": "支持保险公司，因为投保人即使接受了体检仍有义务披露完整病历",
+        "C": "要求双方各承担一半责任",
+        "D": "将案件退回保险公司重新审核"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.2节案例：投诉委员会认为，即使保险公司安排了体检，投保人仍有义务披露其完整病历。体检不能替代投保人的主动披露义务。因此支持保险公司的拒赔决定。",
+      "key_concept": "体检不替代披露义务——真实案例",
+      "difficulty": "hard",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.4.2",
+      "source": "official-based"
+    },
+    {
+      "question": "如果一名被保人的配偶在投保并缴费后与被保人离婚，该配偶对保单有什么权利？",
+      "options": {
+        "A": "保单立即无效",
+        "B": "保单仍然有效，离婚不影响保单持有人的权利",
+        "C": "保险公司可以选择取消保单",
+        "D": "保费必须退还给前配偶"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.2.1(h)节：人寿保险的可保利益仅在合约开始时需要。离婚后，原配偶可以保留保单并继续获得全部权益，这是完全合法的。",
+      "key_concept": "离婚与保单有效性",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.2.1(h)",
+      "source": "official-based"
+    },
+    {
+      "question": "以下关于保单转让（Assignment）的描述，哪项是正确的？",
+      "options": {
+        "A": "保单转让同时转移投保人的义务",
+        "B": "保单转让不会转移投保人在保险合约下的义务给受让人",
+        "C": "保单转让必须经过法院批准",
+        "D": "只有定期寿险可以转让"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册相关转让章节：保单转让只转移权利而不转移义务。义务的转移需要保险公司的同意。",
+      "key_concept": "保单转让的权利与义务区分",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "3.1",
+      "source": "official-based"
+    },
+    {
+      "question": "保险中的保单贷款权利有什么现代法律保障？",
+      "options": {
+        "A": "保单贷款仅在保险公司自愿时才可",
+        "B": "保单贷款是现代保单条款下保单持有人的权利",
+        "C": "保单贷款需要经过保监局批准",
+        "D": "保单贷款只适用于团体保单"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.3.2(b)节：以现金价值为抵押品向保险公司借款（保单贷款），在现代保单条款下是保单持有人的权利（a right），而非保险公司的恩惠。",
+      "key_concept": "保单贷款的权利性质",
+      "difficulty": "easy",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.3.2(b)",
+      "source": "official-based"
+    },
+    {
+      "question": "债务人的债务被还清后，债权人是否仍可保持对债务人生命的保单？",
+      "options": {
+        "A": "不可以，保单立即无效",
+        "B": "可以，保单有效且债权人有权在债务人身故时获得全额赔付",
+        "C": "可以保持保单但赔付金额限于原债务金额",
+        "D": "需要债务人同意才能继续"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.2.1(h)节：由于人寿保险的可保利益仅在投保时需要，债务还清后，债权人可以保留保单并在债务人身故时获得赔付——这相当于「被赔两次」，但完全合法。",
+      "key_concept": "债务清偿后保单的效力",
+      "difficulty": "hard",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.2.1(h)",
+      "source": "official-based"
+    },
+    {
+      "question": "冷静期（Cooling-off Period）适用于哪类保单？",
+      "options": {
+        "A": "所有保险产品",
+        "B": "保险期为一年或以上的个人人寿保险保单",
+        "C": "仅适用于团体保险",
+        "D": "仅适用于一般保险"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册第5章相关指引（GL25/GL26）：冷静期适用于保险期为一年或以上的个人人寿保险新保单，让投保人有权在指定期间内取消保单并获退回已缴保费。",
+      "key_concept": "冷静期的适用范围",
+      "difficulty": "easy",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "5.1",
+      "source": "official-based"
+    },
+    {
+      "question": "以下哪个保监局指引与「利益说明」（Benefit Illustration）有关？",
+      "options": {
+        "A": "GL19",
+        "B": "GL27",
+        "C": "GL28",
+        "D": "GL30"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册目录及第5章：GL28是关于长期保险保单利益说明（Benefit Illustrations for Long Term Insurance Policies）的指引，要求保险公司在销售时向投保人提供标准利益说明。",
+      "key_concept": "GL28——利益说明指引",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "5.2",
+      "source": "official-based"
+    },
+    {
+      "question": "GL27涉及以下哪个主题？",
+      "options": {
+        "A": "冷静期",
+        "B": "财务需要分析",
+        "C": "保单替换（Policy Replacement）",
+        "D": "核保指引"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册目录：GL27是关于保单替换（Policy Replacement）的指引，旨在确保投保人在替换现有保单时了解相关风险和影响。GL27附录包含保单替换问卷模板和重要资料声明。",
+      "key_concept": "GL27——保单替换指引",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "5.3",
+      "source": "official-based"
+    },
+    {
+      "question": "GL30是关于什么的指引？",
+      "options": {
+        "A": "利益说明",
+        "B": "冷静期声明",
+        "C": "核保长期保险业务",
+        "D": "财务需要分析（Financial Needs Analysis）"
+      },
+      "correct": "D",
+      "explanation": "参考研习手册目录：GL30是关于财务需要分析（Financial Needs Analysis, FNA）的指引，要求保险中介人在销售长期保险产品前评估客户的财务需要。GL30附录包含FNA模板。",
+      "key_concept": "GL30——财务需要分析指引",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "5.4",
+      "source": "official-based"
+    },
+    {
+      "question": "GL29涉及以下哪个主题？",
+      "options": {
+        "A": "保单替换",
+        "B": "核保长期保险业务（非投连险类）",
+        "C": "冷静期",
+        "D": "利益说明"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册目录：GL29是关于核保长期保险业务（非投连险类）的指引——Guideline on Underwriting Long Term Insurance Business (Other than Class C Business)。",
+      "key_concept": "GL29——核保指引",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "5.5",
+      "source": "official-based"
+    },
+    {
+      "question": "GL25是关于什么的指引？",
+      "options": {
+        "A": "利益说明",
+        "B": "保单中冷静期声明的指引",
+        "C": "保单替换",
+        "D": "财务需要分析"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册目录：GL25是关于保单中冷静期声明的指引（Guideline on Statement in relation to Cooling-off Period in Policy），要求保单中包含冷静期的相关声明。",
+      "key_concept": "GL25——冷静期保单声明指引",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "5.1",
+      "source": "official-based"
+    },
+    {
+      "question": "GL26是关于什么的指引？",
+      "options": {
+        "A": "保单签发时冷静期提醒的指引",
+        "B": "利益说明",
+        "C": "保单替换",
+        "D": "核保指引"
+      },
+      "correct": "A",
+      "explanation": "参考研习手册目录：GL26是关于保单签发时冷静期提醒的指引（Guideline on Reminder of Cooling-off Period at Policy Issuance），要求保险公司在签发保单时提醒投保人冷静期权利。",
+      "key_concept": "GL26——保单签发时冷静期提醒指引",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "5.1",
+      "source": "official-based"
+    },
+    {
+      "question": "GL19关于QDAP的认证标准中，以下哪项不是QDAP的必要条件？",
+      "options": {
+        "A": "年金须定期支付且至少每月一次",
+        "B": "退保价值的设定应尽量避免保险公司从退保中获利",
+        "C": "保费可完全用于投资而无需保障成分",
+        "D": "须在销售时提供利益说明书"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.3.1b节GL19部分：QDAP的标准包括：年金定期支付（至少每月一次）、无退保利润（no lapse gain）、提供利益说明书等。QDAP需包含保障成分，保费不能完全用于投资。",
+      "key_concept": "QDAP认证标准",
+      "difficulty": "hard",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "GL19规定，保险公司在推广QDAP时必须确保什么？",
+      "options": {
+        "A": "保证投保人一定获得税务扣减",
+        "B": "向投保人清楚说明即使保单获保监局认证，也不代表一定可获得税务扣减",
+        "C": "不需要做任何风险提示",
+        "D": "保证保单一定盈利"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.3.1b节GL19部分：保险公司必须向投保人披露，即使延期年金保单获保监局认证，也不代表其保费一定可获税务扣减，因为还涉及其他与投保人个人情况有关的税务条件。",
+      "key_concept": "QDAP认证与税务扣减的区别",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "保监局官方网站维护什么与QDAP相关的资料？",
+      "options": {
+        "A": "所有QDAP保单持有人的个人资料",
+        "B": "所有获认证QDAP产品的列表",
+        "C": "QDAP的每日投资回报率",
+        "D": "QDAP的索赔记录"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.3.1b节：保监局在其官方网站上维护所有获认证QDAP产品的列表（a list of all QDAPs is maintained on the IA's website）。",
+      "key_concept": "QDAP产品列表",
+      "difficulty": "easy",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "GL28规定哪些类型的保单需要提供标准利益说明？",
+      "options": {
+        "A": "只有投连险",
+        "B": "投连险（ILAS）、分红保单、万能寿险及非分红保单",
+        "C": "只有一年期以下的保单",
+        "D": "只有团体保单"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册目录附录：GL28包含四种标准利益说明模板——附录I为投连险、附录II为分红保单、附录III为万能寿险（非投连）、附录IV为非分红保单。",
+      "key_concept": "GL28标准利益说明的适用产品",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "5.2",
+      "source": "official-based"
+    },
+    {
+      "question": "关于QDAP标识（Logo）的使用，以下哪项规定是正确的？",
+      "options": {
+        "A": "QDAP标识可用于任何保险产品的推广",
+        "B": "QDAP标识只能用于QDAP产品的宣传推广，不得用于其他保险产品或企业品牌推广",
+        "C": "QDAP标识由保险公司自行设计",
+        "D": "QDAP标识不需要展示在产品小册子上"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.3.1b节：根据保监局发出的QDAP标识使用指南，QDAP标识须在所有QDAP产品小册子上显著展示。保险公司可在QDAP的营销和宣传材料中使用该标识，但不得用于其他保险产品或企业品牌推广。",
+      "key_concept": "QDAP标识使用规定",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "保监局对QDAP的认证意味着什么？",
+      "options": {
+        "A": "保监局保证该产品的投资回报",
+        "B": "仅表示该保单符合GL19列明的标准",
+        "C": "保监局对保单持有人的损失承担责任",
+        "D": "投保人一定可获得全额税务扣减"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.3.1b节GL19部分：保监局对QDAP的认证仅表示该延期年金保单符合GL19列明的标准（the policy complies with the criteria set out in GL19），不代表任何投资担保或税务确认。",
+      "key_concept": "QDAP认证的法律含义",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "QDAP产品手册（Product Brochure）中必须标明什么？",
+      "options": {
+        "A": "产品的每日价格",
+        "B": "该产品是延期年金保险保单，且须清楚显示QDAP标识",
+        "C": "保险代理人的个人佣金比例",
+        "D": "同类产品的市场排名"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.3.1b节GL19部分：QDAP的产品手册（PB）必须标明该产品是延期年金保险保单，并须在产品手册上显著展示QDAP标识。",
+      "key_concept": "QDAP产品手册要求",
+      "difficulty": "easy",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "关于保监局的不可接受保险术语（Inadmissible Insurance Terminology），以下哪项描述是正确的？",
+      "options": {
+        "A": "保险公司可以自由使用任何术语推广产品",
+        "B": "保监局公布了可接受和不可接受保险术语列表，保险公司须遵守",
+        "C": "术语限制仅适用于英文文件",
+        "D": "术语限制仅适用于投连险"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册附录：保监局公布了可接受（Admissible）和不可接受（Inadmissible）保险术语列表，作为正式附录收录在研习手册中。保险公司在推广产品时须使用可接受的术语。",
+      "key_concept": "保险术语的监管要求",
+      "difficulty": "easy",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "附录",
+      "source": "official-based"
+    },
+    {
+      "question": "内地保单持有人重要资料声明（IFSMP）的特点是什么？",
+      "options": {
+        "A": "提供英文和中文两个版本",
+        "B": "只提供中文版本",
+        "C": "只提供英文版本",
+        "D": "不需要向内地保单持有人提供"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册目录：内地保单持有人重要资料声明（Important Facts Statement for Mainland Policyholder, IFSMP）只提供中文版本（Only Chinese version available）。",
+      "key_concept": "IFSMP的语言版本",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "5.6",
+      "source": "official-based"
+    },
+    {
+      "question": "GL19规定保险公司必须对QDAP销售人员做什么？",
+      "options": {
+        "A": "不需要特别培训",
+        "B": "确保销售人员接受充分培训并建立适当内部控制以防止任何失实陈述",
+        "C": "只需要提供产品小册子",
+        "D": "只需要通过线上渠道销售"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.3.1b节GL19部分：获授权保险公司须确保其销售人员接受充分培训（sufficient training），并建立适当的内部控制措施，以防止任何关于QDAP的失实陈述（mis-representation）。",
+      "key_concept": "QDAP销售人员培训要求",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "以下关于人寿保险可保利益转让的描述，哪项是正确的？",
+      "options": {
+        "A": "保单持有人不能将保单转让给对被保人无可保利益的第三方",
+        "B": "保单持有人可以将保单转让给无可保利益的第三方，前提是转让并非预谋规避可保利益要求",
+        "C": "任何转让都需要被保人的可保利益",
+        "D": "转让后新持有人必须购买新的可保利益"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.2.1(h)节：保单持有人有权将人寿保单转让给无可保利益的第三方，但前提是这不是预谋规避可保利益要求的行为。如果从一开始就计划将保单转让给特定的无可保利益者，则合约从一开始就无效。",
+      "key_concept": "保单转让与可保利益要求",
+      "difficulty": "hard",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "1.2.1(h)",
+      "source": "official-based"
+    },
+    {
+      "question": "QDAP中关于「无退保利润」（No Lapse Gain）的要求是什么？",
+      "options": {
+        "A": "保险公司可以从退保中获利",
+        "B": "退保价值应尽量设定为使保险公司不会从退保中获利",
+        "C": "不允许任何退保",
+        "D": "退保价值必须等于已缴保费"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.3.1b节GL19部分：GL19要求QDAP的退保价值应尽量设定为使保险公司不会从退保中获利（surrender values should be so set as to prevent insurers from profiting from lapse）。",
+      "key_concept": "QDAP无退保利润要求",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "保监局要求QDAP的认证过程中，保险公司需要在风险披露方面做什么特别说明？",
+      "options": {
+        "A": "不需要任何风险披露",
+        "B": "仅需披露投资风险",
+        "C": "须清楚突出地披露相关风险，如提早退保可能导致重大财务损失",
+        "D": "只需口头说明风险"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.3.1b节GL19部分：除一般风险披露外，保险公司须清楚并突出地（clearly and prominently）披露相关风险，包括提早退保保单可能导致重大财务损失（significant financial loss upon an early surrender）。",
+      "key_concept": "QDAP风险披露要求",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "延期年金保费税务扣减的相关法例修订始于哪一个课税年度？",
+      "options": {
+        "A": "2017/18",
+        "B": "2018/19",
+        "C": "2019/20",
+        "D": "2020/21"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.3.1b节：从2019/20课税年度起，纳税人为自己及/或其配偶支付的合资格延期年金保费可在薪俸税和个人入息课税下获得税务扣减。",
+      "key_concept": "QDAP税务扣减的起始课税年度",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "以下哪项关于QDAP附加保障（riders）保费的描述是正确的？",
+      "options": {
+        "A": "附加保障保费可以全额获得税务扣减",
+        "B": "附加保障保费不构成合资格年金保费，因此不能获得税务扣减",
+        "C": "附加保障保费可获得50%税务扣减",
+        "D": "附加保障保费由雇主支付时可获扣减"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册2.3.1b节GL19部分：为附加保障支付的保费不构成合资格年金保费（premiums paid for riders do not constitute qualified annuity premiums paid），因此不能获得税务扣减。",
+      "key_concept": "QDAP附加保障保费的税务处理",
+      "difficulty": "hard",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "QDAP的年金支付频率最低要求是什么？",
+      "options": {
+        "A": "每年一次",
+        "B": "每半年一次",
+        "C": "每季一次",
+        "D": "至少每月一次"
+      },
+      "correct": "D",
+      "explanation": "参考研习手册2.3.1b节GL19部分：GL19要求QDAP的年金须定期支付且至少每月一次（annuity payments are made regularly and at least as frequently as monthly）。",
+      "key_concept": "QDAP年金支付频率要求",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "GL19要求，对于提供终身年金的QDAP产品，保险公司在计算利益说明时应采用多少年作为假设？",
+      "options": {
+        "A": "20年",
+        "B": "25年",
+        "C": "30年",
+        "D": "35年"
+      },
+      "correct": "C",
+      "explanation": "参考研习手册2.3.1b节GL19部分：对于允许年金受领人选择保留全部或部分年金的终身保单，保险公司应采用30年作为利益说明的假设期间。",
+      "key_concept": "QDAP终身年金的利益说明假设期间",
+      "difficulty": "hard",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "reference": "2.3.1b",
+      "source": "official-based"
+    },
+    {
+      "question": "在人寿保险中，键人保险（Key Person Life Insurance）保障的是什么利益？",
+      "options": {
+        "A": "员工的个人利益",
+        "B": "雇主因重要员工死亡而可能遭受的业务损失",
+        "C": "员工家属的利益",
+        "D": "政府的税收利益"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.2.1(d)节：键人保险（Key Person/Key Employee Life Insurance）是雇主为重要员工的生命投保，以防该员工死亡给业务带来的损失。这属于合约关系产生的可保利益。",
+      "key_concept": "键人保险的保障目的",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.2.1(d)",
+      "source": "official-based"
+    },
+    {
+      "question": "保险投诉局投诉委员会在审理不披露案件时，主要考虑什么标准？",
+      "options": {
+        "A": "不披露的事实是否与索赔损失有直接因果关系",
+        "B": "不披露的事实是否足以影响保险公司的核保决定",
+        "C": "投保人是否故意隐瞒",
+        "D": "不披露的时间长短"
+      },
+      "correct": "B",
+      "explanation": "参考研习手册1.4.2节多个案例：投诉委员会的核心标准是不披露的事实是否「足以影响保险公司的核保决定」（material enough to have affected the underwriting decision）。不需要与索赔损失有因果关系。",
+      "key_concept": "不披露案件的裁决标准",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "reference": "1.4.2",
+      "source": "official-based"
     }
   ],
   "generatedAt": "2026-03-25T14:42:00+08:00",
-  "version": 3,
-  "totalCount": 125
+  "version": 4,
+  "totalCount": 224
 }
