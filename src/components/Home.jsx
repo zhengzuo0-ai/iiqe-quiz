@@ -103,6 +103,119 @@ function ReadinessIndicator({ label, score }) {
   )
 }
 
+function DailyRecommendation({ stats, errorBook, daysLeft, totalQ, onNavigate, onStartExam }) {
+  const { dueCount } = errorBook
+  const { getPaperStats, getAcc } = stats
+
+  // Determine recommendation
+  let title, subtitle, action, actionLabel
+
+  if (totalQ === 0) {
+    // Never done any questions
+    title = '从卷三第1章开始（占比25%，最重要）'
+    subtitle = '先考的先练，卷三第1章权重最高'
+    actionLabel = '开始20题'
+    action = () => onNavigate('practice', { paperId: 'paper3', chapter: PAPERS.paper3.chapters[0] })
+  } else if (dueCount > 0) {
+    // Has errors due for review
+    title = `先复习 ${dueCount} 道错题`
+    subtitle = '间隔复习是最高效的记忆方法'
+    actionLabel = '去复习'
+    action = () => onNavigate('review')
+  } else {
+    // Find weakest chapter with <60% accuracy
+    let weakest = null
+    for (const pid of ['paper3', 'paper1']) {
+      for (const ch of PAPERS[pid].chapters) {
+        const acc = getAcc(ch.id)
+        if (acc !== null && acc < 60) {
+          if (!weakest || acc < weakest.acc) {
+            weakest = { ch, pid, acc }
+          }
+        }
+      }
+    }
+
+    if (weakest) {
+      title = `重点攻克：${weakest.ch.name}（正确率${weakest.acc}%）`
+      subtitle = '反复练习薄弱环节，提升最快'
+      actionLabel = '去练习'
+      action = () => onNavigate('practice', { paperId: weakest.pid, chapter: weakest.ch })
+    } else {
+      // All chapters > 60%, check if > 80%
+      const allAbove80 = ['paper3', 'paper1'].every(pid =>
+        PAPERS[pid].chapters.every(ch => {
+          const acc = getAcc(ch.id)
+          return acc !== null && acc >= 80
+        })
+      )
+
+      if (allAbove80) {
+        title = '太棒了！做一套模拟考试检验成果'
+        subtitle = '所有章节正确率都超过80%了'
+        actionLabel = '开始模拟考'
+        action = () => onStartExam('paper3')
+      } else {
+        // Find next untouched or lowest chapter
+        for (const pid of ['paper3', 'paper1']) {
+          for (const ch of PAPERS[pid].chapters) {
+            const acc = getAcc(ch.id)
+            if (acc === null) {
+              title = `继续新章节：${ch.name}`
+              subtitle = `${pid === 'paper3' ? '卷三' : '卷一'} · 权重${ch.weight}%`
+              actionLabel = '开始20题'
+              action = () => onNavigate('practice', { paperId: pid, chapter: ch })
+              break
+            }
+          }
+          if (action) break
+        }
+
+        if (!action) {
+          // All touched but some between 60-80
+          let lowest = null
+          for (const pid of ['paper3', 'paper1']) {
+            for (const ch of PAPERS[pid].chapters) {
+              const acc = getAcc(ch.id)
+              if (acc !== null && (!lowest || acc < lowest.acc)) {
+                lowest = { ch, pid, acc }
+              }
+            }
+          }
+          if (lowest) {
+            title = `巩固提升：${lowest.ch.name}（${lowest.acc}%）`
+            subtitle = '再练一轮，冲刺80%+'
+            actionLabel = '去练习'
+            action = () => onNavigate('practice', { paperId: lowest.pid, chapter: lowest.ch })
+          }
+        }
+      }
+    }
+  }
+
+  // Suggested daily count
+  const suggestedDaily = daysLeft > 0 ? Math.max(20, Math.ceil(200 / daysLeft)) : 40
+
+  return (
+    <div className="glass-card-solid rounded-2xl p-5 space-y-3">
+      <div className="text-xs text-pink-400 tracking-wider font-semibold uppercase">🎯 推荐今日学习</div>
+      <div className="text-sm font-semibold text-charcoal">{title}</div>
+      {subtitle && <div className="text-xs text-charcoal-light/60">{subtitle}</div>}
+      {action && (
+        <button
+          onClick={action}
+          className="w-full py-3 rounded-xl text-sm font-semibold text-white btn-primary mt-2"
+        >
+          {actionLabel}
+        </button>
+      )}
+      <div className="text-[11px] text-charcoal-light/40 pt-1 border-t border-cream-100">
+        距考试{daysLeft}天，建议今日完成{suggestedDaily}题
+      </div>
+    </div>
+  )
+}
+
 export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
   const { getPaperStats, daily, achievements, streak } = stats
   const s1 = getPaperStats('paper1')
@@ -112,6 +225,7 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
   const daysLeft = Math.max(0, Math.ceil((new Date('2026-04-08') - new Date()) / 86400000))
   const { dueCount } = errorBook
   const unlockedBadges = ACHIEVEMENTS.filter(a => achievements.includes(a.id))
+  const [showResetConfirm, setShowResetConfirm] = useState(false)
 
   const readiness1 = calcPaperReadiness(stats, 'paper1')
   const readiness3 = calcPaperReadiness(stats, 'paper3')
@@ -183,6 +297,16 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
           50% { transform: translateY(-6px); }
         }
       `}</style>
+
+      {/* Smart Daily Recommendation */}
+      <DailyRecommendation
+        stats={stats}
+        errorBook={errorBook}
+        daysLeft={daysLeft}
+        totalQ={totalQ}
+        onNavigate={onNavigate}
+        onStartExam={onStartExam}
+      />
 
       {/* Exam Readiness Dashboard */}
       {(readiness1.hasData || readiness3.hasData) && (
@@ -377,11 +501,35 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
       {/* Reset */}
       {totalQ > 0 && (
         <button
-          onClick={stats.resetAll}
+          onClick={() => setShowResetConfirm(true)}
           className="block mx-auto text-xs text-charcoal-light/40 underline hover:text-charcoal-light/60 transition-colors pb-4"
         >
           重置所有数据
         </button>
+      )}
+
+      {/* Reset Confirmation Dialog */}
+      {showResetConfirm && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 animate-fade-in px-6">
+          <div className="glass-card-solid rounded-2xl p-6 max-w-sm w-full text-center space-y-4">
+            <div className="text-3xl">⚠️</div>
+            <p className="text-sm text-charcoal leading-relaxed">确定要重置所有数据（做题记录、错题本、成就）吗？此操作不可恢复。</p>
+            <div className="flex gap-3">
+              <button
+                onClick={() => setShowResetConfirm(false)}
+                className="flex-1 py-3 rounded-xl text-sm font-semibold glass-card-solid text-charcoal-light hover:shadow-sm transition-all"
+              >
+                取消
+              </button>
+              <button
+                onClick={() => { stats.resetAll(); errorBook.resetErrors(); setShowResetConfirm(false) }}
+                className="flex-1 py-3 rounded-xl text-sm font-semibold text-white bg-coral-500 hover:bg-coral-600 transition-colors"
+              >
+                确认重置
+              </button>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   )
