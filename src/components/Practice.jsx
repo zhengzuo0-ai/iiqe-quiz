@@ -112,7 +112,7 @@ function ModuleSummary({ results, chapter, timeSpent, onRetry, onBack }) {
   )
 }
 
-export default function Practice({ paperId, chapter, stats, errorBook, questionBank, onBack }) {
+export default function Practice({ paperId, chapter, stats, errorBook, questionBank, onBack, quickStart = false }) {
   const [question, setQuestion] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -133,15 +133,22 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
     setLoading(true)
     setError(null)
     try {
-      const batch = await questionBank.getSmartQuestions(
-        paperId, chapter.id, moduleSize,
-        { statsHook: stats, errorBookHook: errorBook }
-      )
+      let batch
+      if (quickStart) {
+        // Quick Start: mixed questions from both papers
+        batch = await questionBank.getQuickStartQuestions(
+          moduleSize, { statsHook: stats, errorBookHook: errorBook }
+        )
+      } else {
+        batch = await questionBank.getSmartQuestions(
+          paperId, chapter.id, moduleSize,
+          { statsHook: stats, errorBookHook: errorBook }
+        )
+      }
       smartBatchRef.current = batch
       if (batch.length > 0) {
         setQuestion(batch[0])
-      } else {
-        // Fallback to single question fetch
+      } else if (!quickStart) {
         const q = await questionBank.getQuestion(paperId, chapter)
         smartBatchRef.current = null
         setQuestion(q)
@@ -150,7 +157,7 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
       setError('题目加载失败，请重试')
     }
     setLoading(false)
-  }, [paperId, chapter, questionBank, stats, errorBook])
+  }, [paperId, chapter, questionBank, stats, errorBook, quickStart])
 
   useEffect(() => { fetchSmartBatch() }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -172,12 +179,15 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
   }, [paperId, chapter, questionBank, moduleIndex])
 
   const handleAnswer = (key, isCorrect) => {
-    stats.recordAnswer(chapter.id, isCorrect)
+    const qChapterId = question?.chapterId || chapter?.id
+    const qPaperId = question?.chapterId?.startsWith('3') ? 'paper3' : paperId || 'paper1'
+    const qChapterName = question?.chapterName || chapter?.name || ''
+    stats.recordAnswer(qChapterId, isCorrect)
     if (!isCorrect && question) {
       errorBook.addError({
-        paper: paperId,
-        chapterId: chapter.id,
-        chapterName: chapter.name,
+        paper: qPaperId,
+        chapterId: qChapterId,
+        chapterName: qChapterName,
         question,
         userAnswer: key,
         correctAnswer: question.correct,
@@ -216,14 +226,16 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
     fetchSmartBatch()
   }
 
-  const s = stats.getStat(chapter.id)
-  const acc = stats.getAcc(chapter.id)
+  const s = !quickStart && chapter ? stats.getStat(chapter.id) : { total: 0, correct: 0 }
+  const acc = !quickStart && chapter ? stats.getAcc(chapter.id) : null
+
+  const displayChapter = quickStart ? { name: '智能混合刷题', id: 'quickstart' } : chapter
 
   if (moduleComplete) {
     return (
       <ModuleSummary
         results={moduleResults}
-        chapter={chapter}
+        chapter={displayChapter}
         timeSpent={timeSpent}
         onRetry={handleRetry}
         onBack={onBack}
@@ -234,10 +246,12 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
   return (
     <div className="animate-fade-in">
       <button onClick={onBack} className="text-pink-400 text-sm mb-3 hover:text-pink-500 transition-colors font-medium">
-        ← 返回章节
+        ← {quickStart ? '返回首页' : '返回章节'}
       </button>
       <div className="mb-4">
-        <h3 className="font-display text-xl font-semibold text-charcoal mb-1">{chapter.name}</h3>
+        <h3 className="font-display text-xl font-semibold text-charcoal mb-1">
+          {quickStart ? '🚀 智能混合刷题' : chapter.name}
+        </h3>
         <div className="flex items-center justify-between">
           <div className="text-xs text-charcoal-light/50">
             {s.total > 0 ? (
@@ -273,6 +287,13 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
           </button>
         </div>
       ) : question ? (
+        <>
+        {/* Show chapter tag in quickStart mode */}
+        {quickStart && question.chapterName && (
+          <div className="mb-2 inline-block text-[10px] px-2.5 py-1 bg-lavender-50 text-lavender-400 rounded-full font-medium">
+            {question.chapterId?.startsWith('3') ? '卷三' : '卷一'} · {question.chapterName}
+          </div>
+        )}
         <QuestionCard
           key={questionKey}
           question={question}
@@ -282,6 +303,7 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
           onNext={handleNext}
           moduleProgress={{ current: moduleIndex + 1, total: moduleSize }}
         />
+        </>
       ) : null}
     </div>
   )

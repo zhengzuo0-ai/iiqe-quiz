@@ -298,6 +298,25 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
         }
       `}</style>
 
+      {/* ⚡ Quick Start — 一键开刷 */}
+      <button
+        onClick={() => onNavigate('quickstart')}
+        className="w-full relative overflow-hidden rounded-2xl py-5 px-6 text-left group active:scale-[0.98] transition-transform"
+        style={{
+          background: 'linear-gradient(135deg, #ec4899 0%, #8b5cf6 50%, #6366f1 100%)',
+          boxShadow: '0 8px 32px rgba(139, 92, 246, 0.3)',
+        }}
+      >
+        <div className="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity bg-white" />
+        <div className="relative z-10 flex items-center justify-between">
+          <div>
+            <div className="text-white text-lg font-bold mb-1">🚀 开始刷题</div>
+            <div className="text-white/70 text-xs">智能混合20题 · 卷一+卷三 · 真题优先</div>
+          </div>
+          <div className="text-white/90 text-2xl">→</div>
+        </div>
+      </button>
+
       {/* Smart Daily Recommendation */}
       <DailyRecommendation
         stats={stats}

@@ -117,6 +117,16 @@ export default function App() {
             onSelectChapter={(ch) => navigate('practice', { paperId: viewData.paperId, chapter: ch })}
           />
         )
+      case 'quickstart':
+        return (
+          <Practice
+            quickStart={true}
+            stats={stats}
+            errorBook={errorBook}
+            questionBank={questionBank}
+            onBack={() => navigate('home')}
+          />
+        )
       case 'practice':
         return (
           <Practice

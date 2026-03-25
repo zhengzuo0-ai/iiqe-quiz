@@ -137,5 +137,73 @@ export function useQuestionBank() {
     return questions.sort(() => Math.random() - 0.5)
   }, [loadBank, getFromBank, fetchFromAPI])
 
-  return { getQuestion, getExamQuestions, getSmartQuestions, questionBank }
+  // Quick Start: mixed questions from both papers, smart selection
+  const getQuickStartQuestions = useCallback(async (count = 20, { statsHook, errorBookHook } = {}) => {
+    const bank = await loadBank()
+    const questions = []
+    const usedKeys = new Set()
+
+    // Mix in error book questions first (3-5)
+    if (errorBookHook) {
+      const errors = errorBookHook.activeErrors.filter(e => e.question)
+      const errorCount = Math.min(Math.floor(Math.random() * 3) + 3, errors.length, 5)
+      const shuffled = [...errors].sort(() => Math.random() - 0.5)
+      for (let i = 0; i < errorCount; i++) {
+        const q = { ...shuffled[i].question, _fromErrorBook: true }
+        questions.push(q)
+        usedKeys.add(q.question?.substring(0, 30))
+      }
+    }
+
+    // Remaining slots: 60% paper3 (先考), 40% paper1
+    const remaining = count - questions.length
+    const p3Count = Math.round(remaining * 0.6)
+    const p1Count = remaining - p3Count
+
+    // Get all available questions, prioritize real-exam source
+    const getPooled = (paperId, needed) => {
+      const data = bank?.[paperId]
+      if (!data?.questions) return []
+
+      // Sort: real-exam first, then official, then AI
+      const sorted = [...data.questions].sort((a, b) => {
+        const priority = { 'real-exam': 0, 'official': 1, 'official-based': 2, 'official-format': 2, 'official-format-v2': 2, 'ai-generated': 3 }
+        return (priority[a.source] ?? 3) - (priority[b.source] ?? 3)
+      })
+
+      // Weak chapters get more weight if stats available
+      let weighted = sorted
+      if (statsHook) {
+        weighted = sorted.map(q => {
+          const acc = statsHook.getChapterAcc?.(q.chapterId)
+          const weight = acc !== null && acc < 70 ? 3 : acc !== null && acc < 85 ? 2 : 1
+          return { q, weight }
+        })
+        // Weighted shuffle
+        weighted.sort((a, b) => (b.weight - a.weight) + (Math.random() - 0.5) * 2)
+        weighted = weighted.map(w => w.q)
+      } else {
+        weighted = sorted.sort(() => Math.random() - 0.5)
+      }
+
+      const result = []
+      for (const q of weighted) {
+        const key = q.question?.substring(0, 30)
+        if (key && !usedKeys.has(key)) {
+          result.push(q)
+          usedKeys.add(key)
+          if (result.length >= needed) break
+        }
+      }
+      return result
+    }
+
+    questions.push(...getPooled('paper3', p3Count))
+    questions.push(...getPooled('paper1', p1Count))
+
+    // Shuffle everything together
+    return questions.sort(() => Math.random() - 0.5)
+  }, [loadBank])
+
+  return { getQuestion, getExamQuestions, getSmartQuestions, getQuickStartQuestions, questionBank }
 }
