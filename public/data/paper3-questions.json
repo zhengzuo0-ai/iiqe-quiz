@@ -3,6 +3,204 @@
   "paperName": "卷三：长期保险",
   "questions": [
     {
+      "question": "「人寿保险是在保单生效期间，若受保人死亡，便提供一笔款项。」这段引述：",
+      "options": {
+        "A": "完全不准确",
+        "B": "完整描述了所有人寿保险合约",
+        "C": "并未完整描述所有人寿保险合约",
+        "D": "完全具有误导性，没有任何真实成分"
+      },
+      "correct": "C",
+      "explanation": "这段引述只描述了人寿保险的身故保障功能，但并非所有人寿保险合约都只提供身故保障。例如储蓄寿险（endowment）在期满时会支付满期金，年金产品则提供退休收入，万能寿险有现金价值储蓄功能。因此这段引述虽然部分正确（描述了身故保障），但不完整。\n\nA错误：引述并非完全不准确，身故保障确实是人寿保险的基本功能。\nB错误：它没有涵盖储蓄、年金等非身故保障功能。\nD错误：引述包含真实成分（身故保障部分）。\n\n参考研习手册1.1节",
+      "key_concept": "人寿保险的完整定义",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.1",
+      "source": "official"
+    },
+    {
+      "question": "以下哪项代表人寿保险中合法的可保利益（Insurable Interest）？",
+      "options": {
+        "A": "为自己投保",
+        "B": "为配偶投保",
+        "C": "为自己10岁的子女投保",
+        "D": "以上所有"
+      },
+      "correct": "D",
+      "explanation": "在人寿保险中，可保利益存在于以下情况：(1)每个人对自己的生命有无限的可保利益；(2)夫妻之间互有可保利益；(3)父母/监护人对18岁以下子女有可保利益。因此A、B、C都是合法的可保利益，答案是D「以上所有」。\n\n参考研习手册1.2.1节",
+      "key_concept": "人寿保险可保利益",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.2.1",
+      "source": "official"
+    },
+    {
+      "question": "以下哪两项陈述是正确的？\n(i) 给付保单（Benefit Policy）和弥偿保单（Indemnity Policy）是相同的\n(ii) 大部分人寿保单适用弥偿原则，但有些不适用\n(iii) 人寿保险合约通常不适用弥偿原则\n(iv) 弥偿原则通常不适用于人寿保险，人寿保险以给付保单为主",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)和(iii)",
+        "C": "(ii)和(iii)",
+        "D": "(iii)和(iv)"
+      },
+      "correct": "D",
+      "explanation": "人寿保险属于给付性保险（Benefit Policy），不适用弥偿原则（Indemnity）。因为人的生命价值无法精确衡量，所以人寿保险按约定保额赔付，而非按实际损失赔偿。\n\n(i)错误：给付保单和弥偿保单是完全不同的概念。\n(ii)错误：大部分人寿保单不适用弥偿原则。\n(iii)正确：人寿保险合约通常不适用弥偿原则。\n(iv)正确：人寿保险以给付保单为主。\n\n参考研习手册1.2.3节",
+      "key_concept": "人寿保险与弥偿原则",
+      "difficulty": "hard",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "B",
+      "reference": "1.2.3",
+      "source": "official"
+    },
+    {
+      "question": "作为一名称职的保险中介人，在任何人寿保险咨询中都应该问两个非常有用的问题。其中一个是「你希望保险为你做什么？」另一个是：",
+      "options": {
+        "A": "「你有多少钱？」",
+        "B": "「我的佣金比例是多少？」",
+        "C": "「你真的认为你需要这份保险吗？」",
+        "D": "「你能够并愿意支付多少保费？」"
+      },
+      "correct": "D",
+      "explanation": "称职的保险中介人应该了解客户的需求和负担能力。「你希望保险为你做什么？」了解需求，「你能够并愿意支付多少保费？」了解负担能力。这两个问题帮助中介人推荐合适的产品。\n\nA错误：直接问「有多少钱」不礼貌且不专业。\nB错误：佣金与客户需求无关，以此为出发点违反操守。\nC错误：这个问题暗示客户不需要保险，不利于需求分析。\n\n参考研习手册第2章",
+      "key_concept": "保险中介人的专业销售方法",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "2",
+      "source": "official"
+    },
+    {
+      "question": "递减定期保险（Decreasing Term Insurance）是指：",
+      "options": {
+        "A": "身故保障金额每年递减",
+        "B": "保费每年递减",
+        "C": "身故保障金额和保费都每年递减",
+        "D": "代理人的佣金每年递减"
+      },
+      "correct": "A",
+      "explanation": "递减定期保险的特点是保额（身故保障金额）在保障期内逐年递减，但保费通常维持不变（均衡保费）。这种产品常用于配合按揭贷款递减的保障需求。\n\nB错误：保费通常保持不变。\nC错误：只有保额递减，保费不变。\nD错误：佣金与保单类型的结构特征无关。\n\n参考研习手册2.1.1a节",
+      "key_concept": "递减定期保险的特征",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "2.1.1a",
+      "source": "official"
+    },
+    {
+      "question": "豁免保费附加保障（Disability Waiver of Premium）中的「等候期」是指：",
+      "options": {
+        "A": "豁免保费的时期",
+        "B": "保单持有人缴付保费的宽限时间",
+        "C": "保单可以附加此保障之前的等待时期",
+        "D": "伤残发生后、保费开始豁免之前的等待时期"
+      },
+      "correct": "D",
+      "explanation": "豁免保费附加保障的等候期（Waiting Period）是指被保人因伤残而丧失工作能力后，需要等待一段指定时间（通常3-6个月），保费才开始获得豁免。\n\nA错误：等候期不是豁免保费的时期，而是豁免前的等待时期。\nB错误：那是宽限期（Grace Period）的描述。\nC错误：这不是指附加保障前的等待。\n\n参考研习手册3.1.1节",
+      "key_concept": "豁免保费附加保障的等候期",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "3.1.1",
+      "source": "official"
+    },
+    {
+      "question": "根据「整份合约」（The Entire Contract）条款，保单的修改：",
+      "options": {
+        "A": "完全不能修改",
+        "B": "只有在保单持有人同意的情况下才能修改",
+        "C": "如果保单持有人提出要求即可修改",
+        "D": "如果保险公司高级管理层同意即可修改"
+      },
+      "correct": "B",
+      "explanation": "「整份合约」条款规定保单文件构成双方之间的完整合约。保单的任何修改必须经过保单持有人同意，保险公司不能单方面修改保单条款。\n\nA错误：保单可以修改，但需要双方同意。\nC错误：保单持有人不能单方面要求修改，需要保险公司同意。\nD错误：保险公司高级管理层不能单方面修改。\n\n参考研习手册4.1节",
+      "key_concept": "整份合约条款",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "4.1",
+      "source": "official"
+    },
+    {
+      "question": "「宽限期」（Grace Period）又称为：",
+      "options": {
+        "A": "恩恤日（Days of Grace）",
+        "B": "冷静期（Cooling-off Period）",
+        "C": "不丧失价值条款（Nonforfeiture Clause）",
+        "D": "保障金给付期（Payment of Benefit Period）"
+      },
+      "correct": "A",
+      "explanation": "宽限期的另一个名称是「恩恤日」（Days of Grace），是保费到期后保险公司给予保单持有人额外的缴费时间，通常为31天。\n\nB错误：冷静期（Cooling-off Period）是完全不同的概念——投保后21天内可以取消保单。\nC错误：不丧失价值条款是关于停缴保费后保单价值的处理选项。\nD错误：没有这个概念。\n\n⚠️ 易混淆：宽限期（31天）≠ 冷静期（21天），考试常考这个区别！\n\n参考研习手册4.3节",
+      "key_concept": "宽限期的定义与别称",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "4.3",
+      "source": "official"
+    },
+    {
+      "question": "以下哪些属于不丧失价值选项（Nonforfeiture Options）？\n(i) 退保现金价值（Cash Surrender Value）\n(ii) 一次性给付（Lump-sum Settlement）\n(iii) 展期定期保险（Extended Term Insurance）\n(iv) 减额缴清保险（Reduced Paid-up Insurance）",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)、(ii)和(iii)",
+        "C": "(i)、(iii)和(iv)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "C",
+      "explanation": "不丧失价值选项是指保单持有人停止缴费后，利用保单已累积的现金价值保留部分利益的方式。三种标准选项为：\n(i) 退保现金价值 ✅ — 取回现金价值\n(iii) 展期定期保险 ✅ — 用现金价值购买同保额的定期寿险\n(iv) 减额缴清保险 ✅ — 用现金价值购买较低保额的全额缴清保单\n\n(ii) 一次性给付 ❌ — 这是赔偿方式选项（Settlement Option），不是不丧失价值选项。\n\n💡记忆法：不丧失价值有3种——退(Cash)、延(Extended)、减(Reduced)。\n\n参考研习手册4.5节",
+      "key_concept": "不丧失价值选项",
+      "difficulty": "hard",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "B",
+      "reference": "4.5",
+      "source": "official"
+    },
+    {
+      "question": "互助人寿保险公司（Mutual Life Insurance Company）是指：",
+      "options": {
+        "A": "每位股东承担有限责任",
+        "B": "公司由股东拥有",
+        "C": "所有保单持有人平等分享利润和红利",
+        "D": "公司在法律上由其参与保单持有人拥有"
+      },
+      "correct": "D",
+      "explanation": "互助保险公司（Mutual Company）的法律拥有人是其参与保单持有人，而非股东。保单持有人有权选举董事会、分享盈余。\n\nA、B错误：这是股份制保险公司（Stock Company）的特征。\nC错误：虽然保单持有人分享利润，但不一定「平等」分享。\n\n参考研习手册5.1节",
+      "key_concept": "互助保险公司vs股份制保险公司",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.1",
+      "source": "official"
+    },
+    {
+      "question": "以下哪两项关于「冷静期」（Cooling-off Period）的陈述是正确的？\n(i) 冷静期只有14天\n(ii) 冷静期适用于所有获授权经营长期保险业务的保险公司，以及所有从事长期保险受规管活动的持牌保险中介人\n(iii) 如正确行使冷静期权利，新保单将被取消并退还保费\n(iv) 冷静期是指保险公司可以取消保单的期间",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)和(iii)",
+        "C": "(ii)和(iii)",
+        "D": "(iii)和(iv)"
+      },
+      "correct": "C",
+      "explanation": "关于冷静期的正确陈述：\n(ii) ✅ 冷静期适用于所有获授权经营长期保险业务的保险公司和持牌中介人。\n(iii) ✅ 在冷静期内正确行使权利，保单将被取消并退还保费（可扣除已提供保障的成本）。\n\n(i) ❌ 冷静期是21天，不是14天！这是考试常见陷阱题。\n(iv) ❌ 冷静期是保单持有人可以取消保单的权利，不是保险公司取消保单的权利。\n\n⚠️ 考试必考：冷静期=21天（从签收保单日起计），不要混淆！\n💡记忆法：冷静期21天 = 刚好3个星期。\n\n参考研习手册5.2.4节",
+      "key_concept": "冷静期的正确理解",
+      "difficulty": "hard",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "B",
+      "reference": "5.2.4",
+      "source": "official"
+    },
+    {
       "question": "以下哪种人寿保险产品提供指定期限内的保障，期满后若被保人仍然生存则不会获得任何赔偿？",
       "options": {
         "A": "终身寿险",
@@ -15,7 +213,8 @@
       "key_concept": "定期寿险的特征",
       "difficulty": "easy",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "陈先生今年60岁，刚刚退休，他希望立即开始每月收取固定收入直至终身。以下哪种产品最适合他的需要？",
@@ -30,7 +229,8 @@
       "key_concept": "即期年金的特征与适用场景",
       "difficulty": "easy",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "团体人寿保险的保单持有人通常是：",
@@ -45,7 +245,8 @@
       "key_concept": "团体人寿保险的保单结构",
       "difficulty": "easy",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "危疾保险的赔偿方式通常是：",
@@ -60,7 +261,8 @@
       "key_concept": "危疾保险的赔偿方式",
       "difficulty": "easy",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "李小姐30岁，购买了一份万能寿险。以下关于万能寿险的描述，哪一项是正确的？",
@@ -75,7 +277,8 @@
       "key_concept": "万能寿险的灵活性特征",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "王先生35岁，为自己购买了一份储蓄寿险，保障期为20年。若他在保单生效后第15年仍然生存，以下哪项描述最准确？",
@@ -90,7 +293,8 @@
       "key_concept": "储蓄寿险的保障期与满期金",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "张先生是一名自雇人士，他担心因疾病或意外导致长期无法工作而失去收入。以下哪种保险产品最能满足他的需要？",
@@ -105,7 +309,8 @@
       "key_concept": "伤残收入保险的功能与适用对象",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "关于延期年金，以下哪项描述是正确的？",
@@ -120,7 +325,8 @@
       "key_concept": "延期年金的两阶段结构",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "黄太太正在考虑为家人购买医疗保险。以下关于垫底费（Deductible）的解释，哪项最准确？",
@@ -135,7 +341,8 @@
       "key_concept": "医疗保险的垫底费概念",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "某公司为200名雇员设立了团体人寿保险计划。以下哪项是团体人寿保险相比个人人寿保险的一个主要优势？",
@@ -150,7 +357,8 @@
       "key_concept": "团体人寿保险的核保优势",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "刘先生今年45岁，他正在比较定期寿险和终身寿险。假设保额相同，以下哪项描述最为准确？",
@@ -165,7 +373,8 @@
       "key_concept": "终身寿险与定期寿险的比较",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "赵女士购买了一份长期护理保险。以下哪种情况最可能触发该保单的赔偿？",
@@ -180,7 +389,8 @@
       "key_concept": "长期护理保险的赔偿触发条件（ADLs）",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于香港强制性公积金（MPF）计划的描述，哪一项是正确的？",
@@ -195,7 +405,8 @@
       "key_concept": "强制性公积金的供款要求",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "吴先生购买了一份医疗保险，保单包含共同保险条款，比率为80/20。若住院合资格医疗费用为$100,000（已扣除垫底费），保险公司将赔偿多少？",
@@ -210,7 +421,8 @@
       "key_concept": "医疗保险的共同保险概念与计算",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "林先生今年28岁，月入$25,000，他希望以最低成本获得最高的死亡保障。保险代理人应建议他优先考虑哪种产品？",
@@ -225,7 +437,8 @@
       "key_concept": "定期寿险的成本效益优势",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "某退休计划属于界定利益计划。以下哪项最准确地描述此计划的特征？",
@@ -240,7 +453,8 @@
       "key_concept": "界定利益计划与界定供款计划的区别",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "何先生持有一份万能寿险保单。近期他因经济困难希望减少保费支出。以下哪项描述最准确？",
@@ -255,7 +469,8 @@
       "key_concept": "万能寿险的保费灵活性与现金价值关系",
       "difficulty": "hard",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "周女士50岁，同时持有危疾保险和医疗保险。确诊患上第三期乳腺癌，住院手术费用共$500,000。以下关于索赔情况，哪项描述最准确？",
@@ -270,7 +485,8 @@
       "key_concept": "危疾保险与医疗保险的赔偿性质差异及同时索赔",
       "difficulty": "hard",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "某公司设立的退休计划规定雇主每月按雇员薪金的8%供款，雇员退休时获得的金额取决于累计供款和投资回报。这属于哪一类退休计划？",
@@ -285,7 +501,8 @@
       "key_concept": "界定供款计划的特征辨识",
       "difficulty": "hard",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "梁先生40岁，持有终身寿险，已累积现金价值$200,000。他希望在不退保的情况下获得流动资金应急。以下哪种方式最能在保持保障的同时满足其资金需求？",
@@ -300,7 +517,8 @@
       "key_concept": "保单贷款的功能与优势",
       "difficulty": "hard",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "根据香港保险法规，不可争议条款的主要目的是什么？",
@@ -315,7 +533,8 @@
       "key_concept": "不可争议条款",
       "difficulty": "easy",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "陈先生的人寿保险保费到期日为3月1日，他因出差未能按时缴付保费。根据宽限期条款，以下哪项陈述是正确的？",
@@ -330,7 +549,8 @@
       "key_concept": "宽限期",
       "difficulty": "easy",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪一项是保单持有人申请保单贷款的先决条件？",
@@ -345,7 +565,8 @@
       "key_concept": "保单贷款",
       "difficulty": "easy",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "关于保单红利，以下哪项描述最为准确？",
@@ -360,7 +581,8 @@
       "key_concept": "保单红利（现金红利、增额红利）",
       "difficulty": "easy",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "李太太的丈夫持有一份人寿保险，保单已生效三年。丈夫去世后，保险公司发现投保时隐瞒了高血压病史。根据不可争议条款，保险公司最可能采取哪种行动？",
@@ -375,7 +597,8 @@
       "key_concept": "不可争议条款",
       "difficulty": "medium",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "王先生的保单在宽限期结束后仍未缴付保费，保单因此失效。六个月后他希望恢复保单。以下哪项关于保单复效的说法是正确的？",
@@ -390,7 +613,8 @@
       "key_concept": "保单复效",
       "difficulty": "medium",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "张女士持有一份终身人寿保险，现金价值为港币200,000元。她申请保单贷款港币150,000元。以下哪项陈述是正确的？",
@@ -405,7 +629,8 @@
       "key_concept": "保单贷款",
       "difficulty": "medium",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "赵先生投保五年后决定退保。终身寿险保额港币500,000元，已缴总保费港币100,000元，退保价值港币65,000元。以下哪项解释最合理？",
@@ -420,7 +645,8 @@
       "key_concept": "退保价值",
       "difficulty": "medium",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "刘先生投保了人寿保险，指定妻子为受益人。后来与妻子离婚并再婚。关于受益人安排，以下哪项陈述是正确的？",
@@ -435,7 +661,8 @@
       "key_concept": "受益人指定",
       "difficulty": "medium",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "关于保费缴付方式，以下哪种缴付频率的年总保费通常最低？",
@@ -450,7 +677,8 @@
       "key_concept": "保费缴付方式",
       "difficulty": "medium",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "何女士持有一份分红终身寿险，保险公司宣布红利可选现金红利或增额红利。以下哪项正确描述了两者的区别？",
@@ -465,7 +693,8 @@
       "key_concept": "保单红利（现金红利、增额红利）",
       "difficulty": "medium",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "陈女士的保单在宽限期内，她不幸因交通意外身故。以下哪种处理方式最为恰当？",
@@ -480,7 +709,8 @@
       "key_concept": "宽限期",
       "difficulty": "medium",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "黄先生持有储蓄保险，现金价值港币50,000元，因急需资金考虑退保或保单贷款。以下哪项建议最为恰当？",
@@ -495,7 +725,8 @@
       "key_concept": "保单贷款",
       "difficulty": "medium",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "郑先生持有分红保单十年。关于其累积的增额红利，以下哪项陈述是正确的？",
@@ -510,7 +741,8 @@
       "key_concept": "保单红利（现金红利、增额红利）",
       "difficulty": "medium",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "林先生选择以自动保费贷款（APL）方式处理逾期保费。以下哪项最准确地描述了此安排？",
@@ -525,7 +757,8 @@
       "key_concept": "保费缴付方式",
       "difficulty": "medium",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "周女士的终身寿险保单在投保第18个月时，保险公司发现她对吸烟习惯作了失实陈述。保险公司决定撤销保单。以下哪项分析最为正确？",
@@ -540,7 +773,8 @@
       "key_concept": "不可争议条款",
       "difficulty": "hard",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "梁先生的保单已失效14个月，保险公司在审核复效申请时发现他在失效期间被诊断出患有糖尿病。以下哪项处理方式最为恰当？",
@@ -555,7 +789,8 @@
       "key_concept": "保单复效",
       "difficulty": "hard",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "杨女士持有分红终身寿险，保额港币1,000,000元，累积增额红利港币200,000元。她有未偿还保单贷款港币300,000元（含利息港币50,000元）。如果杨女士现在身故，受益人实际可获得多少赔偿金额？",
@@ -570,7 +805,8 @@
       "key_concept": "保单红利（现金红利、增额红利）",
       "difficulty": "hard",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "孙先生投保分红保险两年后退保。保证现金价值港币30,000元，累积现金红利港币5,000元，终期红利港币8,000元，未偿还保单贷款港币10,000元（含利息港币2,000元）。退保价值是多少？",
@@ -585,7 +821,8 @@
       "key_concept": "退保价值",
       "difficulty": "hard",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "在人寿保险核保过程中，「标准体」（Standard Life）是指什么？",
@@ -600,7 +837,8 @@
       "key_concept": "风险分类（标准体/次标准体/拒保）",
       "difficulty": "easy",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项是保险公司对「次标准体」（Sub-standard Life）最常采用的处理方式？",
@@ -615,7 +853,8 @@
       "key_concept": "风险分类（标准体/次标准体/拒保）",
       "difficulty": "easy",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "生命表（Life Table / Mortality Table）的主要用途是什么？",
@@ -630,7 +869,8 @@
       "key_concept": "生命表",
       "difficulty": "easy",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "保费结构中，「纯保费」（Pure Premium / Net Premium）包含以下哪项成本？",
@@ -645,7 +885,8 @@
       "key_concept": "保费结构（纯保费与附加保费）",
       "difficulty": "easy",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "在厘定人寿保险保费时，以下哪三项是最基本的精算假设？",
@@ -660,7 +901,8 @@
       "key_concept": "保费计算（死亡率/利率/费用）",
       "difficulty": "medium",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "核保时，保险公司考虑投保人的「职业」主要是评估什么？",
@@ -675,7 +917,8 @@
       "key_concept": "核保因素（职业）",
       "difficulty": "medium",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项「生活习惯」最可能导致保险公司在核保时加收额外保费？",
@@ -690,7 +933,8 @@
       "key_concept": "核保因素（生活习惯）",
       "difficulty": "medium",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "「毛保费」（Gross Premium）与「纯保费」（Net Premium）的关系是什么？",
@@ -705,7 +949,8 @@
       "key_concept": "保费结构（纯保费与附加保费）",
       "difficulty": "medium",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "在核保过程中，保险公司要求投保人进行体检的主要目的是什么？",
@@ -720,7 +965,8 @@
       "key_concept": "核保因素（健康）",
       "difficulty": "medium",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "保险公司在计算保费时使用的「预定利率」如果提高，对纯保费有什么影响？",
@@ -735,7 +981,8 @@
       "key_concept": "保费计算（利率）",
       "difficulty": "medium",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于「年龄」作为核保因素的描述，哪项最为准确？",
@@ -750,7 +997,8 @@
       "key_concept": "核保因素（年龄）",
       "difficulty": "medium",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种情况，保险公司最可能作出「拒保」决定？",
@@ -765,7 +1013,8 @@
       "key_concept": "风险分类（标准体/次标准体/拒保）",
       "difficulty": "medium",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "「均衡保费」（Level Premium）制度的特点是什么？",
@@ -780,7 +1029,8 @@
       "key_concept": "精算概念",
       "difficulty": "medium",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "关于性别对人寿保险保费的影响，以下哪项描述正确？",
@@ -795,7 +1045,8 @@
       "key_concept": "核保因素（性别）",
       "difficulty": "medium",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "附加保费（Loading）通常不包括以下哪项？",
@@ -810,7 +1061,8 @@
       "key_concept": "保费结构（纯保费与附加保费）",
       "difficulty": "medium",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于核保中「道德风险」的描述，哪项最准确？",
@@ -825,7 +1077,8 @@
       "key_concept": "核保因素",
       "difficulty": "medium",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "如果实际死亡率持续低于生命表假设的死亡率，对保险公司的影响是什么？",
@@ -840,7 +1093,8 @@
       "key_concept": "生命表",
       "difficulty": "hard",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "某保险公司采用「加额法」对次标准体加费。若标准保费为每年HK$5,000，加费比例为50%，则每年应缴保费为多少？",
@@ -855,7 +1109,8 @@
       "key_concept": "风险分类（标准体/次标准体/拒保）",
       "difficulty": "hard",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "在均衡保费制度下，保单初期所缴保费中超出当期实际风险成本的部分会形成什么？",
@@ -870,7 +1125,8 @@
       "key_concept": "精算概念",
       "difficulty": "hard",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于「加龄法」处理次标准体的描述，哪项正确？",
@@ -885,7 +1141,8 @@
       "key_concept": "风险分类（标准体/次标准体/拒保）",
       "difficulty": "hard",
       "chapterId": "3-3",
-      "chapterName": "核保与保费"
+      "chapterName": "核保与保费",
+      "source": "ai-generated"
     },
     {
       "question": "当受保人身故后，受益人应首先采取以下哪项行动来启动死亡理赔程序？",
@@ -900,7 +1157,8 @@
       "key_concept": "死亡理赔程序",
       "difficulty": "easy",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项通常不是死亡理赔时必须提交的文件？",
@@ -915,7 +1173,8 @@
       "key_concept": "所需文件",
       "difficulty": "easy",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "保单信托安排的主要目的是什么？",
@@ -930,7 +1189,8 @@
       "key_concept": "保单信托安排",
       "difficulty": "easy",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "香港于哪一年正式取消遗产税？",
@@ -945,7 +1205,8 @@
       "key_concept": "遗产税与保单的关系",
       "difficulty": "easy",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "保险公司在接到死亡理赔申请后，如果怀疑死因存在可疑情况，通常会采取以下哪项措施？",
@@ -960,7 +1221,8 @@
       "key_concept": "理赔调查",
       "difficulty": "medium",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "在死亡理赔中，如果受保人在不可争议期内身故，保险公司可以依据以下哪项理由拒绝赔偿？",
@@ -975,7 +1237,8 @@
       "key_concept": "理赔调查",
       "difficulty": "medium",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "保单权益转让生效的必要条件之一是什么？",
@@ -990,7 +1253,8 @@
       "key_concept": "保单权益转让",
       "difficulty": "medium",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种情况下，保险公司最有可能启动详细的理赔调查？",
@@ -1005,7 +1269,8 @@
       "key_concept": "理赔调查",
       "difficulty": "medium",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "如果保单持有人对保险公司的理赔决定不满意，以下哪个机构可以提供独立的投诉调解服务？",
@@ -1020,7 +1285,8 @@
       "key_concept": "争议解决",
       "difficulty": "medium",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "关于保单权益转让，以下哪项陈述是正确的？",
@@ -1035,7 +1301,8 @@
       "key_concept": "保单权益转让",
       "difficulty": "medium",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "在死亡理赔过程中，如果受保人没有指定受益人且没有留下遗嘱，理赔金将如何处理？",
@@ -1050,7 +1317,8 @@
       "key_concept": "死亡理赔程序",
       "difficulty": "medium",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "保险索偿投诉局处理投诉的赔偿裁决上限是多少？",
@@ -1065,7 +1333,8 @@
       "key_concept": "争议解决",
       "difficulty": "medium",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于保单信托的陈述，哪项是正确的？",
@@ -1080,7 +1349,8 @@
       "key_concept": "保单信托安排",
       "difficulty": "medium",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "有条件转让与绝对转让的主要区别是什么？",
@@ -1095,7 +1365,8 @@
       "key_concept": "保单权益转让",
       "difficulty": "medium",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "在死亡理赔中，如果保单存在多个受益人，但其中一名受益人先于受保人去世，该名受益人的份额通常会如何处理？",
@@ -1110,7 +1381,8 @@
       "key_concept": "死亡理赔程序",
       "difficulty": "medium",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项不属于保险索偿投诉局处理投诉的受理范围？",
@@ -1125,7 +1397,8 @@
       "key_concept": "争议解决",
       "difficulty": "medium",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "关于死亡理赔所需文件，以下哪项描述最为准确？",
@@ -1140,7 +1413,8 @@
       "key_concept": "所需文件",
       "difficulty": "medium",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "某投保人以保单作为银行贷款抵押品，通过有条件转让将保单权益转让给银行。受保人在贷款未还清时身故，理赔金为200万港元，未偿贷款余额为80万港元。以下哪项处理方式最正确？",
@@ -1155,7 +1429,8 @@
       "key_concept": "保单权益转让",
       "difficulty": "hard",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "甲先生在2005年12月购买了一份人寿保险并置于信托安排下。甲先生于2006年3月去世。关于遗产税的处理，以下哪项陈述最准确？",
@@ -1170,7 +1445,8 @@
       "key_concept": "遗产税与保单的关系",
       "difficulty": "hard",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "李女士投保了一份人寿保险，指定丈夫为受益人。后来她将保单绝对转让给商业伙伴王先生。李女士去世后，以下哪种处理方式正确？",
@@ -1185,7 +1461,8 @@
       "key_concept": "保单权益转让",
       "difficulty": "hard",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "陈先生投保时隐瞒了长期吸烟的事实。保单生效3年后，陈先生因肺癌去世。保险公司发现了这一失实陈述。以下哪项陈述最准确？",
@@ -1200,7 +1477,8 @@
       "key_concept": "理赔调查",
       "difficulty": "hard",
       "chapterId": "3-4",
-      "chapterName": "理赔与赔付"
+      "chapterName": "理赔与赔付",
+      "source": "ai-generated"
     },
     {
       "question": "根据香港保险业规定，投保人在签收保单后享有的冷静期为多少天？",
@@ -1215,7 +1493,8 @@
       "key_concept": "冷静期21天",
       "difficulty": "easy",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "冷静期的起算日是从以下哪个时间点开始计算？",
@@ -1230,7 +1509,8 @@
       "key_concept": "冷静期21天",
       "difficulty": "easy",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "重要资料声明书（IFI）的主要目的是什么？",
@@ -1245,7 +1525,8 @@
       "key_concept": "重要资料声明书IFI",
       "difficulty": "easy",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "财务需要分析（FNA）的主要功能是什么？",
@@ -1260,7 +1541,8 @@
       "key_concept": "财务需要分析FNA",
       "difficulty": "easy",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪类保险产品适用冷静期的规定？",
@@ -1275,7 +1557,8 @@
       "key_concept": "冷静期21天",
       "difficulty": "medium",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "关于重要资料声明书（IFI），以下哪项陈述是正确的？",
@@ -1290,7 +1573,8 @@
       "key_concept": "重要资料声明书IFI",
       "difficulty": "medium",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "保险中介人在进行财务需要分析时，以下哪项不是必须考虑的因素？",
@@ -1305,7 +1589,8 @@
       "key_concept": "财务需要分析FNA",
       "difficulty": "medium",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "根据销售说明书的要求，保险中介人在销售投资相连保险时，必须向客户披露以下哪项信息？",
@@ -1320,7 +1605,8 @@
       "key_concept": "销售说明书要求",
       "difficulty": "medium",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "销售说明书中的利益说明必须包含哪些情景假设？",
@@ -1335,7 +1621,8 @@
       "key_concept": "销售说明书要求",
       "difficulty": "medium",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "如果投保人对保险公司的服务不满意，应首先向哪个机构提出投诉？",
@@ -1350,7 +1637,8 @@
       "key_concept": "投诉处理机制",
       "difficulty": "medium",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "保单持有人保障基金的主要目的是什么？",
@@ -1365,7 +1653,8 @@
       "key_concept": "保单持有人保障",
       "difficulty": "medium",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项不属于反洗钱法规中保险中介人必须执行的客户尽职审查措施？",
@@ -1380,7 +1669,8 @@
       "key_concept": "反洗钱在长期保险中的应用",
       "difficulty": "medium",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "保险中介人发现可疑交易时应向哪个机构提交可疑交易报告？",
@@ -1395,7 +1685,8 @@
       "key_concept": "反洗钱在长期保险中的应用",
       "difficulty": "medium",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种情况最可能被视为长期保险中的洗钱可疑指标？",
@@ -1410,7 +1701,8 @@
       "key_concept": "反洗钱在长期保险中的应用",
       "difficulty": "medium",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "投保人在冷静期内取消保单，保险公司应退还的金额是多少？",
@@ -1425,7 +1717,8 @@
       "key_concept": "冷静期21天",
       "difficulty": "medium",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "保险中介人在销售长期保险产品时，以下哪项行为违反了销售说明书的相关规定？",
@@ -1440,7 +1733,8 @@
       "key_concept": "销售说明书要求",
       "difficulty": "medium",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "保险投诉局可以处理的索偿金额上限是多少？",
@@ -1455,7 +1749,8 @@
       "key_concept": "投诉处理机制",
       "difficulty": "hard",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于保险投诉局的裁决，哪项陈述是正确的？",
@@ -1470,7 +1765,8 @@
       "key_concept": "投诉处理机制",
       "difficulty": "hard",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "根据《打击洗钱及恐怖分子资金筹集条例》，保险中介人须将客户尽职审查记录保存至少多少年？",
@@ -1485,7 +1781,8 @@
       "key_concept": "反洗钱在长期保险中的应用",
       "difficulty": "hard",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "关于财务需要分析（FNA），如果客户拒绝提供个人财务资料，保险中介人应如何处理？",
@@ -1500,7 +1797,8 @@
       "key_concept": "财务需要分析FNA",
       "difficulty": "hard",
       "chapterId": "3-5",
-      "chapterName": "行业法规与合规"
+      "chapterName": "行业法规与合规",
+      "source": "ai-generated"
     },
     {
       "question": "定期寿险的主要特点是什么？",
@@ -1515,7 +1813,8 @@
       "key_concept": "定期寿险基本特征",
       "difficulty": "easy",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "终身寿险与定期寿险的最大区别是什么？",
@@ -1530,7 +1829,8 @@
       "key_concept": "终身寿险vs定期寿险",
       "difficulty": "easy",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "即期年金的特点是什么？",
@@ -1545,7 +1845,8 @@
       "key_concept": "即期年金定义",
       "difficulty": "easy",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "危疾保险通常在什么情况下赔付？",
@@ -1560,7 +1861,8 @@
       "key_concept": "危疾保险赔付条件",
       "difficulty": "easy",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "万能寿险的保费缴付方式有何特点？",
@@ -1575,7 +1877,8 @@
       "key_concept": "万能寿险保费灵活性",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "延期年金与即期年金的主要区别是什么？",
@@ -1590,7 +1893,8 @@
       "key_concept": "延期年金累积期",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "储蓄寿险（两全保险）的保障特点是什么？",
@@ -1605,7 +1909,8 @@
       "key_concept": "储蓄寿险双重保障",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "团体人寿保险中，雇主通常采用哪种方式投保？",
@@ -1620,7 +1925,8 @@
       "key_concept": "团体人寿保单结构",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "伤残收入保险的等候期（等待期）是指什么？",
@@ -1635,7 +1941,8 @@
       "key_concept": "伤残收入保险等候期",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "长期护理保险主要保障什么风险？",
@@ -1650,7 +1957,8 @@
       "key_concept": "长期护理保险保障范围",
       "difficulty": "medium",
       "chapterId": "3-1",
-      "chapterName": "长期保险产品"
+      "chapterName": "长期保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "人寿保险保单中的不可争议条款通常在保单生效多久后适用？",
@@ -1665,7 +1973,8 @@
       "key_concept": "不可争议条款期限",
       "difficulty": "easy",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "宽限期的主要目的是什么？",
@@ -1680,7 +1989,8 @@
       "key_concept": "宽限期定义",
       "difficulty": "easy",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "保单贷款的最高贷款金额通常以什么为基准？",
@@ -1695,7 +2005,8 @@
       "key_concept": "保单贷款金额上限",
       "difficulty": "easy",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     },
     {
       "question": "在人寿保险中，受益人的指定有什么作用？",
@@ -1710,10 +2021,11 @@
       "key_concept": "受益人指定",
       "difficulty": "easy",
       "chapterId": "3-2",
-      "chapterName": "保单条款与条件"
+      "chapterName": "保单条款与条件",
+      "source": "ai-generated"
     }
   ],
   "generatedAt": "2026-03-25T14:42:00+08:00",
-  "version": 2,
-  "totalCount": 114
+  "version": 3,
+  "totalCount": 125
 }

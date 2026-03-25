@@ -3,6 +3,114 @@
   "paperName": "卷一：保险原理及实务",
   "questions": [
     {
+      "question": "风险可以被描述为有关潜在损失的不确定性。这种潜在损失可以是：",
+      "options": {
+        "A": "实物上的损失",
+        "B": "财务上的损失",
+        "C": "情感上的损失",
+        "D": "以上所有"
+      },
+      "correct": "D",
+      "explanation": "风险的潜在损失是多方面的，包括实物损失（如财产损毁）、财务损失（如收入减少）和情感损失（如亲人离世的精神痛苦）。保险主要应对财务损失，但风险本身涵盖所有方面。\n\n参考研习手册1.1.1节",
+      "key_concept": "风险和潜在损失的多面性",
+      "difficulty": "easy",
+      "chapterId": "1-1",
+      "chapterName": "风险与保险概论",
+      "type": "A",
+      "reference": "1.1.1",
+      "source": "official"
+    },
+    {
+      "question": "只有损失可能而没有获利机会的风险，称为：",
+      "options": {
+        "A": "纯粹风险（Pure Risk）",
+        "B": "特定风险（Particular Risk）",
+        "C": "投机风险（Speculative Risk）",
+        "D": "基本风险（Fundamental Risk）"
+      },
+      "correct": "A",
+      "explanation": "纯粹风险是指只有损失可能性而没有获利可能性的风险。例如火灾、盗窃、意外伤害等。保险主要承保纯粹风险。\n\nB错误：特定风险是按影响范围分类的（影响个人或少数人），不是按损失/获利分的。\nC错误：投机风险恰恰相反——既有损失也有获利的可能（如股票投资）。\nD错误：基本风险也是按影响范围分类的（影响大量人群）。\n\n💡记忆法：纯粹 = 纯粹的损失 = 只有坏的结果。\n\n参考研习手册1.1.2a节",
+      "key_concept": "纯粹风险的定义",
+      "difficulty": "easy",
+      "chapterId": "1-1",
+      "chapterName": "风险与保险概论",
+      "type": "A",
+      "reference": "1.1.2a",
+      "source": "official"
+    },
+    {
+      "question": "以下哪些关于风险的陈述是正确的？\n(i) 所有风险都是商业上可保的\n(ii) 并非所有风险都是商业上可保的\n(iii) 保险是处理任何风险的唯一方法\n(iv) 保险公司在谈论「风险」时可以有多种含义",
+      "options": {
+        "A": "(i)和(iii)",
+        "B": "(ii)和(iv)",
+        "C": "(i)和(iv)",
+        "D": "(i)、(iii)和(iv)"
+      },
+      "correct": "B",
+      "explanation": "(ii) ✅ 并非所有风险都可保——投机风险、战争风险等通常不可保。\n(iv) ✅ 「风险」在保险中有多种含义：可指不确定性、可指保险标的（如「那栋建筑是一个好的风险」）、可指承保的危险。\n\n(i) ❌ 不是所有风险都可保，例如投机风险。\n(iii) ❌ 风险管理有四种方法（回避、减少、自留、转移），保险只是转移的一种。\n\n参考研习手册1.1-1.1.1节",
+      "key_concept": "可保风险的条件",
+      "difficulty": "medium",
+      "chapterId": "1-1",
+      "chapterName": "风险与保险概论",
+      "type": "B",
+      "reference": "1.1-1.1.1",
+      "source": "official"
+    },
+    {
+      "question": "合约可以被定义为：",
+      "options": {
+        "A": "法律上可强制执行的协议",
+        "B": "两个或以上的人之间的承诺",
+        "C": "以书面形式表达的协议",
+        "D": "两个或以上的当事人之间的任何协议"
+      },
+      "correct": "A",
+      "explanation": "合约的法律定义是：法律上可以强制执行的协议。关键词是「法律上可强制执行」——不是所有协议都是合约，只有符合法律要求的协议才构成合约。\n\nB错误：承诺本身不构成合约，需要对价等其他要素。\nC错误：合约不一定要书面形式，口头合约也可以有效。\nD错误：任何协议不等于合约，需要满足合约要素。\n\n参考研习手册2.1.1节",
+      "key_concept": "合约的法律定义",
+      "difficulty": "easy",
+      "chapterId": "1-2",
+      "chapterName": "法律原则",
+      "type": "A",
+      "reference": "2.1.1",
+      "source": "official"
+    },
+    {
+      "question": "委托人对代理人行为的追认（Ratification）实际上意味着：",
+      "options": {
+        "A": "代理关系终止",
+        "B": "代理人将不再获得佣金",
+        "C": "委托人「追溯批准」代理人的行为",
+        "D": "委托人拒绝对代理人的行为承担责任"
+      },
+      "correct": "C",
+      "explanation": "追认（Ratification）是指委托人在事后批准代理人未经授权而做出的行为，使该行为具有法律效力，如同事先已获授权。\n\nA错误：追认不会终止代理关系，反而是确认代理行为。\nB错误：追认与佣金无关。\nD错误：追认是接受责任，不是拒绝责任。\n\n参考研习手册2.2.2(b)节",
+      "key_concept": "代理法中的追认",
+      "difficulty": "medium",
+      "chapterId": "1-2",
+      "chapterName": "法律原则",
+      "type": "A",
+      "reference": "2.2.2(b)",
+      "source": "official"
+    },
+    {
+      "question": "可保利益（Insurable Interest）是指：",
+      "options": {
+        "A": "保险公司对承保风险的财务利益",
+        "B": "一个人对保险标的在法律上承认的关系，使其有权为之投保",
+        "C": "受益人必须与被保人有直系亲属关系",
+        "D": "投保人必须是保险标的的合法拥有人"
+      },
+      "correct": "B",
+      "explanation": "可保利益的法律定义是：一个人对保险标的在法律上承认的关系（legally recognised relationship），使其有权为该标的投保。\n\nA错误：可保利益是投保人的利益，不是保险公司的。\nC错误：受益人不一定是直系亲属。\nD错误：投保人不一定是拥有人——例如承租人对租赁物有可保利益，但不是拥有人。\n\n💡记忆法：可保利益 = 法律关系 + 经济利害 = 能保的资格。\n\n参考研习手册3.1.1节",
+      "key_concept": "可保利益的精确定义",
+      "difficulty": "medium",
+      "chapterId": "1-3",
+      "chapterName": "保险原则",
+      "type": "A",
+      "reference": "3.1.1",
+      "source": "official"
+    },
+    {
       "question": "以下哪项最准确地描述了「风险」的定义？",
       "options": {
         "A": "已经发生的损失",
@@ -15,7 +123,8 @@
       "key_concept": "风险的定义",
       "difficulty": "easy",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "火灾导致工厂损毁属于以下哪种风险类别？",
@@ -30,7 +139,8 @@
       "key_concept": "纯粹风险与投机风险",
       "difficulty": "easy",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项属于投机风险的例子？",
@@ -45,7 +155,8 @@
       "key_concept": "投机风险的特征",
       "difficulty": "easy",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "保险的最基本运作原理是什么？",
@@ -60,7 +171,8 @@
       "key_concept": "保险的运作方式",
       "difficulty": "easy",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "地震造成整个城市大面积损毁，这种风险属于：",
@@ -75,7 +187,8 @@
       "key_concept": "基本风险与特定风险",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "某公司决定不进入政治不稳定的国家投资，这属于哪种风险管理技术？",
@@ -90,7 +203,8 @@
       "key_concept": "风险回避",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "安装火灾警报系统和灭火装置属于以下哪种风险管理技术？",
@@ -105,7 +219,8 @@
       "key_concept": "风险减少",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "某小型零售商决定不为低价值存货购买保险，而是自行承担可能的损失，这属于：",
@@ -120,7 +235,8 @@
       "key_concept": "风险自留",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项不是保险对社会的功能？",
@@ -135,7 +251,8 @@
       "key_concept": "保险的功能与利益",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "购买保险是属于以下哪种风险管理技术？",
@@ -150,7 +267,8 @@
       "key_concept": "风险转移",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于纯粹风险和投机风险的陈述，哪项是正确的？",
@@ -165,7 +283,8 @@
       "key_concept": "纯粹风险与投机风险的区别",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项最能体现保险对商业活动的促进作用？",
@@ -180,7 +299,8 @@
       "key_concept": "保险对商业信贷的促进作用",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项不属于基本风险的例子？",
@@ -195,7 +315,8 @@
       "key_concept": "基本风险与特定风险的区分",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "「大数法则」在保险中的主要作用是：",
@@ -210,7 +331,8 @@
       "key_concept": "大数法则与保险运作",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "保险的「风险汇集」概念是指：",
@@ -225,7 +347,8 @@
       "key_concept": "风险汇集原理",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "在风险管理过程中，以下哪个步骤通常最先进行？",
@@ -240,7 +363,8 @@
       "key_concept": "风险管理流程",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种情况最适合采用「风险自留」策略？",
@@ -255,7 +379,8 @@
       "key_concept": "风险自留的适用条件",
       "difficulty": "hard",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "关于香港保险业发展的陈述，以下哪项是正确的？",
@@ -270,7 +395,8 @@
       "key_concept": "香港保险业法律框架",
       "difficulty": "hard",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "某企业同时采用安装防盗系统、购买盗窃保险以及为小额物品设定自负额，这体现了什么原则？",
@@ -285,7 +411,8 @@
       "key_concept": "风险管理技术的综合运用",
       "difficulty": "hard",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "关于保险业监管局的成立，以下哪项最准确？",
@@ -300,7 +427,8 @@
       "key_concept": "保监局的成立与职能",
       "difficulty": "hard",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "保险合约属于以下哪种类型的合约？",
@@ -315,7 +443,8 @@
       "key_concept": "合约法基础",
       "difficulty": "easy",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "一份有效合约必须具备的基本要素不包括以下哪项？",
@@ -330,7 +459,8 @@
       "key_concept": "合约法基础",
       "difficulty": "easy",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "在保险法中，「最高诚信原则」要求哪一方履行披露义务？",
@@ -345,7 +475,8 @@
       "key_concept": "最高诚信原则",
       "difficulty": "easy",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪类人士通常不具备签订有效保险合约的行为能力？",
@@ -360,7 +491,8 @@
       "key_concept": "合约法基础——行为能力",
       "difficulty": "easy",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "在合约法中，「对价」的最佳描述是什么？",
@@ -375,7 +507,8 @@
       "key_concept": "合约法基础——对价",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "保险代理人未获明确授权，但根据其职位和惯例被认为拥有的权限称为什么？",
@@ -390,7 +523,8 @@
       "key_concept": "代理法——默示授权",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "当保险公司的行为使第三方合理相信某人有权代表该公司行事时，该人被视为拥有什么类型的授权？",
@@ -405,7 +539,8 @@
       "key_concept": "代理法——表见授权",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "保险代理人对其委托人的义务不包括以下哪项？",
@@ -420,7 +555,8 @@
       "key_concept": "代理法——代理人义务",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "投保人在投保时故意隐瞒其患有严重疾病的事实，这违反了什么原则？",
@@ -435,7 +571,8 @@
       "key_concept": "最高诚信原则——披露义务",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "关于失实陈述，以下哪项描述是正确的？",
@@ -450,7 +587,8 @@
       "key_concept": "披露与失实陈述",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "在保险合约中，「保证」的法律效力是什么？",
@@ -465,7 +603,8 @@
       "key_concept": "保证与条件",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "保险合约中的「条件」与「保证」的主要区别是什么？",
@@ -480,7 +619,8 @@
       "key_concept": "保证与条件",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "在侵权法中，要成功提出疏忽索赔，原告需要证明的要素不包括以下哪项？",
@@ -495,7 +635,8 @@
       "key_concept": "侵权法基础——疏忽",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于「要约」的描述，哪项是正确的？",
@@ -510,7 +651,8 @@
       "key_concept": "合约法基础——要约",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "保险经纪人在法律上通常被视为谁的代理人？",
@@ -525,7 +667,8 @@
       "key_concept": "代理法——代理人类型",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "在合约法中，「承诺」必须符合以下哪项要求？",
@@ -540,7 +683,8 @@
       "key_concept": "合约法基础——承诺",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "投保人声明房屋安装了防盗警报系统但实际上并未安装。保险公司发现后有什么权利？",
@@ -555,7 +699,8 @@
       "key_concept": "披露与失实陈述",
       "difficulty": "hard",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "甲保险代理人未经授权擅自向客户承诺降低保费并签发保单。保险公司事后知悉但未提出异议，并收取了保费。以下哪项最正确？",
@@ -570,7 +715,8 @@
       "key_concept": "代理法——追认授权",
       "difficulty": "hard",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "关于保险合约中「过去的对价」，以下哪项描述最准确？",
@@ -585,7 +731,8 @@
       "key_concept": "合约法基础——对价",
       "difficulty": "hard",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "某保险公司代理人A向客户作出虚假陈述，客户基于该陈述购买保险后被拒赔。以下哪项分析最正确？",
@@ -600,7 +747,8 @@
       "key_concept": "代理法与侵权法综合",
       "difficulty": "hard",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项最能描述「可保利益」的含义？",
@@ -615,7 +763,8 @@
       "key_concept": "可保利益",
       "difficulty": "easy",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "在人寿保险中，以下哪种情况下投保人被视为对被保险人具有可保利益？",
@@ -630,7 +779,8 @@
       "key_concept": "可保利益",
       "difficulty": "easy",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "弥偿原则的核心目的是什么？",
@@ -645,7 +795,8 @@
       "key_concept": "弥偿原则",
       "difficulty": "easy",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪类保险通常不适用弥偿原则？",
@@ -660,7 +811,8 @@
       "key_concept": "弥偿原则",
       "difficulty": "easy",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "根据弥偿原则，保险公司可以通过哪些方式进行赔偿？I.现金赔付 II.修理 III.更换 IV.恢复原状",
@@ -675,7 +827,8 @@
       "key_concept": "弥偿原则",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "某工厂投保火险，发生火灾后保险公司选择将工厂修复至火灾前的状态。这属于哪种赔偿方式？",
@@ -690,7 +843,8 @@
       "key_concept": "弥偿原则——恢复原状",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "代位求偿权是指什么？",
@@ -705,7 +859,8 @@
       "key_concept": "代位求偿权",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "甲的汽车被乙撞坏，甲向保险公司索赔并获全额赔偿。以下哪项描述正确？",
@@ -720,7 +875,8 @@
       "key_concept": "代位求偿权",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "关于代位求偿权，以下哪项陈述正确？",
@@ -735,7 +891,8 @@
       "key_concept": "代位求偿权",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "什么是「双重保险」？",
@@ -750,7 +907,8 @@
       "key_concept": "双重保险",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "某物业同时向A公司投保火险100万港元，向B公司投保火险200万港元。发生火灾损失60万港元，按比例分摊，A公司应赔多少？",
@@ -765,7 +923,8 @@
       "key_concept": "分摊原则——按比例分摊",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "分摊原则的主要目的是什么？",
@@ -780,7 +939,8 @@
       "key_concept": "分摊原则",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "关于近因原则，以下哪项描述最准确？",
@@ -795,7 +955,8 @@
       "key_concept": "近因原则",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "暴风雨导致窗户破裂，雨水涌入损坏了室内家具。火险保单承保暴风雨损失。保险公司是否赔偿？",
@@ -810,7 +971,8 @@
       "key_concept": "近因原则",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "保单转让与保单提名的主要区别是什么？",
@@ -825,7 +987,8 @@
       "key_concept": "转让与提名",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "关于保单转让，以下哪项正确？",
@@ -840,7 +1003,8 @@
       "key_concept": "转让",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "甲将物业出售给乙，甲原有的火险保单效力如何？",
@@ -855,7 +1019,8 @@
       "key_concept": "可保利益与转让",
       "difficulty": "hard",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "某仓库向X公司投保火险500万（含分摊条款），向Y公司投保300万（不含分摊条款）。火灾损失400万。以下哪项最可能？",
@@ -870,7 +1035,8 @@
       "key_concept": "分摊原则——分摊条款",
       "difficulty": "hard",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "地震导致煤气管道破裂引发火灾烧毁房屋。火险保单承保火灾但不保地震。保险公司是否赔偿？",
@@ -885,7 +1051,8 @@
       "key_concept": "近因原则",
       "difficulty": "hard",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "甲投保人寿保险并提名妻子乙为受益人，后将保单转让给债权人丙。甲身故后赔偿金应支付给谁？",
@@ -900,7 +1067,8 @@
       "key_concept": "转让与提名的优先次序",
       "difficulty": "hard",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "核保人员在评估投保申请时，以下哪项属于「道德风险」？",
@@ -915,7 +1083,8 @@
       "key_concept": "道德风险与实质风险的区别",
       "difficulty": "easy",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项是再保险的主要目的？",
@@ -930,7 +1099,8 @@
       "key_concept": "再保险的目的",
       "difficulty": "easy",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "在理赔处理中，保险公司委托的独立专业评估人士通常称为？",
@@ -945,7 +1115,8 @@
       "key_concept": "理赔处理中的专业角色",
       "difficulty": "easy",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "在比例再保险中，以下哪种属于比例再保险？",
@@ -960,7 +1131,8 @@
       "key_concept": "比例再保险与非比例再保险的分类",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "核保人员在厘定人寿保险保费时，通常不会考虑以下哪个因素？",
@@ -975,7 +1147,8 @@
       "key_concept": "人寿保险核保因素",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "在香港保险市场中，保监局的主要职能不包括以下哪项？",
@@ -990,7 +1163,8 @@
       "key_concept": "香港保险业监管架构",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "保费厘定中，「纯保费」是指？",
@@ -1005,7 +1179,8 @@
       "key_concept": "保费结构与厘定",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "临时再保险的特点是？",
@@ -1020,7 +1195,8 @@
       "key_concept": "临时再保险与合约再保险的区别",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于「实质风险」的描述，哪项正确？",
@@ -1035,7 +1211,8 @@
       "key_concept": "实质风险的定义",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "在理赔处理中，保险公司行使代位追偿权的前提条件是？",
@@ -1050,7 +1227,8 @@
       "key_concept": "代位追偿权",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种属于非比例再保险？",
@@ -1065,7 +1243,8 @@
       "key_concept": "非比例再保险类型",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "保险公司在核保时对被保险人收取额外保费，最可能的原因是？",
@@ -1080,7 +1259,8 @@
       "key_concept": "核保中的加费处理",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "某保险公司与再保险公司签订成数再保险合约，分出比例为40%。保单保费100,000港元，赔款80,000港元，再保险公司应承担多少赔款？",
@@ -1095,7 +1275,8 @@
       "key_concept": "成数再保险的计算",
       "difficulty": "hard",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "关于「劳合社」的描述，哪项最为准确？",
@@ -1110,7 +1291,8 @@
       "key_concept": "劳合社的性质与结构",
       "difficulty": "hard",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "某保险公司的超额赔款再保险合约规定自留额为200万港元，再保险限额为800万港元。赔款1,200万港元，原保险公司和再保险公司分别承担多少？",
@@ -1125,7 +1307,8 @@
       "key_concept": "超额赔款再保险的赔款分摊",
       "difficulty": "hard",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "终身人寿保险与定期人寿保险的主要区别是？",
@@ -1140,7 +1323,8 @@
       "key_concept": "终身与定期人寿保险的区别",
       "difficulty": "easy",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪类保险产品属于一般保险？",
@@ -1155,7 +1339,8 @@
       "key_concept": "一般保险与人寿保险的分类",
       "difficulty": "easy",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "年金保险的主要功能是？",
@@ -1170,7 +1355,8 @@
       "key_concept": "年金保险的功能",
       "difficulty": "easy",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "投资相连保险计划的主要特点是？",
@@ -1185,7 +1371,8 @@
       "key_concept": "投资相连保险的特点",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "在香港，法例规定所有在道路上使用的汽车必须购买的保险是？",
@@ -1200,7 +1387,8 @@
       "key_concept": "香港强制汽车保险要求",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "储蓄人寿保险与纯人寿保障保险相比，以下哪项描述最准确？",
@@ -1215,7 +1403,8 @@
       "key_concept": "储蓄人寿保险的特点",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "团体保险与个人保险相比的优势是？",
@@ -1230,7 +1419,8 @@
       "key_concept": "团体保险的核保特点",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "海上保险中，哪类保单承保货物在运输途中的损失？",
@@ -1245,7 +1435,8 @@
       "key_concept": "海上保险的分类",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "公众责任保险的承保范围主要是？",
@@ -1260,7 +1451,8 @@
       "key_concept": "公众责任保险的承保范围",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "关于意外及健康保险的描述，哪项正确？",
@@ -1275,7 +1467,8 @@
       "key_concept": "医疗保险的等候期",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "定期人寿保险的「可续保」条款是指？",
@@ -1290,7 +1483,8 @@
       "key_concept": "定期寿险的可续保条款",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "在香港，雇员补偿保险的法律依据是？",
@@ -1305,7 +1499,8 @@
       "key_concept": "雇员补偿保险的法律要求",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于投资相连保险（ILAS）的描述，哪项是错误的？",
@@ -1320,7 +1515,8 @@
       "key_concept": "ILAS的投资风险",
       "difficulty": "hard",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "香港保险业的主要监管法例是以下哪一项？",
@@ -1335,7 +1531,8 @@
       "key_concept": "保险业条例Cap.41",
       "difficulty": "easy",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保险业监管局于哪一年正式接替自律规管机构，成为保险中介人的独立监管机构？",
@@ -1350,7 +1547,8 @@
       "key_concept": "保监局角色与权力",
       "difficulty": "easy",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项是保单持有人保障基金的主要目的？",
@@ -1365,7 +1563,8 @@
       "key_concept": "保单持有人保障基金",
       "difficulty": "easy",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "根据《保险业条例》，任何人如要在香港经营保险业务，必须先获得？",
@@ -1380,7 +1579,8 @@
       "key_concept": "保险业条例Cap.41",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪一项不属于保监局对持牌保险中介人的纪律处分权力？",
@@ -1395,7 +1595,8 @@
       "key_concept": "保监局角色与权力",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "持牌个人保险代理须通过IIQE的哪些卷别考试？",
@@ -1410,7 +1611,8 @@
       "key_concept": "IIQE要求",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保监局在以下哪种情况下可拒绝向申请人发出保险中介人牌照？",
@@ -1425,7 +1627,8 @@
       "key_concept": "中介人发牌要求",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "关于保险中介人持续专业发展（CPD）要求，以下哪项正确？",
@@ -1440,7 +1643,8 @@
       "key_concept": "中介人发牌要求",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "根据发牌制度，以下哪类人士无须持牌即可销售保险产品？",
@@ -1455,7 +1659,8 @@
       "key_concept": "中介人发牌要求",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "IIQE资格考试的合格分数线是多少？",
@@ -1470,7 +1675,8 @@
       "key_concept": "IIQE要求",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保监局对获授权保险公司实施偿付能力监管的主要目的是什么？",
@@ -1485,7 +1691,8 @@
       "key_concept": "保监局角色与权力",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "关于保单持有人保障基金的描述，哪项正确？",
@@ -1500,7 +1707,8 @@
       "key_concept": "保单持有人保障基金",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "某保险代理人在牌照到期前未完成CPD时数亦未申请续牌。以下哪项最准确？",
@@ -1515,7 +1723,8 @@
       "key_concept": "中介人发牌要求",
       "difficulty": "hard",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保监局在以下哪项情况下有权直接介入获授权保险公司的业务运作？",
@@ -1530,7 +1739,8 @@
       "key_concept": "保监局角色与权力",
       "difficulty": "hard",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "一名拟持牌的业务代表曾因欺诈罪被定罪。以下哪项最准确？",
@@ -1545,7 +1755,8 @@
       "key_concept": "中介人发牌要求",
       "difficulty": "hard",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪一项是保险中介人操守守则的核心原则？",
@@ -1560,7 +1771,8 @@
       "key_concept": "操守守则",
       "difficulty": "easy",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "AML/CTF的中文全称是什么？",
@@ -1575,7 +1787,8 @@
       "key_concept": "AML/CTF",
       "difficulty": "easy",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "廉政公署（ICAC）的主要职能包括？",
@@ -1590,7 +1803,8 @@
       "key_concept": "ICAC",
       "difficulty": "easy",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "根据操守守则，保险中介人在向客户推荐保险产品前，应首先进行什么？",
@@ -1605,7 +1819,8 @@
       "key_concept": "操守守则",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "根据《个人资料（私隐）条例》，保障资料第一原则的核心要求是？",
@@ -1620,7 +1835,8 @@
       "key_concept": "私隐条例六大原则",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "根据《防止贿赂条例》，以下哪种行为可能构成代理人受贿罪？",
@@ -1635,7 +1851,8 @@
       "key_concept": "防贿条例POBO",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项是保险欺诈的常见形式？",
@@ -1650,7 +1867,8 @@
       "key_concept": "保险欺诈",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "在AML/CTF框架下，保险中介人须在什么情况下进行客户尽职审查？",
@@ -1665,7 +1883,8 @@
       "key_concept": "AML/CTF",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "根据操守守则，保险中介人在处理客户投诉时应遵循什么原则？",
@@ -1680,7 +1899,8 @@
       "key_concept": "操守守则",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "《个人资料（私隐）条例》的保障资料第六原则涉及什么？",
@@ -1695,7 +1915,8 @@
       "key_concept": "私隐条例六大原则",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "保险中介人怀疑某交易涉及洗钱活动时，应向哪个机构提交可疑交易报告？",
@@ -1710,7 +1931,8 @@
       "key_concept": "AML/CTF",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "关于操守守则中「披露」要求，以下哪项正确？",
@@ -1725,7 +1947,8 @@
       "key_concept": "操守守则",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "某保险代理人发现客户提供了虚假收入证明以投保高额人寿保险。该代理人应如何处理？",
@@ -1740,7 +1963,8 @@
       "key_concept": "保险欺诈",
       "difficulty": "hard",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "火灾导致工厂损毁属于以下哪种风险？",
@@ -1755,7 +1979,8 @@
       "key_concept": "纯粹风险vs投机风险",
       "difficulty": "easy",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项是风险管理中「风险转移」的典型例子？",
@@ -1770,7 +1995,8 @@
       "key_concept": "风险管理技术",
       "difficulty": "easy",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "保险的基本运作原理是基于以下哪个概念？",
@@ -1785,7 +2011,8 @@
       "key_concept": "保险运作方式",
       "difficulty": "easy",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "地震造成整个城市大面积损毁，这属于哪种风险分类？",
@@ -1800,7 +2027,8 @@
       "key_concept": "基本风险vs特定风险",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "某公司决定不为价值较低的办公设备投保，自行承担可能的损失，这属于哪种风险管理方法？",
@@ -1815,7 +2043,8 @@
       "key_concept": "风险管理技术",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "投资股票市场可能获利也可能亏损，这属于以下哪种风险？",
@@ -1830,7 +2059,8 @@
       "key_concept": "纯粹风险vs投机风险",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项不是保险的社会功能？",
@@ -1845,7 +2075,8 @@
       "key_concept": "保险功能",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "某制造商为防止产品责任索赔而加强质量检验程序，这属于哪种风险管理技术？",
@@ -1860,7 +2091,8 @@
       "key_concept": "风险管理技术",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于保险与赌博的区别，哪项说法正确？",
@@ -1875,7 +2107,8 @@
       "key_concept": "保险运作方式",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "大数法则（Law of Large Numbers）在保险运作中的意义是什么？",
@@ -1890,7 +2123,8 @@
       "key_concept": "保险运作方式",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "一家公司决定停止在政治不稳定国家开展业务，这属于哪种风险管理策略？",
@@ -1905,7 +2139,8 @@
       "key_concept": "风险管理技术",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "某人的住宅因暴风雨受损，其房屋保险拒赔，理由是保单明确排除了暴风雨损失。对此最准确的描述是：",
@@ -1920,7 +2155,8 @@
       "key_concept": "保险运作方式",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种风险通常被认为不适合通过商业保险来承保？",
@@ -1935,7 +2171,8 @@
       "key_concept": "基本风险vs特定风险",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项最能说明保险对商业活动的促进作用？",
@@ -1950,7 +2187,8 @@
       "key_concept": "保险功能",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项不是使风险可保的条件之一？",
@@ -1965,7 +2203,8 @@
       "key_concept": "保险运作方式",
       "difficulty": "medium",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "关于风险管理过程，以下哪个步骤应最先进行？",
@@ -1980,7 +2219,8 @@
       "key_concept": "风险管理技术",
       "difficulty": "hard",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "某公司同时采用安装消防系统、购买火灾保险和设立自保基金来管理火灾风险，这说明了什么风险管理原则？",
@@ -1995,7 +2235,8 @@
       "key_concept": "风险管理技术",
       "difficulty": "hard",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于特定风险与基本风险的说法，哪项是正确的？",
@@ -2010,7 +2251,8 @@
       "key_concept": "基本风险vs特定风险",
       "difficulty": "hard",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "风险的「危险因素」（hazard）与「风险事故」（peril）有何区别？",
@@ -2025,7 +2267,8 @@
       "key_concept": "风险定义",
       "difficulty": "hard",
       "chapterId": "1-1",
-      "chapterName": "风险与保险概论"
+      "chapterName": "风险与保险概论",
+      "source": "ai-generated"
     },
     {
       "question": "有效的保险合约需要具备以下哪项基本要素？",
@@ -2040,7 +2283,8 @@
       "key_concept": "合约法",
       "difficulty": "easy",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "在保险法中，「最高诚信原则」要求投保人必须：",
@@ -2055,7 +2299,8 @@
       "key_concept": "最高诚信原则",
       "difficulty": "easy",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "保险代理人的权力来源于：",
@@ -2070,7 +2315,8 @@
       "key_concept": "代理法",
       "difficulty": "easy",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "在保险合约中，投保人支付的保费属于合约法中的哪个要素？",
@@ -2085,7 +2331,8 @@
       "key_concept": "合约法",
       "difficulty": "easy",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "投保人在投保时故意隐瞒曾患严重疾病的事实，这违反了什么原则？",
@@ -2100,7 +2347,8 @@
       "key_concept": "披露与失实陈述",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种情况构成「失实陈述」（misrepresentation）？",
@@ -2115,7 +2363,8 @@
       "key_concept": "披露与失实陈述",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "保险合约中的「保证」（warranty）是指：",
@@ -2130,7 +2379,8 @@
       "key_concept": "保证与条件",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "代理人在其授权范围内代表委托人行事时，由此产生的法律后果由谁承担？",
@@ -2145,7 +2395,8 @@
       "key_concept": "代理法",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项属于投保人不需要主动披露的事项？",
@@ -2160,7 +2411,8 @@
       "key_concept": "披露与失实陈述",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "保险合约中「条件」（condition）与「保证」（warranty）的区别是什么？",
@@ -2175,7 +2427,8 @@
       "key_concept": "保证与条件",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "「表见权力」（apparent/ostensible authority）是指：",
@@ -2190,7 +2443,8 @@
       "key_concept": "代理法",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于保险合约的说法，哪项是正确的？",
@@ -2205,7 +2459,8 @@
       "key_concept": "合约法",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "非披露（non-disclosure）与失实陈述（misrepresentation）的主要区别是：",
@@ -2220,7 +2475,8 @@
       "key_concept": "披露与失实陈述",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "保险合约被归类为「附合合约」（contract of adhesion），这意味着：",
@@ -2235,7 +2491,8 @@
       "key_concept": "合约法",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种情况下，保险公司不能以投保人违反披露义务为由拒绝赔偿？",
@@ -2250,7 +2507,8 @@
       "key_concept": "披露与失实陈述",
       "difficulty": "medium",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "代理人超越其授权范围签订的合约，对委托人的效力如何？",
@@ -2265,7 +2523,8 @@
       "key_concept": "代理法",
       "difficulty": "hard",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "在保险合约中，如果合约条款存在歧义，法院通常会如何解释？",
@@ -2280,7 +2539,8 @@
       "key_concept": "合约法",
       "difficulty": "hard",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "投保人在投保时无意中提供了不正确的信息，但该信息对保险公司的承保决定并不重要。保险公司能否以此为由拒绝赔偿？",
@@ -2295,7 +2555,8 @@
       "key_concept": "披露与失实陈述",
       "difficulty": "hard",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于保险代理人和保险经纪人法律地位的比较，哪项是正确的？",
@@ -2310,7 +2571,8 @@
       "key_concept": "代理法",
       "difficulty": "hard",
       "chapterId": "1-2",
-      "chapterName": "法律原则"
+      "chapterName": "法律原则",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项最准确地描述了「可保利益」？",
@@ -2325,7 +2587,8 @@
       "key_concept": "可保利益",
       "difficulty": "easy",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "甲为自己的房屋购买火灾保险，甲对该房屋的可保利益基于：",
@@ -2340,7 +2603,8 @@
       "key_concept": "可保利益",
       "difficulty": "easy",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "近因原则（proximate cause）在保险理赔中的作用是什么？",
@@ -2355,7 +2619,8 @@
       "key_concept": "近因原则",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "某人的汽车价值10万港元，他分别向A公司和B公司各投保了10万港元。汽车全损后，他可以获得多少赔偿？",
@@ -2370,7 +2635,8 @@
       "key_concept": "分摊原则",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种保险不适用弥偿原则？",
@@ -2385,7 +2651,8 @@
       "key_concept": "弥偿原则",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "在人寿保险中，可保利益必须在什么时候存在？",
@@ -2400,7 +2667,8 @@
       "key_concept": "可保利益",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "保险公司赔偿了投保人的汽车维修费用后，投保人又从肇事的第三方获得了全额赔偿。投保人应如何处理？",
@@ -2415,7 +2683,8 @@
       "key_concept": "代位求偿权",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "分摊原则适用的前提条件是什么？",
@@ -2430,7 +2699,8 @@
       "key_concept": "分摊原则",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "保单转让（assignment）与提名（nomination）的主要区别是什么？",
@@ -2445,7 +2715,8 @@
       "key_concept": "转让与提名",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种情况下雇主对雇员拥有可保利益？",
@@ -2460,7 +2731,8 @@
       "key_concept": "可保利益",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "如果一场损失由两个原因同时造成，一个在保单承保范围内，另一个被除外，保险公司通常如何处理？",
@@ -2475,7 +2747,8 @@
       "key_concept": "近因原则",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "一般保险中，可保利益必须在什么时候存在？",
@@ -2490,7 +2763,8 @@
       "key_concept": "可保利益",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于代位求偿权的说法，哪项是正确的？",
@@ -2505,7 +2779,8 @@
       "key_concept": "代位求偿权",
       "difficulty": "medium",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "某人投保了一份财产保险，保额为80万港元，但财产实际价值为100万港元。发生部分损失40万时，在有「平均条款」的情况下，保险公司赔偿多少？",
@@ -2520,7 +2795,8 @@
       "key_concept": "弥偿原则",
       "difficulty": "hard",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "甲将其人寿保单转让给债权人乙，转让时甲欠乙50万港元。后甲去世，保单赔偿金为100万港元。乙最多可以获得多少？",
@@ -2535,7 +2811,8 @@
       "key_concept": "转让与提名",
       "difficulty": "hard",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "在一连串事件导致损失的情况下，近因原则如何确定赔偿责任？",
@@ -2550,7 +2827,8 @@
       "key_concept": "近因原则",
       "difficulty": "hard",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "A保险公司和B保险公司分别为同一财产承保了60万和40万港元。财产全损价值50万港元，按「独立责任制」分摊，各赔偿多少？",
@@ -2565,7 +2843,8 @@
       "key_concept": "分摊原则",
       "difficulty": "hard",
       "chapterId": "1-3",
-      "chapterName": "保险原则"
+      "chapterName": "保险原则",
+      "source": "ai-generated"
     },
     {
       "question": "核保（underwriting）的主要目的是什么？",
@@ -2580,7 +2859,8 @@
       "key_concept": "核保",
       "difficulty": "easy",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项属于「道德风险」（moral hazard）？",
@@ -2595,7 +2875,8 @@
       "key_concept": "道德风险vs实质风险",
       "difficulty": "easy",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项属于「实质风险」（physical hazard）？",
@@ -2610,7 +2891,8 @@
       "key_concept": "道德风险vs实质风险",
       "difficulty": "easy",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "再保险是指什么？",
@@ -2625,7 +2907,8 @@
       "key_concept": "再保险",
       "difficulty": "easy",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "保险公司在核保过程中会考虑以下哪些因素？",
@@ -2640,7 +2923,8 @@
       "key_concept": "核保",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "保费厘定的基本原则是保费应足以覆盖：",
@@ -2655,7 +2939,8 @@
       "key_concept": "保费厘定",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "理赔处理的第一步通常是什么？",
@@ -2670,7 +2955,8 @@
       "key_concept": "理赔处理",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "「心态风险」（morale hazard）与「道德风险」（moral hazard）的区别是什么？",
@@ -2685,7 +2971,8 @@
       "key_concept": "道德风险vs实质风险",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种是「比例再保险」的类型？",
@@ -2700,7 +2987,8 @@
       "key_concept": "再保险",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "在香港保险市场中，劳合社（Lloyd's）的角色是什么？",
@@ -2715,7 +3003,8 @@
       "key_concept": "香港保险市场结构",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "核保人在评估人寿保险申请时，以下哪项不是主要考虑因素？",
@@ -2730,7 +3019,8 @@
       "key_concept": "核保",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "保险公司使用「无索赔折扣」（no-claims discount）的目的是什么？",
@@ -2745,7 +3035,8 @@
       "key_concept": "保费厘定",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于理赔公估人的说法，哪项是正确的？",
@@ -2760,7 +3051,8 @@
       "key_concept": "理赔处理",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "保险费率中的「纯保费」（pure premium）是指什么？",
@@ -2775,7 +3067,8 @@
       "key_concept": "保费厘定",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "在香港，直接保险公司和再保险公司的主要区别是什么？",
@@ -2790,7 +3083,8 @@
       "key_concept": "再保险",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "经验费率法（experience rating）是根据什么来调整保费？",
@@ -2805,7 +3099,8 @@
       "key_concept": "保费厘定",
       "difficulty": "medium",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种情况最能说明再保险对直接保险公司的价值？",
@@ -2820,7 +3115,8 @@
       "key_concept": "再保险",
       "difficulty": "hard",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于香港保险市场的说法，哪项是正确的？",
@@ -2835,7 +3131,8 @@
       "key_concept": "香港保险市场结构",
       "difficulty": "hard",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "超额赔款再保险（excess of loss reinsurance）的运作方式是：",
@@ -2850,7 +3147,8 @@
       "key_concept": "再保险",
       "difficulty": "hard",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "核保人在评估一般保险业务时使用的「危险选择」（selection of risks）过程，以下哪项描述最准确？",
@@ -2865,7 +3163,8 @@
       "key_concept": "核保",
       "difficulty": "hard",
       "chapterId": "1-4",
-      "chapterName": "保险运作"
+      "chapterName": "保险运作",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种是定期人寿保险的特点？",
@@ -2880,7 +3179,8 @@
       "key_concept": "人寿保险类型",
       "difficulty": "easy",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种属于一般保险（非寿险）产品？",
@@ -2895,7 +3195,8 @@
       "key_concept": "一般保险产品",
       "difficulty": "easy",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "年金（annuity）的主要功能是什么？",
@@ -2910,7 +3211,8 @@
       "key_concept": "年金",
       "difficulty": "easy",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "团体保险与个人保险的主要区别是什么？",
@@ -2925,7 +3227,8 @@
       "key_concept": "团体险",
       "difficulty": "easy",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "终身人寿保险与定期人寿保险的主要区别是什么？",
@@ -2940,7 +3243,8 @@
       "key_concept": "人寿保险类型",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "投资相连保险计划（投连险）的主要特点是什么？",
@@ -2955,7 +3259,8 @@
       "key_concept": "投连险",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种是储蓄型人寿保险的特征？",
@@ -2970,7 +3275,8 @@
       "key_concept": "人寿保险类型",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "第三者责任保险（第三者险）承保什么？",
@@ -2985,7 +3291,8 @@
       "key_concept": "一般保险产品",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "雇员补偿保险在香港是否属于强制性保险？",
@@ -3000,7 +3307,8 @@
       "key_concept": "一般保险产品",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "即期年金（immediate annuity）与延期年金（deferred annuity）的区别是什么？",
@@ -3015,7 +3323,8 @@
       "key_concept": "年金",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于团体人寿保险的说法，哪项是正确的？",
@@ -3030,7 +3339,8 @@
       "key_concept": "团体险",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "海上保险承保以下哪些风险？",
@@ -3045,7 +3355,8 @@
       "key_concept": "一般保险产品",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "万能人寿保险（universal life）的特点是什么？",
@@ -3060,7 +3371,8 @@
       "key_concept": "人寿保险类型",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "家居保险（家庭财产保险）通常承保以下哪些项目？",
@@ -3075,7 +3387,8 @@
       "key_concept": "一般保险产品",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于投连险（ILAS）的说法，哪项是正确的？",
@@ -3090,7 +3403,8 @@
       "key_concept": "投连险",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "危疾保险（critical illness insurance）与医疗保险的主要区别是什么？",
@@ -3105,7 +3419,8 @@
       "key_concept": "人寿保险类型",
       "difficulty": "medium",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "投连险中「冷静期」的作用是什么？",
@@ -3120,7 +3435,8 @@
       "key_concept": "投连险",
       "difficulty": "hard",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于可扣税延期年金（QDAP）的说法，哪项是正确的？",
@@ -3135,7 +3451,8 @@
       "key_concept": "年金",
       "difficulty": "hard",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种团体保险安排中，保费通常由雇主和雇员共同分担？",
@@ -3150,7 +3467,8 @@
       "key_concept": "团体险",
       "difficulty": "hard",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项不是投连险保单持有人面临的主要风险？",
@@ -3165,7 +3483,8 @@
       "key_concept": "投连险",
       "difficulty": "hard",
       "chapterId": "1-5",
-      "chapterName": "保险产品"
+      "chapterName": "保险产品",
+      "source": "ai-generated"
     },
     {
       "question": "香港保险业监管局（保监局）的主要职能是什么？",
@@ -3180,7 +3499,8 @@
       "key_concept": "保监局",
       "difficulty": "easy",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "IIQE是什么的缩写？",
@@ -3195,7 +3515,8 @@
       "key_concept": "IIQE要求",
       "difficulty": "easy",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "在香港从事保险中介活动，必须：",
@@ -3210,7 +3531,8 @@
       "key_concept": "中介人发牌",
       "difficulty": "easy",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保单持有人保障基金的目的是什么？",
@@ -3225,7 +3547,8 @@
       "key_concept": "保单持有人保障基金",
       "difficulty": "easy",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保险业条例对保险公司的最低资本要求，主要目的是什么？",
@@ -3240,7 +3563,8 @@
       "key_concept": "保险业条例",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种不是香港保险中介人的类别？",
@@ -3255,7 +3579,8 @@
       "key_concept": "中介人发牌",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保险中介人必须通过IIQE哪一卷才能销售一般保险产品？",
@@ -3270,7 +3595,8 @@
       "key_concept": "IIQE要求",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保监局对保险公司的监管包括以下哪些方面？",
@@ -3285,7 +3611,8 @@
       "key_concept": "保监局",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于保险中介人持续专业发展（CPD）要求的说法，哪项是正确的？",
@@ -3300,7 +3627,8 @@
       "key_concept": "中介人发牌",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保单持有人保障基金的资金来源是什么？",
@@ -3315,7 +3643,8 @@
       "key_concept": "保单持有人保障基金",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保险业条例中关于保险公司「获授权」的规定是指：",
@@ -3330,7 +3659,8 @@
       "key_concept": "保险业条例",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪项是保监局在保险中介人违规时可以采取的纪律处分？",
@@ -3345,7 +3675,8 @@
       "key_concept": "中介人发牌",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "在香港，保险代理人和保险经纪人在监管上的主要区别之一是：",
@@ -3360,7 +3691,8 @@
       "key_concept": "中介人发牌",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保险业条例要求保险公司必须保持充足的偿付能力边际（solvency margin），这是为了：",
@@ -3375,7 +3707,8 @@
       "key_concept": "保险业条例",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于香港保险投诉局的说法，哪项是正确的？",
@@ -3390,7 +3723,8 @@
       "key_concept": "保监局",
       "difficulty": "medium",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保险中介人牌照的申请人需要符合「适当人选」（fit and proper）准则，以下哪项不是考虑因素？",
@@ -3405,7 +3739,8 @@
       "key_concept": "中介人发牌",
       "difficulty": "hard",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保监局推行的「风险为本」监管模式的含义是：",
@@ -3420,7 +3755,8 @@
       "key_concept": "保监局",
       "difficulty": "hard",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保单持有人保障基金对个别保单的赔偿上限为何设定？",
@@ -3435,7 +3771,8 @@
       "key_concept": "保单持有人保障基金",
       "difficulty": "hard",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "2017年香港保险业监管制度改革的核心变化是什么？",
@@ -3450,7 +3787,8 @@
       "key_concept": "保监局",
       "difficulty": "hard",
       "chapterId": "1-6",
-      "chapterName": "监管框架"
+      "chapterName": "监管框架",
+      "source": "ai-generated"
     },
     {
       "question": "保险中介人操守守则的主要目的是什么？",
@@ -3465,7 +3803,8 @@
       "key_concept": "操守守则",
       "difficulty": "easy",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "AML/CTF在保险行业的含义是什么？",
@@ -3480,7 +3819,8 @@
       "key_concept": "AML/CTF",
       "difficulty": "easy",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "根据香港《个人资料（私隐）条例》，保险中介人在收集客户个人资料时必须：",
@@ -3495,7 +3835,8 @@
       "key_concept": "私隐条例",
       "difficulty": "easy",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "ICAC的全称是什么？",
@@ -3510,7 +3851,8 @@
       "key_concept": "ICAC",
       "difficulty": "easy",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "根据操守守则，保险中介人在向客户推荐产品时应遵循什么原则？",
@@ -3525,7 +3867,8 @@
       "key_concept": "操守守则",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "保险中介人在AML/CTF方面的主要责任包括什么？",
@@ -3540,7 +3883,8 @@
       "key_concept": "AML/CTF",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "根据《防止贿赂条例》（POBO），保险代理人接受客户的贿赂会面临什么后果？",
@@ -3555,7 +3899,8 @@
       "key_concept": "防贿条例POBO",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "保险欺诈（insurance fraud）的常见形式包括以下哪项？",
@@ -3570,7 +3915,8 @@
       "key_concept": "保险欺诈",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "保险中介人发现客户可能涉及洗钱活动时，应该怎么做？",
@@ -3585,7 +3931,8 @@
       "key_concept": "AML/CTF",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "根据私隐条例的保障资料原则，个人资料应：",
@@ -3600,7 +3947,8 @@
       "key_concept": "私隐条例",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "以下哪种行为违反了保险中介人的操守守则？",
@@ -3615,7 +3963,8 @@
       "key_concept": "操守守则",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "POBO中所指的「利益」（advantage）包括以下哪些？",
@@ -3630,7 +3979,8 @@
       "key_concept": "防贿条例POBO",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "保险中介人在进行客户尽职审查（CDD）时，需要核实客户的什么信息？",
@@ -3645,7 +3995,8 @@
       "key_concept": "AML/CTF",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "保险中介人如何降低保险欺诈的风险？",
@@ -3660,7 +4011,8 @@
       "key_concept": "保险欺诈",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "根据操守守则，保险中介人在处理客户投诉时应该怎么做？",
@@ -3675,7 +4027,8 @@
       "key_concept": "操守守则",
       "difficulty": "medium",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "保险中介人违反私隐条例可能面临什么后果？",
@@ -3690,7 +4043,8 @@
       "key_concept": "私隐条例",
       "difficulty": "hard",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "在香港，以下哪种情况可能构成POBO下的犯罪？",
@@ -3705,7 +4059,8 @@
       "key_concept": "防贿条例POBO",
       "difficulty": "hard",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "以下关于「打草惊蛇」（tipping off）的说法，哪项是正确的？",
@@ -3720,7 +4075,8 @@
       "key_concept": "AML/CTF",
       "difficulty": "hard",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     },
     {
       "question": "保险公司和中介人建立「合规文化」的重要性体现在：",
@@ -3735,10 +4091,11 @@
       "key_concept": "操守守则",
       "difficulty": "hard",
       "chapterId": "1-7",
-      "chapterName": "道德与合规"
+      "chapterName": "道德与合规",
+      "source": "ai-generated"
     }
   ],
   "generatedAt": "2026-03-25T14:52:00+08:00",
-  "version": 2,
-  "totalCount": 249
+  "version": 3,
+  "totalCount": 255
 }
