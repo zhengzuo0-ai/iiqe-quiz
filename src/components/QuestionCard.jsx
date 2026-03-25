@@ -45,20 +45,20 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
   const isCorrect = selected === question.correct
 
   return (
-    <div className="animate-fade-in">
+    <div className="animate-slide-from-right">
       <CelebrationEffect show={showCelebration} />
       {charMood && (
         <CharacterPopup mood={charMood} trigger={charTrigger} onDone={handleCharDone} />
       )}
 
       {/* Question */}
-      <div className="glass-card-solid rounded-2xl p-5 mb-3 shadow-sm">
+      <div className="glass-card-solid rounded-2xl p-5 mb-3">
         {question.key_concept && (
-          <span className="inline-block text-xs px-3 py-1 gradient-pink-purple-light text-lavender-500 rounded-full mb-3 font-medium">
+          <span className="inline-block text-xs px-3 py-1 gradient-pink-purple-light text-lavender-500 rounded-full mb-3 font-semibold">
             {question.key_concept}
           </span>
         )}
-        <p className="text-[15px] leading-relaxed text-gray-800 m-0">{question.question}</p>
+        <p className="text-[15px] leading-relaxed text-charcoal m-0">{question.question}</p>
       </div>
 
       {/* Options */}
@@ -67,7 +67,7 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
           const isSel = selected === k
           const isCorr = k === question.correct
           const isAnimating = animatingOption === k
-          let classes = 'option-hover flex items-start gap-3 p-3.5 rounded-xl border-2 text-left w-full '
+          let classes = 'option-hover flex items-start gap-3 p-4 rounded-xl border-2 text-left w-full min-h-[52px] '
           let circleClasses = 'flex items-center justify-center w-7 h-7 min-w-[28px] rounded-full text-xs font-bold transition-all '
 
           if (revealed) {
@@ -78,14 +78,14 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
               classes += 'bg-coral-50 border-coral-400 animate-wrong-shake'
               circleClasses += 'bg-coral-500 text-white'
             } else {
-              classes += 'bg-white/60 border-gray-100 opacity-40'
-              circleClasses += 'bg-gray-100 text-gray-400'
+              classes += 'bg-white/60 border-cream-100 opacity-40'
+              circleClasses += 'bg-cream-100 text-charcoal-light/40'
             }
           } else if (isSel) {
-            classes += 'bg-pink-50 border-pink-300 shadow-sm'
-            circleClasses += 'bg-pink-400 text-white'
+            classes += 'bg-lavender-50 border-lavender-300 shadow-sm'
+            circleClasses += 'bg-lavender-400 text-white'
           } else {
-            classes += 'bg-white/80 border-gray-100 hover:border-pink-200 hover:bg-pink-50/30'
+            classes += 'bg-white/80 border-cream-100 hover:border-lavender-200 hover:bg-lavender-50/30'
             circleClasses += 'bg-pink-50 text-pink-400'
           }
 
@@ -94,7 +94,7 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
           return (
             <button key={k} onClick={() => handleAnswer(k)} disabled={revealed} className={classes}>
               <span className={circleClasses}>{k}</span>
-              <span className="text-sm leading-relaxed text-gray-700 pt-0.5">{v}</span>
+              <span className="text-sm leading-relaxed text-charcoal-light pt-0.5">{v}</span>
             </button>
           )
         })}
@@ -102,21 +102,20 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
 
       {/* Result */}
       {revealed && (
-        <div className="animate-fade-in-up glass-card-solid rounded-2xl p-5 shadow-sm mb-3">
+        <div className="animate-fade-in-up glass-card-solid rounded-2xl p-5 mb-3">
           <div className="flex items-center justify-between mb-3">
             <div className={`text-base font-semibold ${isCorrect ? 'text-mint-600' : 'text-coral-500'}`}>
               {isCorrect ? '✨ 答对啦！好棒！' : getEncouragement()}
             </div>
             {isCorrect && <StreakBadge count={streak} />}
           </div>
-          <p className="text-sm leading-relaxed text-gray-600 whitespace-pre-wrap m-0">
+          <p className="text-sm leading-relaxed text-charcoal-light/70 whitespace-pre-wrap m-0">
             {question.explanation}
           </p>
           {showNext && (
             <button
               onClick={handleNext}
-              className="w-full mt-4 py-3.5 text-white rounded-xl text-sm font-medium active:scale-[0.98] transition-all shadow-lg"
-              style={{ background: 'linear-gradient(135deg, #f472b6 0%, #c4b5fd 100%)' }}
+              className="w-full mt-4 py-3.5 text-white rounded-xl text-sm font-semibold btn-primary"
             >
               下一题 →
             </button>

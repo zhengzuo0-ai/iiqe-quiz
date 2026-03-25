@@ -4,10 +4,10 @@ function MiniProgressRing({ value, size = 40, strokeWidth = 3 }) {
   const radius = (size - strokeWidth) / 2
   const circumference = 2 * Math.PI * radius
   const offset = circumference - (value / 100) * circumference
-  const color = value >= 70 ? '#22c55e' : value >= 50 ? '#d4a574' : '#f43f5e'
+  const color = value >= 70 ? '#5a8f5a' : value >= 50 ? '#d4a574' : '#d47070'
   return (
     <svg width={size} height={size} className="block">
-      <circle cx={size/2} cy={size/2} r={radius} fill="none" stroke="#f5f3ff" strokeWidth={strokeWidth} />
+      <circle cx={size/2} cy={size/2} r={radius} fill="none" stroke="#f5f0ff" strokeWidth={strokeWidth} />
       <circle
         cx={size/2} cy={size/2} r={radius} fill="none"
         stroke={color} strokeWidth={strokeWidth} strokeLinecap="round"
@@ -49,9 +49,9 @@ export default function WeaknessAnalysis({ stats, errorBook, onBack }) {
 
   return (
     <div className="animate-fade-in">
-      <div className="gradient-banner rounded-2xl px-5 py-4 mb-5 text-white">
-        <h2 className="text-xl font-normal mb-1">📊 薄弱分析</h2>
-        <p className="text-xs text-white/80">找到薄弱环节，精准提升</p>
+      <div className="gradient-banner rounded-2xl px-5 py-5 mb-5 text-white">
+        <h2 className="font-display text-2xl font-semibold mb-1">薄弱分析</h2>
+        <p className="text-xs text-white/70">找到薄弱环节，精准提升</p>
       </div>
 
       {/* Countdown + Goal */}

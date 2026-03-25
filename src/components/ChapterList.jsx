@@ -13,13 +13,13 @@ export default function ChapterList({ paperId, stats, onBack, onSelectChapter })
 
   return (
     <div className="animate-fade-in">
-      <button onClick={onBack} className="text-pink-400 text-sm mb-4 hover:text-pink-500 transition-colors">
+      <button onClick={onBack} className="text-lavender-400 text-sm mb-4 hover:text-lavender-500 transition-colors font-medium">
         ← 返回首页
       </button>
 
-      <div className="gradient-banner rounded-2xl px-5 py-4 mb-5 text-white">
-        <h2 className="text-xl font-normal mb-1">{paper.name}</h2>
-        <p className="text-xs text-white/80">{paper.examDate} · 及格线 {paper.passRate}</p>
+      <div className="gradient-banner rounded-2xl px-5 py-5 mb-5 text-white">
+        <h2 className="font-display text-2xl font-semibold mb-1">{paper.name}</h2>
+        <p className="text-xs text-white/70">{paper.examDate} · 及格线 {paper.passRate}</p>
       </div>
 
       <div className="stagger-children space-y-2.5">
@@ -42,20 +42,20 @@ export default function ChapterList({ paperId, stats, onBack, onSelectChapter })
                 <div className="flex items-start gap-3">
                   <span className="text-lg mt-0.5">{emoji}</span>
                   <div>
-                    <div className="text-[15px] text-gray-800">{ch.name}</div>
-                    <div className="text-xs text-gray-400 mt-1">{ch.nameEn} · 占比{ch.weight}%</div>
+                    <div className="text-[15px] text-charcoal font-medium">{ch.name}</div>
+                    <div className="text-xs text-charcoal-light/45 mt-1">{ch.nameEn} · 占比{ch.weight}%</div>
                   </div>
                 </div>
                 <div className="text-right">
                   {s.total > 0 ? (
                     <>
-                      <div className={`text-lg font-light ${acc >= 70 ? 'text-mint-600' : acc >= 50 ? 'text-warm-500' : 'text-coral-500'}`}>
+                      <div className={`font-display text-lg font-semibold ${acc >= 70 ? 'text-mint-600' : acc >= 50 ? 'text-warm-500' : 'text-coral-500'}`}>
                         {acc}%
                       </div>
-                      <div className="text-[10px] text-gray-400">{s.total}题</div>
+                      <div className="text-[10px] text-charcoal-light/40">{s.total}题</div>
                     </>
                   ) : (
-                    <div className="text-xs text-gray-300">未开始</div>
+                    <div className="text-xs text-charcoal-light/25">未开始</div>
                   )}
                 </div>
               </div>
