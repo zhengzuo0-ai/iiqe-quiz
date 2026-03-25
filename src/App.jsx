@@ -12,10 +12,17 @@ import ReviewMode from './components/ReviewMode'
 import WeaknessAnalysis from './components/WeaknessAnalysis'
 import AchievementToast from './components/AchievementToast'
 
+const NAV_ITEMS = [
+  { id: 'home', icon: '🏠', label: '首页' },
+  { id: 'errorbook', icon: '📝', label: '错题' },
+  { id: 'analysis', icon: '📊', label: '分析' },
+]
+
 export default function App() {
   const [view, setView] = useState('home')
   const [viewData, setViewData] = useState({})
   const [toastQueue, setToastQueue] = useState([])
+  const [transitioning, setTransitioning] = useState(false)
 
   const stats = useStats()
   const errorBook = useErrorBook()
@@ -32,8 +39,13 @@ export default function App() {
   }, [stats.stats, stats.streak, stats.daily])
 
   const navigate = useCallback((v, data = {}) => {
-    setView(v)
-    setViewData(data)
+    setTransitioning(true)
+    setTimeout(() => {
+      setView(v)
+      setViewData(data)
+      setTransitioning(false)
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }, 150)
   }, [])
 
   const handleStartExam = useCallback((paperId) => {
@@ -43,6 +55,8 @@ export default function App() {
   const dismissToast = useCallback(() => {
     setToastQueue(q => q.slice(1))
   }, [])
+
+  const showBottomNav = ['home', 'errorbook', 'analysis'].includes(view)
 
   const renderView = () => {
     switch (view) {
@@ -123,11 +137,48 @@ export default function App() {
   }
 
   return (
-    <div className="max-w-xl mx-auto px-4 pb-16 min-h-screen">
+    <div className="max-w-xl mx-auto px-4 min-h-screen" style={{ paddingBottom: showBottomNav ? 80 : 16 }}>
       {toastQueue.length > 0 && (
         <AchievementToast achievement={toastQueue[0]} onDone={dismissToast} />
       )}
-      {renderView()}
+      <div
+        className="transition-opacity duration-150"
+        style={{ opacity: transitioning ? 0 : 1 }}
+      >
+        {renderView()}
+      </div>
+
+      {/* Bottom Navigation */}
+      {showBottomNav && (
+        <nav className="fixed bottom-0 left-0 right-0 bottom-nav z-40 animate-slide-up">
+          <div className="max-w-xl mx-auto flex justify-around items-center py-2 px-4">
+            {NAV_ITEMS.map(item => {
+              const isActive = view === item.id
+              return (
+                <button
+                  key={item.id}
+                  onClick={() => view !== item.id && navigate(item.id)}
+                  className={`flex flex-col items-center gap-0.5 py-1.5 px-5 rounded-xl transition-all ${
+                    isActive
+                      ? 'text-pink-500'
+                      : 'text-gray-400 hover:text-pink-400'
+                  }`}
+                >
+                  <span className={`text-xl transition-transform ${isActive ? 'scale-110' : ''}`}>
+                    {item.icon}
+                  </span>
+                  <span className={`text-[10px] font-medium ${isActive ? 'text-pink-500' : ''}`}>
+                    {item.label}
+                  </span>
+                  {isActive && (
+                    <div className="w-1 h-1 rounded-full gradient-pink-purple mt-0.5" />
+                  )}
+                </button>
+              )
+            })}
+          </div>
+        </nav>
+      )}
     </div>
   )
 }

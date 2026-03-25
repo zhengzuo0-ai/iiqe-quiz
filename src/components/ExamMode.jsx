@@ -67,28 +67,35 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
 
     return (
       <div className="animate-fade-in">
-        <div className="bg-white rounded-2xl p-8 text-center border border-pink-100 shadow-sm mb-5">
-          <div className="text-5xl mb-3">{passed ? '🎉' : '💪'}</div>
-          <h2 className="text-xl font-normal text-gray-800 mb-2">
-            {passed ? '恭喜通过！太棒了！' : '继续加油！你可以的！'}
-          </h2>
-          <div className={`text-5xl font-light my-4 ${passed ? 'text-mint-600' : 'text-coral-500'}`}>{pct}%</div>
-          <div className="text-sm text-gray-400">{correct}/{questions.length} 正确 · 用时 {fmt(timer)}</div>
-          <div className="mt-4 text-xs text-gray-300 border-t border-dashed border-pink-100 pt-3">及格线 70%</div>
+        <div className="glass-card-solid rounded-2xl p-8 text-center shadow-md mb-5 relative overflow-hidden">
+          {passed && (
+            <div className="absolute inset-0 gradient-pink-purple-light opacity-50" />
+          )}
+          <div className="relative z-10">
+            <div className="text-5xl mb-3">{passed ? '🎉' : '💪'}</div>
+            <h2 className="text-xl font-normal text-gray-800 mb-2">
+              {passed ? '恭喜通过！太棒了！' : '继续加油！你可以的！'}
+            </h2>
+            <div className={`text-5xl font-light my-4 ${passed ? 'text-mint-600' : 'text-coral-500'}`}>{pct}%</div>
+            <div className="text-sm text-gray-400">{correct}/{questions.length} 正确 · 用时 {fmt(timer)}</div>
+            <div className="mt-4 text-xs text-gray-300 border-t border-dashed border-pink-100 pt-3">及格线 70%</div>
+          </div>
         </div>
 
         {passed && <CelebrationPopup show={passed} />}
 
-        <div className="text-xs text-pink-300 tracking-wider mb-3">📋 题目回顾</div>
+        <div className="text-xs text-pink-400 tracking-wider mb-3 font-medium">📋 题目回顾</div>
         <div className="space-y-2.5">
           {questions.map((q, i) => {
             const ans = answers[i]
             const ok = ans === q.correct
             return (
-              <div key={i} className={`bg-white rounded-xl p-4 border-l-[3px] border border-pink-100 ${ok ? 'border-l-mint-400' : 'border-l-coral-400'}`}>
+              <div key={i} className={`glass-card-solid rounded-xl p-4 border-l-4 ${ok ? 'border-l-mint-400' : 'border-l-coral-400'}`}>
                 <div className="flex justify-between items-center mb-2">
                   <span className="text-xs text-gray-400">Q{i + 1} · {q._ch.name}</span>
-                  <span className={`text-xs font-semibold ${ok ? 'text-mint-600' : 'text-coral-500'}`}>{ok ? '✓' : '✗'}</span>
+                  <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${ok ? 'text-mint-600 bg-mint-50' : 'text-coral-500 bg-coral-50'}`}>
+                    {ok ? '✓ 正确' : '✗ 错误'}
+                  </span>
                 </div>
                 <p className="text-sm leading-relaxed text-gray-700 mb-2">{q.question}</p>
                 {!ok && (
@@ -112,7 +119,8 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
         </div>
         <button
           onClick={onBack}
-          className="w-full mt-4 py-3.5 bg-gradient-to-r from-pink-400 to-pink-500 text-white rounded-xl text-sm font-medium hover:from-pink-500 hover:to-pink-600 active:scale-[0.98] transition-all shadow-md"
+          className="w-full mt-4 py-3.5 text-white rounded-xl text-sm font-medium active:scale-[0.98] transition-all shadow-lg"
+          style={{ background: 'linear-gradient(135deg, #f472b6 0%, #c4b5fd 100%)' }}
         >
           返回首页
         </button>
@@ -127,19 +135,19 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
     <div className="animate-fade-in">
       {/* Header */}
       <div className="flex justify-between items-center mb-2">
-        <span className="text-sm text-gray-500">⏱ {fmt(timer)}</span>
-        <span className="text-sm text-pink-400">{currentIdx + 1} / {questions.length}</span>
+        <span className="text-sm text-gray-500 bg-white/60 px-3 py-1 rounded-full">⏱ {fmt(timer)}</span>
+        <span className="text-sm text-pink-400 bg-pink-50 px-3 py-1 rounded-full font-medium">{currentIdx + 1} / {questions.length}</span>
       </div>
-      <div className="h-1 bg-pink-50 rounded-full mb-5 overflow-hidden">
+      <div className="h-1.5 bg-pink-50 rounded-full mb-5 overflow-hidden">
         <div
-          className="h-full bg-gradient-to-r from-pink-300 to-pink-400 rounded-full transition-all duration-300"
+          className="h-full rounded-full transition-all duration-300 gradient-progress"
           style={{ width: `${((currentIdx + 1) / questions.length) * 100}%` }}
         />
       </div>
 
       {/* Question */}
-      <div className="bg-white rounded-2xl p-5 mb-3 border border-pink-100 shadow-sm">
-        <span className="inline-block text-xs px-3 py-1 bg-lavender-50 text-lavender-400 rounded-full mb-3">{cq._ch.name}</span>
+      <div className="glass-card-solid rounded-2xl p-5 mb-3 shadow-sm">
+        <span className="inline-block text-xs px-3 py-1 gradient-pink-purple-light text-lavender-500 rounded-full mb-3">{cq._ch.name}</span>
         <p className="text-[15px] leading-relaxed text-gray-800 m-0">{cq.question}</p>
       </div>
 
@@ -151,11 +159,11 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
             <button
               key={k}
               onClick={() => setAnswers(p => ({ ...p, [currentIdx]: k }))}
-              className={`flex items-start gap-3 p-3.5 rounded-xl border-2 text-left transition-all w-full ${
-                isSel ? 'bg-pink-50 border-pink-300' : 'bg-white border-gray-100 hover:border-pink-200'
+              className={`option-hover flex items-start gap-3 p-3.5 rounded-xl border-2 text-left w-full ${
+                isSel ? 'bg-pink-50 border-pink-300 shadow-sm' : 'bg-white/80 border-gray-100 hover:border-pink-200'
               }`}
             >
-              <span className={`flex items-center justify-center w-7 h-7 min-w-[28px] rounded-full text-xs font-bold ${
+              <span className={`flex items-center justify-center w-7 h-7 min-w-[28px] rounded-full text-xs font-bold transition-all ${
                 isSel ? 'bg-pink-400 text-white' : 'bg-pink-50 text-pink-400'
               }`}>{k}</span>
               <span className="text-sm leading-relaxed text-gray-700 pt-0.5">{v}</span>
@@ -167,18 +175,22 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
       {/* Nav */}
       <div className="flex gap-2.5">
         {currentIdx > 0 && (
-          <button onClick={() => setCurrentIdx(i => i - 1)} className="px-4 py-3 border border-pink-100 rounded-xl bg-white text-sm text-gray-500 hover:border-pink-200 transition-colors">
+          <button onClick={() => setCurrentIdx(i => i - 1)} className="px-4 py-3 glass-card-solid rounded-xl text-sm text-gray-500 hover:shadow-sm transition-all">
             ← 上一题
           </button>
         )}
         <div className="flex-1" />
         {currentIdx < questions.length - 1 ? (
-          <button onClick={() => setCurrentIdx(i => i + 1)} className="px-4 py-3 bg-gray-800 text-white rounded-xl text-sm hover:bg-gray-700 transition-colors">
+          <button
+            onClick={() => setCurrentIdx(i => i + 1)}
+            className="px-4 py-3 text-white rounded-xl text-sm transition-all shadow-md active:scale-[0.98]"
+            style={{ background: 'linear-gradient(135deg, #a78bfa 0%, #c4b5fd 100%)' }}
+          >
             下一题 →
           </button>
         ) : (
-          <button onClick={submit} className="px-4 py-3 bg-mint-500 text-white rounded-xl text-sm hover:bg-mint-600 transition-colors">
-            提交试卷
+          <button onClick={submit} className="px-4 py-3 bg-mint-500 text-white rounded-xl text-sm hover:bg-mint-600 transition-colors shadow-md active:scale-[0.98]">
+            提交试卷 ✓
           </button>
         )}
       </div>
@@ -191,8 +203,8 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
             onClick={() => setCurrentIdx(i)}
             className={`w-2.5 h-2.5 rounded-full border-none transition-all ${
               answers[i]
-                ? (i === currentIdx ? 'bg-pink-400 scale-125' : 'bg-pink-300')
-                : (i === currentIdx ? 'bg-gray-400 scale-125' : 'bg-gray-200')
+                ? (i === currentIdx ? 'bg-pink-400 scale-125 shadow-sm' : 'bg-pink-300')
+                : (i === currentIdx ? 'bg-lavender-400 scale-125' : 'bg-gray-200')
             }`}
           />
         ))}

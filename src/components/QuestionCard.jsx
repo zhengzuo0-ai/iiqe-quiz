@@ -10,16 +10,18 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
   const [showCelebration, setShowCelebration] = useState(false)
   const [charMood, setCharMood] = useState(null)
   const [charTrigger, setCharTrigger] = useState(0)
+  const [animatingOption, setAnimatingOption] = useState(null)
 
   const handleAnswer = (key) => {
     if (revealed) return
     setSelected(key)
+    setAnimatingOption(key)
+    setTimeout(() => setAnimatingOption(null), 300)
     setRevealed(true)
     const isCorrect = key === question.correct
     if (isCorrect) setShowCelebration(true)
     onAnswer(key, isCorrect)
 
-    // Character popup: streak milestone takes priority, then cheer/encourage
     const newStreak = isCorrect ? streak + 1 : 0
     if (isCorrect && STREAK_MILESTONES.includes(newStreak)) {
       setCharMood('surprise')
@@ -50,9 +52,9 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
       )}
 
       {/* Question */}
-      <div className="bg-white rounded-2xl p-5 mb-3 border border-pink-100 shadow-sm">
+      <div className="glass-card-solid rounded-2xl p-5 mb-3 shadow-sm">
         {question.key_concept && (
-          <span className="inline-block text-xs px-3 py-1 bg-lavender-50 text-lavender-400 rounded-full mb-3 font-medium">
+          <span className="inline-block text-xs px-3 py-1 gradient-pink-purple-light text-lavender-500 rounded-full mb-3 font-medium">
             {question.key_concept}
           </span>
         )}
@@ -64,27 +66,30 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
         {Object.entries(question.options).map(([k, v]) => {
           const isSel = selected === k
           const isCorr = k === question.correct
-          let classes = 'flex items-start gap-3 p-3.5 rounded-xl border-2 text-left transition-all duration-150 w-full '
+          const isAnimating = animatingOption === k
+          let classes = 'option-hover flex items-start gap-3 p-3.5 rounded-xl border-2 text-left w-full '
           let circleClasses = 'flex items-center justify-center w-7 h-7 min-w-[28px] rounded-full text-xs font-bold transition-all '
 
           if (revealed) {
             if (isCorr) {
-              classes += 'bg-mint-50 border-mint-400'
+              classes += 'bg-mint-50 border-mint-400 animate-correct-flash'
               circleClasses += 'bg-mint-500 text-white'
             } else if (isSel) {
-              classes += 'bg-coral-50 border-coral-400'
+              classes += 'bg-coral-50 border-coral-400 animate-wrong-shake'
               circleClasses += 'bg-coral-500 text-white'
             } else {
-              classes += 'bg-white border-gray-100 opacity-50'
+              classes += 'bg-white/60 border-gray-100 opacity-40'
               circleClasses += 'bg-gray-100 text-gray-400'
             }
           } else if (isSel) {
-            classes += 'bg-pink-50 border-pink-300'
+            classes += 'bg-pink-50 border-pink-300 shadow-sm'
             circleClasses += 'bg-pink-400 text-white'
           } else {
-            classes += 'bg-white border-gray-100 hover:border-pink-200 hover:bg-pink-50/30 active:scale-[0.98]'
+            classes += 'bg-white/80 border-gray-100 hover:border-pink-200 hover:bg-pink-50/30'
             circleClasses += 'bg-pink-50 text-pink-400'
           }
+
+          if (isAnimating) classes += ' animate-bounce-select'
 
           return (
             <button key={k} onClick={() => handleAnswer(k)} disabled={revealed} className={classes}>
@@ -97,7 +102,7 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
 
       {/* Result */}
       {revealed && (
-        <div className="animate-fade-in bg-white rounded-2xl p-5 border border-pink-100 shadow-sm mb-3">
+        <div className="animate-fade-in-up glass-card-solid rounded-2xl p-5 shadow-sm mb-3">
           <div className="flex items-center justify-between mb-3">
             <div className={`text-base font-semibold ${isCorrect ? 'text-mint-600' : 'text-coral-500'}`}>
               {isCorrect ? '✨ 答对啦！好棒！' : getEncouragement()}
@@ -110,7 +115,8 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
           {showNext && (
             <button
               onClick={handleNext}
-              className="w-full mt-4 py-3.5 bg-gradient-to-r from-pink-400 to-pink-500 text-white rounded-xl text-sm font-medium hover:from-pink-500 hover:to-pink-600 active:scale-[0.98] transition-all shadow-md"
+              className="w-full mt-4 py-3.5 text-white rounded-xl text-sm font-medium active:scale-[0.98] transition-all shadow-lg"
+              style={{ background: 'linear-gradient(135deg, #f472b6 0%, #c4b5fd 100%)' }}
             >
               下一题 →
             </button>

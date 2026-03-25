@@ -52,8 +52,18 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
       <div className="mb-4">
         <h3 className="text-lg font-normal text-gray-800 mb-1">{chapter.name}</h3>
         <div className="text-xs text-gray-400">
-          {s.total > 0 ? `已做${s.total}题 · 正确率${acc}%` : '开始练习'}
+          {s.total > 0 ? (
+            <span>
+              已做{s.total}题 · 正确率
+              <span className={`ml-1 font-medium ${acc >= 70 ? 'text-mint-600' : 'text-coral-500'}`}>{acc}%</span>
+            </span>
+          ) : '开始练习'}
         </div>
+        {s.total > 0 && (
+          <div className="h-1 bg-pink-50 rounded-full overflow-hidden mt-2">
+            <div className="h-full rounded-full gradient-progress transition-all duration-500" style={{ width: `${Math.min(100, acc)}%` }} />
+          </div>
+        )}
       </div>
 
       {loading ? (
@@ -63,7 +73,7 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
           <p className="text-coral-500 text-sm mb-3">{error}</p>
           <button
             onClick={fetchQuestion}
-            className="px-5 py-2 border border-pink-200 rounded-lg bg-white text-sm text-gray-600 hover:border-pink-300 transition-colors"
+            className="px-5 py-2 glass-card-solid rounded-lg text-sm text-gray-600 hover:shadow-sm transition-all"
           >
             重试
           </button>
