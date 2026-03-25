@@ -84,7 +84,7 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
 
         {passed && <CelebrationPopup show={passed} />}
 
-        <div className="text-xs text-lavender-400 tracking-wider mb-3 font-semibold uppercase">题目回顾</div>
+        <div className="text-xs text-pink-400 tracking-wider mb-3 font-semibold uppercase">题目回顾</div>
         <div className="space-y-2.5">
           {questions.map((q, i) => {
             const ans = answers[i]
@@ -135,7 +135,7 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
       {/* Header */}
       <div className="flex justify-between items-center mb-2">
         <span className="text-sm text-charcoal-light/60 bg-white/60 px-3 py-1.5 rounded-full">⏱ {fmt(timer)}</span>
-        <span className="text-sm text-lavender-500 bg-lavender-50 px-3 py-1.5 rounded-full font-semibold">{currentIdx + 1} / {questions.length}</span>
+        <span className="text-sm text-pink-500 bg-pink-50 px-3 py-1.5 rounded-full font-semibold">{currentIdx + 1} / {questions.length}</span>
       </div>
       <div className="h-1.5 bg-cream-100 rounded-full mb-5 overflow-hidden">
         <div
@@ -146,7 +146,7 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
 
       {/* Question */}
       <div className="glass-card-solid rounded-2xl p-5 mb-3">
-        <span className="inline-block text-xs px-3 py-1 gradient-pink-purple-light text-lavender-500 rounded-full mb-3 font-semibold">{cq._ch.name}</span>
+        <span className="inline-block text-xs px-3 py-1 gradient-pink-purple-light text-pink-500 rounded-full mb-3 font-semibold">{cq._ch.name}</span>
         <p className="text-[15px] leading-relaxed text-charcoal m-0">{cq.question}</p>
       </div>
 
@@ -159,11 +159,11 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
               key={k}
               onClick={() => setAnswers(p => ({ ...p, [currentIdx]: k }))}
               className={`option-hover flex items-start gap-3 p-4 rounded-xl border-2 text-left w-full min-h-[52px] ${
-                isSel ? 'bg-lavender-50 border-lavender-300 shadow-sm' : 'bg-white/80 border-cream-100 hover:border-lavender-200'
+                isSel ? 'bg-pink-50 border-pink-300 shadow-sm' : 'bg-white/80 border-cream-100 hover:border-pink-200'
               }`}
             >
               <span className={`flex items-center justify-center w-7 h-7 min-w-[28px] rounded-full text-xs font-bold transition-all ${
-                isSel ? 'bg-lavender-400 text-white' : 'bg-pink-50 text-pink-400'
+                isSel ? 'bg-pink-400 text-white' : 'bg-pink-50 text-pink-400'
               }`}>{k}</span>
               <span className="text-sm leading-relaxed text-charcoal-light pt-0.5">{v}</span>
             </button>
@@ -202,7 +202,7 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
             className={`w-2.5 h-2.5 rounded-full border-none transition-all ${
               answers[i]
                 ? (i === currentIdx ? 'bg-pink-400 scale-125 shadow-sm' : 'bg-pink-300')
-                : (i === currentIdx ? 'bg-lavender-400 scale-125' : 'bg-gray-200')
+                : (i === currentIdx ? 'bg-pink-400 scale-125' : 'bg-gray-200')
             }`}
           />
         ))}

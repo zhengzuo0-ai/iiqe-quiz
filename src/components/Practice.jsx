@@ -69,7 +69,7 @@ function ModuleSummary({ results, chapter, timeSpent, onRetry, onBack }) {
 
       {/* Question Review */}
       <div className="glass-card-solid rounded-2xl p-5">
-        <div className="text-xs text-lavender-400 font-semibold mb-3 uppercase tracking-wider">答题回顾</div>
+        <div className="text-xs text-pink-400 font-semibold mb-3 uppercase tracking-wider">答题回顾</div>
         <div className="space-y-2">
           {results.map((r, i) => (
             <div key={i} className="flex items-start gap-2 text-xs">
@@ -121,7 +121,40 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
   const startTimeRef = useRef(Date.now())
   const [timeSpent, setTimeSpent] = useState(0)
 
+  // Smart question batch
+  const smartBatchRef = useRef(null)
+
+  const fetchSmartBatch = useCallback(async () => {
+    setLoading(true)
+    setError(null)
+    try {
+      const batch = await questionBank.getSmartQuestions(
+        paperId, chapter.id, MODULE_SIZE,
+        { statsHook: stats, errorBookHook: errorBook }
+      )
+      smartBatchRef.current = batch
+      if (batch.length > 0) {
+        setQuestion(batch[0])
+      } else {
+        // Fallback to single question fetch
+        const q = await questionBank.getQuestion(paperId, chapter)
+        smartBatchRef.current = null
+        setQuestion(q)
+      }
+    } catch {
+      setError('题目加载失败，请重试')
+    }
+    setLoading(false)
+  }, [paperId, chapter, questionBank, stats, errorBook])
+
+  useEffect(() => { fetchSmartBatch() }, []) // eslint-disable-line react-hooks/exhaustive-deps
+
   const fetchQuestion = useCallback(async () => {
+    // Try to serve from smart batch first
+    if (smartBatchRef.current && smartBatchRef.current[moduleIndex]) {
+      setQuestion(smartBatchRef.current[moduleIndex])
+      return
+    }
     setLoading(true)
     setError(null)
     try {
@@ -131,9 +164,7 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
       setError('题目加载失败，请重试')
     }
     setLoading(false)
-  }, [paperId, chapter, questionBank])
-
-  useEffect(() => { fetchQuestion() }, [fetchQuestion])
+  }, [paperId, chapter, questionBank, moduleIndex])
 
   const handleAnswer = (key, isCorrect) => {
     stats.recordAnswer(chapter.id, isCorrect)
@@ -162,7 +193,12 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
     }
     setModuleIndex(nextIndex)
     setQuestionKey(k => k + 1)
-    fetchQuestion()
+    // Serve from smart batch if available
+    if (smartBatchRef.current && smartBatchRef.current[nextIndex]) {
+      setQuestion(smartBatchRef.current[nextIndex])
+    } else {
+      fetchQuestion()
+    }
   }
 
   const handleRetry = () => {
@@ -171,7 +207,8 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
     setModuleComplete(false)
     startTimeRef.current = Date.now()
     setQuestionKey(k => k + 1)
-    fetchQuestion()
+    smartBatchRef.current = null
+    fetchSmartBatch()
   }
 
   const s = stats.getStat(chapter.id)
@@ -191,7 +228,7 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
 
   return (
     <div className="animate-fade-in">
-      <button onClick={onBack} className="text-lavender-400 text-sm mb-3 hover:text-lavender-500 transition-colors font-medium">
+      <button onClick={onBack} className="text-pink-400 text-sm mb-3 hover:text-pink-500 transition-colors font-medium">
         ← 返回章节
       </button>
       <div className="mb-4">
@@ -205,7 +242,7 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
               </span>
             ) : '开始练习'}
           </div>
-          <div className="text-xs font-semibold text-lavender-400">
+          <div className="text-xs font-semibold text-pink-400">
             {moduleIndex + 1} / {MODULE_SIZE}
           </div>
         </div>

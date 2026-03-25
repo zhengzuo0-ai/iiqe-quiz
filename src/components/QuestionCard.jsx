@@ -68,7 +68,7 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
       {/* Question */}
       <div className="glass-card-solid rounded-2xl p-5 mb-3">
         {question.key_concept && (
-          <span className="inline-block text-xs px-3 py-1 gradient-pink-purple-light text-lavender-500 rounded-full mb-3 font-semibold">
+          <span className="inline-block text-xs px-3 py-1 gradient-pink-purple-light text-pink-500 rounded-full mb-3 font-semibold">
             {question.key_concept}
           </span>
         )}
@@ -96,10 +96,10 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
               circleClasses += 'bg-cream-100 text-charcoal-light/40'
             }
           } else if (isSel) {
-            classes += 'bg-lavender-50 border-lavender-300 shadow-sm'
-            circleClasses += 'bg-lavender-400 text-white'
+            classes += 'bg-pink-50 border-pink-300 shadow-sm'
+            circleClasses += 'bg-pink-400 text-white'
           } else {
-            classes += 'bg-white/80 border-cream-100 hover:border-lavender-200 hover:bg-lavender-50/30'
+            classes += 'bg-white/80 border-cream-100 hover:border-pink-200 hover:bg-pink-50/30'
             circleClasses += 'bg-pink-50 text-pink-400'
           }
 
@@ -135,7 +135,7 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
 
           {/* Main explanation */}
           <div className="mb-3">
-            <div className="text-xs font-semibold text-lavender-400 mb-1.5">📖 解析</div>
+            <div className="text-xs font-semibold text-pink-400 mb-1.5">📖 解析</div>
             <p className="text-sm leading-relaxed text-charcoal-light/80 whitespace-pre-wrap m-0">
               {question.explanation}
             </p>
@@ -145,7 +145,7 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
           {!showFullExplanation ? (
             <button
               onClick={() => setShowFullExplanation(true)}
-              className="w-full text-xs text-lavender-400 font-medium py-2 hover:text-lavender-500 transition-colors"
+              className="w-full text-xs text-pink-400 font-medium py-2 hover:text-pink-500 transition-colors"
             >
               📚 展开详解 — 查看每个选项分析 ▼
             </button>
@@ -181,8 +181,8 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
 
               {/* Key concept reminder */}
               {question.key_concept && (
-                <div className="p-3 bg-lavender-50 rounded-xl border border-lavender-200">
-                  <div className="text-xs font-semibold text-lavender-500 mb-1">📚 相关知识点</div>
+                <div className="p-3 bg-pink-50 rounded-xl border border-pink-200">
+                  <div className="text-xs font-semibold text-pink-500 mb-1">📚 相关知识点</div>
                   <div className="text-xs text-charcoal-light/70">
                     考点：{question.key_concept}
                   </div>

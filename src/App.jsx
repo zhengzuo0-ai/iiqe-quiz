@@ -160,14 +160,14 @@ export default function App() {
                   onClick={() => view !== item.id && navigate(item.id)}
                   className={`flex flex-col items-center gap-0.5 py-2 px-5 rounded-xl transition-all ${
                     isActive
-                      ? 'text-lavender-500'
-                      : 'text-charcoal-light/35 hover:text-lavender-400'
+                      ? 'text-pink-500'
+                      : 'text-charcoal-light/35 hover:text-pink-400'
                   }`}
                 >
                   <span className={`text-xl transition-transform ${isActive ? 'scale-110' : ''}`}>
                     {item.icon}
                   </span>
-                  <span className={`text-[10px] font-semibold ${isActive ? 'text-lavender-500' : ''}`}>
+                  <span className={`text-[10px] font-semibold ${isActive ? 'text-pink-500' : ''}`}>
                     {item.label}
                   </span>
                   {isActive && (

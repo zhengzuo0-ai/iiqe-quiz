@@ -13,7 +13,7 @@ export default function ChapterList({ paperId, stats, onBack, onSelectChapter })
 
   return (
     <div className="animate-fade-in">
-      <button onClick={onBack} className="text-lavender-400 text-sm mb-4 hover:text-lavender-500 transition-colors font-medium">
+      <button onClick={onBack} className="text-pink-400 text-sm mb-4 hover:text-pink-500 transition-colors font-medium">
         ← 返回首页
       </button>
 

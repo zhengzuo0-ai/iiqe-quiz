@@ -7,7 +7,7 @@ function MiniProgressRing({ value, size = 40, strokeWidth = 3 }) {
   const color = value >= 70 ? '#5a8f5a' : value >= 50 ? '#d4a574' : '#d47070'
   return (
     <svg width={size} height={size} className="block">
-      <circle cx={size/2} cy={size/2} r={radius} fill="none" stroke="#f5f0ff" strokeWidth={strokeWidth} />
+      <circle cx={size/2} cy={size/2} r={radius} fill="none" stroke="#fef5f0" strokeWidth={strokeWidth} />
       <circle
         cx={size/2} cy={size/2} r={radius} fill="none"
         stroke={color} strokeWidth={strokeWidth} strokeLinecap="round"
@@ -64,8 +64,8 @@ export default function WeaknessAnalysis({ stats, errorBook, onBack }) {
             <div className="text-[11px] text-charcoal-light/50">天倒计时</div>
           </div>
           <div className="text-center">
-            <div className="flex items-center justify-center w-16 h-16 rounded-full bg-lavender-50 border-2 border-lavender-200 mx-auto mb-1">
-              <span className="font-display text-xl font-bold text-lavender-500">{dailyGoal}</span>
+            <div className="flex items-center justify-center w-16 h-16 rounded-full bg-pink-50 border-2 border-pink-200 mx-auto mb-1">
+              <span className="font-display text-xl font-bold text-pink-500">{dailyGoal}</span>
             </div>
             <div className="text-[11px] text-charcoal-light/50">每日建议</div>
           </div>
@@ -174,13 +174,13 @@ export default function WeaknessAnalysis({ stats, errorBook, onBack }) {
       {/* Error concept frequency */}
       {topConcepts.length > 0 && (
         <div className="glass-card-solid rounded-2xl p-4 shadow-sm mb-3">
-          <div className="text-xs text-lavender-400 tracking-wider mb-3 font-semibold uppercase">高频错误考点</div>
+          <div className="text-xs text-pink-400 tracking-wider mb-3 font-semibold uppercase">高频错误考点</div>
           <div className="space-y-2">
             {topConcepts.map(([concept, count]) => (
               <div key={concept} className="flex justify-between items-center">
                 <span className="text-sm text-charcoal-light truncate mr-2">{concept}</span>
                 <div className="flex items-center gap-2">
-                  <div className="w-20 h-1.5 bg-lavender-50 rounded-full overflow-hidden">
+                  <div className="w-20 h-1.5 bg-pink-50 rounded-full overflow-hidden">
                     <div
                       className="h-full rounded-full gradient-progress"
                       style={{ width: `${Math.min(100, (count / topConcepts[0][1]) * 100)}%` }}

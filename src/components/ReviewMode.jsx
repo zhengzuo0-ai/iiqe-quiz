@@ -16,7 +16,7 @@ export default function ReviewMode({ errorBook, onBack, mode = 'review' }) {
   if (questions.length === 0) {
     return (
       <div className="animate-fade-in">
-        <button onClick={onBack} className="text-lavender-400 text-sm mb-4 hover:text-lavender-500 transition-colors font-medium">
+        <button onClick={onBack} className="text-pink-400 text-sm mb-4 hover:text-pink-500 transition-colors font-medium">
           ← 返回
         </button>
         <div className="text-center py-16">
@@ -59,16 +59,16 @@ export default function ReviewMode({ errorBook, onBack, mode = 'review' }) {
   return (
     <div className="animate-fade-in">
       <div className="flex justify-between items-center mb-4">
-        <button onClick={onBack} className="text-lavender-400 text-sm hover:text-lavender-500 transition-colors font-medium">
+        <button onClick={onBack} className="text-pink-400 text-sm hover:text-pink-500 transition-colors font-medium">
           ← 返回
         </button>
-        <span className="text-sm text-lavender-500 bg-lavender-50 px-3 py-1.5 rounded-full font-semibold">
+        <span className="text-sm text-pink-500 bg-pink-50 px-3 py-1.5 rounded-full font-semibold">
           {currentIdx + 1} / {questions.length}
         </span>
       </div>
 
       <div className="mb-3">
-        <span className="text-xs px-3 py-1 gradient-pink-purple-light text-lavender-500 rounded-full font-medium">
+        <span className="text-xs px-3 py-1 gradient-pink-purple-light text-pink-500 rounded-full font-medium">
           {mode === 'review' ? '📖 间隔复习' : '🔄 错题重做'} · {current.chapterName}
         </span>
       </div>

@@ -44,7 +44,7 @@ export default function ErrorBook({ errorBook, onBack, onStartReview }) {
                       <div className="text-xs text-charcoal-light/45 mt-0.5">{errors.length} 道错题</div>
                     </div>
                   </div>
-                  <span className={`text-lavender-300 text-sm transition-transform ${expandedChapter === chId ? 'rotate-45' : ''}`}>+</span>
+                  <span className={`text-pink-300 text-sm transition-transform ${expandedChapter === chId ? 'rotate-45' : ''}`}>+</span>
                 </button>
 
                 {expandedChapter === chId && (

@@ -41,10 +41,10 @@ function ProgressRing({ value, size = 52, strokeWidth = 4, color = 'url(#ringGra
       <defs>
         <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stopColor="#e88b9e" />
-          <stop offset="100%" stopColor="#8b5cf6" />
+          <stop offset="100%" stopColor="#d4708a" />
         </linearGradient>
       </defs>
-      <circle cx={size/2} cy={size/2} r={radius} fill="none" stroke="#f5f0ff" strokeWidth={strokeWidth} />
+      <circle cx={size/2} cy={size/2} r={radius} fill="none" stroke="#fef5f0" strokeWidth={strokeWidth} />
       <circle
         cx={size/2} cy={size/2} r={radius} fill="none"
         stroke={color} strokeWidth={strokeWidth} strokeLinecap="round"
@@ -144,10 +144,10 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
         >
           <div className="flex items-center justify-between">
             <div>
-              <div className="text-sm font-semibold text-lavender-400">📖 今日待复习</div>
+              <div className="text-sm font-semibold text-pink-400">📖 今日待复习</div>
               <div className="text-xs text-charcoal-light/50 mt-1">有 {dueCount} 道错题需要复习</div>
             </div>
-            <div className="flex items-center justify-center w-10 h-10 rounded-full bg-lavender-100 text-lavender-500 font-display text-lg font-bold">
+            <div className="flex items-center justify-center w-10 h-10 rounded-full bg-pink-100 text-pink-500 font-display text-lg font-bold">
               {dueCount}
             </div>
           </div>
@@ -157,7 +157,7 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
       {/* Daily Summary */}
       {daily.count > 0 && (
         <div className="glass-card-solid rounded-2xl p-5">
-          <div className="text-xs text-lavender-400 tracking-wider mb-3 font-semibold uppercase">今日学习</div>
+          <div className="text-xs text-pink-400 tracking-wider mb-3 font-semibold uppercase">今日学习</div>
           <div className="flex justify-around text-center">
             <div>
               <div className="font-display text-2xl font-semibold text-charcoal">{daily.count}</div>
@@ -182,7 +182,7 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
       {/* Overall Stats */}
       {totalQ > 0 && (
         <div className="glass-card-solid rounded-2xl p-5">
-          <div className="text-xs text-lavender-400 tracking-wider mb-3 font-semibold uppercase">学习概况</div>
+          <div className="text-xs text-pink-400 tracking-wider mb-3 font-semibold uppercase">学习概况</div>
           <div className="flex justify-around text-center">
             <div>
               <div className="font-display text-2xl font-semibold text-charcoal">{totalQ}</div>
@@ -247,7 +247,7 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
 
       {/* Exam Buttons */}
       <div>
-        <div className="text-xs text-lavender-400 tracking-wider mb-2 font-semibold uppercase">模拟考试</div>
+        <div className="text-xs text-pink-400 tracking-wider mb-2 font-semibold uppercase">模拟考试</div>
         <div className="flex gap-3">
           {['paper1', 'paper3'].map(pid => (
             <button
@@ -264,7 +264,7 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
 
       {/* Achievement Badges */}
       <div className="glass-card-solid rounded-2xl p-5">
-        <div className="text-xs text-lavender-400 tracking-wider mb-3 font-semibold uppercase">
+        <div className="text-xs text-pink-400 tracking-wider mb-3 font-semibold uppercase">
           成就徽章 ({unlockedBadges.length}/{ACHIEVEMENTS.length})
         </div>
         <div className="flex flex-wrap gap-2">
