@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  // base: '/iiqe-quiz/', // only for GitHub Pages
   build: {
     outDir: 'dist',
   },
