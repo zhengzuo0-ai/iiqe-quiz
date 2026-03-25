@@ -2,6 +2,15 @@ import { useState, useEffect } from 'react'
 import { PAPERS } from '../data/chapters'
 import { ACHIEVEMENTS } from '../lib/achievements'
 
+const CHEER_SQUAD = [
+  { name: 'Luka', src: '/characters/luka_cheer.png', emoji: '👦' },
+  { name: 'Rocky', src: '/characters/rocky_cheer.png', emoji: '👶' },
+  { name: 'Spring', src: '/characters/spring_cheer.png', emoji: '🐕' },
+  { name: 'Winter', src: '/characters/winter_cheer.png', emoji: '🐕‍🦺' },
+]
+
+const OHTANI_CHEER = { name: '大谷翔平', src: '/characters/ohtani_cheer.png', emoji: '⚾' }
+
 const ENCOURAGEMENTS = [
   '每一道题都是通往成功的一步 🌟',
   '今天的努力，明天的底气 💪',
@@ -19,8 +28,8 @@ const PAPER_EMOJI = {
 }
 
 const PAPER_COLORS = {
-  paper1: { border: 'border-l-lavender-400', bg: 'from-lavender-50 to-white', accent: 'text-lavender-400' },
-  paper3: { border: 'border-l-pink-400', bg: 'from-pink-50 to-white', accent: 'text-pink-400' },
+  paper1: { accent: 'text-pink-400' },
+  paper3: { accent: 'text-warm-400' },
 }
 
 function ProgressRing({ value, size = 52, strokeWidth = 4, color = 'url(#ringGrad)' }) {
@@ -64,6 +73,9 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
     ENCOURAGEMENTS[Math.floor(Math.random() * ENCOURAGEMENTS.length)]
   )
 
+  // 15% chance to show Ohtani as easter egg
+  const [showOhtani] = useState(() => Math.random() < 0.15)
+
   return (
     <div className="animate-fade-in space-y-4">
       {/* Gradient Banner */}
@@ -80,15 +92,55 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
             <span className="font-display text-3xl font-bold text-white leading-none">{daysLeft}</span>
             <span className="text-[10px] text-white/80 mt-1 tracking-wider">天倒计时</span>
           </div>
+
+          {/* Cheerleader Squad */}
+          <div className="mt-5 flex items-end justify-center gap-1">
+            {CHEER_SQUAD.map((char, i) => (
+              <div
+                key={char.name}
+                className="flex flex-col items-center"
+                style={{ animation: `cheerBounce 1.2s ease-in-out ${i * 0.15}s infinite` }}
+              >
+                <img
+                  src={char.src}
+                  alt={char.name}
+                  className="w-14 h-14 object-contain drop-shadow-md"
+                />
+                <span className="text-[9px] text-white/70 mt-0.5 font-medium">{char.name}</span>
+              </div>
+            ))}
+            {showOhtani && (
+              <div
+                className="flex flex-col items-center ml-1"
+                style={{ animation: `cheerBounce 1.2s ease-in-out 0.6s infinite` }}
+              >
+                <img
+                  src={OHTANI_CHEER.src}
+                  alt={OHTANI_CHEER.name}
+                  className="w-14 h-14 object-contain drop-shadow-md"
+                />
+                <span className="text-[9px] text-white/70 mt-0.5 font-medium">⚾ 彩蛋!</span>
+              </div>
+            )}
+          </div>
+          <div className="text-[10px] text-white/50 mt-2">
+            {showOhtani ? '大谷翔平也来给你加油了！💪' : '家人们为泉泉加油 💕'}
+          </div>
         </div>
       </div>
+
+      <style>{`
+        @keyframes cheerBounce {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-6px); }
+        }
+      `}</style>
 
       {/* Due Review Alert */}
       {dueCount > 0 && (
         <button
           onClick={() => onNavigate('review')}
           className="w-full glass-card-solid rounded-2xl p-4 text-left card-hover"
-          style={{ borderLeft: '4px solid #8b5cf6' }}
         >
           <div className="flex items-center justify-between">
             <div>
@@ -162,7 +214,7 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
             <button
               key={pid}
               onClick={() => onNavigate('chapters', { paperId: pid })}
-              className={`w-full glass-card-solid rounded-2xl p-5 text-left card-hover border-l-4 ${colors.border}`}
+              className="w-full glass-card-solid rounded-2xl p-5 text-left card-hover"
             >
               <div className="flex justify-between items-start">
                 <div className="flex items-start gap-3">

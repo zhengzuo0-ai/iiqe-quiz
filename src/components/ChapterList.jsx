@@ -31,12 +31,7 @@ export default function ChapterList({ paperId, stats, onBack, onSelectChapter })
             <button
               key={ch.id}
               onClick={() => onSelectChapter(ch)}
-              className="w-full glass-card-solid rounded-xl p-4 text-left card-hover border-l-4 border-l-transparent"
-              style={{
-                borderLeftColor: s.total > 0
-                  ? (acc >= 70 ? '#4ade80' : acc >= 50 ? '#d4a574' : '#fb7185')
-                  : '#e5e7eb',
-              }}
+              className="w-full glass-card-solid rounded-xl p-4 text-left card-hover"
             >
               <div className="flex justify-between items-center">
                 <div className="flex items-start gap-3">
