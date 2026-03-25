@@ -1,4 +1,4 @@
-import { scheduleSync } from './supabase'
+import { scheduleSyncToCloud } from './supabase'
 
 const PREFIX = 'iiqe_qq_'
 
@@ -14,7 +14,7 @@ export function load(key, fallback) {
 export function save(key, data) {
   try {
     localStorage.setItem(PREFIX + key, JSON.stringify(data))
-    scheduleSync() // auto-sync to Supabase
+    scheduleSyncToCloud()
   } catch {}
 }
 

@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { PAPERS } from '../data/chapters'
 import { load, save } from '../lib/storage'
+import { isCloudEnabled, generateSyncCode, restoreFromSyncCode, forcePush } from '../lib/supabase'
 
 const SETTINGS_KEY = 'settings'
 
@@ -42,6 +43,73 @@ function ConfirmDialog({ message, onConfirm, onCancel }) {
             确认重置
           </button>
         </div>
+      </div>
+    </div>
+  )
+}
+
+function BackupSection({ showToast }) {
+  const fileInputRef = useRef(null)
+
+  const handleExport = () => {
+    const data = {}
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i)
+      if (key?.startsWith('iiqe_')) {
+        data[key] = localStorage.getItem(key)
+      }
+    }
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `iiqe-backup-${new Date().toISOString().slice(0,10)}.json`
+    a.click()
+    URL.revokeObjectURL(url)
+    showToast('备份文件已下载')
+  }
+
+  const handleImport = (e) => {
+    const file = e.target.files?.[0]
+    if (!file) return
+    const reader = new FileReader()
+    reader.onload = (ev) => {
+      try {
+        const data = JSON.parse(ev.target.result)
+        let count = 0
+        for (const [key, value] of Object.entries(data)) {
+          if (key.startsWith('iiqe_')) {
+            localStorage.setItem(key, value)
+            count++
+          }
+        }
+        showToast(`已恢复 ${count} 项数据，正在刷新...`)
+        setTimeout(() => window.location.reload(), 1000)
+      } catch {
+        showToast('文件格式错误')
+      }
+    }
+    reader.readAsText(file)
+  }
+
+  return (
+    <div className="glass-card-solid rounded-2xl p-5 space-y-4">
+      <div className="text-xs text-pink-400 tracking-wider font-semibold uppercase">💾 数据备份</div>
+      <div className="text-xs text-charcoal-light/50">导出做题进度备份文件，换手机或清缓存后可恢复</div>
+      <div className="flex gap-3">
+        <button
+          onClick={handleExport}
+          className="flex-1 py-3 rounded-xl text-sm font-semibold bg-cream-50 text-charcoal-light hover:bg-cream-100 transition-all"
+        >
+          📤 导出备份
+        </button>
+        <button
+          onClick={() => fileInputRef.current?.click()}
+          className="flex-1 py-3 rounded-xl text-sm font-semibold bg-cream-50 text-charcoal-light hover:bg-cream-100 transition-all"
+        >
+          📥 导入恢复
+        </button>
+        <input ref={fileInputRef} type="file" accept=".json" onChange={handleImport} className="hidden" />
       </div>
     </div>
   )
@@ -208,6 +276,9 @@ export default function Settings({ stats, errorBook, onBack }) {
           </div>
         </div>
       </div>
+
+      {/* Backup */}
+      <BackupSection showToast={showToast} />
 
       {/* About */}
       <div className="glass-card-solid rounded-2xl p-5 space-y-3">
