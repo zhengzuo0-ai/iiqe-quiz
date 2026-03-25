@@ -1,4 +1,5 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
+import { syncFromCloud } from './lib/supabase'
 import { useStats } from './hooks/useStats'
 import { useErrorBook } from './hooks/useErrorBook'
 import { useQuestionBank } from './hooks/useQuestionBank'
@@ -52,6 +53,17 @@ export default function App() {
   const [viewData, setViewData] = useState({})
   const [toastQueue, setToastQueue] = useState([])
   const [transitioning, setTransitioning] = useState(false)
+
+  const cloudSyncDone = useRef(false)
+
+  // On first load, try to restore from Supabase
+  useEffect(() => {
+    if (cloudSyncDone.current) return
+    cloudSyncDone.current = true
+    syncFromCloud().then(restored => {
+      if (restored) window.location.reload() // reload to pick up restored data
+    })
+  }, [])
 
   const stats = useStats()
   const errorBook = useErrorBook()
