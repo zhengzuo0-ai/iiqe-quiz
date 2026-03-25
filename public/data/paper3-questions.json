@@ -3706,9 +3706,1791 @@
       "chapterName": "理赔与赔付",
       "reference": "1.4.2",
       "source": "official-based"
+    },
+    {
+      "question": "定期人寿保险（Term Life Insurance）的主要特点是什么？",
+      "options": {
+        "A": "保单具有现金价值（Cash Value），保障期届满可取回储蓄",
+        "B": "只在指定保障期内提供身故保障，期满后保障终止，通常不具现金价值",
+        "C": "保障终身，且保费随年龄每年递增",
+        "D": "兼具保障与投资功能，保单持有人可自行选择投资组合"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：定期人寿保险只在指定期限内提供身故保障，保障期届满后保障终止，通常不具现金价值，保费相对较低。\n\n选项A错误：定期寿险通常不具现金价值，具有现金价值的是终身寿险或储蓄寿险。\n选项C错误：描述的更像是每年续保的定期寿险特征，但并非保障终身。\n选项D错误：描述的是投资连结寿险（ILAS）的特征。\n\n关联知识点：定期寿险是最基本、最纯粹的人寿保障产品，保费低廉，适合需要高额保障但预算有限的人士。",
+      "key_concept": "定期人寿保险的基本特征",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "终身人寿保险（Whole Life Insurance）与定期人寿保险（Term Life Insurance）的最大分别是什么？",
+      "options": {
+        "A": "终身寿险的保费较定期寿险低",
+        "B": "终身寿险提供终身保障并累积现金价值，定期寿险只提供指定期限的保障",
+        "C": "定期寿险可以提供终身保障",
+        "D": "终身寿险没有身故赔偿"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：终身寿险提供终身保障（直至受保人身故），并随时间累积现金价值；定期寿险只在指定期限内提供保障，期满后保障终止，通常不具现金价值。\n\n选项A错误：终身寿险因提供终身保障及储蓄成分，保费通常高于定期寿险。\n选项C错误：定期寿险只在指定期限内提供保障。\n选项D错误：终身寿险同样提供身故赔偿，且为终身保障。\n\n关联知识点：终身寿险的现金价值可通过退保或保单贷款提取。",
+      "key_concept": "终身寿险与定期寿险的区别",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "储蓄人寿保险（Endowment Insurance）的特点是：",
+      "options": {
+        "A": "只提供身故保障，不具任何储蓄成分",
+        "B": "在保障期届满时，若受保人仍然在世，保险公司会支付期满利益（Maturity Benefit）",
+        "C": "保费是所有人寿保险产品中最便宜的",
+        "D": "只在受保人患上危疾时才会赔付"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：储蓄寿险兼具保障与储蓄功能，若受保人在保障期内身故则赔付身故保险金，若保障期届满仍在世则支付期满利益。\n\n选项A错误：储蓄寿险最大特点正是兼具保障与储蓄功能。\n选项C错误：由于包含储蓄成分，储蓄寿险保费通常高于定期寿险。\n选项D错误：这描述的是危疾保险的特征。\n\n关联知识点：储蓄寿险适合有特定储蓄目标（如子女教育基金）的投保人。",
+      "key_concept": "储蓄人寿保险的特征",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.3",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "万能人寿保险（Universal Life Insurance）的最大特点是什么？",
+      "options": {
+        "A": "保费和身故保障金额固定不变",
+        "B": "保费缴付灵活，保单持有人可在一定范围内调整保费金额及身故保障额",
+        "C": "不具任何现金价值",
+        "D": "只适用于团体保险"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：万能寿险最大特点是灵活性——保单持有人可在一定范围内灵活调整保费缴付金额和身故保障额，保费中扣除保险成本和费用后的余额会存入累积账户赚取利息。\n\n选项A错误：灵活可调正是万能寿险区别于传统寿险的核心特征。\n选项C错误：万能寿险具有累积账户，因此有现金价值。\n选项D错误：万能寿险可作为个人保险销售。\n\n关联知识点：万能寿险的利率通常设有最低保证利率。",
+      "key_concept": "万能人寿保险的灵活性特征",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.4",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "即期年金（Immediate Annuity）与延期年金（Deferred Annuity）的主要分别是什么？",
+      "options": {
+        "A": "即期年金在缴付保费后立即开始发放年金，延期年金则设有累积期，在累积期结束后才开始发放年金",
+        "B": "即期年金的回报率一定高于延期年金",
+        "C": "延期年金不提供任何身故保障",
+        "D": "即期年金只能以月供方式缴付保费"
+      },
+      "correct": "A",
+      "explanation": "正确答案A：即期年金通常以整付保费方式购买，购买后立即或在短时间内开始发放年金；延期年金则设有累积期，投保人在累积期内缴付保费，待累积期结束后才开始发放年金。\n\n选项B错误：回报率取决于多项因素，不能一概而论。\n选项C错误：很多延期年金在累积期内提供身故保障。\n选项D错误：即期年金通常是整付（Lump Sum）保费。\n\n关联知识点：年金是退休规划的重要工具，香港政府推出的合资格延期年金（QDAP）可享税务扣减优惠。",
+      "key_concept": "即期年金与延期年金的区别",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.5",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "危疾保险（Critical Illness Insurance）的赔付方式是：",
+      "options": {
+        "A": "按实际医疗费用实报实销（Reimbursement）",
+        "B": "在受保人确诊患上保单指定的严重疾病后，一次性支付预先厘定的保险金额",
+        "C": "每月定额支付住院津贴",
+        "D": "只在受保人身故后才赔付"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：危疾保险在受保人确诊患上保单指定的严重疾病后，一次性支付预先厘定的保险金额，受保人可自由运用该笔款项。\n\n选项A错误：实报实销是医疗保险的赔付方式。\n选项C错误：住院津贴是住院现金保险的特征。\n选项D错误：危疾保险在确诊时即可赔付，无需等到身故。\n\n关联知识点：危疾保险与医疗保险的最大分别——危疾是一次性定额赔付，医疗是实报实销。",
+      "key_concept": "危疾保险一次性赔付vs医疗保险实报实销",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.6",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "投资连结寿险（Investment-Linked Assurance Scheme, ILAS）的特点是：",
+      "options": {
+        "A": "保证投资回报，不会出现投资亏损",
+        "B": "保单的现金价值与所挂钩的投资基金表现直接相关，投资风险由保单持有人承担",
+        "C": "不受保险业监管局（IA）监管",
+        "D": "不提供任何人寿保障成分"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：ILAS将保费的一部分用于购买投资基金，保单的现金价值直接与所选基金的表现挂钩，投资风险由保单持有人承担。\n\n选项A错误：ILAS不保证投资回报，投资基金价值可升可跌。\n选项C错误：ILAS同时受保险业监管局和证券及期货事务监察委员会（SFC）监管。\n选项D错误：ILAS仍包含最低限度的人寿保障成分。\n\n关联知识点：ILAS通常设有较长的锁定期和较高的前期收费。",
+      "key_concept": "投资连结寿险的风险与特征",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.7",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "强制性公积金（MPF）制度下，雇主和雇员各须按雇员有关入息的多少百分比作出供款？",
+      "options": {
+        "A": "雇主5%，雇员10%",
+        "B": "雇主和雇员各5%",
+        "C": "雇主10%，雇员5%",
+        "D": "雇主和雇员各10%"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：根据强积金制度，雇主和雇员须各按雇员有关入息的5%作出强制性供款。\n\n选项A错误：雇员供款比率为5%而非10%。\n选项C错误：雇主供款比率为5%而非10%。\n选项D错误：双方供款比率均为5%而非10%。\n\n关联知识点：强制性供款设有入息上限$30,000。月薪低于$7,100的雇员无须作出雇员供款，但雇主仍须按5%供款。",
+      "key_concept": "MPF雇主雇员各5%供款比率",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.8",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "强积金（MPF）强制性供款的月薪上限为多少？",
+      "options": {
+        "A": "$20,000",
+        "B": "$25,000",
+        "C": "$30,000",
+        "D": "$35,000"
+      },
+      "correct": "C",
+      "explanation": "正确答案C：强积金强制性供款的有关入息上限为每月$30,000，即雇主和雇员每月最高强制性供款各为$1,500（$30,000×5%）。\n\n选项A错误：$20,000并非现行供款上限。\n选项B错误：$25,000并非现行供款上限。\n选项D错误：$35,000并非现行供款上限。\n\n关联知识点：月薪超过$30,000的部分无须作出强制性供款，但可自愿作出额外供款。",
+      "key_concept": "MPF月薪上限$30,000",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.8",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下哪项最准确地描述医疗保险（Medical Insurance）的赔付方式？",
+      "options": {
+        "A": "确诊疾病后一次性支付固定金额",
+        "B": "按受保人实际发生的合理医疗费用作出赔偿，即实报实销（Reimbursement）",
+        "C": "每日支付固定住院现金津贴",
+        "D": "在受保人身故后赔付保险金"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：医疗保险的核心赔付方式是实报实销，即按受保人实际发生的合理及惯常医疗费用作出赔偿。\n\n选项A错误：一次性定额赔付是危疾保险的特征。\n选项C错误：每日固定津贴是住院现金保险的特征。\n选项D错误：身故赔付是人寿保险的特征。\n\n关联知识点：医疗保险与危疾保险赔付方式完全不同——医疗保险实报实销，危疾保险一次性定额赔付。",
+      "key_concept": "医疗保险实报实销赔付方式",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.6",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保单红利（Policy Dividend/Bonus）的来源主要包括以下哪些「差益」？\n(i) 死差益（Mortality Surplus）\n(ii) 利差益（Interest Surplus）\n(iii) 费差益（Expense Surplus）\n(iv) 汇差益（Exchange Rate Surplus）",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)、(ii)和(iii)",
+        "C": "(ii)、(iii)和(iv)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保单红利主要来源于三差益：死差益（实际死亡率低于预期）、利差益（实际投资回报高于预期）、费差益（实际费用低于预期）。\n\n选项A错误：遗漏了费差益。\n选项C错误：遗漏了死差益，且汇差益并非三差益之一。\n选项D错误：汇差益不属于传统三差益。\n\n关联知识点：分红保单的红利并非保证，会因保险公司的实际经验而波动。",
+      "key_concept": "保单红利三差益：死差益、利差益、费差益",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "B",
+      "reference": "1.9",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下哪些是长期保险的主要类别？\n(i) 人寿保险\n(ii) 年金\n(iii) 火险\n(iv) 永久健康保险",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)、(ii)和(iv)",
+        "C": "(i)、(iii)和(iv)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：长期保险的主要类别包括人寿保险、年金及永久健康保险。\n\n(i) 正确：人寿保险是长期保险的核心类别。\n(ii) 正确：年金属于长期保险。\n(iii) 错误：火险属于一般保险（General Insurance）。\n(iv) 正确：永久健康保险属于长期保险。\n\n关联知识点：香港《保险业条例》将保险分为长期业务和一般业务两大类。",
+      "key_concept": "长期保险的主要类别",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "B",
+      "reference": "1.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "关于分红保单（Participating Policy）和非分红保单（Non-Participating Policy），以下哪项最准确？",
+      "options": {
+        "A": "分红保单的保费一定低于非分红保单",
+        "B": "分红保单的保单持有人可分享保险公司的经营盈余，非分红保单则不可以",
+        "C": "非分红保单没有任何保证利益",
+        "D": "分红保单的红利是保证的"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：分红保单让保单持有人分享保险公司的经营盈余（即红利），非分红保单则不参与分红。\n\n选项A错误：分红保单保费通常高于同等保障的非分红保单。\n选项C错误：非分红保单有保证利益（如保证现金价值、保证身故保障）。\n选项D错误：红利是非保证的，会因实际经验而变动。\n\n关联知识点：选择分红或非分红保单取决于投保人的风险偏好。",
+      "key_concept": "分红保单与非分红保单的区别",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.9",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "团体人寿保险（Group Life Insurance）通常由谁投保？",
+      "options": {
+        "A": "每个成员个别向保险公司投保",
+        "B": "由雇主为雇员投保，以一张总保单（Master Policy）承保",
+        "C": "由政府强制要求投保",
+        "D": "由保险中介人代替客户投保"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：团体人寿保险通常由雇主为其雇员投保，以一张总保单涵盖所有合资格成员。\n\n选项A错误：团体保险是由雇主统一投保，非个别投保。\n选项C错误：团体人寿保险并非强制性保险（强积金才是）。\n选项D错误：投保人是雇主，非中介人。\n\n关联知识点：团体保险利用大数法则分散风险，简化核保程序，保费通常较个人保单优惠。",
+      "key_concept": "团体人寿保险的特征",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.10",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "退休年金（Retirement Annuity）的主要目的是什么？",
+      "options": {
+        "A": "为受保人提供身故保障",
+        "B": "为年金受领人在退休后提供定期收入",
+        "C": "为受保人提供一次性的大额投资回报",
+        "D": "为受保人提供危疾保障"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：退休年金的主要目的是为年金受领人在退休后提供稳定的定期收入，以应对长寿风险。\n\n选项A错误：年金的主要目的是提供退休收入，而非身故保障。\n选项C错误：年金的特点是分期支付，而非一次性支付。\n选项D错误：危疾保障属于危疾保险。\n\n关联知识点：年金可分为即期和延期，也可按年金期分为定期年金和终身年金。",
+      "key_concept": "退休年金的基本目的",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.5",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "合资格延期年金保单（QDAP）的保费可享有的每年税务扣减上限为多少？",
+      "options": {
+        "A": "$36,000",
+        "B": "$48,000",
+        "C": "$60,000",
+        "D": "$80,000"
+      },
+      "correct": "C",
+      "explanation": "正确答案C：QDAP的保费可享有薪俸税或个人入息课税的税务扣减，每年扣税上限为$60,000（与强积金可扣税自愿性供款TVC共享此上限）。\n\n选项A错误：$36,000并非正确的扣税上限。\n选项B错误：$48,000并非正确的扣税上限。\n选项D错误：$80,000并非正确的扣税上限。\n\n关联知识点：QDAP须经保险业监管局认证，年金领取年龄不得早于50岁。",
+      "key_concept": "合资格延期年金的税务扣减上限",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.5",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "在相同保障额和受保人条件下，以下哪种人寿保险产品的保费最低？",
+      "options": {
+        "A": "终身人寿保险",
+        "B": "储蓄人寿保险",
+        "C": "定期人寿保险",
+        "D": "万能人寿保险"
+      },
+      "correct": "C",
+      "explanation": "正确答案C：定期人寿保险只提供纯保障，不含储蓄或投资成分，因此保费最低。\n\n选项A错误：终身寿险因提供终身保障及累积现金价值，保费较高。\n选项B错误：储蓄寿险包含储蓄成分，保费通常最高。\n选项D错误：万能寿险有累积账户，保费高于定期寿险。\n\n关联知识点：保费高低与保障范围和产品功能成正比。",
+      "key_concept": "不同人寿保险产品的保费比较",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下哪些属于年金的种类？\n(i) 即期年金（Immediate Annuity）\n(ii) 延期年金（Deferred Annuity）\n(iii) 终身年金（Life Annuity）\n(iv) 定期年金（Annuity Certain）",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)、(ii)和(iii)",
+        "C": "(ii)和(iv)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "D",
+      "explanation": "正确答案D：以上四项均属于年金的种类。即期年金缴费后立即发放；延期年金设有累积期；终身年金支付至身故；定期年金支付固定期间。\n\n关联知识点：年金可从不同角度分类——按缴费时间分为即期/延期，按年金期分为终身/定期。",
+      "key_concept": "年金的分类",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "B",
+      "reference": "1.5",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "住院现金保险（Hospital Cash Insurance）的主要特点是什么？",
+      "options": {
+        "A": "按实际医疗费用实报实销",
+        "B": "在受保人住院期间按日支付预先厘定的固定现金津贴",
+        "C": "一次性支付固定金额",
+        "D": "只赔偿手术费用"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：住院现金保险在受保人住院期间按日支付固定现金津贴，不论实际医疗费用多少。\n\n选项A错误：实报实销是医疗保险的赔付方式。\n选项C错误：一次性定额赔付是危疾保险的特征。\n选项D错误：住院现金保险不限于手术。\n\n关联知识点：住院现金保险可作为医疗保险的补充，弥补住院期间的收入损失。",
+      "key_concept": "住院现金保险的赔付特点",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.6",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "可转换定期保险（Convertible Term Insurance）的「可转换」权利是指什么？",
+      "options": {
+        "A": "可将保单转让给其他人",
+        "B": "可将定期保单转换为终身或储蓄保单，而无需重新进行健康核保",
+        "C": "可将保费从港元转换为其他货币",
+        "D": "可将个人保单转换为团体保单"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：可转换权利允许保单持有人在指定期限内将定期保单转换为终身或储蓄保单，无需重新健康核保。\n\n选项A错误：保单转让（Assignment）是另一概念。\n选项C错误：货币转换与可转换权利无关。\n选项D错误：个人保单不可转换为团体保单。\n\n关联知识点：可转换权利的价值在于受保人健康状况转差时仍可按标准费率转换。",
+      "key_concept": "可转换定期保险的转换权利",
+      "difficulty": "easy",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "关于自愿医保计划（VHIS），以下哪项是正确的？",
+      "options": {
+        "A": "所有医疗保险产品都必须参加VHIS",
+        "B": "VHIS认可产品的保费可享有薪俸税或个人入息课税的税务扣减",
+        "C": "VHIS只保障公立医院的费用",
+        "D": "VHIS没有最低保障要求"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：VHIS认可产品的保费可享有税务扣减，每名受保人每年扣税上限为$8,000。\n\n选项A错误：VHIS是自愿性质。\n选项C错误：VHIS同时保障公立和私立医院。\n选项D错误：VHIS必须符合最低保障要求。\n\n关联知识点：VHIS分为标准计划和灵活计划。",
+      "key_concept": "自愿医保计划的税务扣减",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.11",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "定期人寿保险通常可分为哪几种主要类型？\n(i) 定额定期保险（Level Term）\n(ii) 递减定期保险（Decreasing Term）\n(iii) 递增定期保险（Increasing Term）\n(iv) 可续保定期保险（Renewable Term）",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)、(ii)和(iv)",
+        "C": "(i)和(iv)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "D",
+      "explanation": "正确答案D：以上四项均属于定期人寿保险的类型。定额定期保障额不变；递减定期保障额递减（常用于配合按揭）；递增定期保障额递增；可续保定期可在期满后续保。\n\n关联知识点：可续保定期保险的续保权利即使受保人健康状况转差仍可按原条款续保。",
+      "key_concept": "定期人寿保险的主要类型",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "B",
+      "reference": "1.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "伤残收入保险（Disability Income Insurance）在受保人因伤残而无法工作时，赔偿金额通常为原来收入的多少百分比？",
+      "options": {
+        "A": "100%",
+        "B": "通常为60-75%，设有上限",
+        "C": "200%",
+        "D": "没有任何限制"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：伤残收入保险的赔偿金额通常设有上限，一般为原来收入的60-75%，以避免道德风险。\n\n选项A错误：赔偿100%原收入会产生道德风险。\n选项C错误：不可能赔偿超过原收入。\n选项D错误：赔偿金额设有上限。\n\n关联知识点：伤残收入保险设有等候期（Waiting Period），在等候期内不予赔偿。属于永久健康保险的一种。",
+      "key_concept": "伤残收入保险的赔偿比例",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.6",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "冷静期（Cooling-off Period）是指保单持有人在签收保单后多少天内可以取消保单并获得退还已缴保费？",
+      "options": {
+        "A": "14天",
+        "B": "21天",
+        "C": "30天",
+        "D": "7天"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：冷静期为保单持有人签收保单日起计21天。在冷静期内可取消保单并获退还已缴保费（扣除已提供保障的费用及市场价值调整）。\n\n选项A错误：14天并非正确天数。\n选项C错误：30天并非冷静期天数（宽限期通常为31天，注意区分）。\n选项D错误：7天太短。\n\n关联知识点：冷静期从「签收保单日」起计，非从投保日或保单生效日起计。适用于个人人寿及年金保单。",
+      "key_concept": "冷静期21天（从签收保单日起计）",
+      "difficulty": "easy",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "冷静期（Cooling-off Period）的21天起算日是从哪一天开始计算？",
+      "options": {
+        "A": "从填妥投保申请书之日起计",
+        "B": "从保单生效日起计",
+        "C": "从保单持有人签收保单日起计",
+        "D": "从缴付首期保费之日起计"
+      },
+      "correct": "C",
+      "explanation": "正确答案C：冷静期从保单持有人（或其代表）签收保单之日起计。\n\n选项A错误：填妥投保书只是投保第一步，非冷静期起算日。\n选项B错误：保单生效日可能与签收日不同。\n选项D错误：缴付首期保费日可能早于签收保单日。\n\n关联知识点：在冷静期内取消保单，保险公司须退还已缴保费，但可扣除已提供保障的费用。",
+      "key_concept": "冷静期从签收保单日起计",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "宽限期（Grace Period）通常为多少天？",
+      "options": {
+        "A": "14天",
+        "B": "21天",
+        "C": "31天",
+        "D": "60天"
+      },
+      "correct": "C",
+      "explanation": "正确答案C：宽限期通常为31天。在宽限期内，即使未能按时缴付续期保费，保单仍然有效。\n\n选项A错误：14天并非标准宽限期。\n选项B错误：21天是冷静期，不是宽限期。\n选项D错误：60天并非标准宽限期。\n\n关联知识点：若受保人在宽限期内身故，保险公司仍须赔付，但可扣除未缴保费。宽限期届满后仍未缴费，保单可能失效。",
+      "key_concept": "宽限期通常31天",
+      "difficulty": "easy",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "不可争议条款（Incontestability Clause）规定保险公司在保单生效多长时间后，不能以不实陈述为由拒绝理赔？",
+      "options": {
+        "A": "1年",
+        "B": "2年",
+        "C": "3年",
+        "D": "5年"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：不可争议条款通常规定保单生效满2年后，保险公司不能以投保人的不实陈述或隐瞒为由拒绝理赔（欺诈除外）。\n\n选项A错误：1年太短。\n选项C错误：3年并非标准期限。\n选项D错误：5年并非标准期限。\n\n关联知识点：在首2年内，保险公司仍可以不实陈述为由拒赔。涉及欺诈不受此条款保护。",
+      "key_concept": "不可争议期通常2年",
+      "difficulty": "easy",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.3",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下哪些属于保单的不丧失价值选项（Nonforfeiture Options）？\n(i) 退保现金价值（Cash Surrender Value）\n(ii) 减额缴清保险（Reduced Paid-up Insurance）\n(iii) 展期定期保险（Extended Term Insurance）\n(iv) 保单贷款（Policy Loan）",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)、(ii)和(iii)",
+        "C": "(ii)、(iii)和(iv)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：传统三种不丧失价值选项：退保现金价值、减额缴清保险、展期定期保险。\n\n(iv) 保单贷款虽然也是利用保单现金价值的方式，但不属于传统不丧失价值选项。\n\n关联知识点：不丧失价值选项确保保单持有人停止缴费后不会完全丧失已累积的保单价值。",
+      "key_concept": "不丧失价值选项：减额缴清、展期定期、退保现金",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "B",
+      "reference": "2.4",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "减额缴清保险（Reduced Paid-up Insurance）是指什么？",
+      "options": {
+        "A": "保单持有人停止缴费后，保险公司退还全部已缴保费",
+        "B": "以保单的现金价值作为一次性保费，购买相同类型但保障额较低的缴清保单",
+        "C": "保险公司自动从现金价值中扣除保费以维持原有保障",
+        "D": "保单持有人申请降低保费但维持原有保障额"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：减额缴清保险是当保单持有人停止缴费时，以保单当时的现金价值作为整付保费，购买相同类型但保障额较低的保单，此后无须再缴保费。\n\n选项A错误：退还全部保费并非减额缴清的定义。\n选项C错误：这描述的是自动保费贷款（APL）。\n选项D错误：减额缴清是降低保障额而非降低保费。\n\n关联知识点：新保单保障额取决于原保单的现金价值金额。",
+      "key_concept": "减额缴清保险的定义",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.4",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "展期定期保险（Extended Term Insurance）是指什么？",
+      "options": {
+        "A": "将定期保险的保障期自动延长",
+        "B": "以保单的现金价值作为保费，购买与原保单相同保障额的定期保险，保障期长短取决于现金价值",
+        "C": "在原保障期届满后自动续保",
+        "D": "以较低保费购买较长保障期的定期保险"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：展期定期保险是以保单当时的现金价值作为保费，购买与原保单相同保障额的定期保险，保障期的长短取决于现金价值的多少。\n\n选项A错误：并非自动延长原保障期。\n选项C错误：自动续保是可续保定期保险的特征。\n选项D错误：不是以较低保费购买，而是利用原保单现金价值。\n\n关联知识点：展期定期与减额缴清的区别——展期定期维持保障额但保障期缩短，减额缴清维持终身保障但保障额减少。",
+      "key_concept": "展期定期保险的定义",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.4",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保单贷款（Policy Loan）若未能偿还利息，会有什么后果？",
+      "options": {
+        "A": "保险公司自动豁免利息",
+        "B": "未偿还利息会加入贷款本金计算复利，若贷款总额超过现金价值，保单可能失效",
+        "C": "保险公司会向法院申请强制执行",
+        "D": "利息自动从受益人赔偿金中扣除，不影响保单效力"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：未偿还利息会加入贷款本金计算复利。若贷款总额超过保单现金价值，保险公司通常发出通知，若仍未能偿还则保单可能失效。\n\n选项A错误：保险公司不会自动豁免利息。\n选项C错误：保单贷款以现金价值为抵押，不需法律追讨。\n选项D错误：贷款总额超过现金价值时保单仍可能失效。\n\n关联知识点：保单贷款额通常不超过现金价值的80-90%。",
+      "key_concept": "保单贷款的风险",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.5",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保单转让（Assignment）是指什么？",
+      "options": {
+        "A": "保单持有人将保单的权益转让给另一方",
+        "B": "保险公司将保单转移给另一家保险公司",
+        "C": "受益人将理赔权转让给医院",
+        "D": "保险中介人将客户转介给另一名中介人"
+      },
+      "correct": "A",
+      "explanation": "正确答案A：保单转让是保单持有人将保单的部分或全部权益及权利转让给另一方（受让人）。\n\n选项B错误：保险公司间的业务转移不属于保单转让。\n选项C错误：受益人转让理赔权与保单转让不同。\n选项D错误：客户转介与保单转让无关。\n\n关联知识点：保单转让分为绝对转让（Absolute Assignment）和有条件转让（Conditional Assignment）。",
+      "key_concept": "保单转让的定义",
+      "difficulty": "easy",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.6",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "关于保单复效（Reinstatement），以下哪项是正确的？",
+      "options": {
+        "A": "保单失效后任何时候都可以申请复效",
+        "B": "通常需在保单失效后指定期限内提出，并可能需提供可保证明及缴付欠交保费和利息",
+        "C": "复效后保费会自动降低",
+        "D": "复效后的保单不受不可争议条款保护"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保单复效通常需在失效后指定期限内（如2年内）提出，申请人可能需提供健康证明并缴付欠交保费及利息。\n\n选项A错误：复效有时间限制。\n选项C错误：复效后保费通常维持不变。\n选项D错误：复效后仍受不可争议条款保护，但不可争议期可能从复效日重新起算。\n\n关联知识点：保单复效通常比购买新保单更有利，可保留原来的保费率和条款。",
+      "key_concept": "保单复效的条件和要求",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.7",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "受益人（Beneficiary）的指定属于以下哪种性质？",
+      "options": {
+        "A": "一旦指定便不可更改",
+        "B": "可分为可撤销（Revocable）和不可撤销（Irrevocable）两种",
+        "C": "只能指定一名受益人",
+        "D": "必须由保险公司指定"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：受益人指定可分为可撤销和不可撤销两种。可撤销受益人可随时更改；不可撤销受益人更改时须获得该受益人同意。\n\n选项A错误：可撤销受益人可以更改。\n选项C错误：可指定多名受益人并指定分配比例。\n选项D错误：受益人由保单持有人指定。\n\n关联知识点：若没有指定受益人或受益人先于受保人身故，身故保险金通常支付给保单持有人的遗产。",
+      "key_concept": "受益人指定的类型",
+      "difficulty": "easy",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.8",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "自杀条款（Suicide Clause）通常规定什么？",
+      "options": {
+        "A": "保险公司在任何情况下都不赔偿自杀身故",
+        "B": "受保人在保单生效后首1至2年内自杀，保险公司只退还已缴保费而不赔付身故保险金",
+        "C": "自杀身故在任何情况下都可获全额赔偿",
+        "D": "自杀条款只适用于意外保险"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：自杀条款通常规定在保单生效后首1至2年内自杀，保险公司只退还已缴保费（或现金价值），不赔付身故保险金。超过此期限后可获赔偿。\n\n选项A错误：超过自杀排除期后通常可获赔偿。\n选项C错误：排除期内不获全额赔偿。\n选项D错误：主要适用于人寿保险。\n\n关联知识点：自杀条款防止投保后短期内蓄意自杀以获取保险金的道德风险。",
+      "key_concept": "自杀条款的规定",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.9",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下哪些属于保单的标准条款？\n(i) 冷静期条款\n(ii) 宽限期条款\n(iii) 不可争议条款\n(iv) 货币兑换条款",
+      "options": {
+        "A": "(i)、(ii)和(iii)",
+        "B": "(i)和(ii)",
+        "C": "(ii)、(iii)和(iv)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "A",
+      "explanation": "正确答案A：冷静期条款（21天）、宽限期条款（31天）和不可争议条款（2年）均属标准条款。\n\n(iv) 货币兑换条款并非标准条款。\n\n关联知识点：这三项条款是保护保单持有人权益的重要条款，考生应牢记各条款的具体天数/年限。",
+      "key_concept": "保单标准条款的组成",
+      "difficulty": "easy",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "B",
+      "reference": "2.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "关于保费自动贷款（Automatic Premium Loan, APL）条款，以下哪项最准确？",
+      "options": {
+        "A": "保险公司自动向银行申请贷款以支付保费",
+        "B": "当保单持有人未能按时缴费时，保险公司自动从保单现金价值中借出款项以缴付保费",
+        "C": "保费贷款无须支付利息",
+        "D": "APL只适用于定期人寿保险"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：APL条款规定当保单持有人未能在宽限期内缴付保费时，保险公司自动从保单现金价值中借出款项以支付保费，使保单继续有效。\n\n选项A错误：贷款来自保单现金价值，非银行。\n选项C错误：APL须支付利息。\n选项D错误：APL适用于具有现金价值的保单，定期寿险通常无现金价值。\n\n关联知识点：长期依赖APL缴费，贷款累积可能侵蚀保单现金价值。",
+      "key_concept": "保费自动贷款条款",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.5",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下哪些是保单失效后保单持有人可采取的行动？\n(i) 申请保单复效\n(ii) 行使不丧失价值选项\n(iii) 申请增加保障额\n(iv) 取回退保现金价值",
+      "options": {
+        "A": "(i)和(iv)",
+        "B": "(i)、(ii)和(iv)",
+        "C": "(i)和(iii)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保单失效后可申请复效、行使不丧失价值选项、取回退保现金价值。\n\n(iii) 错误：保单失效后不能申请增加保障额。\n\n关联知识点：具体可行使的选项取决于保单条款和现金价值。无现金价值的保单选项有限。",
+      "key_concept": "保单失效后的可用选项",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "B",
+      "reference": "2.4",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保单的赔偿选项（Settlement Options）不包括以下哪项？",
+      "options": {
+        "A": "整笔支付（Lump Sum）",
+        "B": "分期支付（Instalment）",
+        "C": "以年金方式支付",
+        "D": "以股票方式支付"
+      },
+      "correct": "D",
+      "explanation": "正确答案D：赔偿选项通常包括整笔支付、分期支付、保留生息及年金方式支付等，不包括以股票方式支付。\n\n选项A正确（非答案）：整笔支付是最常见赔偿方式。\n选项B正确（非答案）：分期支付让受益人分期领取。\n选项C正确（非答案）：年金方式可提供定期收入。\n\n关联知识点：赔偿选项的选择取决于受益人的需要。",
+      "key_concept": "保单赔偿选项",
+      "difficulty": "easy",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.10",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保单除外条款（Exclusion Clause）的作用是什么？",
+      "options": {
+        "A": "扩大保单的保障范围",
+        "B": "列明保单不保障的事项或情况，将特定风险排除在保障范围之外",
+        "C": "降低保费",
+        "D": "增加保单的现金价值"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：除外条款明确列出保单不保障的事项或情况。常见除外条款包括战争、参与非法活动、自杀（排除期内）等。\n\n选项A错误：除外条款是缩小保障范围。\n选项C错误：主要作用不是降低保费。\n选项D错误：与保单现金价值无关。\n\n关联知识点：投保人应仔细阅读除外条款。核保时加入的特别除外条款与标准除外条款不同。",
+      "key_concept": "除外条款的定义和作用",
+      "difficulty": "easy",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.9",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "最高诚信原则（Utmost Good Faith）要求投保人在投保时必须：",
+      "options": {
+        "A": "只需回答保险公司提出的问题",
+        "B": "披露所有重要事实（Material Facts），即使保险公司没有提出相关问题",
+        "C": "只需提供姓名和联络方式",
+        "D": "只需签署投保书即可"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：最高诚信原则要求投保人主动披露所有可能影响保险公司承保决定的重要事实。\n\n选项A错误：披露义务不限于回答问题，须主动披露所有重要事实。\n选项C错误：需披露的信息远不止姓名和联络方式。\n选项D错误：签署投保书不等于履行了披露义务。\n\n关联知识点：违反最高诚信原则可导致保单被宣布无效。重要事实包括健康状况、职业、危险嗜好等。",
+      "key_concept": "最高诚信原则与披露义务",
+      "difficulty": "easy",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "核保（Underwriting）的主要目的是什么？",
+      "options": {
+        "A": "拒绝所有高风险投保申请",
+        "B": "评估风险并决定是否承保、承保条件及适当的保费",
+        "C": "推销更多保险产品给投保人",
+        "D": "检查投保人的信用评分"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：核保的主要目的是评估投保申请的风险水平，据此决定是否承保、承保条件及保费。\n\n选项A错误：核保不是拒绝所有高风险申请，而是合理评估和分类风险。\n选项C错误：推销产品是销售部门的职能。\n选项D错误：信用评分主要用于贷款审批。\n\n关联知识点：核保决定通常分为：标准承保、优惠承保、次标准承保、延期及拒保。",
+      "key_concept": "核保的目的和功能",
+      "difficulty": "easy",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下哪项不是人寿保险核保时考虑的主要因素？",
+      "options": {
+        "A": "投保人的年龄和性别",
+        "B": "投保人的健康状况和病历",
+        "C": "投保人最喜欢的颜色",
+        "D": "投保人的职业和危险嗜好"
+      },
+      "correct": "C",
+      "explanation": "正确答案C：投保人喜欢的颜色与保险风险无关。\n\n选项A（核保因素）：年龄和性别影响死亡率。\n选项B（核保因素）：健康状况是最重要的考虑因素之一。\n选项D（核保因素）：高危职业和危险嗜好增加风险。\n\n关联知识点：其他核保因素还包括家族病史、吸烟习惯、财务状况等。",
+      "key_concept": "人寿保险核保的考虑因素",
+      "difficulty": "easy",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "次标准体（Substandard/Rated Life）的投保人通常会面临什么核保结果？",
+      "options": {
+        "A": "一定会被拒保",
+        "B": "以标准保费承保",
+        "C": "可能被要求缴付额外保费（Loading）、设定除外条款或限制保障范围",
+        "D": "享有保费折扣"
+      },
+      "correct": "C",
+      "explanation": "正确答案C：次标准体的风险高于标准体，保险公司可能通过加收额外保费、设定除外条款、限制保障范围等方式承保。\n\n选项A错误：次标准体不一定被拒保。\n选项B错误：不会以标准保费承保。\n选项D错误：需支付更高保费。\n\n关联知识点：核保分类：优选体、标准体、次标准体、拒保。",
+      "key_concept": "次标准体的核保处理",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.3",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "人寿保险保费的三大组成部分是什么？\n(i) 纯保险成本（Mortality Cost）\n(ii) 营运费用附加（Expense Loading）\n(iii) 利润附加（Profit Loading）\n(iv) 投资回报",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)、(ii)和(iii)",
+        "C": "(i)、(ii)和(iv)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保费三大组成部分为纯保险成本、营运费用附加和利润附加。\n\n(iv) 投资回报不是保费的组成部分，而是保险公司运用保费进行投资所获的回报。\n\n关联知识点：保费定价时会考虑预期投资回报率，投资回报越高保费可以越低。",
+      "key_concept": "保费的三大组成部分",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "B",
+      "reference": "3.4",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "道德风险（Moral Hazard）是指什么？",
+      "options": {
+        "A": "投保人因自然灾害而面临的风险",
+        "B": "投保人可能因有保险保障而故意增加损失发生的可能性或夸大损失",
+        "C": "保险公司投资亏损的风险",
+        "D": "保费定价过低的风险"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：道德风险是指投保人或受保人因有保险保障而可能故意制造损失、增加损失可能性或夸大损失程度。\n\n选项A错误：自然灾害属于实质风险（Physical Hazard）。\n选项C错误：投资亏损属于投资风险。\n选项D错误：保费定价过低属于定价风险。\n\n关联知识点：保险公司通过核保、设定等候期、调查理赔等方式管理道德风险。",
+      "key_concept": "道德风险的定义",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.5",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "逆向选择（Adverse Selection）是指什么？",
+      "options": {
+        "A": "保险公司选择性地拒绝承保",
+        "B": "高风险人士更倾向于购买保险，导致投保群体的整体风险水平高于一般人群",
+        "C": "投保人选择最便宜的保险产品",
+        "D": "保险中介人推荐不适合客户的产品"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：逆向选择是指风险较高的人更倾向于投保或投保更高金额，导致投保群体平均风险高于一般人群。\n\n选项A错误：核保筛选是对抗逆向选择的手段。\n选项C错误：选择便宜产品属于消费者行为。\n选项D错误：推荐不适合产品属于不当销售。\n\n关联知识点：核保的重要目的之一就是控制逆向选择。",
+      "key_concept": "逆向选择的概念",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.5",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "可保权益（Insurable Interest）在人寿保险中是什么意思？",
+      "options": {
+        "A": "保险公司对投保人的兴趣",
+        "B": "投保人对受保人的生命或健康具有经济利害关系",
+        "C": "受保人对保险产品的兴趣",
+        "D": "保险中介人对佣金的兴趣"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：可保权益是指投保人对受保人的生命或健康具有经济利害关系——若受保人身故或伤残，投保人会遭受经济损失。这是保险合同有效成立的必要条件。\n\n选项A错误：不是保险公司对投保人的兴趣。\n选项C错误：不是对产品的兴趣。\n选项D错误：佣金与可保权益无关。\n\n关联知识点：每个人对自己的生命具有无限可保权益。可保权益在投保时必须存在。",
+      "key_concept": "可保权益的定义",
+      "difficulty": "easy",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "在人寿保险中，可保权益必须在什么时候存在？",
+      "options": {
+        "A": "只需在理赔时存在",
+        "B": "在投保时必须存在",
+        "C": "只需在保单到期时存在",
+        "D": "在保单整个有效期内都必须存在"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：人寿保险要求可保权益在投保时存在。与一般保险不同，人寿保险不要求可保权益在理赔时仍然存在。\n\n选项A错误：人寿保险要求投保时存在，不仅是理赔时。\n选项C错误：不需等到保单到期。\n选项D错误：人寿保险只要求投保时存在（区别于一般保险）。\n\n关联知识点：一般保险（如财产保险）要求可保权益在损失发生时存在，这是两者的重要区别。",
+      "key_concept": "人寿保险可保权益的存在时点",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "「均衡保费」（Level Premium）的概念是什么？",
+      "options": {
+        "A": "保费每年随年龄递增",
+        "B": "在整个保费缴付期内，保费金额保持不变",
+        "C": "保费每年递减",
+        "D": "保费根据市场利率浮动"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：均衡保费是指在整个缴付期内保费金额不变。初期保费高于实际风险成本，后期低于实际风险成本，精算上达到平衡。\n\n选项A错误：保费随年龄递增是「自然保费」（Natural Premium）的特征。\n选项C错误：保费递减不符合常见结构。\n选项D错误：不符合均衡保费定义。\n\n关联知识点：初期多缴的保费形成保单储备金，是现金价值的基础。终身寿险通常采用均衡保费。",
+      "key_concept": "均衡保费的概念",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.4",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险公司计算保费时主要依据以下哪些因素？\n(i) 死亡率\n(ii) 利率/投资回报\n(iii) 费用率\n(iv) 股市每日收盘价",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)、(ii)和(iii)",
+        "C": "(ii)和(iv)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保费计算主要依据三个精算假设：死亡率、利率/投资回报、费用率。\n\n(iv) 股市每日收盘价不是计算保费的直接因素。\n\n关联知识点：这三个因素的实际值与预期值之差分别产生死差益、利差益和费差益。",
+      "key_concept": "保费计算的三大精算基础",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "B",
+      "reference": "3.4",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "关于「不披露重要事实」（Non-disclosure），以下哪项正确？",
+      "options": {
+        "A": "保险公司不能因此拒赔",
+        "B": "保险公司有权在不可争议期内拒赔或取消保单",
+        "C": "只有故意隐瞒才构成不披露",
+        "D": "不披露只影响保费不影响理赔"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：投保人未披露重要事实（无论故意或疏忽），保险公司有权在不可争议期内拒赔或取消保单。\n\n选项A错误：在不可争议期内有权拒赔。\n选项C错误：不披露包括故意和无意遗漏。\n选项D错误：不披露可能导致保单被取消或理赔被拒。\n\n关联知识点：不可争议期届满后（通常2年后），保险公司一般不能再以不披露为由拒赔（欺诈除外）。",
+      "key_concept": "不披露重要事实的后果",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险公司在核保时可能要求投保人提供的资料包括：",
+      "options": {
+        "A": "个人健康声明书",
+        "B": "体检报告",
+        "C": "财务证明",
+        "D": "以上皆是"
+      },
+      "correct": "D",
+      "explanation": "正确答案D：保险公司在核保时可能要求以上所有资料。健康声明书是基本核保文件；高保额可能要求体检；高保额申请可能要求财务证明。\n\n关联知识点：核保文件要求取决于投保金额、年龄、健康状况等。低保额可能只需简单健康声明。",
+      "key_concept": "核保所需文件资料",
+      "difficulty": "easy",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "额外保费（Extra Premium / Loading）是针对什么人收取的？",
+      "options": {
+        "A": "所有投保人",
+        "B": "只针对次标准体投保人，以反映其较高的风险",
+        "C": "只针对首次投保的人",
+        "D": "只针对高保额投保人"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：额外保费是保险公司对次标准体（较高风险）投保人收取的附加保费。\n\n选项A错误：标准体和优选体无须缴付额外保费。\n选项C错误：并非所有首次投保人都需额外保费。\n选项D错误：高保额本身不一定导致额外保费。\n\n关联知识点：额外保费形式包括按百分比加载或固定金额加载。也可通过除外条款承保。",
+      "key_concept": "额外保费的适用对象",
+      "difficulty": "easy",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.3",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下哪些属于核保时考虑的「非医疗因素」？\n(i) 职业\n(ii) 危险嗜好\n(iii) 财务状况\n(iv) 血压水平",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)、(ii)和(iii)",
+        "C": "(i)和(iv)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：非医疗因素包括职业、危险嗜好和财务状况。\n\n(iv) 血压水平属于医疗因素。\n\n关联知识点：其他非医疗因素还包括居住地区、旅游计划、驾驶记录等。",
+      "key_concept": "核保的非医疗因素",
+      "difficulty": "easy",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "B",
+      "reference": "3.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "「再保险」（Reinsurance）的目的是什么？",
+      "options": {
+        "A": "让投保人获得双重保障",
+        "B": "保险公司将部分风险转移给再保险公司，以分散风险",
+        "C": "让投保人可向两家保险公司同时索赔",
+        "D": "降低投保人的保费"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：再保险是保险公司将承保的部分风险转移给再保险公司，以分散风险、稳定经营业绩和增强承保能力。\n\n选项A错误：再保险是保险公司之间的安排，投保人不获双重保障。\n选项C错误：投保人只能向直接保险公司索赔。\n选项D错误：再保险不直接降低投保人的保费。\n\n关联知识点：再保险使保险公司能接受超过自身承保能力的大额保单。",
+      "key_concept": "再保险的目的",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.6",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "财务需要分析（Financial Needs Analysis, FNA）的目的是什么？",
+      "options": {
+        "A": "帮助保险公司评估投保人的风险",
+        "B": "帮助客户识别其财务需要和保障缺口，从而推荐合适的保险产品",
+        "C": "计算保险公司的利润",
+        "D": "评估保险中介人的业绩"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：FNA的目的是帮助客户识别其财务需要和保障缺口，确保保险中介人推荐的产品切合客户实际需要。\n\n选项A错误：风险评估属于核保部门的职能。\n选项C错误：利润计算属于财务部门。\n选项D错误：业绩评估与FNA无关。\n\n关联知识点：FNA是保险中介人在销售过程中应进行的重要步骤，是专业服务和合规要求的一部分。FNA应考虑客户的收入、负债、家庭状况、现有保障等。",
+      "key_concept": "FNA财务需要分析",
+      "difficulty": "easy",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.7",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险中介人在销售过程中向客户提供的重要资料声明书（Important Facts Statement, IFI）的作用是什么？",
+      "options": {
+        "A": "作为保单合同的一部分",
+        "B": "确保客户在购买保单前充分了解产品的主要特点、风险和重要事项",
+        "C": "替代保单条款",
+        "D": "仅供保险公司内部使用"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：IFI确保客户在购买保单前充分了解产品的主要特点、费用、风险和重要事项，是保障客户知情权的重要文件。\n\n选项A错误：IFI是信息披露文件，不是保单合同的一部分。\n选项C错误：IFI不能替代保单条款，两者是不同文件。\n选项D错误：IFI是提供给客户的文件，非仅供内部使用。\n\n关联知识点：IFI是保险中介人合规销售的重要组成部分，未向客户提供IFI可能构成违规行为。",
+      "key_concept": "IFI重要资料声明书",
+      "difficulty": "medium",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.7",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "人寿保险理赔的第一步是什么？",
+      "options": {
+        "A": "立即支付赔偿金",
+        "B": "向保险公司提交索赔通知及所需证明文件",
+        "C": "向法院提起诉讼",
+        "D": "联系再保险公司"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：理赔第一步是受益人或保单持有人向保险公司提交索赔通知及证明文件（如死亡证明书、保单正本等）。\n\n选项A错误：需先审核后才决定是否赔付。\n选项C错误：理赔先通过保险公司处理。\n选项D错误：应联系直接保险公司。\n\n关联知识点：及时提交索赔通知非常重要。所需文件包括索赔表格、保单正本、死亡证明书等。",
+      "key_concept": "理赔程序的第一步",
+      "difficulty": "easy",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "A",
+      "reference": "4.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "处理身故理赔时通常需要哪些文件？\n(i) 死亡证明书\n(ii) 保单正本\n(iii) 填妥的索赔表格\n(iv) 受保人的学历证明",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)、(ii)和(iii)",
+        "C": "(i)和(iv)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：身故理赔需要死亡证明书、保单正本和索赔表格。\n\n(iv) 学历证明与理赔无关。\n\n关联知识点：根据情况可能还需验尸报告、身份证明文件、受益人身份证明等。",
+      "key_concept": "身故理赔所需文件",
+      "difficulty": "easy",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "B",
+      "reference": "4.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险公司在什么情况下可以拒绝理赔？",
+      "options": {
+        "A": "受保人在保单生效3年后因心脏病身故",
+        "B": "投保人在投保时隐瞒了已知的重大疾病，且保单仍在不可争议期内",
+        "C": "受保人在宽限期内身故",
+        "D": "受益人在受保人身故后30天才提交索赔"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：投保人在投保时隐瞒重大疾病且保单仍在不可争议期内（通常首2年），保险公司有权拒赔。\n\n选项A错误：3年已过不可争议期，一般不能拒赔。\n选项C错误：宽限期内保单有效，仍须赔付。\n选项D错误：30天延迟不构成拒赔理由。\n\n关联知识点：拒赔常见理由还包括除外条款所列情况、自杀排除期内自杀、欺诈等。",
+      "key_concept": "保险公司拒赔的合理情况",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "A",
+      "reference": "4.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险投诉局（Insurance Complaints Bureau）的裁决金额上限为多少？",
+      "options": {
+        "A": "80万港元",
+        "B": "100万港元",
+        "C": "120万港元",
+        "D": "150万港元"
+      },
+      "correct": "C",
+      "explanation": "正确答案C：保险投诉局的裁决金额上限为120万港元。超过此上限需通过法律途径解决。\n\n选项A错误：80万并非现行上限。\n选项B错误：100万并非现行上限。\n选项D错误：150万并非现行上限。\n\n关联知识点：保险投诉局是独立调解机构，裁决对保险公司具约束力，投诉人不接受裁决仍可通过法律途径追讨。",
+      "key_concept": "保险投诉局裁决上限120万港元",
+      "difficulty": "easy",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "A",
+      "reference": "4.3",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "处理危疾保险理赔时最关键的要求是什么？",
+      "options": {
+        "A": "受保人必须住院至少30天",
+        "B": "受保人必须经注册医生确诊患上保单指定的严重疾病且符合保单规定的疾病定义",
+        "C": "受保人必须提交过去5年的全部医疗记录",
+        "D": "受保人必须在确诊后7天内提出索赔"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：危疾保险理赔关键是受保人经注册医生确诊患上保单指定的严重疾病，且符合保单条款中的定义和诊断标准。\n\n选项A错误：危疾保险理赔不要求住院。\n选项C错误：不一定要求过去5年全部记录。\n选项D错误：索赔通知时间因保单而异。\n\n关联知识点：不同保险公司对危疾定义可能有差异。常见受保疾病包括癌症、心脏病发作、中风等。",
+      "key_concept": "危疾保险理赔要求",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "A",
+      "reference": "4.4",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "若受保人在宽限期内身故，保险公司应如何处理？",
+      "options": {
+        "A": "拒绝赔付",
+        "B": "照常赔付身故保险金，但可从赔偿金中扣除未缴保费",
+        "C": "只退还已缴保费",
+        "D": "等待缴清保费后才赔付"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：宽限期内保单有效，保险公司仍须赔付身故保险金，但可扣除未缴保费。\n\n选项A错误：宽限期内保单有效，不能拒赔。\n选项C错误：须赔付完整身故保险金。\n选项D错误：无须等待缴清保费。\n\n关联知识点：宽限期通常31天，从保费到期日起计。",
+      "key_concept": "宽限期内身故的理赔处理",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "A",
+      "reference": "4.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "投保人作出欺诈性陈述（Fraudulent Misrepresentation），保险公司在不可争议期届满后是否仍可拒赔？",
+      "options": {
+        "A": "可以，欺诈是不可争议条款的例外",
+        "B": "不可以，不可争议期届满后不能以任何理由拒赔",
+        "C": "视乎法官的判决",
+        "D": "只有在投保后首年才可拒赔"
+      },
+      "correct": "A",
+      "explanation": "正确答案A：欺诈是不可争议条款的例外。即使不可争议期已届满，保险公司仍可以欺诈为由拒赔。\n\n选项B错误：不可争议条款的保护不适用于欺诈。\n选项C错误：欺诈拒赔不取决于法官判决。\n选项D错误：欺诈不受时间限制。\n\n关联知识点：欺诈与疏忽不披露不同——疏忽不披露在2年后通常不被追究，但欺诈可在任何时候被追究。",
+      "key_concept": "欺诈是不可争议条款的例外",
+      "difficulty": "hard",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "A",
+      "reference": "4.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "多名受益人对赔偿金分配产生争议时，应如何处理？",
+      "options": {
+        "A": "保险公司自行决定",
+        "B": "按保单指定的分配比例赔付；若没有指定，则平均分配或依法处理",
+        "C": "全部归第一个提出索赔的受益人",
+        "D": "保险公司可拒绝赔付"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：赔偿金应按保单指定的受益人和分配比例进行。若未指定比例，通常平均分配或依法处理。\n\n选项A错误：应按保单条款和法律规定分配。\n选项C错误：不会因提交索赔先后顺序不同。\n选项D错误：不应无理拖延赔付。\n\n关联知识点：投保时应清楚指定受益人和分配比例以避免日后争议。",
+      "key_concept": "赔偿金分配原则",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "A",
+      "reference": "4.5",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "失踪人士的身故理赔通常如何处理？",
+      "options": {
+        "A": "失踪即可立即理赔",
+        "B": "通常需法院颁发死亡推定令后才可处理理赔",
+        "C": "保险公司永远不会赔付",
+        "D": "失踪超过1年即自动理赔"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：通常需法院颁发死亡推定令后才处理理赔。在香港一般需失踪满7年。\n\n选项A错误：失踪不等于身故，不能立即理赔。\n选项C错误：取得死亡推定令后通常会赔付。\n选项D错误：1年太短且非自动理赔。\n\n关联知识点：在已知灾难中失踪，法院可能较快颁发死亡推定令。",
+      "key_concept": "失踪人士的理赔处理",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "A",
+      "reference": "4.5",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下哪些是保险公司可合法拒赔的情况？\n(i) 投保人在不可争议期内被发现有重大不披露\n(ii) 死因属于保单除外条款所列情况\n(iii) 受保人在宽限期内身故\n(iv) 受保人在自杀排除期内自杀",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)、(ii)和(iv)",
+        "C": "(i)和(iii)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：合法拒赔情况包括不可争议期内的重大不披露、除外条款所列情况、自杀排除期内的自杀。\n\n(iii) 错误：宽限期内保单有效，仍须赔付。\n\n关联知识点：拒赔决定应有充分法律和合同依据。投诉人可向保险投诉局投诉。",
+      "key_concept": "合法拒赔的情况",
+      "difficulty": "hard",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "B",
+      "reference": "4.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险投诉局处理投诉的范围包括什么？",
+      "options": {
+        "A": "只处理人寿保险投诉",
+        "B": "处理个人保险合同引起的索赔争议",
+        "C": "处理所有金融产品的投诉",
+        "D": "只处理保费争议"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保险投诉局处理因个人保险合同引起的索赔争议，涵盖人寿和一般保险。\n\n选项A错误：不限于人寿保险。\n选项C错误：只处理保险相关投诉。\n选项D错误：主要处理索赔争议。\n\n关联知识点：投诉人须先向保险公司投诉，不满意答复后才可向投诉局投诉。裁决上限120万港元。",
+      "key_concept": "保险投诉局的职能范围",
+      "difficulty": "easy",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "A",
+      "reference": "4.3",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "若保单持有人对保险公司的理赔决定不满意，可以首先向以下哪个机构投诉？",
+      "options": {
+        "A": "香港金融管理局",
+        "B": "保险投诉局",
+        "C": "证券及期货事务监察委员会",
+        "D": "消费者委员会"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保险投诉局是专门处理保险索赔争议的独立调解机构。\n\n选项A错误：金管局主要监管银行业。\n选项C错误：证监会主要监管证券期货市场。\n选项D错误：消费者委员会处理一般消费投诉，保险索赔争议应向保险投诉局投诉。\n\n关联知识点：投诉人须先向保险公司提出投诉，不满意后才向保险投诉局投诉。",
+      "key_concept": "保险投诉的渠道",
+      "difficulty": "easy",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "A",
+      "reference": "4.3",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险业监管局（Insurance Authority, IA）的主要职能是什么？",
+      "options": {
+        "A": "销售保险产品",
+        "B": "监管和规管保险业，保障保单持有人的利益",
+        "C": "提供保险理赔服务",
+        "D": "设计保险产品"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保险业监管局是香港保险业的独立监管机构，主要职能包括监管保险公司及中介人，保障保单持有人利益。\n\n选项A错误：IA不销售保险产品。\n选项C错误：理赔由保险公司提供。\n选项D错误：产品设计由保险公司负责。\n\n关联知识点：IA于2017年成立，接替原保险业监理处的职能，并负责直接规管保险中介人。",
+      "key_concept": "保险业监管局的职能",
+      "difficulty": "easy",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "客户尽职审查（Customer Due Diligence, CDD）记录应保存至少多少年？",
+      "options": {
+        "A": "3年",
+        "B": "5年",
+        "C": "6年",
+        "D": "10年"
+      },
+      "correct": "C",
+      "explanation": "正确答案C：根据《打击洗钱条例》，客户尽职审查记录应保存至少6年（从业务关系结束或交易完成日起计）。\n\n选项A错误：3年太短。\n选项B错误：5年不够。\n选项D错误：10年超过法定最低要求。\n\n关联知识点：CDD包括识别和核实客户身份、了解业务关系的性质和目的、持续监察业务关系等。",
+      "key_concept": "客户尽职审查记录保存至少6年",
+      "difficulty": "easy",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险中介人在销售保险产品时，必须遵守以下哪项基本要求？",
+      "options": {
+        "A": "向客户推荐保费最高的产品",
+        "B": "确保所推荐的产品适合客户的需要（Suitability Requirement）",
+        "C": "向所有客户推荐相同的产品",
+        "D": "只需关注佣金收入"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保险中介人必须确保推荐的产品切合客户的需要和财务状况，即适合性要求。\n\n选项A错误：应推荐适合而非保费最高的产品。\n选项C错误：不同客户有不同需要，应因人而异。\n选项D错误：保险中介人应以客户利益为先，非佣金导向。\n\n关联知识点：适合性要求是保险中介人的核心专业和道德义务，应通过FNA了解客户需要后再作推荐。",
+      "key_concept": "产品适合性要求",
+      "difficulty": "easy",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.3",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下哪些是保险中介人的专业操守要求？\n(i) 以诚信和公平方式对待客户\n(ii) 向客户披露所有重要资料\n(iii) 保护客户的个人资料私隐\n(iv) 优先考虑自身佣金收入",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)、(ii)和(iii)",
+        "C": "(i)、(ii)和(iv)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保险中介人的专业操守要求包括诚信公平对待客户、披露重要资料、保护客户私隐。\n\n(iv) 优先考虑自身佣金收入违反专业操守，保险中介人应以客户利益为先。\n\n关联知识点：保险中介人违反专业操守可能面临纪律处分，包括罚款、暂停或撤销牌照。",
+      "key_concept": "保险中介人的专业操守",
+      "difficulty": "easy",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "B",
+      "reference": "5.3",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "根据《个人资料（私隐）条例》，保险中介人在收集和使用客户个人资料时，必须遵守什么原则？",
+      "options": {
+        "A": "可以任意收集和使用客户资料",
+        "B": "只能收集与保险业务直接相关的个人资料，并须告知客户收集目的",
+        "C": "可以将客户资料出售给第三方",
+        "D": "无须获得客户同意即可使用其个人资料"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保险中介人只能收集与业务直接相关的个人资料，须告知客户收集目的，并确保资料安全。\n\n选项A错误：不能任意收集和使用资料。\n选项C错误：未经客户同意不能将资料出售给第三方。\n选项D错误：某些用途需获得客户同意。\n\n关联知识点：《私隐条例》设有六项保障资料原则，涵盖资料收集、使用、保存、安全等方面。",
+      "key_concept": "个人资料保护原则",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.4",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "客户尽职审查（CDD）的主要目的是什么？",
+      "options": {
+        "A": "评估客户的保险需要",
+        "B": "识别和核实客户身份，防止洗钱和恐怖分子资金筹集",
+        "C": "评估保险公司的财务实力",
+        "D": "计算客户应缴的保费"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：CDD的主要目的是识别和核实客户身份，了解业务关系的性质和目的，以防止洗钱和恐怖分子资金筹集。\n\n选项A错误：评估保险需要是FNA的功能。\n选项C错误：评估保险公司财务实力不属于CDD。\n选项D错误：计算保费属于核保和精算部门。\n\n关联知识点：CDD措施包括核实身份、了解实益拥有人、持续监察等。对于高风险客户应进行加强版CDD。",
+      "key_concept": "客户尽职审查的目的",
+      "difficulty": "easy",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "洗钱（Money Laundering）的三个阶段是什么？",
+      "options": {
+        "A": "存款、转账、提款",
+        "B": "存放（Placement）、分层（Layering）、整合（Integration）",
+        "C": "投资、交易、套现",
+        "D": "隐藏、转移、使用"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：洗钱的三个经典阶段为：存放（将非法所得引入金融体系）、分层（通过复杂交易掩盖资金来源）、整合（将洗白的资金重新投入合法经济活动）。\n\n选项A错误：过于简单化，不是专业术语。\n选项C错误：不是洗钱阶段的正确描述。\n选项D错误：不是标准的三阶段模型。\n\n关联知识点：保险产品可能被利用于洗钱的各个阶段，保险中介人应提高警觉，识别可疑交易。",
+      "key_concept": "洗钱的三个阶段",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险中介人持续专业发展（Continuing Professional Development, CPD）的要求是什么？",
+      "options": {
+        "A": "不需要任何持续进修",
+        "B": "保险中介人每年须完成指定时数的持续专业发展活动",
+        "C": "只需在首次获得牌照时进修",
+        "D": "只有管理层需要进修"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保险中介人须每年完成指定时数的CPD活动，以维持和提升专业知识和技能。\n\n选项A错误：持续进修是法定要求。\n选项C错误：CPD是持续性要求，非只在首次获牌时。\n选项D错误：所有持牌保险中介人都需遵守CPD要求。\n\n关联知识点：未能完成CPD要求可能影响牌照续期。CPD内容涵盖保险知识、法规更新、专业技能等。",
+      "key_concept": "持续专业发展要求",
+      "difficulty": "easy",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.5",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下哪项行为可能构成保险欺诈？",
+      "options": {
+        "A": "投保人如实申报所有健康状况",
+        "B": "投保人故意隐瞒已知的严重疾病以获取较低保费或避免被拒保",
+        "C": "投保人在宽限期内补缴保费",
+        "D": "投保人行使冷静期权利取消保单"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：故意隐瞒已知的严重疾病以获取较低保费或避免被拒保属于欺诈行为。\n\n选项A正确做法：如实申报是最高诚信原则的要求。\n选项C正确做法：在宽限期内补缴保费是保单持有人的合法权利。\n选项D正确做法：行使冷静期权利是合法行为。\n\n关联知识点：保险欺诈可导致保单被取消、理赔被拒，严重者可能面临刑事检控。",
+      "key_concept": "保险欺诈的构成",
+      "difficulty": "easy",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.6",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险中介人在销售过程中，以下哪项行为属于不当销售（Mis-selling）？",
+      "options": {
+        "A": "向客户详细解释保单条款和条件",
+        "B": "向客户推荐明显不适合其需要和财务状况的产品",
+        "C": "进行财务需要分析（FNA）",
+        "D": "向客户提供重要资料声明书（IFI）"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：向客户推荐明显不适合其需要和财务状况的产品属于不当销售。\n\n选项A：详细解释条款是正确做法。\n选项C：进行FNA是合规要求。\n选项D：提供IFI是合规要求。\n\n关联知识点：不当销售可能导致客户投诉、保险中介人被纪律处分。常见不当销售行为还包括夸大产品回报、隐瞒重要风险等。",
+      "key_concept": "不当销售行为",
+      "difficulty": "easy",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.3",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下哪些是保险中介人必须向客户披露的信息？\n(i) 保险中介人的身份和所代表的保险公司\n(ii) 产品的主要特点和风险\n(iii) 佣金结构的详细信息\n(iv) 冷静期权利",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)、(ii)和(iv)",
+        "C": "(i)和(iv)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保险中介人必须披露自身身份和所代表的保险公司、产品主要特点和风险、冷静期权利。\n\n(iii) 佣金结构的详细信息：在现行规定下，保险中介人不一定需要主动披露佣金的具体金额，但如客户要求则须提供。\n\n关联知识点：充分的信息披露是保障客户知情权的重要措施。",
+      "key_concept": "保险中介人的信息披露义务",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "B",
+      "reference": "5.3",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "《保险业条例》规定，从事保险中介活动的人必须：",
+      "options": {
+        "A": "无须任何资格或牌照",
+        "B": "持有保险业监管局发出的牌照",
+        "C": "只需有大学学历",
+        "D": "只需获得保险公司口头授权"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：根据《保险业条例》，从事保险中介活动的人必须持有保险业监管局发出的牌照。\n\n选项A错误：从事保险中介活动必须持有牌照。\n选项C错误：大学学历不能替代牌照。\n选项D错误：口头授权不符合法律要求。\n\n关联知识点：保险中介人分为保险代理人和保险经纪。要取得牌照须通过IIQE资格考试并符合其他监管要求。",
+      "key_concept": "保险中介人牌照要求",
+      "difficulty": "easy",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险代理人（Insurance Agent）和保险经纪（Insurance Broker）的主要分别是什么？",
+      "options": {
+        "A": "没有分别，两者完全相同",
+        "B": "保险代理人代表保险公司，保险经纪代表客户",
+        "C": "保险经纪只能销售一般保险",
+        "D": "保险代理人不需要持有牌照"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保险代理人代表保险公司向客户销售产品；保险经纪代表客户利益，从市场上寻找适合客户的保险产品。\n\n选项A错误：两者在法律地位和职能上有明显分别。\n选项C错误：保险经纪可销售长期和一般保险。\n选项D错误：保险代理人同样需要持有牌照。\n\n关联知识点：保险经纪因代表客户利益，对客户负有更高的注意义务。",
+      "key_concept": "保险代理人与保险经纪的区别",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下关于保险回佣（Rebating）的陈述，哪项是正确的？",
+      "options": {
+        "A": "保险中介人可以自由向客户提供回佣",
+        "B": "保险中介人向客户提供回佣或其他不当利益以诱导其购买保险是违反监管规定的行为",
+        "C": "回佣是正常的商业惯例",
+        "D": "只有新客户可以获得回佣"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保险中介人向客户提供回佣或其他不当利益以诱导购买保险是违反监管规定的行为。\n\n选项A错误：回佣是被禁止的行为。\n选项C错误：在保险业中，回佣不是正常商业惯例，而是违规行为。\n选项D错误：无论新旧客户，回佣均属违规。\n\n关联知识点：回佣行为不仅违反监管规定，还可能构成《防止贿赂条例》下的罪行。保险中介人应通过专业服务吸引客户。",
+      "key_concept": "保险回佣的违规性",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.6",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险中介人在什么情况下必须进行客户尽职审查（CDD）？\n(i) 建立新的业务关系时\n(ii) 进行指定金额以上的偶然交易时\n(iii) 怀疑洗钱或恐怖分子资金筹集时\n(iv) 客户每次续保时",
+      "options": {
+        "A": "(i)和(ii)",
+        "B": "(i)、(ii)和(iii)",
+        "C": "(i)和(iii)",
+        "D": "(i)、(ii)、(iii)和(iv)"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：必须进行CDD的情况包括建立新业务关系、指定金额以上的偶然交易、怀疑洗钱或恐怖分子资金筹集时。\n\n(iv) 客户每次续保不一定需要重新进行CDD，但应持续监察业务关系。\n\n关联知识点：对于高风险客户（如政治人物PEP），应进行加强版CDD。",
+      "key_concept": "进行CDD的触发条件",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "B",
+      "reference": "5.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险中介人发现可疑交易后应如何处理？",
+      "options": {
+        "A": "直接告知客户交易被认为可疑",
+        "B": "尽快向联合财富情报组（JFIU）提交可疑交易报告，且不得向客户「通风报信」",
+        "C": "忽略并继续正常业务",
+        "D": "只需在年度报告中提及"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：发现可疑交易后应尽快向JFIU提交STR，且不得向客户或任何第三方透露已提交报告或正在调查（即不得「通风报信」/Tipping Off）。\n\n选项A错误：告知客户属于「通风报信」，可构成刑事罪行。\n选项C错误：忽略可疑交易可能构成未能履行法定义务的罪行。\n选项D错误：应尽快提交，不能等到年度报告。\n\n关联知识点：「通风报信」本身是刑事罪行。提交STR不等于停止业务关系，除非JFIU另有指示。",
+      "key_concept": "可疑交易处理程序",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险公司的偿付能力（Solvency）要求是指什么？",
+      "options": {
+        "A": "保险公司必须维持足够的资本和资产以履行其对保单持有人的责任",
+        "B": "保险公司必须每年支付红利",
+        "C": "保险公司必须接受所有投保申请",
+        "D": "保险公司必须提供最低保证回报"
+      },
+      "correct": "A",
+      "explanation": "正确答案A：偿付能力要求确保保险公司维持足够的资本和资产，以履行其对保单持有人的现有和未来责任。\n\n选项B错误：支付红利取决于保险公司的经营表现，非强制要求。\n选项C错误：保险公司有权根据核保结果拒绝承保。\n选项D错误：保险公司不一定要提供最低保证回报。\n\n关联知识点：保险业监管局会监察保险公司的偿付能力，确保其有足够财务实力应对理赔。",
+      "key_concept": "偿付能力要求",
+      "difficulty": "medium",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保险中介人违反专业操守守则可能面临以下哪种后果？",
+      "options": {
+        "A": "不会有任何后果",
+        "B": "可能面临纪律处分，包括罚款、暂停或撤销牌照",
+        "C": "只会收到口头警告",
+        "D": "只需要写一封道歉信"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保险中介人违反专业操守守则可面临纪律处分，包括谴责、罚款、暂停牌照或撤销牌照。\n\n选项A错误：违反守则会有后果。\n选项C错误：纪律处分不限于口头警告。\n选项D错误：道歉信不能替代纪律处分。\n\n关联知识点：严重违规还可能涉及刑事检控。保险业监管局有权对违规中介人采取纪律行动。",
+      "key_concept": "违反专业操守的后果",
+      "difficulty": "easy",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.6",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "关于投资连结寿险（ILAS）的收费结构，以下哪项是正确的？",
+      "options": {
+        "A": "ILAS完全没有任何收费",
+        "B": "ILAS通常设有保单行政费、基金管理费、保险成本扣除等多项收费",
+        "C": "ILAS的收费与传统寿险完全相同",
+        "D": "ILAS只收取一次性的投保费用"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：ILAS通常设有多项收费，包括保单行政费、基金管理费、保险成本扣除、退保费用等，收费结构相对复杂。\n\n选项A错误：ILAS有多项收费。\n选项C错误：ILAS收费结构与传统寿险不同。\n选项D错误：ILAS的收费是持续性的，非一次性。\n\n关联知识点：投保人应在投保前充分了解ILAS的收费结构，尤其是早期退保的罚款。",
+      "key_concept": "ILAS的收费结构",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.7",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下关于永久健康保险（Permanent Health Insurance）的陈述，哪项最准确？",
+      "options": {
+        "A": "永久健康保险只提供短期保障",
+        "B": "永久健康保险提供长期保障，在受保人因疾病或意外导致丧失工作能力时提供收入替代",
+        "C": "永久健康保险与危疾保险完全相同",
+        "D": "永久健康保险不属于长期保险"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：永久健康保险提供长期保障，在受保人因疾病或意外导致长期丧失工作能力时提供收入替代。\n\n选项A错误：永久健康保险是长期保障。\n选项C错误：两者赔付方式不同——永久健康保险按月支付收入替代，危疾保险一次性赔付。\n选项D错误：永久健康保险属于长期保险类别之一。\n\n关联知识点：永久健康保险是《保险业条例》下长期业务的类别之一。",
+      "key_concept": "永久健康保险的特征",
+      "difficulty": "medium",
+      "chapterId": "3-1",
+      "chapterName": "长期保险产品",
+      "type": "A",
+      "reference": "1.6",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "若保单持有人在冷静期内取消投资连结寿险（ILAS），保险公司的退款金额如何计算？",
+      "options": {
+        "A": "退还全部已缴保费，不作任何扣除",
+        "B": "退还已缴保费，但可扣除该期间已提供保障的费用及市场价值变动（Market Value Adjustment）",
+        "C": "不退还任何费用",
+        "D": "只退还50%的已缴保费"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：冷静期内取消ILAS，保险公司须退还已缴保费，但可扣除该期间已提供保障的费用及因投资基金价格变动导致的市场价值调整。\n\n选项A错误：可以扣除保障费用和市场价值变动。\n选项C错误：冷静期内取消必须退款。\n选项D错误：不是只退还50%。\n\n关联知识点：由于ILAS涉及投资，退款金额会受到市场价值变动影响，因此退款金额可能少于已缴保费。",
+      "key_concept": "ILAS冷静期退款的市场价值调整",
+      "difficulty": "hard",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.1",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下关于保单条款中「整份合同条款」（Entire Contract Clause）的陈述，哪项最准确？",
+      "options": {
+        "A": "保单合同只包括保单文件本身",
+        "B": "保单合同由保单文件及投保申请书共同组成，保险公司不能依赖不在合同内的文件",
+        "C": "保单合同可随时由保险公司单方面修改",
+        "D": "整份合同条款只适用于团体保险"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：整份合同条款规定保单合同由保单文件及投保申请书共同组成，保险公司不能依赖不在合同内的文件或口头承诺。\n\n选项A错误：投保申请书也是合同的一部分。\n选项C错误：保险公司不能单方面修改合同条款。\n选项D错误：此条款适用于各类保单。\n\n关联知识点：此条款保障保单持有人免受保险公司依赖合同以外文件来否定理赔。",
+      "key_concept": "整份合同条款",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.3",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "保单中的「不可撤销受益人」（Irrevocable Beneficiary）与「可撤销受益人」（Revocable Beneficiary）有何分别？",
+      "options": {
+        "A": "两者完全相同",
+        "B": "不可撤销受益人一经指定，未经该受益人同意不能更改；可撤销受益人可由保单持有人随时更改",
+        "C": "不可撤销受益人只适用于团体保险",
+        "D": "可撤销受益人的权益高于不可撤销受益人"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：不可撤销受益人一经指定，更改时须获得该受益人的书面同意；可撤销受益人可由保单持有人随时更改而无须任何人同意。\n\n选项A错误：两者有重大分别。\n选项C错误：两种受益人类型适用于各类保单。\n选项D错误：不可撤销受益人的权益更受保障。\n\n关联知识点：指定不可撤销受益人常见于离婚协议或贷款安排中，以保障特定人士的利益。",
+      "key_concept": "不可撤销与可撤销受益人的区别",
+      "difficulty": "medium",
+      "chapterId": "3-2",
+      "chapterName": "保单条款与条件",
+      "type": "A",
+      "reference": "2.8",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下关于「自然保费」（Natural Premium）的陈述，哪项最准确？",
+      "options": {
+        "A": "自然保费在整个保障期内保持不变",
+        "B": "自然保费随受保人年龄增长而逐年递增，因为死亡率随年龄上升",
+        "C": "自然保费比均衡保费低",
+        "D": "自然保费只适用于储蓄寿险"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：自然保费是根据受保人当年实际死亡率计算的保费，由于死亡率随年龄增长而上升，自然保费也逐年递增。\n\n选项A错误：保持不变的是均衡保费。\n选项C错误：年轻时自然保费较低，年老时远高于均衡保费。\n选项D错误：自然保费是精算概念，非限于特定产品。\n\n关联知识点：均衡保费制度是将自然保费在整个缴费期内平均化，使年轻时多缴的部分形成储备金。",
+      "key_concept": "自然保费与均衡保费的区别",
+      "difficulty": "hard",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.4",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下关于「保单储备金」（Policy Reserve）的陈述，哪项最准确？",
+      "options": {
+        "A": "保单储备金是保险公司的纯利润",
+        "B": "保单储备金是保险公司为应付未来理赔责任而保留的资金，是保单现金价值的基础",
+        "C": "保单储备金只适用于一般保险",
+        "D": "保单储备金等于已收取的全部保费"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：保单储备金是保险公司为应付未来理赔责任而保留的资金。在均衡保费制度下，早期保费高于实际风险成本的部分形成储备金，是保单现金价值的精算基础。\n\n选项A错误：储备金是负债项目，非利润。\n选项C错误：长期保险需要大量保单储备金。\n选项D错误：储备金经过精算计算，不等于全部保费。\n\n关联知识点：保险公司必须维持足够的保单储备金，这是偿付能力监管的重要一环。",
+      "key_concept": "保单储备金的概念",
+      "difficulty": "hard",
+      "chapterId": "3-3",
+      "chapterName": "核保与保费",
+      "type": "A",
+      "reference": "3.4",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下关于年金理赔的陈述，哪项是正确的？",
+      "options": {
+        "A": "年金没有理赔程序",
+        "B": "年金受领人在年金期间内身故，若保单设有保证期或退还保费条款，受益人可获赔付",
+        "C": "年金受领人身故后年金自动转给配偶",
+        "D": "年金理赔与人寿保险理赔完全相同"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：若年金保单设有保证期或退还保费条款，年金受领人在保证期内身故时，受益人可获得剩余保证期的年金或退还保费。\n\n选项A错误：年金也有理赔程序。\n选项C错误：不会自动转给配偶，取决于保单条款。\n选项D错误：年金理赔与人寿保险理赔有差异。\n\n关联知识点：终身年金如无保证期，年金受领人身故后年金即停止支付。",
+      "key_concept": "年金理赔的特殊处理",
+      "difficulty": "medium",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "A",
+      "reference": "4.5",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "若受保人在不可争议期（通常2年）内因隐瞒的既往病症而身故，保险公司最可能采取的行动是什么？",
+      "options": {
+        "A": "全额赔付身故保险金",
+        "B": "拒绝赔付并可能退还已缴保费（扣除已提供保障的费用）",
+        "C": "赔付50%的身故保险金",
+        "D": "延迟赔付至保单满3年"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：在不可争议期内，保险公司发现投保人隐瞒既往病症，有权拒绝赔付并取消保单，通常退还已缴保费（扣除费用）。\n\n选项A错误：不可争议期内可以拒赔。\n选项C错误：保险公司通常不会部分赔付。\n选项D错误：不存在延迟至3年的规定。\n\n关联知识点：不可争议期后（满2年），保险公司一般不能以此为由拒赔（欺诈除外）。",
+      "key_concept": "不可争议期内隐瞒病史的理赔处理",
+      "difficulty": "hard",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "A",
+      "reference": "4.2",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "代位求偿权（Subrogation）在人寿保险中的适用情况是什么？",
+      "options": {
+        "A": "代位求偿权广泛适用于人寿保险",
+        "B": "代位求偿权一般不适用于人寿保险，因为人的生命不能以金钱完全衡量",
+        "C": "代位求偿权只适用于高保额保单",
+        "D": "代位求偿权只适用于团体保险"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：代位求偿权一般不适用于人寿保险。因为人的生命价值不能以金钱完全衡量，人寿保险属于定额给付性质而非损失补偿。\n\n选项A错误：代位求偿权主要适用于一般保险（损失补偿保险）。\n选项C错误：与保额高低无关。\n选项D错误：不限于团体保险。\n\n关联知识点：代位求偿权是损失补偿原则的延伸，适用于财产保险等。人寿保险不受损失补偿原则约束。",
+      "key_concept": "代位求偿权在人寿保险中的不适用",
+      "difficulty": "hard",
+      "chapterId": "3-4",
+      "chapterName": "理赔与赔付",
+      "type": "A",
+      "reference": "4.5",
+      "source": "official-format-v2"
+    },
+    {
+      "question": "以下关于「政治人物」（Politically Exposed Persons, PEP）的客户尽职审查要求，哪项是正确的？",
+      "options": {
+        "A": "政治人物不需要进行CDD",
+        "B": "对政治人物应进行加强版客户尽职审查（Enhanced CDD），包括了解资金来源等",
+        "C": "政治人物一律不能购买保险",
+        "D": "政治人物的CDD要求与一般客户完全相同"
+      },
+      "correct": "B",
+      "explanation": "正确答案B：政治人物被视为较高洗钱风险的客户，应对其进行加强版CDD，包括了解其财富和资金来源、获得高级管理层批准建立业务关系、加强持续监察等。\n\n选项A错误：政治人物需要更严格的CDD。\n选项C错误：政治人物可以购买保险，但需经加强审查。\n选项D错误：对政治人物的CDD要求高于一般客户。\n\n关联知识点：PEP包括外国和本地的政治人物及其家属和密切关联人士。识别PEP是反洗钱合规的重要部分。",
+      "key_concept": "政治人物的加强版CDD",
+      "difficulty": "hard",
+      "chapterId": "3-5",
+      "chapterName": "行业法规与合规",
+      "type": "A",
+      "reference": "5.2",
+      "source": "official-format-v2"
     }
   ],
   "generatedAt": "2026-03-25T14:42:00+08:00",
-  "version": 4,
-  "totalCount": 224
+  "version": 5,
+  "totalCount": 323
 }
