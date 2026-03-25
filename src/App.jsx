@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
-import { initialSync } from './lib/supabase'
+import { syncFromCloud } from './lib/supabase'
 import { useStats } from './hooks/useStats'
 import { useErrorBook } from './hooks/useErrorBook'
 import { useQuestionBank } from './hooks/useQuestionBank'
@@ -60,8 +60,8 @@ export default function App() {
   useEffect(() => {
     if (cloudSyncDone.current) return
     cloudSyncDone.current = true
-    initialSync().then(merged => {
-      if (merged) window.location.reload() // reload to pick up merged data
+    syncFromCloud().then(restored => {
+      if (restored) window.location.reload()
     })
   }, [])
 

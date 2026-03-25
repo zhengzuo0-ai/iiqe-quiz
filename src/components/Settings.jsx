@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { PAPERS } from '../data/chapters'
 import { load, save } from '../lib/storage'
-import { isCloudEnabled, generateSyncCode, restoreFromSyncCode, forcePush } from '../lib/supabase'
+
 
 const SETTINGS_KEY = 'settings'
 
@@ -43,113 +43,6 @@ function ConfirmDialog({ message, onConfirm, onCancel }) {
             确认重置
           </button>
         </div>
-      </div>
-    </div>
-  )
-}
-
-function CloudSyncSection({ showToast }) {
-  const [syncStatus, setSyncStatus] = useState('idle')
-  const [syncCode, setSyncCode] = useState(null)
-  const [restoreCode, setRestoreCode] = useState('')
-  const [restoring, setRestoring] = useState(false)
-  const [showRestore, setShowRestore] = useState(false)
-  const cloudEnabled = isCloudEnabled()
-
-  useEffect(() => {
-    const handler = (e) => setSyncStatus(e.detail.status)
-    window.addEventListener('cloud-sync', handler)
-    return () => window.removeEventListener('cloud-sync', handler)
-  }, [])
-
-  const handleGenerateCode = async () => {
-    setSyncStatus('syncing')
-    try {
-      await forcePush()
-      const code = await generateSyncCode()
-      if (code) { setSyncCode(code); setSyncStatus('synced') }
-      else { setSyncStatus('error'); showToast('生成同步码失败') }
-    } catch { setSyncStatus('error'); showToast('生成同步码失败') }
-  }
-
-  const handleRestore = async () => {
-    if (restoreCode.trim().length !== 6) { showToast('请输入6位同步码'); return }
-    setRestoring(true)
-    const result = await restoreFromSyncCode(restoreCode)
-    setRestoring(false)
-    if (result.ok) {
-      showToast('数据恢复成功，正在刷新...')
-      setTimeout(() => window.location.reload(), 1000)
-    } else { showToast(result.error || '恢复失败') }
-  }
-
-  const handleManualSync = async () => {
-    setSyncStatus('syncing')
-    try { await forcePush(); setSyncStatus('synced'); showToast('同步成功') }
-    catch { setSyncStatus('error'); showToast('同步失败') }
-  }
-
-  if (!cloudEnabled) {
-    return (
-      <div className="glass-card-solid rounded-2xl p-5 space-y-3">
-        <div className="text-xs text-pink-400 tracking-wider font-semibold uppercase">☁️ 云端同步</div>
-        <div className="text-sm text-charcoal-light/60">云端同步未配置。数据仅保存在本设备，请使用下方备份功能。</div>
-      </div>
-    )
-  }
-
-  const statusText = { idle: '等待同步', synced: '已同步', syncing: '同步中...', error: '同步失败' }
-  const statusColor = { idle: 'text-charcoal-light/50', synced: 'text-mint-500', syncing: 'text-pink-400', error: 'text-coral-500' }
-
-  return (
-    <div className="glass-card-solid rounded-2xl p-5 space-y-4">
-      <div className="text-xs text-pink-400 tracking-wider font-semibold uppercase">☁️ 云端同步</div>
-      <div className="flex items-center justify-between">
-        <div>
-          <div className="text-sm font-medium text-charcoal">同步状态</div>
-          <div className={`text-xs mt-0.5 font-medium ${statusColor[syncStatus]}`}>
-            {syncStatus === 'synced' && '✓ '}{statusText[syncStatus]}
-          </div>
-        </div>
-        <button onClick={handleManualSync} disabled={syncStatus === 'syncing'}
-          className="px-4 py-2 rounded-xl text-xs font-semibold gradient-pink-purple text-white shadow-sm disabled:opacity-50 transition-all">
-          {syncStatus === 'syncing' ? '同步中...' : '立即同步'}
-        </button>
-      </div>
-      <div className="h-px bg-cream-100" />
-      <div>
-        <div className="text-sm font-medium text-charcoal mb-1">同步码</div>
-        <div className="text-xs text-charcoal-light/50 mb-3">生成6位同步码，在新设备上恢复数据</div>
-        {syncCode ? (
-          <div className="flex items-center gap-3">
-            <div className="flex-1 py-3 px-4 rounded-xl bg-cream-50 text-center text-2xl font-bold tracking-[0.3em] text-charcoal font-mono">{syncCode}</div>
-            <button onClick={() => { navigator.clipboard?.writeText(syncCode); showToast('已复制同步码') }}
-              className="px-3 py-3 rounded-xl text-xs font-semibold bg-cream-100 text-charcoal-light hover:bg-cream-200 transition-all">复制</button>
-          </div>
-        ) : (
-          <button onClick={handleGenerateCode}
-            className="w-full py-3 rounded-xl text-sm font-semibold bg-cream-50 text-charcoal-light hover:bg-cream-100 transition-all">生成同步码</button>
-        )}
-      </div>
-      <div className="h-px bg-cream-100" />
-      <div>
-        <button onClick={() => setShowRestore(!showRestore)} className="text-sm font-medium text-charcoal flex items-center gap-1">
-          在新设备上恢复 <span className={`text-xs transition-transform ${showRestore ? 'rotate-90' : ''}`}>▶</span>
-        </button>
-        {showRestore && (
-          <div className="mt-3 space-y-2">
-            <div className="text-xs text-charcoal-light/50">输入旧设备上生成的同步码</div>
-            <div className="flex gap-2">
-              <input type="text" value={restoreCode} onChange={(e) => setRestoreCode(e.target.value.toUpperCase().slice(0, 6))}
-                placeholder="输入6位同步码" maxLength={6}
-                className="flex-1 py-2.5 px-4 rounded-xl text-sm bg-cream-50 text-charcoal border border-cream-200 outline-none focus:border-pink-300 transition-colors text-center tracking-[0.2em] font-mono uppercase" />
-              <button onClick={handleRestore} disabled={restoring || restoreCode.length !== 6}
-                className="px-4 py-2.5 rounded-xl text-sm font-semibold gradient-pink-purple text-white shadow-sm disabled:opacity-50 transition-all">
-                {restoring ? '恢复中...' : '恢复'}
-              </button>
-            </div>
-          </div>
-        )}
       </div>
     </div>
   )
@@ -385,7 +278,6 @@ export default function Settings({ stats, errorBook, onBack }) {
       </div>
 
       {/* Cloud Sync */}
-      <CloudSyncSection showToast={showToast} />
 
       {/* Backup */}
       <BackupSection showToast={showToast} />
