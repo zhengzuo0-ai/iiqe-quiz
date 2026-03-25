@@ -78,7 +78,7 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
             </h2>
             <div className={`font-display text-5xl font-bold my-4 ${passed ? 'text-mint-600' : 'text-coral-500'}`}>{pct}%</div>
             <div className="text-sm text-charcoal-light/50">{correct}/{questions.length} 正确 · 用时 {fmt(timer)}</div>
-            <div className="mt-4 text-xs text-charcoal-light/30 border-t border-dashed border-cream-100 pt-3">及格线 70%</div>
+            <div className="mt-4 text-xs text-charcoal-light/50 border-t border-dashed border-cream-100 pt-3">及格线 70%</div>
           </div>
         </div>
 
@@ -92,7 +92,7 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
             return (
               <div key={i} className={`glass-card-solid rounded-xl p-4 border-l-4 ${ok ? 'border-l-mint-400' : 'border-l-coral-400'}`}>
                 <div className="flex justify-between items-center mb-2">
-                  <span className="text-xs text-charcoal-light/45">Q{i + 1} · {q._ch.name}</span>
+                  <span className="text-xs text-charcoal-light/55">Q{i + 1} · {q._ch.name}</span>
                   <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${ok ? 'text-mint-600 bg-mint-50' : 'text-coral-500 bg-coral-50'}`}>
                     {ok ? '✓ 正确' : '✗ 错误'}
                   </span>

@@ -59,6 +59,50 @@ function ProgressRing({ value, size = 52, strokeWidth = 4, color = 'url(#ringGra
   )
 }
 
+function getCountdownAdvice(daysLeft) {
+  if (daysLeft <= 0) return '今天就是考试日！你准备好了！加油！🎉'
+  if (daysLeft <= 3) return '轻松复习错题和知识要点，保持状态 🌟'
+  if (daysLeft <= 7) return '密集刷模拟考+错题重做，查漏补缺 🔥'
+  if (daysLeft <= 10) return '重点攻克薄弱章节，每天做40题+复习错题 💪'
+  return '每天完成2个章节各20题，稳步推进 📚'
+}
+
+function calcPaperReadiness(stats, paperId) {
+  const chapters = PAPERS[paperId].chapters
+  let weightedScore = 0
+  let totalWeight = 0
+  const weakChapters = []
+
+  chapters.forEach(ch => {
+    const acc = stats.getAcc(ch.id)
+    const weight = ch.weight
+    totalWeight += weight
+    if (acc !== null) {
+      weightedScore += (acc / 100) * weight
+      weakChapters.push({ name: ch.name, acc })
+    }
+  })
+
+  const hasData = weakChapters.length > 0
+  const estimatedScore = hasData ? Math.round((weightedScore / totalWeight) * 100) : null
+  weakChapters.sort((a, b) => a.acc - b.acc)
+  const weakest = weakChapters.slice(0, 2).filter(c => c.acc < 80)
+
+  return { estimatedScore, weakest, hasData }
+}
+
+function ReadinessIndicator({ label, score }) {
+  if (score === null) return null
+  const status = score >= 70 ? '✅' : score >= 60 ? '⚠️' : '❌'
+  const color = score >= 70 ? 'text-mint-600' : score >= 60 ? 'text-yellow-500' : 'text-coral-500'
+  return (
+    <div className="flex items-center justify-between">
+      <span className="text-sm text-charcoal font-medium">{label}</span>
+      <span className={`text-sm font-bold ${color}`}>预估 {score}% {status}</span>
+    </div>
+  )
+}
+
 export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
   const { getPaperStats, daily, achievements, streak } = stats
   const s1 = getPaperStats('paper1')
@@ -68,6 +112,10 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
   const daysLeft = Math.max(0, Math.ceil((new Date('2026-04-08') - new Date()) / 86400000))
   const { dueCount } = errorBook
   const unlockedBadges = ACHIEVEMENTS.filter(a => achievements.includes(a.id))
+
+  const readiness1 = calcPaperReadiness(stats, 'paper1')
+  const readiness3 = calcPaperReadiness(stats, 'paper3')
+  const countdownAdvice = getCountdownAdvice(daysLeft)
 
   const [encouragement] = useState(() =>
     ENCOURAGEMENTS[Math.floor(Math.random() * ENCOURAGEMENTS.length)]
@@ -276,7 +324,7 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
                 className={`px-2.5 py-1.5 rounded-lg text-xs transition-all ${
                   unlocked
                     ? 'gradient-pink-purple-light text-charcoal-light shadow-sm'
-                    : 'bg-cream-100 text-charcoal-light/30'
+                    : 'bg-cream-100 text-charcoal-light/50'
                 }`}
                 title={a.desc}
               >
@@ -296,7 +344,7 @@ export default function Home({ stats, errorBook, onNavigate, onStartExam }) {
       {totalQ > 0 && (
         <button
           onClick={stats.resetAll}
-          className="block mx-auto text-xs text-charcoal-light/25 underline hover:text-charcoal-light/40 transition-colors pb-4"
+          className="block mx-auto text-xs text-charcoal-light/40 underline hover:text-charcoal-light/60 transition-colors pb-4"
         >
           重置所有数据
         </button>

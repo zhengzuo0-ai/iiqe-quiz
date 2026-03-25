@@ -41,7 +41,7 @@ export default function ErrorBook({ errorBook, onBack, onStartReview }) {
                     <span className="text-coral-400 text-xs">●</span>
                     <div>
                       <div className="text-sm text-charcoal font-medium">{name}</div>
-                      <div className="text-xs text-charcoal-light/45 mt-0.5">{errors.length} 道错题</div>
+                      <div className="text-xs text-charcoal-light/55 mt-0.5">{errors.length} 道错题</div>
                     </div>
                   </div>
                   <span className={`text-pink-300 text-sm transition-transform ${expandedChapter === chId ? 'rotate-45' : ''}`}>+</span>
@@ -59,7 +59,7 @@ export default function ErrorBook({ errorBook, onBack, onStartReview }) {
                           <div className="flex gap-2 mt-1.5 text-xs">
                             <span className="text-coral-400 bg-coral-50 px-1.5 py-0.5 rounded">你选: {err.userAnswer}</span>
                             <span className="text-mint-600 bg-mint-50 px-1.5 py-0.5 rounded">正确: {err.correctAnswer}</span>
-                            <span className="text-charcoal-light/30 ml-auto">复习{err.reviewCount}次</span>
+                            <span className="text-charcoal-light/50 ml-auto">复习{err.reviewCount}次</span>
                           </div>
                         </button>
 

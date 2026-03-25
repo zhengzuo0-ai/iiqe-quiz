@@ -87,7 +87,7 @@ export default function WeaknessAnalysis({ stats, errorBook, onBack }) {
                 style={{ width: `${totalAcc}%` }}
               />
             </div>
-            <div className="text-xs text-charcoal-light/30 mt-1.5">及格线 70%{totalAcc >= 70 ? ' ✓ 已达标' : ` · 还差${70 - totalAcc}%`}</div>
+            <div className="text-xs text-charcoal-light/50 mt-1.5">及格线 70%{totalAcc >= 70 ? ' ✓ 已达标' : ` · 还差${70 - totalAcc}%`}</div>
           </div>
         )}
       </div>
@@ -141,7 +141,7 @@ export default function WeaknessAnalysis({ stats, errorBook, onBack }) {
               <div key={ch.id} className="flex justify-between items-center py-1.5 border-b border-cream-100 last:border-b-0">
                 <div>
                   <div className="text-sm text-charcoal">{ch.name}</div>
-                  <div className="text-xs text-charcoal-light/45">{ch.paper === 'paper1' ? '卷一' : '卷三'} · {ch.stat.total}题</div>
+                  <div className="text-xs text-charcoal-light/55">{ch.paper === 'paper1' ? '卷一' : '卷三'} · {ch.stat.total}题</div>
                 </div>
                 <MiniProgressRing value={ch.acc} size={36} />
               </div>

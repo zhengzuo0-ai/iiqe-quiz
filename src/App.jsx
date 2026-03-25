@@ -161,7 +161,7 @@ export default function App() {
                   className={`flex flex-col items-center gap-0.5 py-2 px-5 rounded-xl transition-all ${
                     isActive
                       ? 'text-pink-500'
-                      : 'text-charcoal-light/35 hover:text-pink-400'
+                      : 'text-charcoal-light/50 hover:text-pink-400'
                   }`}
                 >
                   <span className={`text-xl transition-transform ${isActive ? 'scale-110' : ''}`}>

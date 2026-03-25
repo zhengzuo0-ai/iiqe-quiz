@@ -41,7 +41,7 @@ export default function ReviewMode({ errorBook, onBack, mode = 'review' }) {
             <div className="font-display text-3xl font-bold my-3" style={{ background: 'linear-gradient(135deg, #e88b9e, #8b5cf6)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
               {correct}/{results.length}
             </div>
-            <div className="text-sm text-charcoal-light/45">答对的题目会自动推进复习周期</div>
+            <div className="text-sm text-charcoal-light/55">答对的题目会自动推进复习周期</div>
           </div>
         </div>
         <button

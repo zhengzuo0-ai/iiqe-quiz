@@ -4,7 +4,7 @@ export default function LoadingSpinner({ text = 'AI 正在出题...' }) {
       <div className="inline-block text-4xl animate-pencil mb-4">✏️</div>
       <div className="animate-shimmer h-1.5 w-32 mx-auto rounded-full mb-4" />
       <p className="text-pink-400 text-sm font-medium">{text}</p>
-      <p className="text-xs text-charcoal-light/30 mt-2">请稍等，马上就好~</p>
+      <p className="text-xs text-charcoal-light/50 mt-2">请稍等，马上就好~</p>
     </div>
   )
 }

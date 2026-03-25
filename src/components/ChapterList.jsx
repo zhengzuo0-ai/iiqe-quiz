@@ -38,7 +38,7 @@ export default function ChapterList({ paperId, stats, onBack, onSelectChapter })
                   <span className="text-lg mt-0.5">{emoji}</span>
                   <div>
                     <div className="text-[15px] text-charcoal font-medium">{ch.name}</div>
-                    <div className="text-xs text-charcoal-light/45 mt-1">{ch.nameEn} · 占比{ch.weight}%</div>
+                    <div className="text-xs text-charcoal-light/55 mt-1">{ch.nameEn} · 占比{ch.weight}%</div>
                   </div>
                 </div>
                 <div className="text-right">
@@ -50,7 +50,7 @@ export default function ChapterList({ paperId, stats, onBack, onSelectChapter })
                       <div className="text-[10px] text-charcoal-light/40">{s.total}题</div>
                     </>
                   ) : (
-                    <div className="text-xs text-charcoal-light/25">未开始</div>
+                    <div className="text-xs text-charcoal-light/40">未开始</div>
                   )}
                 </div>
               </div>
