@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { PAPERS } from '../data/chapters'
 import { PageLoading } from './LoadingSpinner'
 import { save, load } from '../lib/storage'
+import { CelebrationPopup } from './CharacterPopup'
 
 const fmt = (s) => `${Math.floor(s / 60)}:${(s % 60).toString().padStart(2, '0')}`
 
@@ -75,6 +76,8 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
           <div className="text-sm text-gray-400">{correct}/{questions.length} 正确 · 用时 {fmt(timer)}</div>
           <div className="mt-4 text-xs text-gray-300 border-t border-dashed border-pink-100 pt-3">及格线 70%</div>
         </div>
+
+        {passed && <CelebrationPopup show={passed} />}
 
         <div className="text-xs text-pink-300 tracking-wider mb-3">📋 题目回顾</div>
         <div className="space-y-2.5">

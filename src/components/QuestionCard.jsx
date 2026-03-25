@@ -1,10 +1,15 @@
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import { CelebrationEffect, StreakBadge, getEncouragement } from './CelebrationEffect'
+import CharacterPopup from './CharacterPopup'
+
+const STREAK_MILESTONES = [3, 5, 10, 15, 20]
 
 export default function QuestionCard({ question, onAnswer, streak = 0, showNext, onNext }) {
   const [selected, setSelected] = useState(null)
   const [revealed, setRevealed] = useState(false)
   const [showCelebration, setShowCelebration] = useState(false)
+  const [charMood, setCharMood] = useState(null)
+  const [charTrigger, setCharTrigger] = useState(0)
 
   const handleAnswer = (key) => {
     if (revealed) return
@@ -13,7 +18,20 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
     const isCorrect = key === question.correct
     if (isCorrect) setShowCelebration(true)
     onAnswer(key, isCorrect)
+
+    // Character popup: streak milestone takes priority, then cheer/encourage
+    const newStreak = isCorrect ? streak + 1 : 0
+    if (isCorrect && STREAK_MILESTONES.includes(newStreak)) {
+      setCharMood('surprise')
+    } else {
+      setCharMood(isCorrect ? 'cheer' : 'encourage')
+    }
+    setCharTrigger(t => t + 1)
   }
+
+  const handleCharDone = useCallback(() => {
+    setCharMood(null)
+  }, [])
 
   const handleNext = () => {
     setSelected(null)
@@ -27,6 +45,9 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
   return (
     <div className="animate-fade-in">
       <CelebrationEffect show={showCelebration} />
+      {charMood && (
+        <CharacterPopup mood={charMood} trigger={charTrigger} onDone={handleCharDone} />
+      )}
 
       {/* Question */}
       <div className="bg-white rounded-2xl p-5 mb-3 border border-pink-100 shadow-sm">

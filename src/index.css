@@ -94,6 +94,10 @@ body {
   animation: shimmer 1.5s infinite;
 }
 
+.transition-all.duration-400 {
+  transition-duration: 400ms;
+}
+
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
