@@ -1,0 +1,16 @@
+{
+  "name": "泉泉IIQE备考",
+  "short_name": "IIQE刷题",
+  "description": "IIQE香港保险考试备考刷题网站",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdf2f8",
+  "theme_color": "#f9a8d4",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
