@@ -59,17 +59,23 @@ export default function CharacterPopup({ mood, trigger, onDone, duration = 3500 
           border: isOhtani ? '2px solid #e94560' : '2px solid #f5c6d0',
         }}
       >
-        {/* Character image */}
+        {/* Character image or emoji fallback */}
         <div className="flex-shrink-0 relative">
-          <img
-            src={character.pose}
-            alt={character.name}
-            className="w-20 h-20 object-contain"
-            style={{ 
-              animation: 'characterBounce 0.6s ease-out',
-              filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.15))',
-            }}
-          />
+          {character.pose ? (
+            <img
+              src={character.pose}
+              alt={character.name}
+              className="w-20 h-20 object-contain"
+              style={{ 
+                animation: 'characterBounce 0.6s ease-out',
+                filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.15))',
+              }}
+            />
+          ) : (
+            <div className="w-20 h-20 flex items-center justify-center text-5xl" style={{ animation: 'characterBounce 0.6s ease-out' }}>
+              {character.emoji}
+            </div>
+          )}
           {isOhtani && (
             <span className="absolute -top-1 -right-1 text-lg animate-bounce">⚾</span>
           )}

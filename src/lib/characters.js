@@ -160,11 +160,12 @@ const CHARACTERS = {
     description: '彩蛋角色',
     isEasterEgg: true,
     poses: {
-      cheer: '/characters/ohtani_cheer.png',
-      encourage: '/characters/ohtani_encourage.png',
-      surprise: '/characters/ohtani_surprise.png',
-      celebrate: '/characters/ohtani_celebrate.png',
+      cheer: null, // TODO: waiting for Z to resend ohtani images (got overwritten by winter)
+      encourage: null,
+      surprise: null,
+      celebrate: null,
     },
+    useEmoji: true, // fallback to ⚾ emoji until real image is provided
     lines: {
       cheer: [
         'すごい！完璧だ！⚾\n（太厉害了！完美！）',
