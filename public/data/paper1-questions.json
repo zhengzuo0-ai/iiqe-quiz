@@ -111,24 +111,6 @@
       "type": "B"
     },
     {
-      "question": "理機構的佣金\n以下哪項觸犯了《防止賄賂條例》第9(三)條?",
-      "options": {
-        "A": "i & iii",
-        "B": "ii & iv",
-        "C": "ii, iii & iv",
-        "D": "i, ii, iii & iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。ii & iv\n\n✅ B. ii & iv\n❌ A. i & iii\n❌ C. ii, iii & iv\n❌ D. i, ii, iii & iv\n\n📚 參考研習手冊 7.5.1 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-7",
-      "chapterName": "道德與合規",
-      "reference": "7.5.1",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "以下哪項不會觸犯《防止賄賂條例》第9條?",
       "options": {
         "A": "持牌個人保險代理收受客戶提供的利益，以協助對方在購買人壽 保險時隱瞞已存在的疾病投保",
@@ -309,42 +291,6 @@
       "type": "A"
     },
     {
-      "question": "以下哪項是《防止賄賂條例》的立法精神?",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii",
-        "C": "i, iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。i, iv\n\n✅ C. i, iv\n❌ A. i, ii, iii\n❌ B. i, ii\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 7.4.6 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-7",
-      "chapterName": "道德與合規",
-      "reference": "7.4.6",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
-      "question": "在香港，與洗錢／恐怖分子資金籌集有關的法例為:",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii",
-        "C": "i, iv",
-        "D": "以上所有皆是"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i, ii, iii\n\n✅ A. i, ii, iii\n❌ B. i, ii\n❌ C. i, iv\n❌ D. 以上所有皆是\n\n📚 參考研習手冊 7.4.6 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-7",
-      "chapterName": "道德與合規",
-      "reference": "7.4.6",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "以下哪項或哪些是保險中的不公平歧視?",
       "options": {
         "A": "單位相連或可分紅的整付保費合約",
@@ -415,60 +361,6 @@
       "reference": "7.3.3",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "以下哪項有關保險人對投保人給予性別差別對待是法律容許的，並\n不觸犯歧視條例？",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "i, iii,iv",
-        "C": "ii,iii,iv",
-        "D": "i,iii"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i, iii,iv\n\n✅ B. i, iii,iv\n❌ A. i,ii,iii\n❌ C. ii,iii,iv\n❌ D. i,iii\n\n📚 參考研習手冊 7.3.2 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-7",
-      "chapterName": "道德與合規",
-      "reference": "7.3.2",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
-      "question": "《保險業條例》規定不能對不同的投保人給予不同的對待，除非：",
-      "options": {
-        "A": "i, ii, iv",
-        "B": "i, ii, iii",
-        "C": "ii, iii",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。ii, iii\n\n✅ C. ii, iii\n❌ A. i, ii, iv\n❌ B. i, ii, iii\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 7.3.2 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-7",
-      "chapterName": "道德與合規",
-      "reference": "7.3.2",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
-      "question": "以下哪三項較為被保險人視為「公平歧視」？",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。i, iii, iv\n\n✅ C. i, iii, iv\n❌ A. i, ii, iii\n❌ B. i, ii, iv\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 7.3.2 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-7",
-      "chapterName": "道德與合規",
-      "reference": "7.3.2",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "以下哪項不是與香港不公平歧視有關法規？",
@@ -633,42 +525,6 @@
       "type": "A"
     },
     {
-      "question": "個人資料（私隱）條例》列明的六項保障資料原則，\n以下哪一項就第 1 原 則的描述正確?",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "i,iii,iv",
-        "C": "i,iv",
-        "D": "i,ii,iii,iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i,ii,iii\n\n✅ A. i,ii,iii\n❌ B. i,iii,iv\n❌ C. i,iv\n❌ D. i,ii,iii,iv\n\n📚 參考研習手冊 7.2.1 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-7",
-      "chapterName": "道德與合規",
-      "reference": "7.2.1",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
-      "question": "《個人資料 （私隱 條例》 由哪個機構執行?",
-      "options": {
-        "A": "i ，ii",
-        "B": "iii，iv",
-        "C": "i ，ii，iii",
-        "D": "i ，ii，iii， iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i ，ii，iii， iv\n\n✅ D. i ，ii，iii， iv\n❌ A. i ，ii\n❌ B. iii，iv\n❌ C. i ，ii，iii\n\n📚 參考研習手冊 7.2.1 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-7",
-      "chapterName": "道德與合規",
-      "reference": "7.2.1",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "料處理者的個人資料的保存時間超過30天\n以下哪項對《個人資料(私隱)條例》範圍的陳述是正確的?：",
       "options": {
         "A": "個人資料保留期限不應超過所需時間",
@@ -721,24 +577,6 @@
       "reference": "7.2.1",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "《個人資料﹝私隱﹞條例》中的私隱並不是絕對的，它容許在一些\n範圍下獲得豁免。這些豁免包括以下哪頂或哪些項目 :",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "ii, iii, iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i, ii, iii, iv\n\n✅ D. i, ii, iii, iv\n❌ A. i, ii, iii\n❌ B. i, ii, iv\n❌ C. ii, iii, iv\n\n📚 參考研習手冊 7.2.1 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-7",
-      "chapterName": "道德與合規",
-      "reference": "7.2.1",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "《個人資料﹝私隱﹞條例》在某些情況容許保險公司透露保單持有\n人的資料，以下哪項或哪些是合法的情況？",
@@ -1101,24 +939,6 @@
       "type": "A"
     },
     {
-      "question": "根據《保險業條例》，以下哪些是對保險代理許可的行動?",
-      "options": {
-        "A": "i ，ii",
-        "B": "i ，ii，iii",
-        "C": "iii，iv",
-        "D": "i ，ii，iii，iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i ，ii，iii，iv\n\n✅ D. i ，ii，iii，iv\n❌ A. i ，ii\n❌ B. i ，ii，iii\n❌ C. iii，iv\n\n📚 參考研習手冊 6.2.5 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.2.5",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "銷售長期業務保單時，有關保險代理人必須就下列哪項或哪些作出\n解釋？",
       "options": {
         "A": "保證及預計利益的分別",
@@ -1425,24 +1245,6 @@
       "type": "A"
     },
     {
-      "question": "，就保險公司的控權人、合夥人、董事或負責人以\n及獲委任精算師有甚麼考慮因素",
-      "options": {
-        "A": "i,ii",
-        "B": "i,iii,iv",
-        "C": "iii,iv",
-        "D": "i,ii,iii,iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i,iii,iv\n\n✅ B. i,iii,iv\n❌ A. i,ii\n❌ C. iii,iv\n❌ D. i,ii,iii,iv\n\n📚 參考研習手冊 6.2.4 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.2.4",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "以下哪項是持牌保險代理機構的主要發牌條件?",
       "options": {
         "A": "可靠程度",
@@ -1459,24 +1261,6 @@
       "reference": "6.2.4",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "以下哪項是持牌保險代理人根據《持牌保險代理人操守守則》進行\n受規管活動時採取及遵從的行為準則?",
-      "options": {
-        "A": "i,ii",
-        "B": "i,iii",
-        "C": "ii,iv",
-        "D": "i,ii,iii,iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i,ii,iii,iv\n\n✅ D. i,ii,iii,iv\n❌ A. i,ii\n❌ B. i,iii\n❌ C. ii,iv\n\n📚 參考研習手冊 6.2.4 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.2.4",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "保監局評估某人是否屬於適當人選時，就保險公司的控權人、合夥\n人、董事或負責人以及獲委任精算師有甚麼考慮因素?",
@@ -1587,24 +1371,6 @@
       "type": "A"
     },
     {
-      "question": "《保險業條例》對獲授權保險人就其委任的保險代理人(受委人)，\n就其向該客戶就發出保險合約或關乎該合約的相關保險業務有所往\n來的作為須負上 __________。\n持牌經紀人不屬保險業條例五類牌照類別，選項iv\n不正確",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "i,ii,iv",
-        "C": "ii,iv",
-        "D": "以上各項皆正確"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i,ii,iv\n\n✅ B. i,ii,iv\n❌ A. i,ii,iii\n❌ C. ii,iv\n❌ D. 以上各項皆正確\n\n📚 參考研習手冊 6.2.1 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.2.1",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "根據保險業條例，以下哪項是持牌保險經紀公司個負責人的委任條\n件?",
       "options": {
         "A": "持牌個人經紀",
@@ -1713,24 +1479,6 @@
       "type": "A"
     },
     {
-      "question": "違反《保險業條例》中的保險中介人條文：",
-      "options": {
-        "A": "i, ii",
-        "B": "i, ii, iii",
-        "C": "ii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。ii, iii, iv\n\n✅ D. ii, iii, iv\n❌ A. i, ii\n❌ B. i, ii, iii\n❌ C. ii, iv\n\n📚 參考研習手冊 6.2.1 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.2.1",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "以下哪項關於保險代理人的陳述是不正確的:",
       "options": {
         "A": "與保險經紀不同，代理人對提供意見不當的風險略為較輕",
@@ -1803,42 +1551,6 @@
       "type": "A"
     },
     {
-      "question": "以下哪項是保險投訴局(ICB)的描述是正確的?",
-      "options": {
-        "A": "i,ii",
-        "B": "i,ii,iii",
-        "C": "ii,iv",
-        "D": "iii,iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i,ii\n\n✅ A. i,ii\n❌ B. i,ii,iii\n❌ C. ii,iv\n❌ D. iii,iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.3",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
-      "question": "險投訴局的會員\n以下哪項是保險投訴局(ICB)的描述是正確的?",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "ii,iii,iv",
-        "C": "iii, iv",
-        "D": "i. ii, iii, iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i. ii, iii, iv\n\n✅ D. i. ii, iii, iv\n❌ A. i,ii,iii\n❌ B. ii,iii,iv\n❌ C. iii, iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.3",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "i)保險投訴局成立目的是代表會員處理及支付索償\nii)會員是在香港從事個人保險業務的獲授權保險人\niii)涉及的投訴個案保單須屬個人保單\niv)投訴委員會的委員中有兩位來自保險業\n以下哪項是保險投訴局的描述是正確的?",
       "options": {
         "A": "2018年成立取代保險索償投訴局",
@@ -1855,24 +1567,6 @@
       "reference": "6.1.3",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "以下哪項是保險投訴局的描述是正確的?",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "i,ii,iv",
-        "C": "iii, iv",
-        "D": "i. ii, iii, iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i,ii,iii\n\n✅ A. i,ii,iii\n❌ B. i,ii,iv\n❌ C. iii, iv\n❌ D. i. ii, iii, iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.3",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "根據《承保商專業守則》，假如符合兩項條件，即使違反保證亦不\n會在索償時被拒絕，其中是包括以下哪項？",
@@ -1947,24 +1641,6 @@
       "type": "A"
     },
     {
-      "question": "以下哪項是承保商專業守則的描述是正確的?",
-      "options": {
-        "A": "i , ii , iii",
-        "B": "i, ii, iv",
-        "C": "iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。ii, iii, iv\n\n✅ D. ii, iii, iv\n❌ A. i , ii , iii\n❌ B. i, ii, iv\n❌ C. iii, iv\n\n📚 參考研習手冊 6.1.2 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.2",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "有關承保商專業守則，誰有責任令保險代理人遵守其法律?",
       "options": {
         "A": "保險業聯會會員所發出之保單",
@@ -2035,42 +1711,6 @@
       "reference": "6.1.1",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "保險業條例由以下哪個機構負責執行?",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i,ii,iv",
-        "C": "i,iii,iv",
-        "D": "ii,iii,iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。ii,iii,iv\n\n✅ D. ii,iii,iv\n❌ A. i, ii, iii\n❌ B. i,ii,iv\n❌ C. i,iii,iv\n\n📚 參考研習手冊 6.1.1 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.1",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
-      "question": "以下哪項關於保險業條例的描述是正確的?",
-      "options": {
-        "A": "i, iv",
-        "B": "i, ii, iii",
-        "C": "i, ii",
-        "D": "ii, iii, iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i, iv\n\n✅ A. i, iv\n❌ B. i, ii, iii\n❌ C. i, ii\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 6.1 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "確\n保監局有下列任務(i)透過發牌制度，規管保險中介",
@@ -2811,24 +2451,6 @@
       "type": "A"
     },
     {
-      "question": "保險業條例要求所有從事長期業務的保險人，委派一名合資格的精\n算師，並要求:",
-      "options": {
-        "A": "ii,iv",
-        "B": "i,ii,iv",
-        "C": "ii,iii,iv",
-        "D": "i,iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i,ii,iv\n\n✅ B. i,ii,iv\n❌ A. ii,iv\n❌ C. ii,iii,iv\n❌ D. i,iv\n\n📚 參考研習手冊 4.9 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-4",
-      "chapterName": "保險運作",
-      "reference": "4.9",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "，這種保險稱為再保險\n最可能涉及訂定保費率，計算儲備及債務估值的專業人士為:",
       "options": {
         "A": "損失公估人",
@@ -3567,24 +3189,6 @@
       "type": "A"
     },
     {
-      "question": "以下哪項不大可能屬於核保部門的職能範圍?",
-      "options": {
-        "A": "只有 i 及 ii",
-        "B": "只有 ii 及 iii",
-        "C": "只有 i, ii 及 iii",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。只有 i 及 ii\n\n✅ A. 只有 i 及 ii\n❌ B. 只有 ii 及 iii\n❌ C. 只有 i, ii 及 iii\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 4.5 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-4",
-      "chapterName": "保險運作",
-      "reference": "4.5",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "ii) 釐定可保風險的條款\niii) 製備核保手冊和保費率指南\niv) 製備「拒絕名單」\n對於保險公司的運作來說，核保可解作:",
       "options": {
         "A": "銷售行動",
@@ -3619,24 +3223,6 @@
       "reference": "4.5",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "以下哪項是保險銷售部門的職能範圍?",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "i,ii,iv",
-        "C": "i,iii,iv",
-        "D": "ii,iii,iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i,ii,iv\n\n✅ B. i,ii,iv\n❌ A. i,ii,iii\n❌ C. i,iii,iv\n❌ D. ii,iii,iv\n\n📚 參考研習手冊 4.4 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-4",
-      "chapterName": "保險運作",
-      "reference": "4.4",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "以下哪項不大可能屬於保險銷售部門的職能 ?",
@@ -3837,42 +3423,6 @@
       "type": "A"
     },
     {
-      "question": "關於管控要員，以下哪項陳述是正確的？",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i, ii, iii\n\n✅ A. i, ii, iii\n❌ B. i, ii, iv\n❌ C. i, iii, iv\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 4.2 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-4",
-      "chapterName": "保險運作",
-      "reference": "4.2",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
-      "question": "保險人必須先取得保險業監管局的認可，方可委任＿＿＿＿？",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "i,ii,iv",
-        "C": "i,iii,iv",
-        "D": "ii,iii,iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。ii,iii,iv\n\n✅ D. ii,iii,iv\n❌ A. i,ii,iii\n❌ B. i,ii,iv\n❌ C. i,iii,iv\n\n📚 參考研習手冊 4.12 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-4",
-      "chapterName": "保險運作",
-      "reference": "4.12",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "以下哪三方面有可能屬於客戶服務部門的職能範圍？",
       "options": {
         "A": "管理相關保險人所委任的保險代理人",
@@ -3999,24 +3549,6 @@
       "type": "A"
     },
     {
-      "question": "保存記錄，收回保險人應收款項及繳付帳款應屬於以下哪一個範圍\n的責任?",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i, ii, iii\n\n✅ A. i, ii, iii\n❌ B. i, ii, iv\n❌ C. i, iii, iv\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 4.10 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-4",
-      "chapterName": "保險運作",
-      "reference": "4.10",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "期而已。\n下列哪項屬於會計及投資部門的工作?",
       "options": {
         "A": "i，ii，iii",
@@ -4051,24 +3583,6 @@
       "reference": "4.1",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "產品開發是保險公司的重要功能，原因是:",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "ii, iii, iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i, ii, iv\n\n✅ B. i, ii, iv\n❌ A. i, ii, iii\n❌ C. ii, iii, iv\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 4.1 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-4",
-      "chapterName": "保險運作",
-      "reference": "4.1",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "哪句說話最可以形容產品開發部的功能?",
@@ -4141,24 +3655,6 @@
       "reference": "4.1",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "以下哪項有關全新產品「具有競爭力的壽命」的描述是正確的？",
-      "options": {
-        "A": "i, ii",
-        "B": "iii, iv",
-        "C": "i, ii, iii",
-        "D": "ii, iii, iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i, ii\n\n✅ A. i, ii\n❌ B. iii, iv\n❌ C. i, ii, iii\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 4.1 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-4",
-      "chapterName": "保險運作",
-      "reference": "4.1",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "市場上以「組合」形式推出的產品很多，這是屬於產品發展的什麼\n過程?",
@@ -4611,24 +4107,6 @@
       "type": "A"
     },
     {
-      "question": "分擔必須符合以下那些條件：",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, iii, iv",
-        "C": "ii, iii, iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i, ii, iii, iv\n\n✅ D. i, ii, iii, iv\n❌ A. i, ii, iii\n❌ B. i, iii, iv\n❌ C. ii, iii, iv\n\n📚 參考研習手冊 3.5.3 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.5.3",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "A向X保險人購有汽車第三者保險，B向Y保險人購有汽車第三者保險\n，當 A 車撞 B 車，分擔原則並不適用，是因為：",
       "options": {
         "A": "兩者不是保障相同的標的物",
@@ -4863,24 +4341,6 @@
       "type": "A"
     },
     {
-      "question": "條款保障，得到保險人賠付樓宇重建的成本，而不扣減損耗，此類\n屬於哪種保險：",
-      "options": {
-        "A": "i, ii",
-        "B": "i, iii",
-        "C": "ii, iii",
-        "D": "iii, iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。iii, iv\n\n✅ D. iii, iv\n❌ A. i, ii\n❌ B. i, iii\n❌ C. ii, iii\n\n📚 參考研習手冊 3.4.8 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.4.8",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "水險保單和海上貨物保單是以定值方式提供保險保\n障的，約定價值一律被視為損失時的實質價值",
       "options": {
         "A": "當一項損失發生時，保額是賠償金額",
@@ -4953,24 +4413,6 @@
       "type": "A"
     },
     {
-      "question": "下列哪項及哪些保單的保障，可以提供超越彌償的索償結清：",
-      "options": {
-        "A": "i,ii",
-        "B": "i,ii,iv",
-        "C": "i,iii,iv",
-        "D": "ii,iii,iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。i,iii,iv\n\n✅ C. i,iii,iv\n❌ A. i,ii\n❌ B. i,ii,iv\n❌ D. ii,iii,iv\n\n📚 參考研習手冊 3.4.8 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.4.8",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "有些保單條款允許多於嚴格彌償的補償，以下哪項是不涉及範圍之\n內?",
       "options": {
         "A": "每項受保損失的5%全額賠償",
@@ -5023,24 +4465,6 @@
       "reference": "3.4.7(b)",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "即是說，該金額將從每宗索償中扣除。\n以下哪項阻止了保單作出彌償?",
-      "options": {
-        "A": "i,ii",
-        "B": "i,ii,iii",
-        "C": "iii,iv",
-        "D": "以上皆是"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。iii,iv\n\n✅ C. iii,iv\n❌ A. i,ii\n❌ B. i,ii,iii\n❌ D. 以上皆是\n\n📚 參考研習手冊 3.4.7(b) 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.4.7(b)",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "i)保單免賠額\nii)保單起賠額\niii)約定價值保單\niv)水險保單\n保單的免賠額是$1000元，哪麼意味著:",
@@ -5421,24 +4845,6 @@
       "type": "A"
     },
     {
-      "question": "損餘在保險公司運作上，通常:",
-      "options": {
-        "A": "i,ii",
-        "B": "ii,iv",
-        "C": "i,ii,iv",
-        "D": "i,ii,iii,iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i,ii,iii,iv\n\n✅ D. i,ii,iii,iv\n❌ A. i,ii\n❌ B. ii,iv\n❌ C. i,ii,iv\n\n📚 參考研習手冊 3.4.5 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.4.5",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "在多數的財產保險索償中標的有時還有剩餘價值，該價值應於賠償\n給付中計算在內，稱為:",
       "options": {
         "A": "維修受損害物件時應付的金錢",
@@ -5745,24 +5151,6 @@
       "type": "A"
     },
     {
-      "question": "人壽與保險不受彌償的原則約束，原因是:",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "i,ii,iv",
-        "C": "i,iii,iv",
-        "D": "i ,ii,iii,iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i ,ii,iii,iv\n\n✅ D. i ,ii,iii,iv\n❌ A. i,ii,iii\n❌ B. i,ii,iv\n❌ C. i,iii,iv\n\n📚 參考研習手冊 3.4.2 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.4.2",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "作為在保險上的一項的重要原則，彌償同時與下列哪項或哪些保險\n原則有重要關聯？",
       "options": {
         "A": "人壽保險",
@@ -6013,24 +5401,6 @@
       "reference": "3.3.4",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "一項保險原則，尋求保險人將受保財物恢復到其受毀或受損以前那\n一刻所處的狀況，這是甚麼原則?",
-      "options": {
-        "A": "i, ii",
-        "B": "ii, iii",
-        "C": "ii, iv",
-        "D": "i, iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i, ii\n\n✅ A. i, ii\n❌ B. ii, iii\n❌ C. ii, iv\n❌ D. i, iv\n\n📚 參考研習手冊 3.3.4 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.3.4",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "就保單的除外責任所採用的字眼規定某指明成因「直接或間接」所\n引致的損失皆是除外的，哪以下那幾項是正確?",
@@ -6393,24 +5763,6 @@
       "type": "A"
     },
     {
-      "question": "以下哪項屬於近因中的”危險”?",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。ii, iii, iv\n\n✅ D. ii, iii, iv\n❌ A. i, ii, iii\n❌ B. i, ii, iv\n❌ C. i, iii, iv\n\n📚 參考研習手冊 3.3.2 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.3.2",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "以下哪項屬於近因中被視為\"危險\"?",
       "options": {
         "A": "對人壽保險來說從不重要",
@@ -6717,24 +6069,6 @@
       "type": "A"
     },
     {
-      "question": "投保人蓄意在投保書上省略某項資訊，因為他認為該項資訊可能令\n保險人不給予他保障，就最高誠信而言，以上涉及?",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "ii, iii, iv",
-        "D": "以上各項皆不是"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i, ii, iv\n\n✅ B. i, ii, iv\n❌ A. i, ii, iii\n❌ C. ii, iii, iv\n❌ D. 以上各項皆不是\n\n📚 參考研習手冊 3.2.6 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.2.6",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "假如被保險人違反最高誠信，保險人可作出以下哪項的補救行動:",
       "options": {
         "A": "入屋爆竊記錄﹝盜竊險﹞",
@@ -6787,24 +6121,6 @@
       "reference": "3.2.5",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "以下哪三項通常被認為違反最高誠信的責任 ?",
-      "options": {
-        "A": "i , ii , iii",
-        "B": "i , ii , iv",
-        "C": "i , iii , iv",
-        "D": "ii , iii , iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i , ii , iii\n\n✅ A. i , ii , iii\n❌ B. i , ii , iv\n❌ C. i , iii , iv\n❌ D. ii , iii , iv\n\n📚 參考研習手冊 3.2.5 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.2.5",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "以下哪一項是保單延伸最高誠信的根據?",
@@ -7221,24 +6537,6 @@
       "type": "A"
     },
     {
-      "question": "的一切重要資訊。\n保險受到一種更為嚴格、在普通法中常被稱為最高",
-      "options": {
-        "A": "i , ii , iii",
-        "B": "i , ii , iv",
-        "C": "i , iii , iv",
-        "D": "ii , iii , iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i , ii , iii\n\n✅ A. i , ii , iii\n❌ B. i , ii , iv\n❌ C. i , iii , iv\n❌ D. ii , iii , iv\n\n📚 參考研習手冊 3.2.2 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.2.2",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "i)它是一項主動的披露責任\nii)最高誠信責任的關鍵不在於另一方的主動要求\niii)這是一項原則來自普通法，但合約條款是可以修改它的\niv)保險人必定不可能就違反最高誠信承擔法律責任\n保險受到一種更為嚴格、在普通法中常被稱為最高",
       "options": {
         "A": "只就所發問的問題以誠實及實質上真實的態度處理",
@@ -7471,24 +6769,6 @@
       "reference": "3.1.6(b)",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "以下哪項有關一般誠信的描述是不正確?",
-      "options": {
-        "A": "i , ii, iii",
-        "B": "ii,iv",
-        "C": "ii,iii,iv",
-        "D": "i,ii,iii,iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。ii,iv\n\n✅ B. ii,iv\n❌ A. i , ii, iii\n❌ C. ii,iii,iv\n❌ D. i,ii,iii,iv\n\n📚 參考研習手冊 3.1.6 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.1.6",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "以下哪項就轉讓收取保險金的權利的權利描述是正確的?",
@@ -7887,42 +7167,6 @@
       "type": "A"
     },
     {
-      "question": "以上各項皆是責任上出現的可保權益。\n每個人對自身的作為或不作為都負有一種稱為「直",
-      "options": {
-        "A": "i, ii",
-        "B": "i, ii, iii",
-        "C": "ii, iii, iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i, ii, iii\n\n✅ B. i, ii, iii\n❌ A. i, ii\n❌ C. ii, iii, iv\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 3.1.4(c) 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.1.4(c)",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
-      "question": "以下哪項對首要責任及轉承責任的描述是正確的？",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "ii, iii, iv",
-        "C": "i,ii,iv",
-        "D": "i,iii,iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i,iii,iv\n\n✅ D. i,iii,iv\n❌ A. i,ii,iii\n❌ B. ii, iii, iv\n❌ C. i,ii,iv\n\n📚 參考研習手冊 3.1.4(c) 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.1.4(c)",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "有關責任上出現的可保權益包括：",
       "options": {
         "A": "自己行為的責任",
@@ -7975,24 +7219,6 @@
       "reference": "3.1.4(b)",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "以下哪三種具有可保權益屬於不是自己絕對擁有的財產？",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "ii, iii, iv",
-        "D": "i, iii, iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i, ii, iii\n\n✅ A. i, ii, iii\n❌ B. i, ii, iv\n❌ C. ii, iii, iv\n❌ D. i, iii, iv\n\n📚 參考研習手冊 3.1.4(b) 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.1.4(b)",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "於所有保險合約中，被保險人必需在投保時對標的物有可保權益，\n以下哪項保險項目在索償時需要有可保權益？",
@@ -9687,24 +8913,6 @@
       "type": "A"
     },
     {
-      "question": "一名母親指使其小孩到一家雜貨店購買雞蛋，意味著:",
-      "options": {
-        "A": "i , ii",
-        "B": "i, ii, iii",
-        "C": "ii,iii",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。ii,iii\n\n✅ C. ii,iii\n❌ A. i , ii\n❌ B. i, ii, iii\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 2.2.1 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-2",
-      "chapterName": "法律原則",
-      "reference": "2.2.1",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "要構成代理關係，下面哪項必須存在？",
       "options": {
         "A": "該關係受代理合約所支配",
@@ -9739,24 +8947,6 @@
       "reference": "2.2.1",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "以下哪項對代理法的描述是正確的?",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "i,iii",
-        "C": "ii,iii",
-        "D": "i,ii,iii,iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i,iii\n\n✅ B. i,iii\n❌ A. i,ii,iii\n❌ C. ii,iii\n❌ D. i,ii,iii,iv\n\n📚 參考研習手冊 2.2 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-2",
-      "chapterName": "法律原則",
-      "reference": "2.2",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "香港洽談或安排保險合約的業務的人，稱爲保險：\n保險中介人包括保險經紀和保險代理人\n在法律上「一種透過他人行事與自己親自執行並無\n分別」的原則稱為轉承責任",
@@ -9903,24 +9093,6 @@
       "type": "A"
     },
     {
-      "question": "律效力\n以下哪幾項是構成有效合約的「合約元素」?",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "i,ii,iv",
-        "C": "i,iii,iv",
-        "D": "i ,ii,iii,iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i,ii,iii\n\n✅ A. i,ii,iii\n❌ B. i,ii,iv\n❌ C. i,iii,iv\n❌ D. i ,ii,iii,iv\n\n📚 參考研習手冊 2.1.3(f) 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-2",
-      "chapterName": "法律原則",
-      "reference": "2.1.3(f)",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "「一份協議的內容必須是合法的」，此句子形容合約元素中的哪一\n項：",
       "options": {
         "A": "技術上它是合約",
@@ -10027,42 +9199,6 @@
       "reference": "2.1.3(d)",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "訂約的行為能力是指訂立合約的法律能力。精神錯\n亂或未成年的個人可以選擇推翻他們所訂立的合約\n。又以公司為例，它們不得超越其法律權力而行事\n。以上各項皆正確",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "i, ii ,iii, iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。i, iii, iv\n\n✅ C. i, iii, iv\n❌ A. i, ii, iii\n❌ B. i, ii, iv\n❌ D. i, ii ,iii, iv\n\n📚 參考研習手冊 2.1.3(d) 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-2",
-      "chapterName": "法律原則",
-      "reference": "2.1.3(d)",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
-      "question": "在簡單合約中，「訂約的行為能力」是指訂立合約的能力。在保險\n合約中，這項要求適用於：",
-      "options": {
-        "A": "ii,iv",
-        "B": "只有ii",
-        "C": "只有i",
-        "D": "只有iii"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。只有iii\n\n✅ D. 只有iii\n❌ A. ii,iv\n❌ B. 只有ii\n❌ C. 只有i\n\n📚 參考研習手冊 2.1.3(d) 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-2",
-      "chapterName": "法律原則",
-      "reference": "2.1.3(d)",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "有關「立約行為能力」，下列哪項陳述是正確的？",
@@ -10243,24 +9379,6 @@
       "reference": "2.1.3(c)",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "要約如何能轉變為一份有效協議?",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii ,iii, iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。ii ,iii, iv\n\n✅ D. ii ,iii, iv\n❌ A. i, ii, iii\n❌ B. i, ii, iv\n❌ C. i, iii, iv\n\n📚 參考研習手冊 2.1.3(b) 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-2",
-      "chapterName": "法律原則",
-      "reference": "2.1.3(b)",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "下列哪項有關〝反要約〞之陳述是正確的？",
@@ -10767,24 +9885,6 @@
       "type": "A"
     },
     {
-      "question": "以下哪些關於專業彌償保險合約的描述是正確的?",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii ,iii, iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i, ii, iv\n\n✅ B. i, ii, iv\n❌ A. i, ii, iii\n❌ C. i, iii, iv\n❌ D. ii ,iii, iv\n\n📚 參考研習手冊 2.1.2 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-2",
-      "chapterName": "法律原則",
-      "reference": "2.1.2",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "i) 在法律上，這種交易不是真正的合約\nii)這些是特殊情況，並因此稱為「蓋印的合約」",
       "options": {
         "A": "它由保險人的總經理或副總經理簽署",
@@ -10837,24 +9937,6 @@
       "reference": "2.1.1",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "以下哪項最恰當描述何謂「保險單」：",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii",
-        "C": "i,iii,iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i, ii, iii\n\n✅ A. i, ii, iii\n❌ B. i, ii\n❌ C. i,iii,iv\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 2.1.1 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-2",
-      "chapterName": "法律原則",
-      "reference": "2.1.1",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "社交中，朋友的晚飯約會：",
@@ -11595,24 +10677,6 @@
       "type": "A"
     },
     {
-      "question": "以下哪項有關風險的陳述是正確的？",
-      "options": {
-        "A": "i, ii",
-        "B": "ii, iii",
-        "C": "ii, iv",
-        "D": "iii, iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。ii, iv\n\n✅ C. ii, iv\n❌ A. i, ii\n❌ B. ii, iii\n❌ D. iii, iv\n\n📚 參考研習手冊 1.1.1註 節\n\n💡 本題屬於「風險與保險概論」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-1",
-      "chapterName": "風險與保險概論",
-      "reference": "1.1.1註",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "保險與風險之間的聯繫如何 ?",
       "options": {
         "A": "引起損失的一種特定原因﹝或危險﹞",
@@ -11665,24 +10729,6 @@
       "reference": "1.1.1",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "以下哪項或哪些屬於保險人對「風險」含義的慣常理解？",
-      "options": {
-        "A": "i, ii",
-        "B": "i, iii",
-        "C": "ii, iii",
-        "D": "ii, iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i, ii\n\n✅ A. i, ii\n❌ B. i, iii\n❌ C. ii, iii\n❌ D. ii, iv\n\n📚 參考研習手冊 1.1.1 節\n\n💡 本題屬於「風險與保險概論」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-1",
-      "chapterName": "風險與保險概論",
-      "reference": "1.1.1",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "如果一份保單根據「全險」形式購買，在這方面「風險」的預定含\n義是︰\n例如財務上及身體上的風險較有可能成為商業上的\n可保風險，不過並非所有種類的風險是可保的\n保險人在談及風險一詞時，包括公司承保或被要求\n承保的財物或人身，以及所保危險(即造成損失的原\n因或成因)，就保險公司而言，這可能僅指對純粹風\n險的管理，甚至可把範圍進一步收窄至只對可保風\n險的管理。只有選項i,ii正確\n保險人在談及風險一詞時，包括公司承保或被要求\n承保的財物或人身，以及所保危險(即造成損失的原\n因或成因)\n保險人在談及風險一詞時，包括公司承保或被要求\n承保的財物或人身，以及所保危險(即造成損失的原\n因或成因)",
@@ -11757,24 +10803,6 @@
       "type": "A"
     },
     {
-      "question": "描述保險及風險的關係，以下哪項是正確的：",
-      "options": {
-        "A": "i, ii",
-        "B": "ii, iii",
-        "C": "iii",
-        "D": "iii, iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i, ii\n\n✅ A. i, ii\n❌ B. ii, iii\n❌ C. iii\n❌ D. iii, iv\n\n📚 參考研習手冊 1.1.1 節\n\n💡 本題屬於「風險與保險概論」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-1",
-      "chapterName": "風險與保險概論",
-      "reference": "1.1.1",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "i) 所有類型的風險在商業上都是可保的\nii)保險人在使用保險一詞時，通常是指它們的營業成績的不確定性 正確\niii)有些風險是商業保險人視為不可保的\niv)在任何情況下帶來財務後果的風險是可保的\n以下哪項有關風險的陳述是正確的 ?\n當風險真正出現時，以下哪項風險後果相當可能屬於不可保?",
       "options": {
         "A": "財務損失的風險",
@@ -11827,24 +10855,6 @@
       "reference": "1.1.1",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "「風險」的定義是：\n以上各項皆是從保險人的角度，風險一詞的定義",
-      "options": {
-        "A": "i, ii",
-        "B": "ii, iii",
-        "C": "i, ii, iii",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。i, ii, iii\n\n✅ C. i, ii, iii\n❌ A. i, ii\n❌ B. ii, iii\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 1.1.1 節\n\n💡 本題屬於「風險與保險概論」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-1",
-      "chapterName": "風險與保險概論",
-      "reference": "1.1.1",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "從保險人的角度，風險一詞是指：",
@@ -12063,24 +11073,6 @@
       "type": "A"
     },
     {
-      "question": "人處，尋找及選擇充足範圍並可供選擇的保險產品，而該等產品是\n適合其客戶情況屬哪一項領域?",
-      "options": {
-        "A": "i , ii, iii",
-        "B": "ii, iii",
-        "C": "ii,iii,iv",
-        "D": "i,ii,iii,iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i , ii, iii\n\n✅ A. i , ii, iii\n❌ B. ii, iii\n❌ C. ii,iii,iv\n❌ D. i,ii,iii,iv\n\n📚 參考研習手冊 6.2.5(f) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.2.5(f)",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "持牌保險中介人應就進行受規管活動之任何相關事宜與其他相關監\n管機構合作，涉及以下哪領域?",
       "options": {
         "A": "一般業務的保險人",
@@ -12153,24 +11145,6 @@
       "type": "A"
     },
     {
-      "question": "持有人可向保險投訴局尋求調解服務，保險投訴局解釋以下哪項條\n件先需要滿足？",
-      "options": {
-        "A": "ii,iv",
-        "B": "i,ii,iv",
-        "C": "i, iii",
-        "D": "ii, iii, iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。ii,iv\n\n✅ A. ii,iv\n❌ B. i,ii,iv\n❌ C. i, iii\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.3",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "以下哪項有關索償投訴是不屬於保險投訴局的職務範圍？",
       "options": {
         "A": "發現沒有保證退保價值，客人投訴保險人於銷售過程中隱瞞沒有 保證價值此事實",
@@ -12187,24 +11161,6 @@
       "reference": "6.1.3",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "是屬於「抗通脹保單」\n以下哪項與索償無關的個案屬保險投訴局的職權範圍?",
-      "options": {
-        "A": "i, ii",
-        "B": "i,ii,iv",
-        "C": "ii,iii",
-        "D": "i,iii,iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i,ii,iv\n\n✅ B. i,ii,iv\n❌ A. i, ii\n❌ C. ii,iii\n❌ D. i,iii,iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.3",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "是屬於「抗通脹保單」\n以下哪項有關索償投訴是不屬於保險投訴局的職務範圍？",
@@ -12279,42 +11235,6 @@
       "type": "A"
     },
     {
-      "question": "，保單持有人仍可向保險投訴局尋求調解服務，以下哪一項是該服\n務需要滿足的條件？",
-      "options": {
-        "A": "i, ii",
-        "B": "ii,iii,iv",
-        "C": "iii, iv",
-        "D": "i, iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。ii,iii,iv\n\n✅ B. ii,iii,iv\n❌ A. i, ii\n❌ C. iii, iv\n❌ D. i, iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.3",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
-      "question": "能從中成功解決紛爭\n以下哪項無權享有向保險投訴局提出爭議個案有關的投訴?",
-      "options": {
-        "A": "i , ii , iii",
-        "B": "ii, iv",
-        "C": "i, iii, iv",
-        "D": "i ,ii, iii, iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i , ii , iii\n\n✅ A. i , ii , iii\n❌ B. ii, iv\n❌ C. i, iii, iv\n❌ D. i ,ii, iii, iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.3",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "保險投訴局提供與索償無關調解服務，以下哪些描述正確？",
       "options": {
         "A": "服務費用由保險業監管局負責",
@@ -12349,42 +11269,6 @@
       "reference": "6.1.3",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "以下哪幾項是保險投訴局有權處理的個案:",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "i,iii,iv",
-        "C": "iii,iv",
-        "D": "i,ii,iii,iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i,ii,iii\n\n✅ A. i,ii,iii\n❌ B. i,iii,iv\n❌ C. iii,iv\n❌ D. i,ii,iii,iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.3",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
-      "question": "投訴個案與保險人的服務水平或核保決定無關\n以下哪幾項是保險投訴局有權處理的個案:",
-      "options": {
-        "A": "i , ii , iv",
-        "B": "ii , iii",
-        "C": "ii ,iii ,iv",
-        "D": "iii ,iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。ii , iii\n\n✅ B. ii , iii\n❌ A. i , ii , iv\n❌ C. ii ,iii ,iv\n❌ D. iii ,iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.3",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "要投訴獲得受理，下列哪項附合保險投訴局的條件",
@@ -12477,24 +11361,6 @@
       "type": "A"
     },
     {
-      "question": "保險索償投訴委員會屬於一個獨立組織，由一名主席及多少名委員\n組成?",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "i,iv",
-        "C": "ii,iii",
-        "D": "ii,iii,iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i,iv\n\n✅ B. i,iv\n❌ A. i,ii,iii\n❌ C. ii,iii\n❌ D. ii,iii,iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.3",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "投訴索償委員會由5人組成，當中有幾人來自保險業？",
       "options": {
         "A": "保險投訴局",
@@ -12583,24 +11449,6 @@
       "reference": "6.1.2(d)",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "保險合約之完整條款的書面憑證，通常最可能在哪裏出現？",
-      "options": {
-        "A": "i, ii",
-        "B": "iii, iv",
-        "C": "ii, iii, iv",
-        "D": "i, ii ,iii, iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i, ii ,iii, iv\n\n✅ D. i, ii ,iii, iv\n❌ A. i, ii\n❌ B. iii, iv\n❌ C. ii, iii, iv\n\n📚 參考研習手冊 6.1.2(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.2(d)",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "根據《承保商專業守則》，以下哪一項是關於保單方面的要求描述\n是正確的?",
@@ -12693,24 +11541,6 @@
       "type": "A"
     },
     {
-      "question": "以下哪項不是承保商專業守則第四部分關於保險代理人管理需加強\n注意的?",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "ii, iii,iv",
-        "D": "以上所有各項"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i, ii, iv\n\n✅ B. i, ii, iv\n❌ A. i, ii, iii\n❌ C. ii, iii,iv\n❌ D. 以上所有各項\n\n📚 參考研習手冊 6.1.2(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.2(d)",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "以下哪些《2015年保險公司（修訂）條例》就保險業監管局新增的\n年修訂條例》下新增的規管權力？",
       "options": {
         "A": "保險監管局",
@@ -12801,24 +11631,6 @@
       "type": "A"
     },
     {
-      "question": "根據《保險業條例》及相關法例，以下哪項或哪些屬於保險業監管\n局的干預權力:",
-      "options": {
-        "A": "i, ii",
-        "B": "i, ii, iii",
-        "C": "i，iii",
-        "D": "ii，iii，iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。i，iii\n\n✅ C. i，iii\n❌ A. i, ii\n❌ B. i, ii, iii\n❌ D. ii，iii，iv\n\n📚 參考研習手冊 6.1.1(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.1(d)",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "開或非公開的譴責、罰款等。\n根據《保險業條例》的要求，所有保險人每年向保監局呈交:",
       "options": {
         "A": "資產負債表",
@@ -12835,24 +11647,6 @@
       "reference": "6.1.1(d)",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "iv.計算保險人的淨負債額 （不扣除具爭議的債務）的80%\n及有關數額加起來\n以下哪些新增的監管權力是保險業監管局就《2015年保險公司（修\n訂）條例》所授予，對獲授權保險新增的規管權力？",
-      "options": {
-        "A": "i,ii",
-        "B": "i,ii,iv",
-        "C": "ii,iii",
-        "D": "ii,iii,iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i,ii\n\n✅ A. i,ii\n❌ B. i,ii,iv\n❌ C. ii,iii\n❌ D. ii,iii,iv\n\n📚 參考研習手冊 6.1.1(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.1(d)",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "於香港的一般業務保險人必須就其從香港保險業務所產生的負債在\n香港維持資產，以下哪項就所需數額計算的描述是正確的?",
@@ -12889,24 +11683,6 @@
       "reference": "6.1.1(d)",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "經營一般業務的保險人，須每年就香港有關的業務向保險業監管局\n呈交?",
-      "options": {
-        "A": "i, ii",
-        "B": "i, ii, iii",
-        "C": "iii，iv",
-        "D": "ii，iii，iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。ii，iii，iv\n\n✅ D. ii，iii，iv\n❌ A. i, ii\n❌ B. i, ii, iii\n❌ C. iii，iv\n\n📚 參考研習手冊 6.1.1(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.1(d)",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "保險業監管局發出的《有關僱員補償及汽車保險業務保險負債的精\n算檢討指引》 要求:",
@@ -13215,42 +11991,6 @@
       "type": "A"
     },
     {
-      "question": "根據《保險業條例》的條文，須事先取得保險業監管局認可才可委\n任的是︰",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "i,ii,iv",
-        "C": "i,iii,iv",
-        "D": "ii,iii,iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i,ii,iii\n\n✅ A. i,ii,iii\n❌ B. i,ii,iv\n❌ C. i,iii,iv\n❌ D. ii,iii,iv\n\n📚 參考研習手冊 6.1.1(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.1(d)",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
-      "question": "經營長期業務的保險人，最低的償付準備金為：",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "i, iii,iv",
-        "C": "ii,iii,iv",
-        "D": "i,iii"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i,ii,iii\n\n✅ A. i,ii,iii\n❌ B. i, iii,iv\n❌ C. ii,iii,iv\n❌ D. i,iii\n\n📚 參考研習手冊 6.1.1(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.1(d)",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "《保險業條例》就有關的事宜，定明獲得授權的最\n低要求，當中包括：實繳股本；償付準備金；董事\n及控權人及足夠的再保險安排。\n根據《保險業條例》，實繳股本的最低要求為200萬\n港元適用於專屬自保保險人",
       "options": {
         "A": "綜合保險業務",
@@ -13267,24 +12007,6 @@
       "reference": "6.1.1(d)",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "專屬自保保險人的實繳股本最低要求為：",
-      "options": {
-        "A": "i, ii",
-        "B": "i, ii, iii",
-        "C": "ii, iii, iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i, ii, iii\n\n✅ B. i, ii, iii\n❌ A. i, ii\n❌ C. ii, iii, iv\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 6.1.1(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.1(d)",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "根據《保險業條例》，以下哪項就實繳股本要求是正確的？",
@@ -13375,24 +12097,6 @@
       "reference": "6.1.1(d)",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "根據《保險業條例》就獲得授權的最低要求，當中包括：",
-      "options": {
-        "A": "i, ii",
-        "B": "i, iii",
-        "C": "i,iii,iv",
-        "D": "ii,iii,iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。i,iii,iv\n\n✅ C. i,iii,iv\n❌ A. i, ii\n❌ B. i, iii\n❌ D. ii,iii,iv\n\n📚 參考研習手冊 6.1.1(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-6",
-      "chapterName": "監管框架",
-      "reference": "6.1.1(d)",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "iv.為保單持有人提供更佳的保障\n保監局有下列任務(i)透過發牌制度，規管保險中介",
@@ -13719,24 +12423,6 @@
       "type": "A"
     },
     {
-      "question": "補償。這項補償代表該名被保險人在有關保險上的權益，顯示彌補\n與以下哪些或哪項的原則相連：",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, iii, iv",
-        "C": "i, ii, iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。i, ii, iv\n\n✅ C. i, ii, iv\n❌ A. i, ii, iii\n❌ B. i, iii, iv\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 3.1.4(b) 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-3",
-      "chapterName": "保險原則",
-      "reference": "3.1.4(b)",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "某人在某時為他人的最佳利益而行事，雖然他事前並沒有獲得授權\n，但在法律上卻持有這種權限‧並被視為",
       "options": {
         "A": "明示權限",
@@ -13789,24 +12475,6 @@
       "reference": "2.1.3",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "就以下風險管理措施，提供安全訓練屬於:",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii",
-        "C": "ii,iii,iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。ii,iii,iv\n\n✅ C. ii,iii,iv\n❌ A. i, ii, iii\n❌ B. i, ii\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 1.1.3 節\n\n💡 本題屬於「風險與保險概論」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-1",
-      "chapterName": "風險與保險概論",
-      "reference": "1.1.3",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "以下哪三項有關風險管理的陳述是正確的?",
@@ -13987,24 +12655,6 @@
       "reference": "1.1.2(b)",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "以下哪項關於「純粹風險」的描述是不正確的？",
-      "options": {
-        "A": "iii",
-        "B": "i， ii",
-        "C": "i， ii， iv",
-        "D": "i， ii， iii， iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。i， ii， iv\n\n✅ C. i， ii， iv\n❌ A. iii\n❌ B. i， ii\n❌ D. i， ii， iii， iv\n\n📚 參考研習手冊 1.1.2(b) 節\n\n💡 本題屬於「風險與保險概論」範疇，請留意相關考點。",
-      "key_concept": "",
-      "difficulty": "hard",
-      "chapterId": "1-1",
-      "chapterName": "風險與保險概論",
-      "reference": "1.1.2(b)",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "以下哪項正確地描述「基本風險」？\n只有損失的機會而無收益的可能性之風險稱為純粹",

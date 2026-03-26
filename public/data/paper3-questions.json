@@ -75,24 +75,6 @@
       "type": "A"
     },
     {
-      "question": "在大部分情況下，如果證實殺人犯是受益人的話，法律 「公共政策」是不會容許殺人犯本人獲益的",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "ii, iii, iv",
-        "C": "i,ii,iv",
-        "D": "i,ii,iii,iv"
-      },
-      "correct": "A",
-      "explanation": "某人壽保險單訂明由陳大民作為受託人，假如被保險人逝世後保險金將全數支付給他，最終被保人被陳大民所殺害，請問陳大民可獲得保險金賠償嗎?",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "如果一名客戶暗示，他正在考慮將本身的保單退保，保險中介人應採取以下哪項或哪些行動？",
       "options": {
         "A": "會，保險條款中訂明受託人可得到賠償",
@@ -201,24 +183,6 @@
       "type": "A"
     },
     {
-      "question": "在死亡索償中，因為下列哪項或哪些原因，死因可能屬於重要事項?",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, iii",
-        "C": "ii, iii, iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。ii, iii, iv\n\n✅ C. ii, iii, iv\n❌ A. i, ii, iii\n❌ B. i, iii\n❌ D. i, ii, iii, iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "就死亡索償提出時，死亡證明方式為死亡證明書正本",
       "options": {
         "A": "死亡證明書正本",
@@ -318,24 +282,6 @@
       },
       "correct": "D",
       "explanation": "正確答案是 D。以上各項都是\n\n✅ D. 以上各項都是\n❌ A. 保單抵押貸款\n❌ B. 未繳清的保費\n❌ C. 尚欠的利息\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "期滿索償出現於下列哪類或哪些保險中？",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, iii",
-        "C": "ii, iii, iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i, iii\n\n✅ B. i, iii\n❌ A. i, ii, iii\n❌ C. ii, iii, iv\n❌ D. i, ii, iii, iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
       "key_concept": "長期保險",
       "difficulty": "medium",
       "chapterId": "3-1",
@@ -813,24 +759,6 @@
       "type": "A"
     },
     {
-      "question": "拒絕提供保險增加 (附加) 保費提供其他保單計劃在保單上設置一項按年遞減的「負債」",
-      "options": {
-        "A": "i, ii",
-        "B": "ii, iii",
-        "C": "ii, iii, iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。ii, iii\n\n✅ B. ii, iii\n❌ A. i, ii\n❌ C. ii, iii, iv\n❌ D. i, ii, iii, iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "通常或曾經對投保人提供醫療護理的醫生或其他合格醫務人員被稱為：",
       "options": {
         "A": "護理醫生",
@@ -950,24 +878,6 @@
       "explanation": "正確答案是 D。最高級風險（索償機會不大，保費極低）\n\n✅ D. 最高級風險（索償機會不大，保費極低）\n❌ A. 標準風險(沒有異常風險，收費標準)\n❌ B. 次標準風險（風險較大，增加保費）\n❌ C. 拒保風險（由於健康或其它因素使投保不可能被接受）\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
       "key_concept": "長期保險",
       "difficulty": "hard",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "實質危險主要考慮到可能增加受保事件死亡發生率的客觀因素。體重過高是核保考慮因素，因可能與其他疾病有聯繫",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i, ii, iv\n\n✅ B. i, ii, iv\n❌ A. i, ii, iii\n❌ C. i, iii, iv\n❌ D. ii, iii, iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
       "chapterId": "3-1",
       "chapterName": "長期保險產品",
       "reference": "",
@@ -1389,24 +1299,6 @@
       "type": "A"
     },
     {
-      "question": "以下哪項是分紅保單的好處？",
-      "options": {
-        "A": "i,ii",
-        "B": "i,ii,iii",
-        "C": "ii,iv",
-        "D": "i,iii"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i,ii\n\n✅ A. i,ii\n❌ B. i,ii,iii\n❌ C. ii,iv\n❌ D. i,iii\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "相對投資相連保單，分紅保單的好處是保單承受的風險較低",
       "options": {
         "A": "高透明度保險制度",
@@ -1542,42 +1434,6 @@
       },
       "correct": "A",
       "explanation": "正確答案是 A。國際市場因素\n\n✅ A. 國際市場因素\n❌ B. 匯集基金業績\n❌ C. 經濟展望\n❌ D. 如何公平的對待匯集基金内並存的各類保單持有人及在不同時間投保的保單持有人\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "就保單紅利額建議，精算師會考慮幾個因素，不包括︰",
-      "options": {
-        "A": "i,ii",
-        "B": "ii,iii",
-        "C": "i,iii,iv",
-        "D": "i, iii"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i, iii\n\n✅ D. i, iii\n❌ A. i,ii\n❌ B. ii,iii\n❌ C. i,iii,iv\n\n📚 參考研習手冊 5.2.7a 節\n\n💡 本題屬於「行業法規與合規」範疇，請留意相關考點。",
-      "key_concept": "銷售規範與合規",
-      "difficulty": "medium",
-      "chapterId": "3-5",
-      "chapterName": "行業法規與合規",
-      "reference": "5.2.7a",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "分紅保單是帶著保單紅利回報的期望而購買的，這些紅利來自？",
-      "options": {
-        "A": "i,ii,iii",
-        "B": "i,ii,iv",
-        "C": "i,iii,iv",
-        "D": "ii,iii,iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i,ii,iii\n\n✅ A. i,ii,iii\n❌ B. i,ii,iv\n❌ C. i,iii,iv\n❌ D. ii,iii,iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
       "key_concept": "長期保險",
       "difficulty": "medium",
       "chapterId": "3-1",
@@ -1929,24 +1785,6 @@
       "type": "A"
     },
     {
-      "question": "客戶忠誠度、客戶拓展、生產力及盈利能力為哪一個部門的主要功能？",
-      "options": {
-        "A": "i , ii , iii",
-        "B": "i , ii , iv",
-        "C": "i , iii , iv",
-        "D": "ii , iii , iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。ii , iii , iv\n\n✅ D. ii , iii , iv\n❌ A. i , ii , iii\n❌ B. i , ii , iv\n❌ C. i , iii , iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "投保人可就新購買的人壽保單更改購買意願，或取消保單並取回已繳保費，此做法是符合以下哪項規定？",
       "options": {
         "A": "系統",
@@ -1976,24 +1814,6 @@
       "explanation": "正確答案是 C。設有監察客戶滿意程度的系統\n\n✅ C. 設有監察客戶滿意程度的系統\n❌ A. 以客戶為本的公司文化\n❌ B. 把合理及適當的權力下放於前線僱員\n❌ D. 以上各項都是\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
       "key_concept": "長期保險",
       "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "又稱為不附條件保費收據此收據是獨立於其後所發簽的任何保單保障會以事後能否證明投保人可保為條件保障可能在指定期的最後一天前提前終止",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "以上各項都是"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i, ii, iv\n\n✅ B. i, ii, iv\n❌ A. i, ii, iii\n❌ C. i, iii, iv\n❌ D. 以上各項都是\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "easy",
       "chapterId": "3-1",
       "chapterName": "長期保險產品",
       "reference": "",
@@ -2145,24 +1965,6 @@
       "type": "A"
     },
     {
-      "question": "準受保保單所有人在投保時，除了要填寫投保書外，有時亦需要提供補充資料，包括﹕",
-      "options": {
-        "A": "i, ii",
-        "B": "i, iii, iv",
-        "C": "iii, iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。iii, iv\n\n✅ C. iii, iv\n❌ A. i, ii\n❌ B. i, iii, iv\n❌ D. i, ii, iii, iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "hard",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "代理人之核實証明不屬於投保單的「補充要求」",
       "options": {
         "A": "代理人之核實証明",
@@ -2244,24 +2046,6 @@
       },
       "correct": "D",
       "explanation": "正確答案是 D。將由投保人以外人士支付保費\n\n✅ D. 將由投保人以外人士支付保費\n❌ A. 下一個(或上一個)生日年齡\n❌ B. 投保人的身份\n❌ C. 保單生效日期\n\n📚 參考研習手冊 5.2.1(b) 節\n\n💡 本題屬於「行業法規與合規」範疇，請留意相關考點。",
-      "key_concept": "銷售規範與合規",
-      "difficulty": "hard",
-      "chapterId": "3-5",
-      "chapterName": "行業法規與合規",
-      "reference": "5.2.1(b)",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "以下哪項不大可能出現於壽險保單的投保單上？",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "A",
-      "explanation": "正確答案是 A。i, ii, iii\n\n✅ A. i, ii, iii\n❌ B. i, ii, iv\n❌ C. i, iii, iv\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 5.2.1(b) 節\n\n💡 本題屬於「行業法規與合規」範疇，請留意相關考點。",
       "key_concept": "銷售規範與合規",
       "difficulty": "hard",
       "chapterId": "3-5",
@@ -2487,24 +2271,6 @@
       "type": "A"
     },
     {
-      "question": "保險公司的精算部很有可能負責以下那項：",
-      "options": {
-        "A": "i, ii 及 iii",
-        "B": "i, iii 及 iv",
-        "C": "ii, iii 及 iv",
-        "D": "以上各項都是"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。以上各項都是\n\n✅ D. 以上各項都是\n❌ A. i, ii 及 iii\n❌ B. i, iii 及 iv\n❌ C. ii, iii 及 iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "確定死亡及其他保單索償的實際應付金額不屬保險公司會計部的主要職能和責任",
       "options": {
         "A": "監管由公司支付的所有款項",
@@ -2649,24 +2415,6 @@
       "type": "A"
     },
     {
-      "question": "相互保險公司的擁有人是分紅保單所有人",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "C",
-      "explanation": "相互保險公司在法律上由分紅保單所有人擁有，擁有，由董事局及高級管理層控制",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "世界各地的「相互公司」都陸續進行股份化的轉變，並將其法定地位變成了營利公（或稱股份公司）",
       "options": {
         "A": "該公司已經停止交易",
@@ -2766,24 +2514,6 @@
       },
       "correct": "B",
       "explanation": "如果死亡是在壽險保單第一年內在可疑的情況下發生,但找不到自殺的證據，保險人仍須作出全額賠",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "作為保單的除外責任，證明死亡是由自殺引起的舉證責任便落在保險人身上",
-      "options": {
-        "A": "i, ii",
-        "B": "i, ii, iii",
-        "C": "ii, iii, iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i, ii, iii, iv\n\n✅ D. i, ii, iii, iv\n❌ A. i, ii\n❌ B. i, ii, iii\n❌ C. ii, iii, iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
       "key_concept": "長期保險",
       "difficulty": "medium",
       "chapterId": "3-1",
@@ -3621,24 +3351,6 @@
       "type": "A"
     },
     {
-      "question": "就誤報年齡或性別方面，人壽保險單通常：",
-      "options": {
-        "A": "i及ii",
-        "B": "i及iii",
-        "C": "ii及iii",
-        "D": "i, ii, iii 及 iv"
-      },
-      "correct": "B",
-      "explanation": "以下哪項最不可能符合保單復效條件？",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "以下哪項不是有意復效保險單的條款？",
       "options": {
         "A": "提供持續可保性的證明",
@@ -3882,24 +3594,6 @@
       },
       "correct": "B",
       "explanation": "正確答案是 B。保單持有人有權向保險人借入款項\n\n✅ B. 保單持有人有權向保險人借入款項\n❌ A. 借款用途無任何限制\n❌ C. 貸款需要的抵押是保單的現金價值\n❌ D. 以上各項皆是\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "就合資格的壽險保單的保單貸款而言：",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, iii, iv",
-        "C": "ii, iii, iv",
-        "D": "以上各項都是"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i, iii, iv\n\n✅ B. i, iii, iv\n❌ A. i, ii, iii\n❌ C. ii, iii, iv\n❌ D. 以上各項都是\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
       "key_concept": "長期保險",
       "difficulty": "medium",
       "chapterId": "3-1",
@@ -4737,24 +4431,6 @@
       "type": "A"
     },
     {
-      "question": "保單紅利有利潤保單分紅保單復歸紅利",
-      "options": {
-        "A": "i, ii",
-        "B": "ii, iii",
-        "C": "iii, iv",
-        "D": "ii, iv"
-      },
-      "correct": "A",
-      "explanation": "分紅人壽保險下的現金紅利，通常是即時支付給保單所有人",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "如果在一份保險合約中具有的權益形容成復歸 ，這表示：",
       "options": {
         "A": "權益在繳交所有保費後才支付",
@@ -4764,24 +4440,6 @@
       },
       "correct": "D",
       "explanation": "正確答案是 D。以上各項都不是\n\n✅ D. 以上各項都不是\n❌ A. 權益在繳交所有保費後才支付\n❌ B. 權益在事件是偶遇的情況下出現時才支付\n❌ C. 權益在繳交最後一期的保費後才支付\n\n📚 參考研習手冊 4.1 節\n\n💡 本題屬於「保單條款與條件」範疇，請留意相關考點。",
-      "key_concept": "保單條款",
-      "difficulty": "medium",
-      "chapterId": "3-2",
-      "chapterName": "保單條款與條件",
-      "reference": "4.1",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "i. 用以購買保險公司股份ii. 以現金方式支付紅利iii.如果保單所有人沒有作出紅利選擇，保單會採用「自動紅利選擇」 的做法iv. 分紅保單於生效一段指定時間後可轉換成不分紅保單",
-      "options": {
-        "A": "iii,iv",
-        "B": "i,ii,iii",
-        "C": "ii,iii",
-        "D": "i,ii,iv"
-      },
-      "correct": "C",
-      "explanation": "iv. 分紅保單於生效一段指定時間後可轉換成不分紅保單",
       "key_concept": "保單條款",
       "difficulty": "medium",
       "chapterId": "3-2",
@@ -5133,24 +4791,6 @@
       "type": "A"
     },
     {
-      "question": "以上都是保證可保利益的附約特點",
-      "options": {
-        "A": "i,ii",
-        "B": "i iii",
-        "C": "ii,iii,iv",
-        "D": "iii,iv"
-      },
-      "correct": "D",
-      "explanation": "保證可保利益在某些情況下亦稱為：",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "壽險保單容許保單持有人，在指定的日期購買增額保險，而毋須提供可保證明，稱為：",
       "options": {
         "A": "終身保證利益",
@@ -5331,24 +4971,6 @@
       "type": "A"
     },
     {
-      "question": "一份醫療保險利益一般保障範圍包括因為意外而造成的醫療開支",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "因愛滋病而有關的症狀",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "以下哪一項不是《自願醫保計劃下保險公司的實務守則》的涵蓋範圍?",
       "options": {
         "A": "保單生效前既存的狀況",
@@ -5435,24 +5057,6 @@
       "chapterId": "3-1",
       "chapterName": "長期保險產品——附加保障",
       "reference": "3.4(b)",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "如果保險人發出一個獨立的醫療保險保單,該保單的保障範圍包括:i. 住院費用ii.私人護理iii.外科醫生ˑ麻醉師及手術室費用iv. 人壽保險",
-      "options": {
-        "A": "i,ii, iii",
-        "B": "i,ii, iv",
-        "C": "ii,iii, iv",
-        "D": "以上各項都是"
-      },
-      "correct": "A",
-      "explanation": "iv. 人壽保險",
-      "key_concept": "危疾保險附約",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品——附加保障",
-      "reference": "3.4(a)",
       "source": "real-exam",
       "type": "A"
     },
@@ -5637,42 +5241,6 @@
       "type": "A"
     },
     {
-      "question": "長期護理附約等候期一般是一至九個月",
-      "options": {
-        "A": "i,ii",
-        "B": "i,ii,iii",
-        "C": "i,iv",
-        "D": "ii,iii,iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。i,iv\n\n✅ C. i,iv\n❌ A. i,ii\n❌ B. i,ii,iii\n❌ D. ii,iii,iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "以下哪些是危疾保險利益附約設定的保障限制？",
-      "options": {
-        "A": "i,ii",
-        "B": "i,ii,iii",
-        "C": "iii,iv",
-        "D": "i,iii"
-      },
-      "correct": "D",
-      "explanation": "iii) 等候期iv) 危疾保障生效僅適用於某歲數以下的人",
-      "key_concept": "長期保險",
-      "difficulty": "hard",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "危疾保險利益，在下列情況不會獲得賠償？",
       "options": {
         "A": "有關多重疾病和復發疾病(某一類疾病或屬例外)",
@@ -5682,24 +5250,6 @@
       },
       "correct": "B",
       "explanation": "正確答案是 B。受保人80歲之後\n\n✅ B. 受保人80歲之後\n❌ A. 有關多重疾病和復發疾病(某一類疾病或屬例外)\n❌ C. 投保人為次標準風險\n❌ D. 以上各項皆是\n\n📚 參考研習手冊 3.3.1 節\n\n💡 本題屬於「長期保險產品——附加保障」範疇，請留意相關考點。",
-      "key_concept": "意外死亡及傷殘附約",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品——附加保障",
-      "reference": "3.3.1",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "i. 傷殘ii. 心臟相關疾病iii.癌症iv. 重要器官相關疾病",
-      "options": {
-        "A": "i,ii, iii",
-        "B": "ii,iii, iv",
-        "C": "i,ii, iv",
-        "D": "i,ii,iii ,iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i,ii,iii ,iv\n\n✅ D. i,ii,iii ,iv\n❌ A. i,ii, iii\n❌ B. ii,iii, iv\n❌ C. i,ii, iv\n\n📚 參考研習手冊 3.3.1 節\n\n💡 本題屬於「長期保險產品——附加保障」範疇，請留意相關考點。",
       "key_concept": "意外死亡及傷殘附約",
       "difficulty": "medium",
       "chapterId": "3-1",
@@ -5871,24 +5421,6 @@
       "type": "A"
     },
     {
-      "question": "提前支付死亡保險利益還可提供預先支付死亡保險金的一項附加保險，以下哪種情況可行使此項權利：",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i,iii,iv",
-        "D": "ii,iii,iv"
-      },
-      "correct": "C",
-      "explanation": "益，可以幫助當事人應付有關開支，向當事人提供部分援助以解決新增的財務困擾。兩種提前支付死亡保險利益，分別是危疾和長期護理保險利益，答案C正確",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "要符合哪些條件，保單所有人可獲得危疾賠償?",
       "options": {
         "A": "保險金可以支付給受保保單所有人",
@@ -5939,60 +5471,6 @@
       "chapterId": "3-1",
       "chapterName": "長期保險產品——附加保障",
       "reference": "3.2.2c",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "意外保險利益的其他利益包括：",
-      "options": {
-        "A": "i, ii",
-        "B": "ii, iii",
-        "C": "i, ii, iii",
-        "D": "以上各項都是"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。以上各項都是\n\n✅ D. 以上各項都是\n❌ A. i, ii\n❌ B. ii, iii\n❌ C. i, ii, iii\n\n📚 參考研習手冊 3.2.2c 節\n\n💡 本題屬於「長期保險產品——附加保障」範疇，請留意相關考點。",
-      "key_concept": "豁免保費附約",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品——附加保障",
-      "reference": "3.2.2c",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "保險利益，以下哪項是適用的保障範圍?",
-      "options": {
-        "A": "i, ii",
-        "B": "i, iii",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "D",
-      "explanation": "(i) 嚴重燒傷，可獲支付指明金額(ii) 每周津貼，最長為52周(iii) 住院津貼，每日津貼上限為 1,000日(iv) 因乘搭一般公共交通工具引果傷殘可獲「雙倍賠償」(最新) 395",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "附加於人壽保險的「其他意外保險利益」的意外身體損傷利益給付表，通常列出下列哪項或哪些情況下應付的利益？",
-      "options": {
-        "A": "i,ii",
-        "B": "ii,iii",
-        "C": "ii,iii,iv",
-        "D": "i,ii,iii,iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。ii,iii,iv\n\n✅ C. ii,iii,iv\n❌ A. i,ii\n❌ B. ii,iii\n❌ D. i,ii,iii,iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
       "source": "real-exam",
       "type": "A"
     },
@@ -6096,24 +5574,6 @@
       },
       "correct": "D",
       "explanation": "正確答案是 D。可用於雙目失明\n\n✅ D. 可用於雙目失明\n❌ A. 嚴格地指喪失雙臂\n❌ B. 必須喪失一雙肢體(雙臂或雙腿)\n❌ C. 往往適用於單目失明(同時適用於喪失肢體)\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "若意外事故導致受保生命喪失單肢或單目失明，或遭受其他較輕微的指明受傷給付額通常相等於意外死亡保險金的規定比率",
-      "options": {
-        "A": "i , ii",
-        "B": "iii , iv",
-        "C": "i, iii",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。i, iii\n\n✅ C. i, iii\n❌ A. i , ii\n❌ B. iii , iv\n❌ D. i, ii, iii, iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
       "key_concept": "長期保險",
       "difficulty": "medium",
       "chapterId": "3-1",
@@ -6231,24 +5691,6 @@
       "type": "A"
     },
     {
-      "question": "意外死亡及喪失肢體附約的除外責任包括下列哪項或哪些？",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "ii, iii, iv",
-        "D": "i, iii, iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i, iii, iv\n\n✅ D. i, iii, iv\n❌ A. i, ii, iii\n❌ B. i, ii, iv\n❌ C. ii, iii, iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "意外死亡保險利益附約一般承諾，於意外導致死亡的情況下，額外支付一筆與基本保單的保額相等的保險利益，而死亡必須由意外身體受傷而直接引起，並與所有其他原因無關，這種保險利益經常被稱為雙倍賠償利益 (Double Indemnity Benefit)",
       "options": {
         "A": "即時發生",
@@ -6276,24 +5718,6 @@
       },
       "correct": "B",
       "explanation": "在打劫情況下被劫掠者傷害的無辜人仕，不屬意外死亡及喪失肢體(AD&D)附約的除外責任",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "在打劫情況下被劫掠者傷害的無辜人仕，不屬意外死亡及喪失肢體(AD&D)附約的除外責任",
-      "options": {
-        "A": "i, ii",
-        "B": "i, ii, iii",
-        "C": "i, iii, iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "D",
-      "explanation": "死亡必須由意外身體受傷而直接引起，並與所有其他原因無關並於該受傷的一年之內發生",
       "key_concept": "長期保險",
       "difficulty": "medium",
       "chapterId": "3-1",
@@ -6438,24 +5862,6 @@
       },
       "correct": "D",
       "explanation": "正確答案是 D。以上所有各項\n\n✅ D. 以上所有各項\n❌ A. 車禍\n❌ B. 游泳時，遭受鯊魚襲擊\n❌ C. 旅行時，受持械搶劫的人槍擊\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "以下哪項是意外死亡及喪失肢體 (AD&D)附約中支付的意外死亡保險利益?",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "意外死亡保險利益附約一般承諾，於意外導致死亡的情況下，額外支付一筆與基本保單的保額相等的保險利益，而死亡必須由意外身體受傷而直接引起，並與所有其他原因無關",
       "key_concept": "長期保險",
       "difficulty": "medium",
       "chapterId": "3-1",
@@ -6771,42 +6177,6 @@
       "type": "A"
     },
     {
-      "question": "就變更支付保費頻率，殘疾豁免保費附約的規定在傷殘保險期間，不得更改保費頻率",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "C",
-      "explanation": "iii.保單紅利仍然累積iv.可附加於不同類型的壽險",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "下列哪項不是殘疾豁免保費的除外責任？",
-      "options": {
-        "A": "i, ii",
-        "B": "i, iii",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。i, iii, iv\n\n✅ C. i, iii, iv\n❌ A. i, ii\n❌ B. i, iii\n❌ D. ii, iii, iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "hard",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "因駕駛電單車發生意外的完全殘疾不屬於因完全殘疾而(豁免保費)附約的除外責任",
       "options": {
         "A": "因企圖自殺而導致完全殘疾",
@@ -6962,24 +6332,6 @@
       "explanation": "「殘疾豁免保費附約」的意思是讓受保保單所有人於完全殘疾期間豁免保費",
       "key_concept": "長期保險",
       "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "(WP)是Waiver ofPremium的縮寫，意指「殘疾豁免保費附約」，而不是waiting period”「等候期」的意思",
-      "options": {
-        "A": "i 及 ii",
-        "B": "ii 及 iv",
-        "C": "iii 及 iv",
-        "D": "i 及 iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。ii 及 iv\n\n✅ B. ii 及 iv\n❌ A. i 及 ii\n❌ C. iii 及 iv\n❌ D. i 及 iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "hard",
       "chapterId": "3-1",
       "chapterName": "長期保險產品",
       "reference": "",
@@ -7419,42 +6771,6 @@
       "type": "A"
     },
     {
-      "question": "i.年金利益付款開始時的年齡越高，毎一期年金利益付款便越高ii.在相同年齡下男性收取的定期年金高於相同年齡的女性ii.相同年齡下，女性的年金保費高於男性iii.人壽保險與年金核保原則有頗大分別(最新) 278",
-      "options": {
-        "A": "i,ii",
-        "B": "ii, iii",
-        "C": "ii,iii,iv",
-        "D": "i,ii,iii ,iv"
-      },
-      "correct": "D",
-      "explanation": "以下哪項不是年金的變化?(最新) 280",
-      "key_concept": "儲蓄壽險/兩全保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品——產品類型",
-      "reference": "2.3.1(d)",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "因為女性預期壽命比男性長，女性所收取的定期年金低於相同年齡的男性，年金核保並無提及必須要提供驗身報告",
-      "options": {
-        "A": "i,ii",
-        "B": "ii,iv",
-        "C": "i,ii,iii",
-        "D": "i,iii,iv"
-      },
-      "correct": "C",
-      "explanation": "以下哪項是年金的描述是正確的?",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "香港年金的其中一項特色是提供最低保證年金總額",
       "options": {
         "A": "40",
@@ -7487,24 +6803,6 @@
       "chapterId": "3-1",
       "chapterName": "長期保險產品——產品類型",
       "reference": "2.3.1(d)",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "定期向年金領取人支付，最低限度為每年一次",
-      "options": {
-        "A": "i,ii",
-        "B": "i,ii,iv",
-        "C": "iii,iv",
-        "D": "i,iii"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i,ii,iv\n\n✅ B. i,ii,iv\n❌ A. i,ii\n❌ C. iii,iv\n❌ D. i,iii\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
       "source": "real-exam",
       "type": "A"
     },
@@ -7577,24 +6875,6 @@
       "chapterId": "3-1",
       "chapterName": "長期保險產品",
       "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "i.年金利益付款開始時的年齡越高,每一期年金利益付款便越高ii. 年金核保與傳統人壽保險核保完全不同iii.男性收取的定期年金高於相同年齡的女性iv. 相同年齡男性的保費低於女性",
-      "options": {
-        "A": "i,ii",
-        "B": "ii, iii",
-        "C": "i,ii,iii",
-        "D": "i,ii,iii ,iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i,ii,iii ,iv\n\n✅ D. i,ii,iii ,iv\n❌ A. i,ii\n❌ B. ii, iii\n❌ C. i,ii,iii\n\n📚 參考研習手冊 2.3.1 節\n\n💡 本題屬於「長期保險產品——產品類型」範疇，請留意相關考點。",
-      "key_concept": "儲蓄壽險/兩全保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品——產品類型",
-      "reference": "2.3.1",
       "source": "real-exam",
       "type": "A"
     },
@@ -8265,24 +7545,6 @@
       "type": "A"
     },
     {
-      "question": "一名有意購買一份人壽的準保單持有人，希望有關保險在自己逝世時提供一筆不超過事前聲明的金額，而該筆金錢的用途並不會在投保人逝世前出現，而保險成本並非為重要考慮因素。以下哪保險類型可以獲得最高的收益?",
-      "options": {
-        "A": "i,ii",
-        "B": "i,ii,iv",
-        "C": "i,iii,iv",
-        "D": "i,ii,iii,iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i,ii,iii,iv\n\n✅ D. i,ii,iii,iv\n❌ A. i,ii\n❌ B. i,ii,iv\n❌ C. i,iii,iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "可按年遞減保費不是終身壽險的繳付保費方法",
       "options": {
         "A": "終身繳付",
@@ -8571,24 +7833,6 @@
       "type": "A"
     },
     {
-      "question": "i. 超過某一年齡(例如55 歲)之後,可能不准轉換ii. 新計劃(長期保險)保額必須高於目前保單iii.保單實施若干年後,不可轉換iv. 新計劃(長期保險)保額不得高於目前保單",
-      "options": {
-        "A": "i,ii",
-        "B": "i,ii, iii",
-        "C": "i,iii, iv",
-        "D": "ii,iii,iv"
-      },
-      "correct": "C",
-      "explanation": "正確答案是 C。i,iii, iv\n\n✅ C. i,iii, iv\n❌ A. i,ii\n❌ B. i,ii, iii\n❌ D. ii,iii,iv\n\n📚 參考研習手冊 2.1.1b(b) 節\n\n💡 本題屬於「長期保險產品——產品類型」範疇，請留意相關考點。",
-      "key_concept": "定期壽險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品——產品類型",
-      "reference": "2.1.1b(b)",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "以上各項皆是可續保定期壽險可能涉及防止逆選擇的方法",
       "options": {
         "A": "不接受續保時高於原來的保額",
@@ -8616,24 +7860,6 @@
       },
       "correct": "A",
       "explanation": "正確答案是 A。保險利益和保費按年或其他認可方式隨時間遞增\n\n✅ A. 保險利益和保費按年或其他認可方式隨時間遞增\n❌ B. 保險利益遞增，保費不變\n❌ C. 保費遞增，保險利益不變\n❌ D. 只有當保單所有人提出要求時才遞增保費或保額\n\n📚 參考研習手冊 2.1.1a(c) 節\n\n💡 本題屬於「長期保險產品——產品類型」範疇，請留意相關考點。",
-      "key_concept": "定期壽險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品——產品類型",
-      "reference": "2.1.1a(c)",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "就遞增定期壽險而言：",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i, ii, iv\n\n✅ B. i, ii, iv\n❌ A. i, ii, iii\n❌ C. i, iii, iv\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 2.1.1a(c) 節\n\n💡 本題屬於「長期保險產品——產品類型」範疇，請留意相關考點。",
       "key_concept": "定期壽險",
       "difficulty": "medium",
       "chapterId": "3-1",
@@ -8769,24 +7995,6 @@
       "type": "A"
     },
     {
-      "question": "遞減定期壽險適合應付以下哪個或哪些情況？",
-      "options": {
-        "A": "i, ii, iv",
-        "B": "i, iii, iv",
-        "C": "ii, iii, iv",
-        "D": "i,ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i, iii, iv\n\n✅ B. i, iii, iv\n❌ A. i, ii, iv\n❌ C. ii, iii, iv\n❌ D. i,ii, iii, iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "遞減定期壽險尤其適合一項逐漸減少的短期需要",
       "options": {
         "A": "一項逐漸減少的短期需要",
@@ -8832,24 +8040,6 @@
       },
       "correct": "D",
       "explanation": "符合以上所有各項都屬遞減定期壽險適合應付的情",
-      "key_concept": "定期壽險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品——產品類型",
-      "reference": "2.1.1a",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "信用壽險家庭收入壽險萬用壽險抵押贖回壽險",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。i, ii, iv\n\n✅ B. i, ii, iv\n❌ A. i, ii, iii\n❌ C. i, iii, iv\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 2.1.1a 節\n\n💡 本題屬於「長期保險產品——產品類型」範疇，請留意相關考點。",
       "key_concept": "定期壽險",
       "difficulty": "medium",
       "chapterId": "3-1",
@@ -9255,24 +8445,6 @@
       "type": "A"
     },
     {
-      "question": "定期壽險保單的利益，只於死亡時候保單仍屬有效及以下哪種情況下才給付？",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii ,iii, iv"
-      },
-      "correct": "D",
-      "explanation": "定期壽險沒有現金價值的，所以選項i不正確",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "終身壽險的保費比定期壽險高，而分紅計劃的保費亦比非分紅計劃高，以保險成本為一重要的考慮因素，分紅終身壽險最不適合",
       "options": {
         "A": "定額定期壽險",
@@ -9320,42 +8492,6 @@
       "explanation": "正確答案是 B。附加條款(附約)\n\n✅ B. 附加條款(附約)\n❌ A. 附加保費\n❌ C. 額外購買另一份保單\n❌ D. 以上各項皆不是\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
       "key_concept": "長期保險",
       "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "下列哪項屬於基本形式之壽險保單的常見變化？",
-      "options": {
-        "A": "i, ii",
-        "B": "ii, iii",
-        "C": "i, iii",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "正確答案是 B。ii, iii\n\n✅ B. ii, iii\n❌ A. i, ii\n❌ C. i, iii\n❌ D. i, ii, iii, iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "easy",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "可續保的及在基本保單中加入各種附加條款附約是人壽保險的基本變數",
-      "options": {
-        "A": "i, ii",
-        "B": "iii, iv",
-        "C": "i, ii, iv",
-        "D": "ii, iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。ii, iv\n\n✅ D. ii, iv\n❌ A. i, ii\n❌ B. iii, iv\n❌ C. i, ii, iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "easy",
       "chapterId": "3-1",
       "chapterName": "長期保險產品",
       "reference": "",
@@ -9435,42 +8571,6 @@
       "type": "A"
     },
     {
-      "question": "以上皆是均衡保費制度下由早期「盈餘」保費而產生的特性，保單所有人可以在以上各項作出選擇",
-      "options": {
-        "A": "i, ii",
-        "B": "ii, iii",
-        "C": "ii, iii, iv",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "ii.保單抵押貸款iii.清繳保險iv.不能作廢條文",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "下列哪一項較不可能出現於人壽保險合約的基本形式功能範圍？",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "ii, iii, iv",
-        "C": "i,ii,iv",
-        "D": "i,ii,iii,iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。i,ii,iii,iv\n\n✅ D. i,ii,iii,iv\n❌ A. i, ii, iii\n❌ B. ii, iii, iv\n❌ C. i,ii,iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "easy",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "就指明的疾病導致的死亡給付保險利益不是預期人壽保險的基本形式",
       "options": {
         "A": "只就指定時期內發生的死亡支付保險利益",
@@ -9482,24 +8582,6 @@
       "explanation": "以上皆是均衡保費釐定制度下多繳的「剩餘」保費導致的長期後果",
       "key_concept": "長期保險",
       "difficulty": "hard",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "獨立計算，以準確反映在每個續保期內受保生命的自然風險（例如年齡等）ii.早年保費相對風險而言可能「太高」而晚年保費相對風險而言則可能「太低」iii.吸收了最初設立該保單時的各項有關開支及成本，早年的「超額」保費上其利息收入將形成一個儲備 ，以應付未來的責任iv.均衡保費制度考慮到壽險屬於長期合約，不變的年保費實際上會在整個受保期內有效地達致平均",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i,ii,iv",
-        "C": "i,iii,iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "D",
-      "explanation": "正確答案是 D。ii, iii, iv\n\n✅ D. ii, iii, iv\n❌ A. i, ii, iii\n❌ B. i,ii,iv\n❌ C. i,iii,iv\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "easy",
       "chapterId": "3-1",
       "chapterName": "長期保險產品",
       "reference": "",
@@ -9759,24 +8841,6 @@
       "type": "A"
     },
     {
-      "question": "釐定人壽保險保費的傳統標準中「公平」一項，其意思是保費應該能公平地反映有關的風險及約定利益",
-      "options": {
-        "A": "i, iii",
-        "B": "i,iv",
-        "C": "ii,iv",
-        "D": "以上各項皆是"
-      },
-      "correct": "C",
-      "explanation": "人壽保單中的毛保費等於淨保費加附加保費，哪麼淨保費即是:",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "性別不是用以計算壽險保費考慮的因素",
       "options": {
         "A": "實收保費",
@@ -10011,24 +9075,6 @@
       "type": "A"
     },
     {
-      "question": "在人壽保險中，除非在自殺除外責任條款或意外死亡保險利益附約適用的情況下，否則，死亡的原因並不十分重要，另外，如果證實殺人犯是受益人的話，法律「公共政策」是不會容許殺人犯本人獲益的。以上各項情況下，確定死亡原因屬重要事項",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i,ii,iv",
-        "C": "i,iii,iv",
-        "D": "ii,iii,iv"
-      },
-      "correct": "C",
-      "explanation": "下列哪項對彌償的描述是正確的？",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "近因原則是確定死亡是否由自殺導致的重要工具，因為自殺僅於一段期限自殺免責期內構成除外責任",
       "options": {
         "A": "只有最先購買的保單作出賠付",
@@ -10137,24 +9183,6 @@
       "type": "A"
     },
     {
-      "question": "賠償雙倍賠償利益保單時，確定受保人的死亡原因很重要，所以以下哪種保險原則是適用：",
-      "options": {
-        "A": "ii,iii,iv",
-        "B": "i,ii,iv",
-        "C": "i,ii",
-        "D": "iii,iv"
-      },
-      "correct": "D",
-      "explanation": "就不可異議條文，保險人可以在保單生效了的兩年內對該份保單提出異議或質疑，就免體檢的投保，一份小心設計的投保單未必很重要，只有選項iii,iv正確",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "就不可異議條文，保險人可以在保單生效了的兩年內對該份保單提出異議或質疑",
       "options": {
         "A": "這種情況在任何時候也適用",
@@ -10241,24 +9269,6 @@
       "chapterId": "3-1",
       "chapterName": "長期保險產品",
       "reference": "1.2.2",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "i. 任何人不可能被期望披露不可能知道的情況ii.就免健康核保的申請，保險中介人必需嚴謹制定一份建議書iii.最高誠信的原則是主動披露，並不會因投保人已獲得保險人安排合資格的醫療團隊的體檢而影響iv.重要資料是在「訂定保費方面會影響一名保險人的判斷的任何情況」",
-      "options": {
-        "A": "i, ii",
-        "B": "i, iii",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "C",
-      "explanation": "ii.就免健康核保的申請，保險中介人必需嚴謹制定一份建議書iii.最高誠信的原則是主動披露，並不會因投保人已獲得保險人安排合資格的醫療團隊的體檢而影響iv.重要資料是在「訂定保費方面會影響一名保險人的判斷的任何情況」",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
       "source": "real-exam",
       "type": "A"
     },
@@ -10479,24 +9489,6 @@
       "type": "A"
     },
     {
-      "question": "如果某人欠你錢，你可就債務人(債仔)的生命購買壽險，保額為貸款金額另加應計利息，反而債務人(債仔)就債權人(債主)是沒有可保權益的",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, iii, iv",
-        "C": "i, ii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "可保權益的血緣或家庭關係。答案B不正確可保權益是指某人與「標的」(受保人或被保險人)之間法律認可的關係",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "如果某人對他人的生命具有一項權益，可讓前者享有法律上的權利就後者的生命投保，這類權益稱為：",
       "options": {
         "A": "我們對自己的生命具有無限金額的可保權益",
@@ -10605,24 +9597,6 @@
       "type": "A"
     },
     {
-      "question": "i.就某人的生命購買保險，對該受保生命必須具有可保權益。但透過轉讓程序購買別人的現有保單，對該受保生命無須具有可保權益ii.保單所有人不能將壽險合約轉讓予第三者，即使該第三者對受保生命具有可保權益iii.保單所有人可以把正當地安排的壽險合約轉讓予第三者，即使該第三者對受保生命缺乏可保權益iv.保單所有人只可將壽險合約轉讓予對該受保生命有可保權益的第三者",
-      "options": {
-        "A": "i, iii",
-        "B": "i, ii",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "A",
-      "explanation": "ii.保單所有人不能將壽險合約轉讓予第三者，即使該第三者對受保生命具有可保權益iii.保單所有人可以把正當地安排的壽險合約轉讓予第三者，即使該第三者對受保生命缺乏可保權益iv.保單所有人只可將壽險合約轉讓予對該受保生命有可保權益的第三者",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
       "question": "債權人可就其債務人的生命投保。在債務得到償還後，會出現以下哪個情況？",
       "options": {
         "A": "保單必定立即終止",
@@ -10650,42 +9624,6 @@
       },
       "correct": "B",
       "explanation": "正確答案是 B。分擔\n\n✅ B. 分擔\n❌ A. 代位\n❌ C. 彌償\n❌ D. 可保權益\n\n💡 本題屬於「長期保險產品」範疇，請留意相關考點。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "下列哪項為壽險保單商業需求而非個人需求？",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "A",
-      "explanation": "在人壽保險中，死亡的原因並不十分重要。除非在自殺除外責任條款或意外死亡保險利益附約適用的情況下，被保險人死亡的近因就顯得非常重要。",
-      "key_concept": "長期保險",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "長期保險產品",
-      "reference": "",
-      "source": "real-exam",
-      "type": "A"
-    },
-    {
-      "question": "人壽保險在現代觀點上看，可滿足哪項需求？",
-      "options": {
-        "A": "i , ii , iii",
-        "B": "i , ii , iv",
-        "C": "i , iii , iv",
-        "D": "ii , iii , iv"
-      },
-      "correct": "C",
-      "explanation": "下列哪項為壽險保單商業需求而非個人需求？",
       "key_concept": "長期保險",
       "difficulty": "medium",
       "chapterId": "3-1",
@@ -11073,24 +10011,6 @@
       "type": "A"
     },
     {
-      "question": "下面有關宣佈紅利金額的陳述中，哪項是正確的？\ni. 保險人一般會將紅利平均派發，以減低短期大幅波動\nii. 紅利金額是基於獲委任精算師的意見而釐定的\niii. 紅利金額是基於獲委任精算師的意見，並經董事會批准而釐定\niv. 保險人一般保留釐定紅利金額的權利",
-      "options": {
-        "A": "i, ii",
-        "B": "ii, iii",
-        "C": "i, iii, iv",
-        "D": "i, iii"
-      },
-      "correct": "C",
-      "explanation": "保險人一般保留釐定紅利金額的權利。紅利金額是基於獲委任精算師的意見，並經董事會批准而釐定的。保險人可因應政策決定平均派發的方法，選項ii不正確",
-      "key_concept": "紅利金額釐定",
-      "difficulty": "hard",
-      "chapterId": "3-5",
-      "chapterName": "保險公司組織及投保程序",
-      "reference": "5.2.7a",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "指引16的規定，銷售分紅（或有利潤）保單或萬用壽險保單的保險人，必須以清晰及統一的計算方式及披露方式向客戶準確披露以下哪項的資料？",
       "options": {
         "A": "非保證紅利／英式紅利實現率及過往派息率",
@@ -11233,24 +10153,6 @@
       "reference": "5.1(a)",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "以下哪項是對「相互」保險公司的正確描述？\ni. 它沒有股東\nii. 公司在法律上由分紅保單所有人擁有\niii. 由董事局及高級管理層控制\niv. 相互公司不能轉變成為營利公司",
-      "options": {
-        "A": "ii, iii, iv",
-        "B": "i, ii",
-        "C": "ii, iii",
-        "D": "i, ii, iii"
-      },
-      "correct": "D",
-      "explanation": "相互公司並不代表不能轉變成為營利公司，選項iv不正確。",
-      "key_concept": "相互保險公司特點",
-      "difficulty": "medium",
-      "chapterId": "3-5",
-      "chapterName": "保險公司組織及投保程序",
-      "reference": "5.1(a)",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "由自殺引至死亡發生，如果保單在死亡前不久訂立，要知道死亡是不由自殺所引致，這工作由下列誰人負責？",
@@ -11991,24 +10893,6 @@
       "type": "A"
     },
     {
-      "question": "下列哪三項較可能是豁免保費(WP)附約的除外責任？\ni. 保單生效前既存的狀況\nii. 在從事違法活動時導致的殘疾\niii. 因受僱用及其過程導致的殘疾\niv. 戰爭時服兵役導致的殘疾",
-      "options": {
-        "A": "i, ii, iii",
-        "B": "i, ii, iv",
-        "C": "i, iii, iv",
-        "D": "ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "選項iii因受僱用及其過程導致的殘疾不屬是豁免保費(WP)附約的除外責任，只有i, ii, iv選項正確",
-      "key_concept": "豁免保費附約除外責任",
-      "difficulty": "hard",
-      "chapterId": "3-1",
-      "chapterName": "人壽保險概論",
-      "reference": "3.1.1(d)",
-      "source": "real-exam",
-      "type": "B"
-    },
-    {
       "question": "一般應用於「豁免保費」附約的年齡限制，意思是指這種保障通常只提供予下列哪項受保保單所有人?",
       "options": {
         "A": "15歲以下人士",
@@ -12403,24 +11287,6 @@
       "reference": "2(c)",
       "source": "real-exam",
       "type": "A"
-    },
-    {
-      "question": "普通壽險保單的基本變數可以是以下哪幾項?\ni. 普通保單可轉化為保證保單\nii. 最初只保障有限期間的壽險單可以續保\niii. 保單所有人可以選擇將保單紅利轉換為公司股份\niv. 可在保單中加入附加條款以獲取更多保障",
-      "options": {
-        "A": "i, ii",
-        "B": "ii, iv",
-        "C": "i, iii",
-        "D": "i, ii, iii, iv"
-      },
-      "correct": "B",
-      "explanation": "可續保的及在基本保單中加入各種附加條款附約是人壽保險的基本變數",
-      "key_concept": "壽險保單基本變數",
-      "difficulty": "medium",
-      "chapterId": "3-1",
-      "chapterName": "人壽保險概論",
-      "reference": "2(c)",
-      "source": "real-exam",
-      "type": "B"
     },
     {
       "question": "以下哪項並不屬於人壽保險的變化？",
