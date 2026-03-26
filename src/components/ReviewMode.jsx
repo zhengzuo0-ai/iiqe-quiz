@@ -1,13 +1,16 @@
-import { useState, useMemo } from 'react'
+import { useState, useRef } from 'react'
 import QuestionCard from './QuestionCard'
 
 export default function ReviewMode({ errorBook, onBack, mode = 'review' }) {
   const { dueRecords, activeErrors, markReviewed } = errorBook
 
-  const questions = useMemo(() => {
+  // Snapshot questions once on mount to prevent re-shuffle during review
+  const questionsRef = useRef(null)
+  if (questionsRef.current === null) {
     const source = mode === 'review' ? dueRecords : activeErrors
-    return [...source].sort(() => Math.random() - 0.5).slice(0, 10)
-  }, [mode, dueRecords, activeErrors])
+    questionsRef.current = [...source].sort(() => Math.random() - 0.5).slice(0, 10)
+  }
+  const questions = questionsRef.current
 
   const [currentIdx, setCurrentIdx] = useState(0)
   const [results, setResults] = useState([])
