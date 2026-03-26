@@ -46,9 +46,7 @@ const NAV_ITEMS = [
 ]
 
 export default function App() {
-  const [showOnboarding, setShowOnboarding] = useState(
-    () => !localStorage.getItem('iiqe_onboarding_done')
-  )
+  const [showOnboarding] = useState(false)
   const [view, setView] = useState('home')
   const [viewData, setViewData] = useState({})
   const [toastQueue, setToastQueue] = useState([])
