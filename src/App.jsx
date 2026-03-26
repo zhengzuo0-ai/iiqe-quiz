@@ -54,13 +54,11 @@ export default function App() {
 
   const cloudSyncDone = useRef(false)
 
-  // On first load, try to restore from Supabase
+  // On first load, try to restore from Supabase (no reload needed)
   useEffect(() => {
     if (cloudSyncDone.current) return
     cloudSyncDone.current = true
-    syncFromCloud().then(restored => {
-      if (restored) window.location.reload()
-    })
+    syncFromCloud()
   }, [])
 
   const stats = useStats()
