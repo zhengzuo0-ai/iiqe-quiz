@@ -15,13 +15,16 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
   const [timer, setTimer] = useState(0)
   const timerRef = useRef(null)
 
+  const loadedRef = useRef(false)
   useEffect(() => {
+    if (loadedRef.current) return // Prevent re-fetching when questionBank reference changes
+    loadedRef.current = true
     const count = paperId === 'paper1' ? 15 : 10
     questionBank.getExamQuestions(paperId, count).then(qs => {
       setQuestions(qs)
       setLoading(false)
     })
-  }, [paperId, questionBank])
+  }, [paperId]) // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (!loading && !done) {
