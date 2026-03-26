@@ -71,11 +71,12 @@ export default function App() {
   useEffect(() => {
     const achievementStats = stats.getAchievementStats()
     const newOnes = checkNewAchievements(achievementStats, stats.achievements)
+    if (newOnes.length === 0) return
     newOnes.forEach(a => {
       stats.unlockAchievement(a.id)
-      setToastQueue(q => [...q, a])
     })
-  }, [stats.stats, stats.streak, stats.daily])
+    setToastQueue(q => [...q, ...newOnes])
+  }, [stats.stats, stats.streak, stats.daily, stats.achievements])
 
   const navigate = useCallback((v, data = {}) => {
     setTransitioning(true)
