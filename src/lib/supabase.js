@@ -46,7 +46,7 @@ export async function syncFromCloud() {
     if (error || !data?.data) return false
     
     // Only restore if localStorage has no quiz data
-    const hasLocalData = localStorage.getItem('iiqe_qq_stats_v2')
+    const hasLocalData = localStorage.getItem('iiqe_qq_stats_v3')
     if (hasLocalData) return false // local data exists, don't overwrite
     
     // Restore from cloud
