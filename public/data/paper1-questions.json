@@ -18961,6 +18961,1266 @@
       "type": "A",
       "reference": "研习手册第5章第2节",
       "source": "official-format"
+    },
+    {
+      "question": "以下哪項是《防止賄賂條例》的描述是正確的?\ni) 防止主事人免受代理人濫用職權所損害\nii) 持牌個人保險代理是作為保險經紀公司委任的業務代表\niii) 行賄目的未達可作為賄賂的辯護理由\niv) 以上皆是解釋款待（即當場享用之飲食）則不是利益。即場享用之美食屬款待不是利益",
+      "options": {
+        "A": "i & iii",
+        "B": "ii & iv",
+        "C": "ii, iii & iv",
+        "D": "i, ii, iii & iv"
+      },
+      "correct": "B",
+      "explanation": "以下哪項是《防止賄賂條例》的描述是正確的?\n\ni) 防止主事人免受代理人濫用職權所損害\nii) 持牌個人保險代理是作為保險經紀公司委任的業務代表\niii) 行賄目的未達可作為賄賂的辯護理由\niv) 以上皆是解釋款待（即當場享用之飲食）則不是利益。即場享用之美食屬款待不是利益\n\n✅ B. ii & iv\n❌ A. i & iii\n❌ C. ii, iii & iv\n❌ D. i, ii, iii & iv\n\n📚 參考研習手冊 7.5.1 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-7",
+      "chapterName": "道德與合規",
+      "reference": "7.5.1",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項是《防止賄賂條例》的立法精神?\ni) 協助商界維持一個有利於效率和公平競爭的營商環境\nii) 吸引外商投資，並持續投資於香港\niii) 保障不同持份者的利益，並保護主事人免受代理人以權謀私所損害\niv) 消除社會就性別、殘疾 、家庭崗位、種族 的歧視答案",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, ii",
+        "C": "i, iv",
+        "D": "i, ii, iii, iv"
+      },
+      "correct": "C",
+      "explanation": "以下哪項是《防止賄賂條例》的立法精神?\n\ni) 協助商界維持一個有利於效率和公平競爭的營商環境\nii) 吸引外商投資，並持續投資於香港\niii) 保障不同持份者的利益，並保護主事人免受代理人以權謀私所損害\niv) 消除社會就性別、殘疾 、家庭崗位、種族 的歧視答案\n\n✅ C. i, iv\n❌ A. i, ii, iii\n❌ B. i, ii\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 7.4.6 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-7",
+      "chapterName": "道德與合規",
+      "reference": "7.4.6",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "在香港，與洗錢／恐怖分子資金籌集有關的法例為:\ni) 《有組織及嚴重罪行條例》\nii) 《販毒（追討得益）條例》\niii) 《防止賄賂條例》\niv) 《保險業條例》",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, ii",
+        "C": "i, iv",
+        "D": "以上所有皆是"
+      },
+      "correct": "A",
+      "explanation": "在香港，與洗錢／恐怖分子資金籌集有關的法例為:\n\ni) 《有組織及嚴重罪行條例》\nii) 《販毒（追討得益）條例》\niii) 《防止賄賂條例》\niv) 《保險業條例》\n\n✅ A. i, ii, iii\n❌ B. i, ii\n❌ C. i, iv\n❌ D. 以上所有皆是\n\n📚 參考研習手冊 7.4.6 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-7",
+      "chapterName": "道德與合規",
+      "reference": "7.4.6",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪幾項有關保險公司的償付準備金規定的描述是正確的?\ni) 償付準備金至少相當於 「有關數額」\nii) 一般業務及長期業務保險人有相同的最低償付準備金額要求\niii) 一般業務及長期業務保險人有不同的計算準則\niv) 專屬自保保險人有另一套適用的計算準則經營長期業務的保險人，最低的償付準備金為二百萬港元",
+      "options": {
+        "A": "i,ii,iii",
+        "B": "i, iii,iv",
+        "C": "ii,iii,iv",
+        "D": "i,iii"
+      },
+      "correct": "B",
+      "explanation": "以下哪幾項有關保險公司的償付準備金規定的描述是正確的?\n\ni) 償付準備金至少相當於 「有關數額」\nii) 一般業務及長期業務保險人有相同的最低償付準備金額要求\niii) 一般業務及長期業務保險人有不同的計算準則\niv) 專屬自保保險人有另一套適用的計算準則經營長期業務的保險人，最低的償付準備金為二百萬港元\n\n✅ B. i, iii,iv\n❌ A. i,ii,iii\n❌ C. ii,iii,iv\n❌ D. i,iii\n\n📚 參考研習手冊 7.3.2 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-7",
+      "chapterName": "道德與合規",
+      "reference": "7.3.2",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "《保險業條例》規定不能對不同的投保人給予不同的對待，除非：《保險業條例》規定不能對不同的投保人給予不同的對待，除非有關待遇是參照可合理依據的來源所得的精算數據給予的，以及就該等數據而言，有關待遇屬於合理的\ni) 有關的待遇涉及宗教\nii) 有關待遇是參照可合理依據的來源所得的精算數據給予的\niii) 以該等數據而言，有關待遇屬於合理的\niv) 有關的待遇不涉及保費",
+      "options": {
+        "A": "i, ii, iv",
+        "B": "i, ii, iii",
+        "C": "ii, iii",
+        "D": "i, ii, iii, iv"
+      },
+      "correct": "C",
+      "explanation": "《保險業條例》規定不能對不同的投保人給予不同的對待，除非：《保險業條例》規定不能對不同的投保人給予不同的對待，除非有關待遇是參照可合理依據的來源所得的精算數據給予的，以及就該等數據而言，有關待遇屬於合理的\n\ni) 有關的待遇涉及宗教\nii) 有關待遇是參照可合理依據的來源所得的精算數據給予的\niii) 以該等數據而言，有關待遇屬於合理的\niv) 有關的待遇不涉及保費\n\n✅ C. ii, iii\n❌ A. i, ii, iv\n❌ B. i, ii, iii\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 7.3.2 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-7",
+      "chapterName": "道德與合規",
+      "reference": "7.3.2",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪三項有關風險管理的陳述是正確的?\ni) 它可能涉及投機風險和純粹風險\nii) 作為一門獨立科學， 它涉及的問題較保險廣泛\niii) 以保險人的角度看， 它絕大程度涉及受保的風險\niv) 以被保險人的角度看， 它只涉及不受保的風險",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, ii, iv",
+        "C": "i, iii, iv",
+        "D": "ii, iii, iv"
+      },
+      "correct": "C",
+      "explanation": "以下哪三項有關風險管理的陳述是正確的?\n\ni) 它可能涉及投機風險和純粹風險\nii) 作為一門獨立科學， 它涉及的問題較保險廣泛\niii) 以保險人的角度看， 它絕大程度涉及受保的風險\niv) 以被保險人的角度看， 它只涉及不受保的風險\n\n✅ C. i, iii, iv\n❌ A. i, ii, iii\n❌ B. i, ii, iv\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 7.3.2 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-7",
+      "chapterName": "道德與合規",
+      "reference": "7.3.2",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "料處理者的個人資料的保存時間超過30天以下哪項對《個人資料(私隱)條例》範圍的陳述是正確的?：\ni) 自動化操作資料\nii) 只適用於人手操作資料\niii) 只適用香港永久居民\niv) 它既涉及公營機構及私營機構",
+      "options": {
+        "A": "i ，ii",
+        "B": "iii，iv",
+        "C": "i ，ii，iii",
+        "D": "i ，ii，iii， iv"
+      },
+      "correct": "D",
+      "explanation": "料處理者的個人資料的保存時間超過30天以下哪項對《個人資料(私隱)條例》範圍的陳述是正確的?：\n\ni) 自動化操作資料\nii) 只適用於人手操作資料\niii) 只適用香港永久居民\niv) 它既涉及公營機構及私營機構\n\n✅ D. i ，ii，iii， iv\n❌ A. i ，ii\n❌ B. iii，iv\n❌ C. i ，ii，iii\n\n📚 參考研習手冊 7.2.1 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-7",
+      "chapterName": "道德與合規",
+      "reference": "7.2.1",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "代理關係可以透過以下哪些途徑產生?\ni) 明示協議\nii) 隱含協議\niii) 追認\niv) 代理人出錯",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, ii, iv",
+        "C": "ii, iii, iv",
+        "D": "i, ii, iii, iv"
+      },
+      "correct": "D",
+      "explanation": "代理關係可以透過以下哪些途徑產生?\n\ni) 明示協議\nii) 隱含協議\niii) 追認\niv) 代理人出錯\n\n✅ D. i, ii, iii, iv\n❌ A. i, ii, iii\n❌ B. i, ii, iv\n❌ C. ii, iii, iv\n\n📚 參考研習手冊 7.2.1 節\n\n💡 本題屬於「道德與合規」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-7",
+      "chapterName": "道德與合規",
+      "reference": "7.2.1",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下各項皆是根據《保險業條例》，可對保險代理許可的行動\ni) 發出譴責\nii) 暫停該代理人的委任\niii) 終止該代理人的委任\niv) 命令該人繳付罰款",
+      "options": {
+        "A": "i ，ii",
+        "B": "i ，ii，iii",
+        "C": "iii，iv",
+        "D": "i ，ii，iii，iv"
+      },
+      "correct": "D",
+      "explanation": "以下各項皆是根據《保險業條例》，可對保險代理許可的行動\n\ni) 發出譴責\nii) 暫停該代理人的委任\niii) 終止該代理人的委任\niv) 命令該人繳付罰款\n\n✅ D. i ，ii，iii，iv\n❌ A. i ，ii\n❌ B. i ，ii，iii\n❌ C. iii，iv\n\n📚 參考研習手冊 6.2.5 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.2.5",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項是持牌保險代理機構有放的管控及程序?\ni) 合規\nii) 投訴處理\niii) 保存紀錄\niv) 向保監局報告事件解釋以上皆是持牌個人保險代理須符合的發牌條件D以上各項皆是保監局評估某人是否屬於適當人選時，就保險公司的控權人、合夥人、董事或負責人以及獲委任精算師有甚麼考慮因素",
+      "options": {
+        "A": "i,ii",
+        "B": "i,iii,iv",
+        "C": "iii,iv",
+        "D": "i,ii,iii,iv"
+      },
+      "correct": "B",
+      "explanation": "以下哪項是持牌保險代理機構有放的管控及程序?\n\ni) 合規\nii) 投訴處理\niii) 保存紀錄\niv) 向保監局報告事件解釋以上皆是持牌個人保險代理須符合的發牌條件D以上各項皆是保監局評估某人是否屬於適當人選時，就保險公司的控權人、合夥人、董事或負責人以及獲委任精算師有甚麼考慮因素\n\n✅ B. i,iii,iv\n❌ A. i,ii\n❌ C. iii,iv\n❌ D. i,ii,iii,iv\n\n📚 參考研習手冊 6.2.4 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.2.4",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "保監局評估某人是否屬於適當人選時，就保險公司的控權人、合夥人、董事或負責人以及獲委任精算師有甚麼考慮因素?\ni) 該人的學歷、或其他資歷或經驗\nii) 是否有能力稱職地、誠實地並公正地進行受規管活動\niii) 該人的信譽、品格、可靠程度和誠信\niv) 該人的財政狀況或償付能力",
+      "options": {
+        "A": "i,ii",
+        "B": "i,iii",
+        "C": "ii,iv",
+        "D": "i,ii,iii,iv"
+      },
+      "correct": "D",
+      "explanation": "保監局評估某人是否屬於適當人選時，就保險公司的控權人、合夥人、董事或負責人以及獲委任精算師有甚麼考慮因素?\n\ni) 該人的學歷、或其他資歷或經驗\nii) 是否有能力稱職地、誠實地並公正地進行受規管活動\niii) 該人的信譽、品格、可靠程度和誠信\niv) 該人的財政狀況或償付能力\n\n✅ D. i,ii,iii,iv\n❌ A. i,ii\n❌ B. i,iii\n❌ C. ii,iv\n\n📚 參考研習手冊 6.2.4 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.2.4",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項描述是正確的?屬法例，以及沒有法律效力\ni) 該守則由保監局頒布\nii) 該守則列明八項持牌保險代理人應遵守的基本操守原則的一般原則\niii) 為《保險業條例》提供指引，考慮持牌保險中介人是否屬繼續持牌的適當人選\niv) 該守則保險業條例的附屬法例及有法律效力",
+      "options": {
+        "A": "i, ii",
+        "B": "i, ii, iii",
+        "C": "ii, iv",
+        "D": "ii, iii, iv"
+      },
+      "correct": "D",
+      "explanation": "以下哪項描述是正確的?屬法例，以及沒有法律效力\n\ni) 該守則由保監局頒布\nii) 該守則列明八項持牌保險代理人應遵守的基本操守原則的一般原則\niii) 為《保險業條例》提供指引，考慮持牌保險中介人是否屬繼續持牌的適當人選\niv) 該守則保險業條例的附屬法例及有法律效力\n\n✅ D. ii, iii, iv\n❌ A. i, ii\n❌ B. i, ii, iii\n❌ C. ii, iv\n\n📚 參考研習手冊 6.2.1 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.2.1",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項是保險投訴局(ICB)的描述是正確的?\ni) 在香港所有從事個人保險業務的獲授權保險人均為保險投訴局的會員\nii) 涉及的投訴個案保單須屬個人保單\niii) 投訴委員會的委員中有兩位是來自保險業界\niv) 投訴個案可涉及商業或第三者保險索償",
+      "options": {
+        "A": "i,ii",
+        "B": "i,ii,iii",
+        "C": "ii,iv",
+        "D": "iii,iv"
+      },
+      "correct": "A",
+      "explanation": "以下哪項是保險投訴局(ICB)的描述是正確的?\n\ni) 在香港所有從事個人保險業務的獲授權保險人均為保險投訴局的會員\nii) 涉及的投訴個案保單須屬個人保單\niii) 投訴委員會的委員中有兩位是來自保險業界\niv) 投訴個案可涉及商業或第三者保險索償\n\n✅ A. i,ii\n❌ B. i,ii,iii\n❌ C. ii,iv\n❌ D. iii,iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.3",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項是保險投訴局的描述是正確的?處理及支付索償不是保險投訴局的成立目的及職權範圍，選項(i)不正確\ni) 保險投訴局成立目的是代表會員處理及支付索償\nii) 會員是在香港從事個人保險業務的獲授權保險人\niii) 涉及的投訴個案保單須屬個人保單\niv) 投訴委員會的委員中有兩位來自保險業",
+      "options": {
+        "A": "i,ii,iii",
+        "B": "ii,iii,iv",
+        "C": "iii, iv",
+        "D": "i. ii, iii, iv"
+      },
+      "correct": "D",
+      "explanation": "以下哪項是保險投訴局的描述是正確的?處理及支付索償不是保險投訴局的成立目的及職權範圍，選項(i)不正確\n\ni) 保險投訴局成立目的是代表會員處理及支付索償\nii) 會員是在香港從事個人保險業務的獲授權保險人\niii) 涉及的投訴個案保單須屬個人保單\niv) 投訴委員會的委員中有兩位來自保險業\n\n✅ D. i. ii, iii, iv\n❌ A. i,ii,iii\n❌ B. ii,iii,iv\n❌ C. iii, iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.3",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項是保險投訴局的描述是正確的?處理理賠及索償不屬保險投訴局職務範圍，選項iv不正確\ni) 會員是在香港從事個人保險業務的獲授權保險人\nii) 投訴委員會是由一位主席、四位委員組成\niii) 涉及的投訴個案保單須屬個人保單\niv) 保險投訴局會代為處理理賠及索償",
+      "options": {
+        "A": "i,ii,iii",
+        "B": "i,ii,iv",
+        "C": "iii, iv",
+        "D": "i. ii, iii, iv"
+      },
+      "correct": "A",
+      "explanation": "以下哪項是保險投訴局的描述是正確的?處理理賠及索償不屬保險投訴局職務範圍，選項iv不正確\n\ni) 會員是在香港從事個人保險業務的獲授權保險人\nii) 投訴委員會是由一位主席、四位委員組成\niii) 涉及的投訴個案保單須屬個人保單\niv) 保險投訴局會代為處理理賠及索償\n\n✅ A. i,ii,iii\n❌ B. i,ii,iv\n❌ C. iii, iv\n❌ D. i. ii, iii, iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.3",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項是意外死亡保險利益附約的正確描述？\ni) 此類屬「重複保險」\nii) 與基本保單條款相若，第一年為自殺免責期\niii) 受保死亡由意外事故導致\niv) 一般情況下，死亡保險金與保單保額相同. 3593.2.1(a)",
+      "options": {
+        "A": "i , ii , iii",
+        "B": "i, ii, iv",
+        "C": "iii, iv",
+        "D": "ii, iii, iv"
+      },
+      "correct": "D",
+      "explanation": "以下哪項是意外死亡保險利益附約的正確描述？\n\ni) 此類屬「重複保險」\nii) 與基本保單條款相若，第一年為自殺免責期\niii) 受保死亡由意外事故導致\niv) 一般情況下，死亡保險金與保單保額相同. 3593.2.1(a)\n\n✅ D. ii, iii, iv\n❌ A. i , ii , iii\n❌ B. i, ii, iv\n❌ C. iii, iv\n\n📚 參考研習手冊 6.1.2 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.2",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪幾項可視為保險為香港帶來的輔助功能/好處?\ni) 保險對受保損失的被保險人提供財務補償\nii) 保險為本港提供就業機會\niii) 一般保險的慣例下倡導防範損失的措施\niv) 一般保險的慣例下倡導控制損失的措施",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i,ii,iv",
+        "C": "i,iii,iv",
+        "D": "ii,iii,iv"
+      },
+      "correct": "D",
+      "explanation": "以下哪幾項可視為保險為香港帶來的輔助功能/好處?\n\ni) 保險對受保損失的被保險人提供財務補償\nii) 保險為本港提供就業機會\niii) 一般保險的慣例下倡導防範損失的措施\niv) 一般保險的慣例下倡導控制損失的措施\n\n✅ D. ii,iii,iv\n❌ A. i, ii, iii\n❌ B. i,ii,iv\n❌ C. i,iii,iv\n\n📚 參考研習手冊 6.1.1 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.1",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "下列哪項不是保險業監管局成立的政策目標？\ni) 為保單持有人提供經濟援助\nii) 確保保險業的規管架構與時並進，促使保險業的高速發展\niii) 確保保險業的償付準備金與國際慣例看齊\niv) 與國際慣常做法看齊，監管機構在財政上和運作上獨立於政府",
+      "options": {
+        "A": "i, iv",
+        "B": "i, ii, iii",
+        "C": "i, ii",
+        "D": "ii, iii, iv"
+      },
+      "correct": "A",
+      "explanation": "下列哪項不是保險業監管局成立的政策目標？\n\ni) 為保單持有人提供經濟援助\nii) 確保保險業的規管架構與時並進，促使保險業的高速發展\niii) 確保保險業的償付準備金與國際慣例看齊\niv) 與國際慣常做法看齊，監管機構在財政上和運作上獨立於政府\n\n✅ A. i, iv\n❌ B. i, ii, iii\n❌ C. i, ii\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 6.1 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項就精算支援的描述是正確的?\ni) 《保險業條例》要求所有獲授權保險人必須委任一名合資格並被保監局接納的精算師\nii) 精算師的主要職責是對所有資產及負債進行評估\niii) 只有人壽保險需要精算支援\niv) 精算支援負責估算所需的未決申索儲備金險業條例要求所有從事長期業務的保險人，委派一名合資格的精算師，並要求對該保險人的所有資產及負債進行最少一年一次的評估",
+      "options": {
+        "A": "ii,iv",
+        "B": "i,ii,iv",
+        "C": "ii,iii,iv",
+        "D": "i,iv"
+      },
+      "correct": "B",
+      "explanation": "以下哪項就精算支援的描述是正確的?\n\ni) 《保險業條例》要求所有獲授權保險人必須委任一名合資格並被保監局接納的精算師\nii) 精算師的主要職責是對所有資產及負債進行評估\niii) 只有人壽保險需要精算支援\niv) 精算支援負責估算所需的未決申索儲備金險業條例要求所有從事長期業務的保險人，委派一名合資格的精算師，並要求對該保險人的所有資產及負債進行最少一年一次的評估\n\n✅ B. i,ii,iv\n❌ A. ii,iv\n❌ C. ii,iii,iv\n❌ D. i,iv\n\n📚 參考研習手冊 4.9 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-4",
+      "chapterName": "保險運作",
+      "reference": "4.9",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以上各項都是保單核保須考慮的範疇\ni) 評估風險的可保性\nii) 釐定可保風險的條款\niii) 製備核保手冊和保費率指南\niv) 製備「拒絕名單」",
+      "options": {
+        "A": "只有 i 及 ii",
+        "B": "只有 ii 及 iii",
+        "C": "只有 i, ii 及 iii",
+        "D": "i, ii, iii, iv"
+      },
+      "correct": "A",
+      "explanation": "以上各項都是保單核保須考慮的範疇\n\ni) 評估風險的可保性\nii) 釐定可保風險的條款\niii) 製備核保手冊和保費率指南\niv) 製備「拒絕名單」\n\n✅ A. 只有 i 及 ii\n❌ B. 只有 ii 及 iii\n❌ C. 只有 i, ii 及 iii\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 4.5 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-4",
+      "chapterName": "保險運作",
+      "reference": "4.5",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項是保險銷售部門的職能範圍?\ni) 與產品各環節建立緊密的聯繫\nii) 加強銷售計劃\niii) 監察銷售成果和趨勢\niv) 印制產品單張及宣傳刊物",
+      "options": {
+        "A": "i,ii,iii",
+        "B": "i,ii,iv",
+        "C": "i,iii,iv",
+        "D": "ii,iii,iv"
+      },
+      "correct": "B",
+      "explanation": "以下哪項是保險銷售部門的職能範圍?\n\ni) 與產品各環節建立緊密的聯繫\nii) 加強銷售計劃\niii) 監察銷售成果和趨勢\niv) 印制產品單張及宣傳刊物\n\n✅ B. i,ii,iv\n❌ A. i,ii,iii\n❌ C. i,iii,iv\n❌ D. ii,iii,iv\n\n📚 參考研習手冊 4.4 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-4",
+      "chapterName": "保險運作",
+      "reference": "4.4",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪三項有關風險管理的陳述是正確的?\ni) 它可能涉及投機風險和純粹風險\nii) 作為一門獨立科學， 它涉及的問題較保險廣泛\niii) 以保險人的角度看， 它絕大程度涉及受保的風險\niv) 以被保險人的角度看， 它只涉及不受保的風險",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, ii, iv",
+        "C": "i, iii, iv",
+        "D": "ii, iii, iv"
+      },
+      "correct": "A",
+      "explanation": "以下哪三項有關風險管理的陳述是正確的?\n\ni) 它可能涉及投機風險和純粹風險\nii) 作為一門獨立科學， 它涉及的問題較保險廣泛\niii) 以保險人的角度看， 它絕大程度涉及受保的風險\niv) 以被保險人的角度看， 它只涉及不受保的風險\n\n✅ A. i, ii, iii\n❌ B. i, ii, iv\n❌ C. i, iii, iv\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 4.2 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-4",
+      "chapterName": "保險運作",
+      "reference": "4.2",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪幾項可視為保險為香港帶來的輔助功能/好處?\ni) 保險對受保損失的被保險人提供財務補償\nii) 保險為本港提供就業機會\niii) 一般保險的慣例下倡導防範損失的措施\niv) 一般保險的慣例下倡導控制損失的措施",
+      "options": {
+        "A": "i,ii,iii",
+        "B": "i,ii,iv",
+        "C": "i,iii,iv",
+        "D": "ii,iii,iv"
+      },
+      "correct": "D",
+      "explanation": "以下哪幾項可視為保險為香港帶來的輔助功能/好處?\n\ni) 保險對受保損失的被保險人提供財務補償\nii) 保險為本港提供就業機會\niii) 一般保險的慣例下倡導防範損失的措施\niv) 一般保險的慣例下倡導控制損失的措施\n\n✅ D. ii,iii,iv\n❌ A. i,ii,iii\n❌ B. i,ii,iv\n❌ C. i,iii,iv\n\n📚 參考研習手冊 4.12 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-4",
+      "chapterName": "保險運作",
+      "reference": "4.12",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪幾項可視為保險為香港帶來的輔助功能/好處?\ni) 保險對受保損失的被保險人提供財務補償\nii) 保險為本港提供就業機會\niii) 一般保險的慣例下倡導防範損失的措施\niv) 一般保險的慣例下倡導控制損失的措施",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, ii, iv",
+        "C": "i, iii, iv",
+        "D": "ii, iii, iv"
+      },
+      "correct": "A",
+      "explanation": "以下哪幾項可視為保險為香港帶來的輔助功能/好處?\n\ni) 保險對受保損失的被保險人提供財務補償\nii) 保險為本港提供就業機會\niii) 一般保險的慣例下倡導防範損失的措施\niv) 一般保險的慣例下倡導控制損失的措施\n\n✅ A. i, ii, iii\n❌ B. i, ii, iv\n❌ C. i, iii, iv\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 4.10 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-4",
+      "chapterName": "保險運作",
+      "reference": "4.10",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "代理關係可以透過以下哪些途徑產生?\ni) 明示協議\nii) 隱含協議\niii) 追認\niv) 代理人出錯",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, ii, iv",
+        "C": "ii, iii, iv",
+        "D": "i, ii, iii, iv"
+      },
+      "correct": "B",
+      "explanation": "代理關係可以透過以下哪些途徑產生?\n\ni) 明示協議\nii) 隱含協議\niii) 追認\niv) 代理人出錯\n\n✅ B. i, ii, iv\n❌ A. i, ii, iii\n❌ C. ii, iii, iv\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 4.1 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-4",
+      "chapterName": "保險運作",
+      "reference": "4.1",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪一項有關保單轉讓的描述是正確的?\ni) 承讓人承諾支付未來一切保費\nii) 轉讓人不會把保險合約中的責任轉移到承讓人的身上\niii) 承讓人承諾支付未來的保費，包括保單轉讓時未有支付的保費\niv) 如將保單的責任轉移到第三者，須得到保險人的同意",
+      "options": {
+        "A": "i, ii",
+        "B": "iii, iv",
+        "C": "i, ii, iii",
+        "D": "ii, iii, iv"
+      },
+      "correct": "A",
+      "explanation": "以下哪一項有關保單轉讓的描述是正確的?\n\ni) 承讓人承諾支付未來一切保費\nii) 轉讓人不會把保險合約中的責任轉移到承讓人的身上\niii) 承讓人承諾支付未來的保費，包括保單轉讓時未有支付的保費\niv) 如將保單的責任轉移到第三者，須得到保險人的同意\n\n✅ A. i, ii\n❌ B. iii, iv\n❌ C. i, ii, iii\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 4.1 節\n\n💡 本題屬於「保險運作」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-4",
+      "chapterName": "保險運作",
+      "reference": "4.1",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "分擔必須符合以下那些條件：\ni) 每張保單必須對有關損失提供彌償\nii) 每張保單必須保障相同的保險標的\niii) 每張保單必須保障相同危險所導致的損失\niv) 每張保單必須保障相同的財務利益",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, iii, iv",
+        "C": "ii, iii, iv",
+        "D": "i, ii, iii, iv"
+      },
+      "correct": "D",
+      "explanation": "分擔必須符合以下那些條件：\n\ni) 每張保單必須對有關損失提供彌償\nii) 每張保單必須保障相同的保險標的\niii) 每張保單必須保障相同危險所導致的損失\niv) 每張保單必須保障相同的財務利益\n\n✅ D. i, ii, iii, iv\n❌ A. i, ii, iii\n❌ B. i, iii, iv\n❌ C. ii, iii, iv\n\n📚 參考研習手冊 3.5.3 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-3",
+      "chapterName": "保險原則",
+      "reference": "3.5.3",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "保險公司會計部的主要職能和責任包括：\ni) 記錄公司收入\nii) 監管公司支出\niii) 遵守(保費守則)\niv) 遵守(保險代理操守守則)D遵守(保費守則)及遵守(保險代理操守守則)不屬保險公司會計部的職責，選項iii&iv不正確",
+      "options": {
+        "A": "i, ii",
+        "B": "i, iii",
+        "C": "ii, iii",
+        "D": "iii, iv"
+      },
+      "correct": "D",
+      "explanation": "保險公司會計部的主要職能和責任包括：\n\ni) 記錄公司收入\nii) 監管公司支出\niii) 遵守(保費守則)\niv) 遵守(保險代理操守守則)D遵守(保費守則)及遵守(保險代理操守守則)不屬保險公司會計部的職責，選項iii&iv不正確\n\n✅ D. iii, iv\n❌ A. i, ii\n❌ B. i, iii\n❌ C. ii, iii\n\n📚 參考研習手冊 3.4.8 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-3",
+      "chapterName": "保險原則",
+      "reference": "3.4.8",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項阻止了保單為被保險人作出彌償?\ni) 比例分攤\nii) 多於二人有可保權益\niii) 免賠額\niv) 起賠額",
+      "options": {
+        "A": "i,ii",
+        "B": "i,ii,iv",
+        "C": "i,iii,iv",
+        "D": "ii,iii,iv"
+      },
+      "correct": "C",
+      "explanation": "以下哪項阻止了保單為被保險人作出彌償?\n\ni) 比例分攤\nii) 多於二人有可保權益\niii) 免賠額\niv) 起賠額\n\n✅ C. i,iii,iv\n❌ A. i,ii\n❌ B. i,ii,iv\n❌ D. ii,iii,iv\n\n📚 參考研習手冊 3.4.8 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-3",
+      "chapterName": "保險原則",
+      "reference": "3.4.8",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "儲蓄壽險可以現期滿，及死亡索償，終身壽險保障受保生命任何時候身故，所以都屬索償是無可避免的保險產品可續保的及在基本保單中加入各種附加條款附約是人壽保險的基本變數\ni) 保單所有人可以選擇將保單紅利轉換為公司股份\nii) 如果最初只投保一段有限時間，可能可以續保\niii) 保單所有人可以選擇將保單紅利轉換為公司優先股\niv) 保單可加入各種附約，用以改善所提供的保障 1212(b)",
+      "options": {
+        "A": "i,ii",
+        "B": "ii,iv",
+        "C": "i,ii,iv",
+        "D": "i,ii,iii,iv"
+      },
+      "correct": "D",
+      "explanation": "儲蓄壽險可以現期滿，及死亡索償，終身壽險保障受保生命任何時候身故，所以都屬索償是無可避免的保險產品可續保的及在基本保單中加入各種附加條款附約是人壽保險的基本變數\n\ni) 保單所有人可以選擇將保單紅利轉換為公司股份\nii) 如果最初只投保一段有限時間，可能可以續保\niii) 保單所有人可以選擇將保單紅利轉換為公司優先股\niv) 保單可加入各種附約，用以改善所提供的保障 1212(b)\n\n✅ D. i,ii,iii,iv\n❌ A. i,ii\n❌ B. ii,iv\n❌ C. i,ii,iv\n\n📚 參考研習手冊 3.4.5 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-3",
+      "chapterName": "保險原則",
+      "reference": "3.4.5",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "保險投訴局受理的投訴個案與保險人的服務水平或核保決定無關\ni) 發現沒有保證退保價值，客人投訴保險人於銷售過程中隱瞞沒有保證價值此事實\nii) 投保人訴在核保結果為次標準風險iii保險人收取過高保費，猶如比客人實際年齡大了10歲，客人投訴於銷售的過程中沒有驗證其真實年齡\niv) 對保險人派發紅利金額的投訴，客人聲稱銷售過程中承諾該保單是屬於「抗通脹保單」",
+      "options": {
+        "A": "i,ii,iii",
+        "B": "i,ii,iv",
+        "C": "i,iii,iv",
+        "D": "i ,ii,iii,iv"
+      },
+      "correct": "D",
+      "explanation": "保險投訴局受理的投訴個案與保險人的服務水平或核保決定無關\n\ni) 發現沒有保證退保價值，客人投訴保險人於銷售過程中隱瞞沒有保證價值此事實\nii) 投保人訴在核保結果為次標準風險iii保險人收取過高保費，猶如比客人實際年齡大了10歲，客人投訴於銷售的過程中沒有驗證其真實年齡\niv) 對保險人派發紅利金額的投訴，客人聲稱銷售過程中承諾該保單是屬於「抗通脹保單」\n\n✅ D. i ,ii,iii,iv\n❌ A. i,ii,iii\n❌ B. i,ii,iv\n❌ C. i,iii,iv\n\n📚 參考研習手冊 3.4.2 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-3",
+      "chapterName": "保險原則",
+      "reference": "3.4.2",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "就保單的除外責任所採用的字眼規定某指明成因「直接或間接」所引致的損失皆是除外的，哪以下那幾項是正確?很通常保險人借助某些保單措詞，更改近因法則的應用，例如「直接或間接」引致的損失的保單除外條款，即使該除外危險的運作只構成一個疏遠近因，有關損失都將不獲賠償。選項ii， iv正確\ni) 以上採用的字眼不能用於修改近因這項原則的應用\nii) 與除外危險關係疏遠的損失也可能是除外的損失\niii) 這有利於被保險人\niv) 直接由除外成因引致的損失也是不受保障",
+      "options": {
+        "A": "i, ii",
+        "B": "ii, iii",
+        "C": "ii, iv",
+        "D": "i, iv"
+      },
+      "correct": "A",
+      "explanation": "就保單的除外責任所採用的字眼規定某指明成因「直接或間接」所引致的損失皆是除外的，哪以下那幾項是正確?很通常保險人借助某些保單措詞，更改近因法則的應用，例如「直接或間接」引致的損失的保單除外條款，即使該除外危險的運作只構成一個疏遠近因，有關損失都將不獲賠償。選項ii， iv正確\n\ni) 以上採用的字眼不能用於修改近因這項原則的應用\nii) 與除外危險關係疏遠的損失也可能是除外的損失\niii) 這有利於被保險人\niv) 直接由除外成因引致的損失也是不受保障\n\n✅ A. i, ii\n❌ B. ii, iii\n❌ C. ii, iv\n❌ D. i, iv\n\n📚 參考研習手冊 3.3.4 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-3",
+      "chapterName": "保險原則",
+      "reference": "3.3.4",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項保險項目在索償時需要有可保權益？\ni) 責任保險\nii) 汽車保險\niii) 船上貨物保險\niv) 人壽保險",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, ii, iv",
+        "C": "i, iii, iv",
+        "D": "ii, iii, iv"
+      },
+      "correct": "D",
+      "explanation": "以下哪項保險項目在索償時需要有可保權益？\n\ni) 責任保險\nii) 汽車保險\niii) 船上貨物保險\niv) 人壽保險\n\n✅ D. ii, iii, iv\n❌ A. i, ii, iii\n❌ B. i, ii, iv\n❌ C. i, iii, iv\n\n📚 參考研習手冊 3.3.2 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-3",
+      "chapterName": "保險原則",
+      "reference": "3.3.2",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪三項通常被認為違反最高誠信的責任 ?\ni) 真正忘記了以前的被爆竊事件﹝盜竊險﹞\nii) 蓄意地隱瞞一個過去不良的索償記錄﹝火險﹞\niii) 有意地提供良好健康證明,但明知事實與其相反﹝人壽保險﹞\niv) 沒有披露一個自己完全不知情的健康情況﹝人身意外保險﹞",
+      "options": {
+        "A": "i , ii , iii",
+        "B": "i , ii , iv",
+        "C": "i , iii , iv",
+        "D": "ii , iii , iv"
+      },
+      "correct": "A",
+      "explanation": "以下哪三項通常被認為違反最高誠信的責任 ?\n\ni) 真正忘記了以前的被爆竊事件﹝盜竊險﹞\nii) 蓄意地隱瞞一個過去不良的索償記錄﹝火險﹞\niii) 有意地提供良好健康證明,但明知事實與其相反﹝人壽保險﹞\niv) 沒有披露一個自己完全不知情的健康情況﹝人身意外保險﹞\n\n✅ A. i , ii , iii\n❌ B. i , ii , iv\n❌ C. i , iii , iv\n❌ D. ii , iii , iv\n\n📚 參考研習手冊 3.2.5 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-3",
+      "chapterName": "保險原則",
+      "reference": "3.2.5",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪三項通常被認為違反最高誠信的責任 ?\ni) 真正忘記了以前的被爆竊事件﹝盜竊險﹞\nii) 蓄意地隱瞞一個過去不良的索償記錄﹝火險﹞\niii) 有意地提供良好健康證明,但明知事實與其相反﹝人壽保險﹞\niv) 沒有披露一個自己完全不知情的健康情況﹝人身意外保險﹞",
+      "options": {
+        "A": "i , ii , iii",
+        "B": "i , ii , iv",
+        "C": "i , iii , iv",
+        "D": "ii , iii , iv"
+      },
+      "correct": "A",
+      "explanation": "以下哪三項通常被認為違反最高誠信的責任 ?\n\ni) 真正忘記了以前的被爆竊事件﹝盜竊險﹞\nii) 蓄意地隱瞞一個過去不良的索償記錄﹝火險﹞\niii) 有意地提供良好健康證明,但明知事實與其相反﹝人壽保險﹞\niv) 沒有披露一個自己完全不知情的健康情況﹝人身意外保險﹞\n\n✅ A. i , ii , iii\n❌ B. i , ii , iv\n❌ C. i , iii , iv\n❌ D. ii , iii , iv\n\n📚 參考研習手冊 3.2.2 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-3",
+      "chapterName": "保險原則",
+      "reference": "3.2.2",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項有關一般誠信的描述是不正確?\ni) 合約各方所提供的資訊必須是實質上真實，而且沒有主動披露的責任\nii) 合約各方所提供的資訊可以真實或虛假，不可以信賴\niii) 合約各方所提供的資訊必須是百分百真實\niv) 合約各方必須主動披露可能影響是否訂立合約的一切重要資訊保單「轉讓」通常是指權利的轉移。轉讓是不會讓轉讓人在保險合約的責任轉移到承讓人的身上的",
+      "options": {
+        "A": "i , ii, iii",
+        "B": "ii,iv",
+        "C": "ii,iii,iv",
+        "D": "i,ii,iii,iv"
+      },
+      "correct": "B",
+      "explanation": "以下哪項有關一般誠信的描述是不正確?\n\ni) 合約各方所提供的資訊必須是實質上真實，而且沒有主動披露的責任\nii) 合約各方所提供的資訊可以真實或虛假，不可以信賴\niii) 合約各方所提供的資訊必須是百分百真實\niv) 合約各方必須主動披露可能影響是否訂立合約的一切重要資訊保單「轉讓」通常是指權利的轉移。轉讓是不會讓轉讓人在保險合約的責任轉移到承讓人的身上的\n\n✅ B. ii,iv\n❌ A. i , ii, iii\n❌ C. ii,iii,iv\n❌ D. i,ii,iii,iv\n\n📚 參考研習手冊 3.1.6 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-3",
+      "chapterName": "保險原則",
+      "reference": "3.1.6",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪些有關風險管理的陳述是正確的?\ni) 它只涉及投機風險\nii) 它可能涉及投機風險和純粹風險\niii) 作為一門獨立科學，它涉及的問題較保險廣泛\niv) 以保險人的角度看，它絕大程度涉及受保的風險",
+      "options": {
+        "A": "i, ii",
+        "B": "i, ii, iii",
+        "C": "ii, iii, iv",
+        "D": "i, ii, iii, iv"
+      },
+      "correct": "B",
+      "explanation": "以下哪些有關風險管理的陳述是正確的?\n\ni) 它只涉及投機風險\nii) 它可能涉及投機風險和純粹風險\niii) 作為一門獨立科學，它涉及的問題較保險廣泛\niv) 以保險人的角度看，它絕大程度涉及受保的風險\n\n✅ B. i, ii, iii\n❌ A. i, ii\n❌ C. ii, iii, iv\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 3.1.4(c) 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-3",
+      "chapterName": "保險原則",
+      "reference": "3.1.4(c)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項對首要責任及轉承責任的描述是正確的？\ni) 首要責任是個人對他人的作為或不作為負上責任\nii) 首要責任是個人本身的作為或不作為所引致的法律責任\niii) 轉承責任經常在代理關係上產生\niv) 轉承責任可能在僱傭關係上產生",
+      "options": {
+        "A": "i,ii,iii",
+        "B": "ii, iii, iv",
+        "C": "i,ii,iv",
+        "D": "i,iii,iv"
+      },
+      "correct": "D",
+      "explanation": "以下哪項對首要責任及轉承責任的描述是正確的？\n\ni) 首要責任是個人對他人的作為或不作為負上責任\nii) 首要責任是個人本身的作為或不作為所引致的法律責任\niii) 轉承責任經常在代理關係上產生\niv) 轉承責任可能在僱傭關係上產生\n\n✅ D. i,iii,iv\n❌ A. i,ii,iii\n❌ B. ii, iii, iv\n❌ C. i,ii,iv\n\n📚 參考研習手冊 3.1.4(c) 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-3",
+      "chapterName": "保險原則",
+      "reference": "3.1.4(c)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪三種具有可保權益屬於不是自己絕對擁有的財產？選項ii不屬受託保管人持有次於絕對擁有權，可以對所保管的貨品進行投保的例子，正確答案是D\ni) 受託人(以信託形式托管財產)\nii) 戶主的兒子(母親的房屋)\niii) 遺產執行人(死者遺下的物業)\niv) 一家銀行借錢給按揭人(按揭建築物)",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, ii, iv",
+        "C": "ii, iii, iv",
+        "D": "i, iii, iv"
+      },
+      "correct": "A",
+      "explanation": "以下哪三種具有可保權益屬於不是自己絕對擁有的財產？選項ii不屬受託保管人持有次於絕對擁有權，可以對所保管的貨品進行投保的例子，正確答案是D\n\ni) 受託人(以信託形式托管財產)\nii) 戶主的兒子(母親的房屋)\niii) 遺產執行人(死者遺下的物業)\niv) 一家銀行借錢給按揭人(按揭建築物)\n\n✅ A. i, ii, iii\n❌ B. i, ii, iv\n❌ C. ii, iii, iv\n❌ D. i, iii, iv\n\n📚 參考研習手冊 3.1.4(b) 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-3",
+      "chapterName": "保險原則",
+      "reference": "3.1.4(b)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以上各項皆是從保險人的角度，風險一詞的定義\ni) 所保的危險\nii) 承保的財產\niii) 保險人承保的人身\niv) 一項與潛在損失有關的不確定性",
+      "options": {
+        "A": "i , ii",
+        "B": "i, ii, iii",
+        "C": "ii,iii",
+        "D": "i, ii, iii, iv"
+      },
+      "correct": "C",
+      "explanation": "以上各項皆是從保險人的角度，風險一詞的定義\n\ni) 所保的危險\nii) 承保的財產\niii) 保險人承保的人身\niv) 一項與潛在損失有關的不確定性\n\n✅ C. ii,iii\n❌ A. i , ii\n❌ B. i, ii, iii\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 2.2.1 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-2",
+      "chapterName": "法律原則",
+      "reference": "2.2.1",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項對代理法的描述是正確的?\ni) 委託人受其代理人的行為所約束\nii) 代理人受其委託人的行為所約束\niii) 委託人受其代理人的行為而須負起轉承責任\niv) 代理法只適用於保險代理人及經紀",
+      "options": {
+        "A": "i,ii,iii",
+        "B": "i,iii",
+        "C": "ii,iii",
+        "D": "i,ii,iii,iv"
+      },
+      "correct": "B",
+      "explanation": "以下哪項對代理法的描述是正確的?\n\ni) 委託人受其代理人的行為所約束\nii) 代理人受其委託人的行為所約束\niii) 委託人受其代理人的行為而須負起轉承責任\niv) 代理法只適用於保險代理人及經紀\n\n✅ B. i,iii\n❌ A. i,ii,iii\n❌ C. ii,iii\n❌ D. i,ii,iii,iv\n\n📚 參考研習手冊 2.2 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-2",
+      "chapterName": "法律原則",
+      "reference": "2.2",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪幾項是構成有效合約的「合約元素」?\ni) 要約及承約\nii) 公平性\niii) 代價\niv) 訂立法律關係的意向",
+      "options": {
+        "A": "i,ii,iii",
+        "B": "i,ii,iv",
+        "C": "i,iii,iv",
+        "D": "i ,ii,iii,iv"
+      },
+      "correct": "A",
+      "explanation": "以下哪幾項是構成有效合約的「合約元素」?\n\ni) 要約及承約\nii) 公平性\niii) 代價\niv) 訂立法律關係的意向\n\n✅ A. i,ii,iii\n❌ B. i,ii,iv\n❌ C. i,iii,iv\n❌ D. i ,ii,iii,iv\n\n📚 參考研習手冊 2.1.3(f) 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-2",
+      "chapterName": "法律原則",
+      "reference": "2.1.3(f)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪幾項是構成有效合約的「合約元素」?\ni) 要約及承約\nii) 公平性\niii) 代價\niv) 訂立法律關係的意向",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, ii, iv",
+        "C": "i, iii, iv",
+        "D": "i, ii ,iii, iv"
+      },
+      "correct": "C",
+      "explanation": "以下哪幾項是構成有效合約的「合約元素」?\n\ni) 要約及承約\nii) 公平性\niii) 代價\niv) 訂立法律關係的意向\n\n✅ C. i, iii, iv\n❌ A. i, ii, iii\n❌ B. i, ii, iv\n❌ D. i, ii ,iii, iv\n\n📚 參考研習手冊 2.1.3(d) 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-2",
+      "chapterName": "法律原則",
+      "reference": "2.1.3(d)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "在保險上，代價就是：保險人依照保單條款的規定付款或給予補償的承諾。\ni) 被保險人向保險人支付保費的承諾\nii) 保險人依照保單條款的規定給付賠償\niii) 保險人依照保單條款的規定收取款項\niv) 保險人依照保單條款的規定給予補償的承諾",
+      "options": {
+        "A": "ii,iv",
+        "B": "只有ii",
+        "C": "只有i",
+        "D": "只有iii"
+      },
+      "correct": "D",
+      "explanation": "在保險上，代價就是：保險人依照保單條款的規定付款或給予補償的承諾。\n\ni) 被保險人向保險人支付保費的承諾\nii) 保險人依照保單條款的規定給付賠償\niii) 保險人依照保單條款的規定收取款項\niv) 保險人依照保單條款的規定給予補償的承諾\n\n✅ D. 只有iii\n❌ A. ii,iv\n❌ B. 只有ii\n❌ C. 只有i\n\n📚 參考研習手冊 2.1.3(d) 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-2",
+      "chapterName": "法律原則",
+      "reference": "2.1.3(d)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "若反要約一方提出條件，不被受要約一方接納，原要約的內容便不再有效，只有選項i, ii, iii正確\ni) 反要約出現時，原要約人會變成受要約人\nii) 反要約出現時，原受要約人變成要約人\niii) 反要約出現代表原要約的婉拒及終止\niv) 若反要約不被接納，則可以從新執行原要約",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, ii, iv",
+        "C": "i, iii, iv",
+        "D": "ii ,iii, iv"
+      },
+      "correct": "D",
+      "explanation": "若反要約一方提出條件，不被受要約一方接納，原要約的內容便不再有效，只有選項i, ii, iii正確\n\ni) 反要約出現時，原要約人會變成受要約人\nii) 反要約出現時，原受要約人變成要約人\niii) 反要約出現代表原要約的婉拒及終止\niv) 若反要約不被接納，則可以從新執行原要約\n\n✅ D. ii ,iii, iv\n❌ A. i, ii, iii\n❌ B. i, ii, iv\n❌ C. i, iii, iv\n\n📚 參考研習手冊 2.1.3(b) 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-2",
+      "chapterName": "法律原則",
+      "reference": "2.1.3(b)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項有關完整合約的描述是正確的?\ni) 完整的合約包括保險單、任何夾附的附約及夾附的投保單複印本\nii) 保險公司某些指定的高級職員才有權改保險合約\niii) 必須得到保單所有人的同意才可修改合約內容\niv) 保單合約已經是一份完整的合約，並無需要附加其他的檔案. 494",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, ii, iv",
+        "C": "i, iii, iv",
+        "D": "ii ,iii, iv"
+      },
+      "correct": "B",
+      "explanation": "以下哪項有關完整合約的描述是正確的?\n\ni) 完整的合約包括保險單、任何夾附的附約及夾附的投保單複印本\nii) 保險公司某些指定的高級職員才有權改保險合約\niii) 必須得到保單所有人的同意才可修改合約內容\niv) 保單合約已經是一份完整的合約，並無需要附加其他的檔案. 494\n\n✅ B. i, ii, iv\n❌ A. i, ii, iii\n❌ C. i, iii, iv\n❌ D. ii ,iii, iv\n\n📚 參考研習手冊 2.1.2 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-2",
+      "chapterName": "法律原則",
+      "reference": "2.1.2",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪幾項可視為保險為香港帶來的輔助功能/好處?保險對受保損失的被保險人提供財務補償可視為保\ni) 保險為本港提供就業機會險為香港帶來的基本功能/好處，,選項ii不正確\nii) 保險對受保損失的被保險人提供財務補償\niii) 一般保險的慣例下倡導防範損失的措施\niv) 某些業務可以涉及很高的純粹風險，或會令投資者卻步，除非他們可以投保潛在的財務損失",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, ii",
+        "C": "i,iii,iv",
+        "D": "i, ii, iii, iv"
+      },
+      "correct": "A",
+      "explanation": "以下哪幾項可視為保險為香港帶來的輔助功能/好處?保險對受保損失的被保險人提供財務補償可視為保\n\ni) 保險為本港提供就業機會險為香港帶來的基本功能/好處，,選項ii不正確\nii) 保險對受保損失的被保險人提供財務補償\niii) 一般保險的慣例下倡導防範損失的措施\niv) 某些業務可以涉及很高的純粹風險，或會令投資者卻步，除非他們可以投保潛在的財務損失\n\n✅ A. i, ii, iii\n❌ B. i, ii\n❌ C. i,iii,iv\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 2.1.1 節\n\n💡 本題屬於「法律原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-2",
+      "chapterName": "法律原則",
+      "reference": "2.1.1",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項有關風險的陳述是正確的？\ni) 所有風險都是可保的\nii) 並非所有風險都屬於商業上可保的\niii) 保險是應付風險的唯一方法\niv) 保險人談及風險時可以有很多不同的含義",
+      "options": {
+        "A": "i, ii",
+        "B": "ii, iii",
+        "C": "ii, iv",
+        "D": "iii, iv"
+      },
+      "correct": "C",
+      "explanation": "以下哪項有關風險的陳述是正確的？\n\ni) 所有風險都是可保的\nii) 並非所有風險都屬於商業上可保的\niii) 保險是應付風險的唯一方法\niv) 保險人談及風險時可以有很多不同的含義\n\n✅ C. ii, iv\n❌ A. i, ii\n❌ B. ii, iii\n❌ D. iii, iv\n\n📚 參考研習手冊 1.1.1註 節\n\n💡 本題屬於「風險與保險概論」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-1",
+      "chapterName": "風險與保險概論",
+      "reference": "1.1.1註",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "1.1.1\ni) 形容他們承保的財物或保單持有人\nii) 表明承保的危險或造成損失的原因\niii) 對投資及其他投機風險的管理\niv) 作出對任何將會面對的損失及收益的評估",
+      "options": {
+        "A": "i, ii",
+        "B": "i, iii",
+        "C": "ii, iii",
+        "D": "ii, iv"
+      },
+      "correct": "A",
+      "explanation": "1.1.1\n\ni) 形容他們承保的財物或保單持有人\nii) 表明承保的危險或造成損失的原因\niii) 對投資及其他投機風險的管理\niv) 作出對任何將會面對的損失及收益的評估\n\n✅ A. i, ii\n❌ B. i, iii\n❌ C. ii, iii\n❌ D. ii, iv\n\n📚 參考研習手冊 1.1.1 節\n\n💡 本題屬於「風險與保險概論」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-1",
+      "chapterName": "風險與保險概論",
+      "reference": "1.1.1",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "就保險公司而言，這可能僅指對純粹風險的管理，甚至可把範圍進一步收窄至只對可保風險的管理，有些風險是商業保險人視為不可保的，只有選項iii\ni) 所有類型的風險在商業上都是可保的\nii) 保險人在使用保險一詞時，通常是指它們的營業成績的不確定性 正確\niii) 有些風險是商業保險人視為不可保的\niv) 在任何情況下帶來財務後果的風險是可保的以下哪項有關風險的陳述是正確的 ?",
+      "options": {
+        "A": "i, ii",
+        "B": "ii, iii",
+        "C": "iii",
+        "D": "iii, iv"
+      },
+      "correct": "A",
+      "explanation": "就保險公司而言，這可能僅指對純粹風險的管理，甚至可把範圍進一步收窄至只對可保風險的管理，有些風險是商業保險人視為不可保的，只有選項iii\n\ni) 所有類型的風險在商業上都是可保的\nii) 保險人在使用保險一詞時，通常是指它們的營業成績的不確定性 正確\niii) 有些風險是商業保險人視為不可保的\niv) 在任何情況下帶來財務後果的風險是可保的以下哪項有關風險的陳述是正確的 ?\n\n✅ A. i, ii\n❌ B. ii, iii\n❌ C. iii\n❌ D. iii, iv\n\n📚 參考研習手冊 1.1.1 節\n\n💡 本題屬於「風險與保險概論」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-1",
+      "chapterName": "風險與保險概論",
+      "reference": "1.1.1",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以上各項皆是從保險人的角度，風險一詞的定義\ni) 所保的危險\nii) 承保的財產\niii) 保險人承保的人身\niv) 一項與潛在損失有關的不確定性",
+      "options": {
+        "A": "i, ii",
+        "B": "ii, iii",
+        "C": "i, ii, iii",
+        "D": "i, ii, iii, iv"
+      },
+      "correct": "C",
+      "explanation": "以上各項皆是從保險人的角度，風險一詞的定義\n\ni) 所保的危險\nii) 承保的財產\niii) 保險人承保的人身\niv) 一項與潛在損失有關的不確定性\n\n✅ C. i, ii, iii\n❌ A. i, ii\n❌ B. ii, iii\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 1.1.1 節\n\n💡 本題屬於「風險與保險概論」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-1",
+      "chapterName": "風險與保險概論",
+      "reference": "1.1.1",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "持牌保險經紀應披露以下哪項以避免潛在利益衝突？持牌保險經紀在推薦保險產品予客戶前，應從充足範圍的不同保險人處，尋找及選擇充足範圍並可供選擇的保險產品，而該等產品是適合其客戶情況屬《持牌保險經紀操守守則》公正、客觀及公平要求《持牌保險經紀操守守則》一般原則5，持牌業務代表（經紀）如為 以上各項皆是持牌業務代表（經紀）如為進行受規進行受規管活動的目的而派發名片，應確保該名片上正確地顯示出 管活動的目的而派發名片，應確保該名片上正確地以哪幾項資料?顯示的資料\ni) 其香港身份證或護照上所示的姓名\nii) 牌照號碼\niii) 牌照類別\niv) 其委任持牌保險經紀公司的名稱以下哪項有關《持牌保險經紀操守守則》一般原則 2–以符合客戶的最佳利益行事並公平對待客戶的描述是正確的？",
+      "options": {
+        "A": "i , ii, iii",
+        "B": "ii, iii",
+        "C": "ii,iii,iv",
+        "D": "i,ii,iii,iv"
+      },
+      "correct": "A",
+      "explanation": "持牌保險經紀應披露以下哪項以避免潛在利益衝突？持牌保險經紀在推薦保險產品予客戶前，應從充足範圍的不同保險人處，尋找及選擇充足範圍並可供選擇的保險產品，而該等產品是適合其客戶情況屬《持牌保險經紀操守守則》公正、客觀及公平要求《持牌保險經紀操守守則》一般原則5，持牌業務代表（經紀）如為 以上各項皆是持牌業務代表（經紀）如為進行受規進行受規管活動的目的而派發名片，應確保該名片上正確地顯示出 管活動的目的而派發名片，應確保該名片上正確地以哪幾項資料?顯示的資料\n\ni) 其香港身份證或護照上所示的姓名\nii) 牌照號碼\niii) 牌照類別\niv) 其委任持牌保險經紀公司的名稱以下哪項有關《持牌保險經紀操守守則》一般原則 2–以符合客戶的最佳利益行事並公平對待客戶的描述是正確的？\n\n✅ A. i , ii, iii\n❌ B. ii, iii\n❌ C. ii,iii,iv\n❌ D. i,ii,iii,iv\n\n📚 參考研習手冊 6.2.5(f) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.2.5(f)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "保險投訴局有權處理的投訴，必須符合若干條件，投訴個案並非正在進行法律程序或仲裁。詳細參閱研習資料手冊6.1.3b\ni) 投訴個案透過仲裁未能達成協議\nii) 爭議雙方已盡力但仍無法達成和解\niii) 未能滿足保險投訴局的裁決條件iv 涉案保險人已對涉案保險人已對索償爭議作出了最終決定",
+      "options": {
+        "A": "ii,iv",
+        "B": "i,ii,iv",
+        "C": "i, iii",
+        "D": "ii, iii, iv"
+      },
+      "correct": "A",
+      "explanation": "保險投訴局有權處理的投訴，必須符合若干條件，投訴個案並非正在進行法律程序或仲裁。詳細參閱研習資料手冊6.1.3b\n\ni) 投訴個案透過仲裁未能達成協議\nii) 爭議雙方已盡力但仍無法達成和解\niii) 未能滿足保險投訴局的裁決條件iv 涉案保險人已對涉案保險人已對索償爭議作出了最終決定\n\n✅ A. ii,iv\n❌ B. i,ii,iv\n❌ C. i, iii\n❌ D. ii, iii, iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.3",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項與索償無關的個案屬保險投訴局的職權範圍?保險投訴局受理的投訴個案不可以正在進行法律程\ni) 一項涉及100,000港元的保單爭議金額序或仲裁。\nii) 已就該糾紛個案進入法律程序\niii) 保險人收取過高保費，猶如比客人實際年齡大了10歲，客人投訴於銷售的過程中沒有驗證其真實年齡\niv) 對保險人派發紅利金額的投訴，客人聲稱銷售過程中承諾該保單是屬於「抗通脹保單」",
+      "options": {
+        "A": "i, ii",
+        "B": "i,ii,iv",
+        "C": "ii,iii",
+        "D": "i,iii,iv"
+      },
+      "correct": "B",
+      "explanation": "以下哪項與索償無關的個案屬保險投訴局的職權範圍?保險投訴局受理的投訴個案不可以正在進行法律程\n\ni) 一項涉及100,000港元的保單爭議金額序或仲裁。\nii) 已就該糾紛個案進入法律程序\niii) 保險人收取過高保費，猶如比客人實際年齡大了10歲，客人投訴於銷售的過程中沒有驗證其真實年齡\niv) 對保險人派發紅利金額的投訴，客人聲稱銷售過程中承諾該保單是屬於「抗通脹保單」\n\n✅ B. i,ii,iv\n❌ A. i, ii\n❌ C. ii,iii\n❌ D. i,iii,iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.3",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪一項是該服務需要滿足的條件？投訴個案的索償金額／爭議金額不超過100萬港元，投訴個案並非正在進行法律程序或仲裁。只有選項i,iv正確\ni) 爭議屬索償無關的投訴個案\nii) 爭議賠償金額為80萬港元以下\niii) 雙方必要放棄仲裁權利iv 涉案保險人已對索償或爭議作出了最終決定答案",
+      "options": {
+        "A": "i, ii",
+        "B": "ii,iii,iv",
+        "C": "iii, iv",
+        "D": "i, iv"
+      },
+      "correct": "B",
+      "explanation": "以下哪一項是該服務需要滿足的條件？投訴個案的索償金額／爭議金額不超過100萬港元，投訴個案並非正在進行法律程序或仲裁。只有選項i,iv正確\n\ni) 爭議屬索償無關的投訴個案\nii) 爭議賠償金額為80萬港元以下\niii) 雙方必要放棄仲裁權利iv 涉案保險人已對索償或爭議作出了最終決定答案\n\n✅ B. ii,iii,iv\n❌ A. i, ii\n❌ C. iii, iv\n❌ D. i, iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.3",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項有關索償投訴是屬於保險投訴局的職務範圍？投資表現相關的個案不屬索償投訴是屬於保險投訴局的職務範圍選項(iv)不正確\ni) 10萬港元家居保險索償\nii) 30萬港元個人保單索償\niii) 年金購買人投訴該保險人，根據錯誤計算支付較低的退保價值，導致損失了有關的保單利息\niv) 投資表現相關的個案",
+      "options": {
+        "A": "i , ii , iii",
+        "B": "ii, iv",
+        "C": "i, iii, iv",
+        "D": "i ,ii, iii, iv"
+      },
+      "correct": "A",
+      "explanation": "以下哪項有關索償投訴是屬於保險投訴局的職務範圍？投資表現相關的個案不屬索償投訴是屬於保險投訴局的職務範圍選項(iv)不正確\n\ni) 10萬港元家居保險索償\nii) 30萬港元個人保單索償\niii) 年金購買人投訴該保險人，根據錯誤計算支付較低的退保價值，導致損失了有關的保單利息\niv) 投資表現相關的個案\n\n✅ A. i , ii , iii\n❌ B. ii, iv\n❌ C. i, iii, iv\n❌ D. i ,ii, iii, iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.3",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "保險投訴局受理的投訴個案與保險人的服務水平或核保決定無關\ni) 發現沒有保證退保價值，客人投訴保險人於銷售過程中隱瞞沒有保證價值此事實\nii) 投保人訴在核保結果為次標準風險iii保險人收取過高保費，猶如比客人實際年齡大了10歲，客人投訴於銷售的過程中沒有驗證其真實年齡\niv) 對保險人派發紅利金額的投訴，客人聲稱銷售過程中承諾該保單是屬於「抗通脹保單」",
+      "options": {
+        "A": "i,ii,iii",
+        "B": "i,iii,iv",
+        "C": "iii,iv",
+        "D": "i,ii,iii,iv"
+      },
+      "correct": "A",
+      "explanation": "保險投訴局受理的投訴個案與保險人的服務水平或核保決定無關\n\ni) 發現沒有保證退保價值，客人投訴保險人於銷售過程中隱瞞沒有保證價值此事實\nii) 投保人訴在核保結果為次標準風險iii保險人收取過高保費，猶如比客人實際年齡大了10歲，客人投訴於銷售的過程中沒有驗證其真實年齡\niv) 對保險人派發紅利金額的投訴，客人聲稱銷售過程中承諾該保單是屬於「抗通脹保單」\n\n✅ A. i,ii,iii\n❌ B. i,iii,iv\n❌ C. iii,iv\n❌ D. i,ii,iii,iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.3",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "投訴個案與保險人的服務水平或核保決定無關以下哪幾項是保險投訴局有權處理的個案:\ni) 發現沒有保證退保價值，客人投訴保險人於銷售過程中隱瞞沒有保證價值此事實\nii) 保險人收取過高保費，猶如比客人實際年齡大了10歲，客人投訴於銷售的過程中沒有驗 證其真實年齡\niii) 客人投訴保險人服務差，從而令客人有損失\niv) 對保險人派發紅利金額的投訴，客人聲稱銷售過程中承諾該保單是屬於「抗通脹保單」",
+      "options": {
+        "A": "i , ii , iv",
+        "B": "ii , iii",
+        "C": "ii ,iii ,iv",
+        "D": "iii ,iv"
+      },
+      "correct": "B",
+      "explanation": "投訴個案與保險人的服務水平或核保決定無關以下哪幾項是保險投訴局有權處理的個案:\n\ni) 發現沒有保證退保價值，客人投訴保險人於銷售過程中隱瞞沒有保證價值此事實\nii) 保險人收取過高保費，猶如比客人實際年齡大了10歲，客人投訴於銷售的過程中沒有驗 證其真實年齡\niii) 客人投訴保險人服務差，從而令客人有損失\niv) 對保險人派發紅利金額的投訴，客人聲稱銷售過程中承諾該保單是屬於「抗通脹保單」\n\n✅ B. ii , iii\n❌ A. i , ii , iv\n❌ C. ii ,iii ,iv\n❌ D. iii ,iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.3",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "所有所有在香港從事個人保險業務的獲授權保險人均必須申請成為保險投訴局的會員，選項iv不正確\ni) 涉及的投訴個案保單須屬個人保單\nii) 投訴委員會是由一位主席、四位委員組成\niii) 投訴委員會的委員中有兩位是來自保險業界\niv) 它是由所有在香港的獲授權保險人所組成",
+      "options": {
+        "A": "i,ii,iii",
+        "B": "i,iv",
+        "C": "ii,iii",
+        "D": "ii,iii,iv"
+      },
+      "correct": "B",
+      "explanation": "所有所有在香港從事個人保險業務的獲授權保險人均必須申請成為保險投訴局的會員，選項iv不正確\n\ni) 涉及的投訴個案保單須屬個人保單\nii) 投訴委員會是由一位主席、四位委員組成\niii) 投訴委員會的委員中有兩位是來自保險業界\niv) 它是由所有在香港的獲授權保險人所組成\n\n✅ B. i,iv\n❌ A. i,ii,iii\n❌ C. ii,iii\n❌ D. ii,iii,iv\n\n📚 參考研習手冊 6.1.3 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.3",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項是使用投保書/申請表的部份意 根據《承保商專業守則》，以上各項都是使用投保書/申請表的建議見？\ni) 它應以淺白語言表達\nii) 它應小心解釋最高誠信原則要求的重要性\niii) 它應以清晰的問題提問重要事實\niv) 它必須小心解釋任何附帶問卷的重要性",
+      "options": {
+        "A": "i, ii",
+        "B": "iii, iv",
+        "C": "ii, iii, iv",
+        "D": "i, ii ,iii, iv"
+      },
+      "correct": "D",
+      "explanation": "以下哪項是使用投保書/申請表的部份意 根據《承保商專業守則》，以上各項都是使用投保書/申請表的建議見？\n\ni) 它應以淺白語言表達\nii) 它應小心解釋最高誠信原則要求的重要性\niii) 它應以清晰的問題提問重要事實\niv) 它必須小心解釋任何附帶問卷的重要性\n\n✅ D. i, ii ,iii, iv\n❌ A. i, ii\n❌ B. iii, iv\n❌ C. ii, iii, iv\n\n📚 參考研習手冊 6.1.2(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.2(d)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "《保險業條例》要求參與一般業務的保險人定期繳交經審計的一般業務報表及經審計的資產負債表\ni) 經審計的一般業務報表\nii) 經審計的資產負債表\niii) 經審計的精算報告表\niv) 經審計的長期業務報表",
+      "options": {
+        "A": "i, ii",
+        "B": "i, ii, iii",
+        "C": "i，iii",
+        "D": "ii，iii，iv"
+      },
+      "correct": "C",
+      "explanation": "《保險業條例》要求參與一般業務的保險人定期繳交經審計的一般業務報表及經審計的資產負債表\n\ni) 經審計的一般業務報表\nii) 經審計的資產負債表\niii) 經審計的精算報告表\niv) 經審計的長期業務報表\n\n✅ C. i，iii\n❌ A. i, ii\n❌ B. i, ii, iii\n❌ D. ii，iii，iv\n\n📚 參考研習手冊 6.1.1(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.1(d)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪些新增的監管權力是保險業監管局就《2015年保險公司（修訂）條例》所授予，對獲授權保險人施予的紀律處分？\ni) 將保險人清盤\nii) 限制投資\niii) 非公開譴責\niv) 罰款非公開譴責及罰款屬於《2015年保險公司（修訂）條例》所授予保險業監管局新增的監管權力，答案C正確",
+      "options": {
+        "A": "i,ii",
+        "B": "i,ii,iv",
+        "C": "ii,iii",
+        "D": "ii,iii,iv"
+      },
+      "correct": "A",
+      "explanation": "以下哪些新增的監管權力是保險業監管局就《2015年保險公司（修訂）條例》所授予，對獲授權保險人施予的紀律處分？\n\ni) 將保險人清盤\nii) 限制投資\niii) 非公開譴責\niv) 罰款非公開譴責及罰款屬於《2015年保險公司（修訂）條例》所授予保險業監管局新增的監管權力，答案C正確\n\n✅ A. i,ii\n❌ B. i,ii,iv\n❌ C. ii,iii\n❌ D. ii,iii,iv\n\n📚 參考研習手冊 6.1.1(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.1(d)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "下列哪項不屬保險業監管 只有選項(i)為保單持有人提供更佳的保障屬保險業局成立的政策目標？監管局成立的政策目標，其他都不是，詳細請參閱\ni) 為保單持有人提供更佳的保障研集資料手冊6.1.1\nii) 建立一個直接規管保險中介人的制度，以補充舊有的自律規管制度\niii) 確保保險業的規管架構與時並進，促使保險業的高速發展\niv) 就保險業採取適當措施，鞏固香港的國際保險中心地位答案",
+      "options": {
+        "A": "i, ii",
+        "B": "i, ii, iii",
+        "C": "iii，iv",
+        "D": "ii，iii，iv"
+      },
+      "correct": "D",
+      "explanation": "下列哪項不屬保險業監管 只有選項(i)為保單持有人提供更佳的保障屬保險業局成立的政策目標？監管局成立的政策目標，其他都不是，詳細請參閱\n\ni) 為保單持有人提供更佳的保障研集資料手冊6.1.1\nii) 建立一個直接規管保險中介人的制度，以補充舊有的自律規管制度\niii) 確保保險業的規管架構與時並進，促使保險業的高速發展\niv) 就保險業採取適當措施，鞏固香港的國際保險中心地位答案\n\n✅ D. ii，iii，iv\n❌ A. i, ii\n❌ B. i, ii, iii\n❌ C. iii，iv\n\n📚 參考研習手冊 6.1.1(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.1(d)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪幾項可視為保險為香港帶來的輔助功能/好處?\ni) 保險對受保損失的被保險人提供財務補償\nii) 保險為本港提供就業機會\niii) 一般保險的慣例下倡導防範損失的措施\niv) 一般保險的慣例下倡導控制損失的措施",
+      "options": {
+        "A": "i,ii,iii",
+        "B": "i,ii,iv",
+        "C": "i,iii,iv",
+        "D": "ii,iii,iv"
+      },
+      "correct": "A",
+      "explanation": "以下哪幾項可視為保險為香港帶來的輔助功能/好處?\n\ni) 保險對受保損失的被保險人提供財務補償\nii) 保險為本港提供就業機會\niii) 一般保險的慣例下倡導防範損失的措施\niv) 一般保險的慣例下倡導控制損失的措施\n\n✅ A. i,ii,iii\n❌ B. i,ii,iv\n❌ C. i,iii,iv\n❌ D. ii,iii,iv\n\n📚 參考研習手冊 6.1.1(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.1(d)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪幾項有關保險公司的償付準備金規定的描述是正確的?\ni) 償付準備金至少相當於 「有關數額」\nii) 一般業務及長期業務保險人有相同的最低償付準備金額要求\niii) 一般業務及長期業務保險人有不同的計算準則\niv) 專屬自保保險人有另一套適用的計算準則經營長期業務的保險人，最低的償付準備金為二百萬港元",
+      "options": {
+        "A": "i,ii,iii",
+        "B": "i, iii,iv",
+        "C": "ii,iii,iv",
+        "D": "i,iii"
+      },
+      "correct": "A",
+      "explanation": "以下哪幾項有關保險公司的償付準備金規定的描述是正確的?\n\ni) 償付準備金至少相當於 「有關數額」\nii) 一般業務及長期業務保險人有相同的最低償付準備金額要求\niii) 一般業務及長期業務保險人有不同的計算準則\niv) 專屬自保保險人有另一套適用的計算準則經營長期業務的保險人，最低的償付準備金為二百萬港元\n\n✅ A. i,ii,iii\n❌ B. i, iii,iv\n❌ C. ii,iii,iv\n❌ D. i,iii\n\n📚 參考研習手冊 6.1.1(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.1(d)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項有關最低實繳股本的要求是正確的?四個最低實繳股本的要求描述都正確，詳細請參閱研習資料手冊 6.1.1b\ni) 專屬自保保險公司為港幣200萬元\nii) 只從事相連長期保險業務的保險人為港幣1,000萬元\niii) 同時從事一般業務及長期業務為港幣2,000萬元\niv) 從事一般業務的保險人﹝包括法定保險業務﹞為港幣2,000萬元",
+      "options": {
+        "A": "i, ii",
+        "B": "i, ii, iii",
+        "C": "ii, iii, iv",
+        "D": "i, ii, iii, iv"
+      },
+      "correct": "B",
+      "explanation": "以下哪項有關最低實繳股本的要求是正確的?四個最低實繳股本的要求描述都正確，詳細請參閱研習資料手冊 6.1.1b\n\ni) 專屬自保保險公司為港幣200萬元\nii) 只從事相連長期保險業務的保險人為港幣1,000萬元\niii) 同時從事一般業務及長期業務為港幣2,000萬元\niv) 從事一般業務的保險人﹝包括法定保險業務﹞為港幣2,000萬元\n\n✅ B. i, ii, iii\n❌ A. i, ii\n❌ C. ii, iii, iv\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 6.1.1(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.1(d)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "根據《保險業條例》就獲得授權的最低要求，當中包括：\ni) 董事及控權人\nii) 實繳股本\niii) 利潤率\niv) 足夠的投資保險安排",
+      "options": {
+        "A": "i, ii",
+        "B": "i, iii",
+        "C": "i,iii,iv",
+        "D": "ii,iii,iv"
+      },
+      "correct": "C",
+      "explanation": "根據《保險業條例》就獲得授權的最低要求，當中包括：\n\ni) 董事及控權人\nii) 實繳股本\niii) 利潤率\niv) 足夠的投資保險安排\n\n✅ C. i,iii,iv\n❌ A. i, ii\n❌ B. i, iii\n❌ D. ii,iii,iv\n\n📚 參考研習手冊 6.1.1(d) 節\n\n💡 本題屬於「監管框架」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-6",
+      "chapterName": "監管框架",
+      "reference": "6.1.1(d)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪幾項是構成有效合約的「合約元素」?\ni) 要約及承約\nii) 公平性\niii) 代價\niv) 訂立法律關係的意向",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, iii, iv",
+        "C": "i, ii, iv",
+        "D": "i, ii, iii, iv"
+      },
+      "correct": "C",
+      "explanation": "以下哪幾項是構成有效合約的「合約元素」?\n\ni) 要約及承約\nii) 公平性\niii) 代價\niv) 訂立法律關係的意向\n\n✅ C. i, ii, iv\n❌ A. i, ii, iii\n❌ B. i, iii, iv\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 3.1.4(b) 節\n\n💡 本題屬於「保險原則」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-3",
+      "chapterName": "保險原則",
+      "reference": "3.1.4(b)",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪些有關風險管理的陳述是正確的?\ni) 它只涉及投機風險\nii) 它可能涉及投機風險和純粹風險\niii) 作為一門獨立科學，它涉及的問題較保險廣泛\niv) 以保險人的角度看，它絕大程度涉及受保的風險",
+      "options": {
+        "A": "i, ii, iii",
+        "B": "i, ii",
+        "C": "ii,iii,iv",
+        "D": "i, ii, iii, iv"
+      },
+      "correct": "C",
+      "explanation": "以下哪些有關風險管理的陳述是正確的?\n\ni) 它只涉及投機風險\nii) 它可能涉及投機風險和純粹風險\niii) 作為一門獨立科學，它涉及的問題較保險廣泛\niv) 以保險人的角度看，它絕大程度涉及受保的風險\n\n✅ C. ii,iii,iv\n❌ A. i, ii, iii\n❌ B. i, ii\n❌ D. i, ii, iii, iv\n\n📚 參考研習手冊 1.1.3 節\n\n💡 本題屬於「風險與保險概論」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-1",
+      "chapterName": "風險與保險概論",
+      "reference": "1.1.3",
+      "source": "real-exam",
+      "type": "B"
+    },
+    {
+      "question": "以下哪項或哪些可以分類為「投機」風險?一個賭場被火災損壞的風險屬純粹風險，只有選項i,ii,iv正確\ni) 恆生指數的波動\nii) 禽流感疫苗的研究及發展\niii) 一個賭場被火災損壞的風險\niv) 在沙田馬場舉行的一場賽馬結果",
+      "options": {
+        "A": "iii",
+        "B": "i， ii",
+        "C": "i， ii， iv",
+        "D": "i， ii， iii， iv"
+      },
+      "correct": "C",
+      "explanation": "以下哪項或哪些可以分類為「投機」風險?一個賭場被火災損壞的風險屬純粹風險，只有選項i,ii,iv正確\n\ni) 恆生指數的波動\nii) 禽流感疫苗的研究及發展\niii) 一個賭場被火災損壞的風險\niv) 在沙田馬場舉行的一場賽馬結果\n\n✅ C. i， ii， iv\n❌ A. iii\n❌ B. i， ii\n❌ D. i， ii， iii， iv\n\n📚 參考研習手冊 1.1.2(b) 節\n\n💡 本題屬於「風險與保險概論」範疇，請留意相關考點。",
+      "key_concept": "",
+      "difficulty": "hard",
+      "chapterId": "1-1",
+      "chapterName": "風險與保險概論",
+      "reference": "1.1.2(b)",
+      "source": "real-exam",
+      "type": "B"
     }
   ],
   "generatedAt": "2026-03-25T14:52:00+08:00",
