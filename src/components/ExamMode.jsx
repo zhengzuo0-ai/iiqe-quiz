@@ -8,6 +8,7 @@ const fmt = (s) => `${Math.floor(s / 60)}:${(s % 60).toString().padStart(2, '0')
 
 export default function ExamMode({ paperId, stats, errorBook, questionBank, onBack }) {
   const [questions, setQuestions] = useState([])
+  const questionsRef = useRef(null) // Stable ref — never changes after initial load
   const [answers, setAnswers] = useState({})
   const [currentIdx, setCurrentIdx] = useState(0)
   const [done, setDone] = useState(false)
@@ -17,10 +18,11 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
 
   const loadedRef = useRef(false)
   useEffect(() => {
-    if (loadedRef.current) return // Prevent re-fetching when questionBank reference changes
+    if (loadedRef.current) return
     loadedRef.current = true
     const count = paperId === 'paper1' ? 15 : 10
     questionBank.getExamQuestions(paperId, count).then(qs => {
+      questionsRef.current = qs // Store in ref for stability
       setQuestions(qs)
       setLoading(false)
     })
@@ -36,8 +38,10 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
   const submit = () => {
     setDone(true)
     clearInterval(timerRef.current)
+    // Use ref for stability — guaranteed same questions that were displayed
+    const qs = questionsRef.current || questions
     let correct = 0
-    questions.forEach((q, i) => {
+    qs.forEach((q, i) => {
       const ans = answers[i]
       if (ans) {
         const isCorrect = ans === q.correct
@@ -55,7 +59,7 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
         if (isCorrect) correct++
       }
     })
-    const pct = questions.length > 0 ? Math.round((correct / questions.length) * 100) : 0
+    const pct = qs.length > 0 ? Math.round((correct / qs.length) * 100) : 0
     if (pct >= 70) save('exam_passed', load('exam_passed', 0) + 1)
     if (pct === 100) save('perfect_exam', load('perfect_exam', 0) + 1)
   }
@@ -63,9 +67,11 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
   if (loading) return <PageLoading text={`正在准备${PAPERS[paperId].name}模拟试卷...`} />
 
   if (done) {
+    // Use ref for review — guaranteed same questions user answered
+    const reviewQuestions = questionsRef.current || questions
     let correct = 0
-    questions.forEach((q, i) => { if (answers[i] === q.correct) correct++ })
-    const pct = questions.length > 0 ? Math.round((correct / questions.length) * 100) : 0
+    reviewQuestions.forEach((q, i) => { if (answers[i] === q.correct) correct++ })
+    const pct = reviewQuestions.length > 0 ? Math.round((correct / reviewQuestions.length) * 100) : 0
     const passed = pct >= 70
 
     return (
@@ -80,7 +86,7 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
               {passed ? '恭喜通过！太棒了！' : '继续加油！你可以的！'}
             </h2>
             <div className={`font-display text-5xl font-bold my-4 ${passed ? 'text-mint-600' : 'text-coral-500'}`}>{pct}%</div>
-            <div className="text-sm text-charcoal-light/50">{correct}/{questions.length} 正确 · 用时 {fmt(timer)}</div>
+            <div className="text-sm text-charcoal-light/50">{correct}/{reviewQuestions.length} 正确 · 用时 {fmt(timer)}</div>
             <div className="mt-4 text-xs text-charcoal-light/50 border-t border-dashed border-cream-100 pt-3">及格线 70%</div>
           </div>
         </div>
@@ -89,7 +95,7 @@ export default function ExamMode({ paperId, stats, errorBook, questionBank, onBa
 
         <div className="text-xs text-pink-400 tracking-wider mb-3 font-semibold uppercase">题目回顾</div>
         <div className="space-y-2.5">
-          {questions.map((q, i) => {
+          {reviewQuestions.map((q, i) => {
             const ans = answers[i]
             const ok = ans === q.correct
             return (

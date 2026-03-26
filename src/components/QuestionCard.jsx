@@ -124,7 +124,7 @@ export default function QuestionCard({ question, onAnswer, streak = 0, showNext,
           <div className="mb-3">
             <div className="text-xs font-semibold text-pink-400 mb-1.5">📖 解析</div>
             <p className="text-[14px] leading-[1.8] text-charcoal-light/80 whitespace-pre-wrap m-0">
-              {question.explanation}
+              {question.explanation || `正确答案是 ${question.correct}。${question.options[question.correct]}`}
             </p>
           </div>
 

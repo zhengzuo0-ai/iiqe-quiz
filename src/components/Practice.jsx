@@ -128,6 +128,7 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
 
   // Smart question batch
   const smartBatchRef = useRef(null)
+  const currentQuestionRef = useRef(null) // Stable ref for current question
 
   const fetchSmartBatch = useCallback(async () => {
     setLoading(true)
@@ -147,10 +148,12 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
       }
       smartBatchRef.current = batch
       if (batch.length > 0) {
+        currentQuestionRef.current = batch[0]
         setQuestion(batch[0])
       } else if (!quickStart) {
         const q = await questionBank.getQuestion(paperId, chapter)
         smartBatchRef.current = null
+        currentQuestionRef.current = q
         setQuestion(q)
       }
     } catch {
@@ -164,13 +167,16 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
   const fetchQuestion = useCallback(async () => {
     // Try to serve from smart batch first
     if (smartBatchRef.current && smartBatchRef.current[moduleIndex]) {
-      setQuestion(smartBatchRef.current[moduleIndex])
+      const q = smartBatchRef.current[moduleIndex]
+      currentQuestionRef.current = q
+      setQuestion(q)
       return
     }
     setLoading(true)
     setError(null)
     try {
       const q = await questionBank.getQuestion(paperId, chapter)
+      currentQuestionRef.current = q
       setQuestion(q)
     } catch {
       setError('题目加载失败，请重试')
@@ -179,22 +185,24 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
   }, [paperId, chapter, questionBank, moduleIndex])
 
   const handleAnswer = (key, isCorrect) => {
-    const qChapterId = question?.chapterId || chapter?.id
-    const qPaperId = question?.chapterId?.startsWith('3') ? 'paper3' : paperId || 'paper1'
-    const qChapterName = question?.chapterName || chapter?.name || ''
+    // Use ref for stability — guaranteed to be the question currently displayed
+    const q = currentQuestionRef.current || question
+    const qChapterId = q?.chapterId || chapter?.id
+    const qPaperId = q?.chapterId?.startsWith('3') ? 'paper3' : paperId || 'paper1'
+    const qChapterName = q?.chapterName || chapter?.name || ''
     stats.recordAnswer(qChapterId, isCorrect)
-    if (!isCorrect && question) {
+    if (!isCorrect && q) {
       errorBook.addError({
         paper: qPaperId,
         chapterId: qChapterId,
         chapterName: qChapterName,
-        question,
+        question: q,
         userAnswer: key,
-        correctAnswer: question.correct,
+        correctAnswer: q.correct,
       })
     }
-    // Record result for module summary
-    setModuleResults(prev => [...prev, { question, userAnswer: key, isCorrect }])
+    // Record result for module summary — use ref for guaranteed match
+    setModuleResults(prev => [...prev, { question: q, userAnswer: key, isCorrect }])
   }
 
   const handleNext = () => {
@@ -210,7 +218,9 @@ export default function Practice({ paperId, chapter, stats, errorBook, questionB
     setQuestionKey(k => k + 1)
     // Serve from smart batch if available
     if (smartBatchRef.current && smartBatchRef.current[nextIndex]) {
-      setQuestion(smartBatchRef.current[nextIndex])
+      const q = smartBatchRef.current[nextIndex]
+      currentQuestionRef.current = q
+      setQuestion(q)
     } else {
       fetchQuestion()
     }

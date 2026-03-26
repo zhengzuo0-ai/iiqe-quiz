@@ -12,22 +12,24 @@ function getUsedKey(chapterId) {
 export function useQuestionBank() {
   const [questionBank, setQuestionBank] = useState({ paper1: null, paper3: null })
   const loadedRef = useRef(false)
+  const bankRef = useRef(null)
 
   const loadBank = useCallback(async () => {
-    if (loadedRef.current) return questionBank
+    if (loadedRef.current && bankRef.current) return bankRef.current
     try {
       const [p1, p3] = await Promise.all([
         fetch('/data/paper1-questions.json').then(r => r.ok ? r.json() : null).catch(() => null),
         fetch('/data/paper3-questions.json').then(r => r.ok ? r.json() : null).catch(() => null),
       ])
       const bank = { paper1: p1, paper3: p3 }
+      bankRef.current = bank
       setQuestionBank(bank)
       loadedRef.current = true
       return bank
     } catch {
-      return questionBank
+      return bankRef.current || questionBank
     }
-  }, [questionBank])
+  }, [])
 
   const getFromBank = useCallback((bank, paperId, chapterId) => {
     const data = bank?.[paperId]

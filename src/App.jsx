@@ -4,7 +4,6 @@ import { useStats } from './hooks/useStats'
 import { useErrorBook } from './hooks/useErrorBook'
 import { useQuestionBank } from './hooks/useQuestionBank'
 import { checkNewAchievements } from './lib/achievements'
-import Onboarding from './components/Onboarding'
 import Home from './components/Home'
 import ChapterList from './components/ChapterList'
 import Practice from './components/Practice'
@@ -46,7 +45,6 @@ const NAV_ITEMS = [
 ]
 
 export default function App() {
-  const [showOnboarding] = useState(false)
   const [view, setView] = useState('home')
   const [viewData, setViewData] = useState({})
   const [toastQueue, setToastQueue] = useState([])
@@ -94,17 +92,7 @@ export default function App() {
     setToastQueue(q => q.slice(1))
   }, [])
 
-  const handleOnboardingComplete = useCallback(() => {
-    setShowOnboarding(false)
-    // Navigate to Paper 3 chapter list (先考的先练)
-    navigate('chapters', { paperId: 'paper3' })
-  }, [navigate])
-
   const showBottomNav = ['home', 'errorbook', 'analysis', 'settings'].includes(view)
-
-  if (showOnboarding) {
-    return <Onboarding onComplete={handleOnboardingComplete} />
-  }
 
   const renderView = () => {
     switch (view) {
