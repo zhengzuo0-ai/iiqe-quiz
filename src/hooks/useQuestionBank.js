@@ -177,7 +177,7 @@ export function useQuestionBank() {
       let weighted = sorted
       if (statsHook) {
         weighted = sorted.map(q => {
-          const acc = statsHook.getChapterAcc?.(q.chapterId)
+          const acc = statsHook.getAcc?.(q.chapterId)
           const weight = acc !== null && acc < 70 ? 3 : acc !== null && acc < 85 ? 2 : 1
           return { q, weight }
         })
